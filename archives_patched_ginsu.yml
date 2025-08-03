@@ -1,0 +1,165 @@
+name: Archives TWC Plugins and Themes
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-22.04
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+          
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.4.5'
+
+      - name: Install Ruby dependencies
+        run: |
+          gem install iconv
+          
+      - name: Clone cooker repository
+        run: git clone https://github.com/wangyenshu/cooker.git
+        
+      - name: Prepare directories
+        run: |
+          mkdir -p split_file
+          mkdir -p commit/plugins
+          mkdir -p commit/themes
+          
+      - name: Process URLs from systemServer.txt
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          VERSION: 0.1
+        run: |
+          master_json_output="[]"
+          
+          while read url; do
+            if [ -z "$url" ]; then
+              continue
+            fi
+
+            sanitized_url=$(echo "$url" | sed -E 's/^https?:\/\///' | sed 's/[^a-zA-Z0-9]/_/g')
+
+            echo "Processing URL: $url"
+
+            wget --no-check-certificate -O "${sanitized_url}.html" "$url"
+
+            ruby cooker/ginsu.rb "${sanitized_url}.html" -s -d ./split_file
+
+            # --- PROCESS PLUGINS ---
+            plugins_dir="split_file/${sanitized_url}.html.0/plugins"
+            if [ -d "$plugins_dir" ]; then
+              echo "Plugins directory exists, copying and generating JSON..."
+
+              mkdir -p "commit/plugins/${sanitized_url}"
+              cp -r "$plugins_dir"/* "commit/plugins/${sanitized_url}"
+
+              plugins_json_output="[]"
+              while read -r line; do
+                filename=$(echo "$line" | sed -E 's/^tiddler: (.*)$/\1/')
+                
+                # Use awk for a more robust extraction that handles special characters better
+                description=$(awk -F'|' '/^\|Description:/{print $3; exit}' "${plugins_dir}/${filename}")
+                
+                # Remove leading/trailing whitespace
+                description=$(echo "$description" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')
+
+                # If no description is found, use the filename as a fallback
+                if [ -z "$description" ]; then
+                  description=$filename
+                fi
+
+                full_url="https://github.com/${GITHUB_REPOSITORY}/blob/twcArchives/plugins/${sanitized_url}/${filename}"
+                plugins_json_output=$(echo "$plugins_json_output" | jq --arg url "$full_url" --arg desc "$description" '. += [{url: $url, description: $desc}]')
+              done < "${plugins_dir}/split.recipe"
+
+              json_file_url="https://github.com/${GITHUB_REPOSITORY}/blob/twcArchives/plugins/${sanitized_url}/${sanitized_url}.txt"
+              
+              echo "|Source|${json_file_url}|" > "commit/plugins/${sanitized_url}/${sanitized_url}.txt"
+              echo "|Version|${VERSION}|" >> "commit/plugins/${sanitized_url}/${sanitized_url}.txt"
+              echo "//{{{" >> "commit/plugins/${sanitized_url}/${sanitized_url}.txt"
+              echo "$plugins_json_output" >> "commit/plugins/${sanitized_url}/${sanitized_url}.txt"
+              echo "//}}}" >> "commit/plugins/${sanitized_url}/${sanitized_url}.txt"
+              
+              master_json_url="https://github.com/${GITHUB_REPOSITORY}/blob/twcArchives/plugins/${sanitized_url}/${sanitized_url}.txt"
+              master_json_output=$(echo "$master_json_output" | jq --arg url "$master_json_url" --arg desc "$sanitized_url" '. += [{url: $url, description: $desc, type: "collection"}]')
+            else
+              echo "Plugins directory does not exist, skipping."
+            fi
+
+            # --- PROCESS THEMES ---
+            themes_dir="split_file/${sanitized_url}.html.0/themes"
+            if [ -d "$themes_dir" ]; then
+              echo "Themes directory exists, copying and generating JSON..."
+
+              mkdir -p "commit/themes/${sanitized_url}"
+              cp -r "$themes_dir"/* "commit/themes/${sanitized_url}"
+
+              themes_json_output="[]"
+              while read -r line; do
+                filename=$(echo "$line" | sed -E 's/^tiddler: (.*)$/\1/')
+                
+                # Use awk for a more robust extraction that handles special characters better
+                description=$(awk -F'|' '/^\|Description:/{print $3; exit}' "${themes_dir}/${filename}")
+
+                # Remove leading/trailing whitespace
+                description=$(echo "$description" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')
+                
+                # If no description is found, use the filename as a fallback
+                if [ -z "$description" ]; then
+                  description=$filename
+                fi
+
+                full_url="https://github.com/${GITHUB_REPOSITORY}/blob/twcArchives/themes/${sanitized_url}/${filename}"
+                themes_json_output=$(echo "$themes_json_output" | jq --arg url "$full_url" --arg desc "$description" '. += [{url: $url, description: $desc}]')
+              done < "${themes_dir}/split.recipe"
+
+              json_file_url="https://github.com/${GITHUB_REPOSITORY}/blob/twcArchives/themes/${sanitized_url}/${sanitized_url}.txt"
+
+              echo "|Source|${json_file_url}|" > "commit/themes/${sanitized_url}/${sanitized_url}.txt"
+              echo "|Version|${VERSION}|" >> "commit/themes/${sanitized_url}/${sanitized_url}.txt"
+              echo "//{{{" >> "commit/themes/${sanitized_url}/${sanitized_url}.txt"
+              echo "$themes_json_output" >> "commit/themes/${sanitized_url}/${sanitized_url}.txt"
+              echo "//}}}" >> "commit/themes/${sanitized_url}/${sanitized_url}.txt"
+              
+              master_json_url="https://github.com/${GITHUB_REPOSITORY}/blob/twcArchives/themes/${sanitized_url}/${sanitized_url}.txt"
+              master_json_output=$(echo "$master_json_output" | jq --arg url "$master_json_url" --arg desc "$sanitized_url" '. += [{url: $url, description: $desc, type: "collection"}]')
+            else
+              echo "Themes directory does not exist, skipping."
+            fi
+
+            rm -rf split_file/*
+
+          done < systemServer.txt
+          
+          # --- GENERATE MASTER JSON FILE ---
+          master_file_url="https://github.com/${GITHUB_REPOSITORY}/blob/twcArchives/twcArchives.txt"
+          echo "|Source|${master_file_url}|" > "commit/twcArchives.txt"
+          echo "|Version|${VERSION}|" >> "commit/twcArchives.txt"
+          echo "//{{{" >> "commit/twcArchives.txt"
+          echo "$master_json_output" >> "commit/twcArchives.txt"
+          echo "//}}}" >> "commit/twcArchives.txt"
+          
+      - name: Commit and push to twcArchives branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd commit
+          git init
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git checkout -B twcArchives
+          git commit -m "Add processed files from web archives" || echo "No changes to commit"
+          git push --force "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}" twcArchives
