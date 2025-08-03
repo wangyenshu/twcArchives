@@ -132,7 +132,7 @@ jobs:
                   rm -rf split_file/*
                   # --- ADDED: Wait for 5 minutes before the next URL ---
                   echo \\\"Waiting for 5 minutes...\\\"
-                  sleep 300
+                  sleep 60
                 done < systemServer.txt
                 master_file_url=\\\"https://github.com/\\\${GITHUB_REPOSITORY}/blob/twcArchives/commit/twcArchives.txt\\\"
                 echo \\\"|Source|\\\${master_file_url}|\\\" > \\\"commit/twcArchives.txt\\\"
