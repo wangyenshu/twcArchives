@@ -84,12 +84,8 @@ jobs:
                     while read -r line; do
                       filename=\\\$(echo \\\"\\\$line\\\" | sed -E 's/^tiddler: (.*)\$/\1/')
                       # --- START OF FIX ---
-                      # Use grep and cut for a more reliable way to find the description.
-                      description=\\\$(grep -E '^\|Description:' \\\"\\\${plugins_dir}/\\\${filename}\\\" | cut -d'|' -f3 | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*\$//')
-                      # Fallback to the filename if the description is still empty.
-                      if [ -z \\\"\\\$description\\\" ]; then
-                          description=\\\"\$filename\\\"
-                      fi
+                      # Use a single, robust 'awk' command to extract the description or use the filename as fallback.
+                      description=\\\$(awk -F'|' '/^\|Description:/{gsub(/^[[:space:]]+|[[:space:]]+$/, \"\", \$3); print \$3; found=1; exit} END{if(!found){print ARGV[1]}}' \\\"\\\${plugins_dir}/\\\${filename}\\\")
                       # --- END OF FIX ---
                       full_url=\\\"https://github.com/\\\${GITHUB_REPOSITORY}/blob/twcArchives/commit/plugins/\\\${sanitized_url}/\\\${filename}\\\"
                       plugins_json_output=\\\$(echo \\\"\\\$plugins_json_output\\\" | jq --arg url \\\"\\\$full_url\\\" --arg desc \\\"\\\$description\\\" '. += [{url: \\\$url, description: \\\$desc}]')
@@ -114,12 +110,8 @@ jobs:
                     while read -r line; do
                       filename=\\\$(echo \\\"\\\$line\\\" | sed -E 's/^tiddler: (.*)\$/\1/')
                       # --- START OF FIX ---
-                      # Use grep and cut for a more reliable way to find the description.
-                      description=\\\$(grep -E '^\|Description:' \\\"\\\${themes_dir}/\\\${filename}\\\" | cut -d'|' -f3 | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*\$//')
-                      # Fallback to the filename if the description is still empty.
-                      if [ -z \\\"\\\$description\\\" ]; then
-                          description=\\\"\$filename\\\"
-                      fi
+                      # Use a single, robust 'awk' command to extract the description or use the filename as fallback.
+                      description=\\\$(awk -F'|' '/^\|Description:/{gsub(/^[[:space:]]+|[[:space:]]+$/, \"\", \$3); print \$3; found=1; exit} END{if(!found){print ARGV[1]}}' \\\"\\\${themes_dir}/\\\${filename}\\\")
                       # --- END OF FIX ---
                       full_url=\\\"https://github.com/\\\${GITHUB_REPOSITORY}/blob/twcArchives/commit/themes/\\\${sanitized_url}/\\\${filename}\\\"
                       themes_json_output=\\\$(echo \\\"\\\$themes_json_output\\\" | jq --arg url \\\"\\\$full_url\\\" --arg desc \\\"\\\$description\\\" '. += [{url: \\\$url, description: \\\$desc}]')
@@ -136,8 +128,8 @@ jobs:
                     echo \\\"Themes directory does not exist, skipping.\\\"
                   fi
                   rm -rf split_file/*
-                  echo \\\"Waiting for 1 minutes...\\\"
-                  sleep 60
+                  echo \\\"Waiting for 30 seconds...\\\"
+                  sleep 30
                 done < systemServer.txt
                 master_file_url=\\\"https://github.com/\\\${GITHUB_REPOSITORY}/blob/twcArchives/commit/twcArchives.txt\\\"
                 echo \\\"|Source|\\\${master_file_url}|\\\" > \\\"commit/twcArchives.txt\\\"
