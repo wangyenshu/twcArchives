@@ -82,16 +82,24 @@ jobs:
                     cp -r \\\"\\\$plugins_dir\\\"/* \\\"commit/plugins/\\\${sanitized_url}\\\"
                     plugins_json_output=\\\"[]\\\"
                     while read -r line; do
+                      # --- FIX #1: Skip blank lines to prevent all other errors. ---
                       if [ -z \\\"\\\$line\\\" ]; then
                         continue
                       fi
-                      filename=\\\$(echo \\\"\\\$line\\\" | sed -E 's/^[^:]*:[[:space:]]*//')
-                      # FIXED: Use awk to parse 'key: value' format, which is more common.
-                      description=\\\$(awk -F: 'tolower(\\\$1) == \\\"description\\\" {sub(/^[[:space:]]*/, \\\"\\\", \\\$2); print \\\$2; exit}' \\\"\\\${plugins_dir}/\\\${filename}\\\")
-                      description=\\\$(echo \\\"\\\$description\\\" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*\$//')
+                      
+                      # --- FIX #2: Use the correct sed command for your 'tiddler: name' format. ---
+                      filename=\\\$(echo \\\"\\\$line\\\" | sed -E 's/^tiddler: (.*)\$/\1/')
+                      
+                      # --- FIX #3: Aggressively find the description in the file. ---
+                      description_line=\\\$(grep -i -m 1 'description' \\\"\\\${plugins_dir}/\\\${filename}\\\" || echo \\\"\\\")
+                      description=\\\$(echo \\\"\\\$description_line\\\" | sed -E 's/^.*description[[:space:]]*[|:][[:space:]]*//I; s/\|//g')
+                      
+                      # --- Clean up and apply fallback ---
+                      description=\\\$(echo \\\"\\\$description\\\" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*\$//' -e 's/<[^>]*>//g')
                       if [ -z \\\"\\\$description\\\" ]; then
                         description=\\\"\$filename\\\"
                       fi
+
                       full_url=\\\"https://github.com/\\\${GITHUB_REPOSITORY}/blob/twcArchives/commit/plugins/\\\${sanitized_url}/\\\${filename}\\\"
                       plugins_json_output=\\\$(echo \\\"\\\$plugins_json_output\\\" | jq --arg url \\\"\\\$full_url\\\" --arg desc \\\"\\\$description\\\" '. += [{url: \\\$url, description: \\\$desc}]')
                     done < \\\"\\\${plugins_dir}/split.recipe\\\"
@@ -113,16 +121,24 @@ jobs:
                     cp -r \\\"\\\$themes_dir\\\"/* \\\"commit/themes/\\\${sanitized_url}\\\"
                     themes_json_output=\\\"[]\\\"
                     while read -r line; do
+                      # --- FIX #1: Skip blank lines to prevent all other errors. ---
                       if [ -z \\\"\\\$line\\\" ]; then
                         continue
                       fi
-                      filename=\\\$(echo \\\"\\\$line\\\" | sed -E 's/^[^:]*:[[:space:]]*//')
-                      # FIXED: Use awk to parse 'key: value' format, which is more common.
-                      description=\\\$(awk -F: 'tolower(\\\$1) == \\\"description\\\" {sub(/^[[:space:]]*/, \\\"\\\", \\\$2); print \\\$2; exit}' \\\"\\\${themes_dir}/\\\${filename}\\\")
-                      description=\\\$(echo \\\"\\\$description\\\" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*\$//')
+
+                      # --- FIX #2: Use the correct sed command for your 'tiddler: name' format. ---
+                      filename=\\\$(echo \\\"\\\$line\\\" | sed -E 's/^tiddler: (.*)\$/\1/')
+
+                      # --- FIX #3: Aggressively find the description in the file. ---
+                      description_line=\\\$(grep -i -m 1 'description' \\\"\\\${themes_dir}/\\\${filename}\\\" || echo \\\"\\\")
+                      description=\\\$(echo \\\"\\\$description_line\\\" | sed -E 's/^.*description[[:space:]]*[|:][[:space:]]*//I; s/\|//g')
+
+                      # --- Clean up and apply fallback ---
+                      description=\\\$(echo \\\"\\\$description\\\" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*\$//' -e 's/<[^>]*>//g')
                       if [ -z \\\"\\\$description\\\" ]; then
                         description=\\\"\$filename\\\"
                       fi
+
                       full_url=\\\"https://github.com/\\\${GITHUB_REPOSITORY}/blob/twcArchives/commit/themes/\\\${sanitized_url}/\\\${filename}\\\"
                       themes_json_output=\\\$(echo \\\"\\\$themes_json_output\\\" | jq --arg url \\\"\\\$full_url\\\" --arg desc \\\"\\\$description\\\" '. += [{url: \\\$url, description: \\\$desc}]')
                     done < \\\"\\\${themes_dir}/split.recipe\\\"
