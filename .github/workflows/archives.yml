@@ -82,24 +82,18 @@ jobs:
                     cp -r \\\"\\\$plugins_dir\\\"/* \\\"commit/plugins/\\\${sanitized_url}\\\"
                     plugins_json_output=\\\"[]\\\"
                     while read -r line; do
-                      # --- FIX #1: Skip blank lines to prevent all other errors. ---
                       if [ -z \\\"\\\$line\\\" ]; then
                         continue
                       fi
-                      
-                      # --- FIX #2: Use the correct sed command for your 'tiddler: name' format. ---
                       filename=\\\$(echo \\\"\\\$line\\\" | sed -E 's/^tiddler: (.*)\$/\1/')
                       
-                      # --- FIX #3: Aggressively find the description in the file. ---
-                      description_line=\\\$(grep -i -m 1 'description' \\\"\\\${plugins_dir}/\\\${filename}\\\" || echo \\\"\\\")
-                      description=\\\$(echo \\\"\\\$description_line\\\" | sed -E 's/^.*description[[:space:]]*[|:][[:space:]]*//I; s/\|//g')
-                      
-                      # --- Clean up and apply fallback ---
-                      description=\\\$(echo \\\"\\\$description\\\" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*\$//' -e 's/<[^>]*>//g')
+                      # FINAL FIX: Use a single awk command to parse multiple common formats.
+                      description=\\\$(awk -F'[|:]' 'BEGIN{IGNORECASE=1} \$2 ~ /description/ {gsub(/^[[:space:]]+|[[:space:]]+$/, \\\"\\\", \\\$3); print \\\$3; exit} \$1 ~ /description/ {gsub(/^[[:space:]]+|[[:space:]]+$/, \\\"\\\", \\\$2); print \\\$2; exit}' \\\"\\\${plugins_dir}/\\\${filename}\\\")
+
                       if [ -z \\\"\\\$description\\\" ]; then
                         description=\\\"\$filename\\\"
                       fi
-
+                      
                       full_url=\\\"https://github.com/\\\${GITHUB_REPOSITORY}/blob/twcArchives/commit/plugins/\\\${sanitized_url}/\\\${filename}\\\"
                       plugins_json_output=\\\$(echo \\\"\\\$plugins_json_output\\\" | jq --arg url \\\"\\\$full_url\\\" --arg desc \\\"\\\$description\\\" '. += [{url: \\\$url, description: \\\$desc}]')
                     done < \\\"\\\${plugins_dir}/split.recipe\\\"
@@ -116,31 +110,26 @@ jobs:
                   fi
                   themes_dir=\\\"split_file/\\\${sanitized_url}.html.0/themes\\\"
                   if [ -d \\\"\\\$themes_dir\\\" ]; then
-                    echo \\\"Themes directory exists, copying and generating JSON...\\\"
+                    echo \\\"Themes directory exists, processing...\\\"
+                    # (Theme processing uses the same logic)
                     mkdir -p \\\"commit/themes/\\\${sanitized_url}\\\"
                     cp -r \\\"\\\$themes_dir\\\"/* \\\"commit/themes/\\\${sanitized_url}\\\"
                     themes_json_output=\\\"[]\\\"
                     while read -r line; do
-                      # --- FIX #1: Skip blank lines to prevent all other errors. ---
-                      if [ -z \\\"\\\$line\\\" ]; then
-                        continue
-                      fi
+                        if [ -z \\\"\\\$line\\\" ]; then
+                            continue
+                        fi
+                        filename=\\\$(echo \\\"\\\$line\\\" | sed -E 's/^tiddler: (.*)\$/\1/')
+                        
+                        # FINAL FIX: Use a single awk command to parse multiple common formats.
+                        description=\\\$(awk -F'[|:]' 'BEGIN{IGNORECASE=1} \$2 ~ /description/ {gsub(/^[[:space:]]+|[[:space:]]+$/, \\\"\\\", \\\$3); print \\\$3; exit} \$1 ~ /description/ {gsub(/^[[:space:]]+|[[:space:]]+$/, \\\"\\\", \\\$2); print \\\$2; exit}' \\\"\\\${themes_dir}/\\\${filename}\\\")
 
-                      # --- FIX #2: Use the correct sed command for your 'tiddler: name' format. ---
-                      filename=\\\$(echo \\\"\\\$line\\\" | sed -E 's/^tiddler: (.*)\$/\1/')
-
-                      # --- FIX #3: Aggressively find the description in the file. ---
-                      description_line=\\\$(grep -i -m 1 'description' \\\"\\\${themes_dir}/\\\${filename}\\\" || echo \\\"\\\")
-                      description=\\\$(echo \\\"\\\$description_line\\\" | sed -E 's/^.*description[[:space:]]*[|:][[:space:]]*//I; s/\|//g')
-
-                      # --- Clean up and apply fallback ---
-                      description=\\\$(echo \\\"\\\$description\\\" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*\$//' -e 's/<[^>]*>//g')
-                      if [ -z \\\"\\\$description\\\" ]; then
-                        description=\\\"\$filename\\\"
-                      fi
-
-                      full_url=\\\"https://github.com/\\\${GITHUB_REPOSITORY}/blob/twcArchives/commit/themes/\\\${sanitized_url}/\\\${filename}\\\"
-                      themes_json_output=\\\$(echo \\\"\\\$themes_json_output\\\" | jq --arg url \\\"\\\$full_url\\\" --arg desc \\\"\\\$description\\\" '. += [{url: \\\$url, description: \\\$desc}]')
+                        if [ -z \\\"\\\$description\\\" ]; then
+                            description=\\\"\$filename\\\"
+                        fi
+                        
+                        full_url=\\\"https://github.com/\\\${GITHUB_REPOSITORY}/blob/twcArchives/commit/themes/\\\${sanitized_url}/\\\${filename}\\\"
+                        themes_json_output=\\\$(echo \\\"\\\$themes_json_output\\\" | jq --arg url \\\"\\\$full_url\\\" --arg desc \\\"\\\$description\\\" '. += [{url: \\\$url, description: \\\$desc}]')
                     done < \\\"\\\${themes_dir}/split.recipe\\\"
                     json_file_url=\\\"https://github.com/\\\${GITHUB_REPOSITORY}/blob/twcArchives/commit/themes/\\\${sanitized_url}/\\\${sanitized_url}.txt\\\"
                     echo \\\"|Source|\\\${json_file_url}|\\\" > \\\"commit/themes/\\\${sanitized_url}/\\\${sanitized_url}.txt\\\"
@@ -154,7 +143,6 @@ jobs:
                     echo \\\"Themes directory does not exist, skipping.\\\"
                   fi
                   rm -rf split_file/*
-                  # --- ADDED: Wait for a while before the next URL ---
                   echo \\\"Waiting for 30 seconds...\\\"
                   sleep 30
                 done < systemServer.txt
