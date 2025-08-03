@@ -83,11 +83,14 @@ jobs:
                     plugins_json_output=\\\"[]\\\"
                     while read -r line; do
                       filename=\\\$(echo \\\"\\\$line\\\" | sed -E 's/^tiddler: (.*)\$/\1/')
-                      description=\\\$(awk -F'|' '/^\|Description:/{print \$3; exit}' \\\"\\\${plugins_dir}/\\\${filename}\\\")
-                      description=\\\$(echo \\\"\\\$description\\\" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*\$//')
+                      # --- START OF FIX ---
+                      # Use grep and cut for a more reliable way to find the description.
+                      description=\\\$(grep -E '^\|Description:' \\\"\\\${plugins_dir}/\\\${filename}\\\" | cut -d'|' -f3 | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*\$//')
+                      # Fallback to the filename if the description is still empty.
                       if [ -z \\\"\\\$description\\\" ]; then
-                        description=\\\"\$filename\\\"
+                          description=\\\"\$filename\\\"
                       fi
+                      # --- END OF FIX ---
                       full_url=\\\"https://github.com/\\\${GITHUB_REPOSITORY}/blob/twcArchives/commit/plugins/\\\${sanitized_url}/\\\${filename}\\\"
                       plugins_json_output=\\\$(echo \\\"\\\$plugins_json_output\\\" | jq --arg url \\\"\\\$full_url\\\" --arg desc \\\"\\\$description\\\" '. += [{url: \\\$url, description: \\\$desc}]')
                     done < \\\"\\\${plugins_dir}/split.recipe\\\"
@@ -110,11 +113,14 @@ jobs:
                     themes_json_output=\\\"[]\\\"
                     while read -r line; do
                       filename=\\\$(echo \\\"\\\$line\\\" | sed -E 's/^tiddler: (.*)\$/\1/')
-                      description=\\\$(awk -F'|' '/^\|Description:/{print \$3; exit}' \\\"\\\${themes_dir}/\\\${filename}\\\")
-                      description=\\\$(echo \\\"\\\$description\\\" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*\$//')
+                      # --- START OF FIX ---
+                      # Use grep and cut for a more reliable way to find the description.
+                      description=\\\$(grep -E '^\|Description:' \\\"\\\${themes_dir}/\\\${filename}\\\" | cut -d'|' -f3 | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*\$//')
+                      # Fallback to the filename if the description is still empty.
                       if [ -z \\\"\\\$description\\\" ]; then
-                        description=\\\"\$filename\\\"
+                          description=\\\"\$filename\\\"
                       fi
+                      # --- END OF FIX ---
                       full_url=\\\"https://github.com/\\\${GITHUB_REPOSITORY}/blob/twcArchives/commit/themes/\\\${sanitized_url}/\\\${filename}\\\"
                       themes_json_output=\\\$(echo \\\"\\\$themes_json_output\\\" | jq --arg url \\\"\\\$full_url\\\" --arg desc \\\"\\\$description\\\" '. += [{url: \\\$url, description: \\\$desc}]')
                     done < \\\"\\\${themes_dir}/split.recipe\\\"
@@ -130,7 +136,6 @@ jobs:
                     echo \\\"Themes directory does not exist, skipping.\\\"
                   fi
                   rm -rf split_file/*
-                  # --- ADDED: Wait for 1 minutes before the next URL ---
                   echo \\\"Waiting for 1 minutes...\\\"
                   sleep 60
                 done < systemServer.txt
