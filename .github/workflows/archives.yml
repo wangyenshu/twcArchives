@@ -130,8 +130,8 @@ jobs:
                     echo \\\"Themes directory does not exist, skipping.\\\"
                   fi
                   rm -rf split_file/*
-                  # --- ADDED: Wait for 5 minutes before the next URL ---
-                  echo \\\"Waiting for 5 minutes...\\\"
+                  # --- ADDED: Wait for 1 minutes before the next URL ---
+                  echo \\\"Waiting for 1 minutes...\\\"
                   sleep 60
                 done < systemServer.txt
                 master_file_url=\\\"https://github.com/\\\${GITHUB_REPOSITORY}/blob/twcArchives/commit/twcArchives.txt\\\"
