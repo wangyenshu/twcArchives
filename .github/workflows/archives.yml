@@ -84,8 +84,13 @@ jobs:
                     while read -r line; do
                       filename=\\\$(echo \\\"\\\$line\\\" | sed -E 's/^tiddler: (.*)\$/\1/')
                       # --- START OF FIX ---
-                      # Use a single, robust 'awk' command to extract the description or use the filename as fallback.
-                      description=\\\$(awk -F'|' '/^\|Description:/{gsub(/^[[:space:]]+|[[:space:]]+$/, \"\", \$3); print \$3; found=1; exit} END{if(!found){print ARGV[1]}}' \\\"\\\${plugins_dir}/\\\${filename}\\\")
+                      # Use a multi-step shell script for reliability.
+                      description_line=\\\$(grep -E '^\|Description:' \\\"\\\${plugins_dir}/\\\${filename}\\\")
+                      if [ -n \\\"\\\${description_line}\\\" ]; then
+                          description=\\\$(echo \\\"\\\$description_line\\\" | cut -d'|' -f3 | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*\$//')
+                      else
+                          description=\\\"\$filename\\\"
+                      fi
                       # --- END OF FIX ---
                       full_url=\\\"https://github.com/\\\${GITHUB_REPOSITORY}/blob/twcArchives/commit/plugins/\\\${sanitized_url}/\\\${filename}\\\"
                       plugins_json_output=\\\$(echo \\\"\\\$plugins_json_output\\\" | jq --arg url \\\"\\\$full_url\\\" --arg desc \\\"\\\$description\\\" '. += [{url: \\\$url, description: \\\$desc}]')
@@ -110,8 +115,13 @@ jobs:
                     while read -r line; do
                       filename=\\\$(echo \\\"\\\$line\\\" | sed -E 's/^tiddler: (.*)\$/\1/')
                       # --- START OF FIX ---
-                      # Use a single, robust 'awk' command to extract the description or use the filename as fallback.
-                      description=\\\$(awk -F'|' '/^\|Description:/{gsub(/^[[:space:]]+|[[:space:]]+$/, \"\", \$3); print \$3; found=1; exit} END{if(!found){print ARGV[1]}}' \\\"\\\${themes_dir}/\\\${filename}\\\")
+                      # Use a multi-step shell script for reliability.
+                      description_line=\\\$(grep -E '^\|Description:' \\\"\\\${themes_dir}/\\\${filename}\\\")
+                      if [ -n \\\"\\\${description_line}\\\" ]; then
+                          description=\\\$(echo \\\"\\\$description_line\\\" | cut -d'|' -f3 | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*\$//')
+                      else
+                          description=\\\"\$filename\\\"
+                      fi
                       # --- END OF FIX ---
                       full_url=\\\"https://github.com/\\\${GITHUB_REPOSITORY}/blob/twcArchives/commit/themes/\\\${sanitized_url}/\\\${filename}\\\"
                       themes_json_output=\\\$(echo \\\"\\\$themes_json_output\\\" | jq --arg url \\\"\\\$full_url\\\" --arg desc \\\"\\\$description\\\" '. += [{url: \\\$url, description: \\\$desc}]')
