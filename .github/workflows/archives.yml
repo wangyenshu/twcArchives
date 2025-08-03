@@ -73,7 +73,6 @@ jobs:
                   echo \\\"Processing URL: \\\$url\\\"
                   wget --no-check-certificate -O \\\"\\\${output_html}\\\" \\\"\\\$url\\\"
                   
-                  # --- The Ruby command has the correct working directory and charset ---
                   ( cd cooker && ruby ginsu.rb \\\"../\\\${output_html}\\\" -s -d \\\"../split_file\\\" -c UTF-8 )
                   
                   plugins_dir=\\\"split_file/\\\${sanitized_url}.html.0/plugins\\\"
@@ -89,18 +88,15 @@ jobs:
                       if [ -z \\\"\\\$description\\\" ]; then
                         description=\\\"\$filename\\\"
                       fi
-                      # UPDATED URL: Added 'commit/' to the path
                       full_url=\\\"https://github.com/\\\${GITHUB_REPOSITORY}/blob/twcArchives/commit/plugins/\\\${sanitized_url}/\\\${filename}\\\"
                       plugins_json_output=\\\$(echo \\\"\\\$plugins_json_output\\\" | jq --arg url \\\"\\\$full_url\\\" --arg desc \\\"\\\$description\\\" '. += [{url: \\\$url, description: \\\$desc}]')
                     done < \\\"\\\${plugins_dir}/split.recipe\\\"
-                    # UPDATED URL: Added 'commit/' to the path
                     json_file_url=\\\"https://github.com/\\\${GITHUB_REPOSITORY}/blob/twcArchives/commit/plugins/\\\${sanitized_url}/\\\${sanitized_url}.txt\\\"
                     echo \\\"|Source|\\\${json_file_url}|\\\" > \\\"commit/plugins/\\\${sanitized_url}/\\\${sanitized_url}.txt\\\"
                     echo \\\"|Version|\\\${VERSION}|\\\" >> \\\"commit/plugins/\\\${sanitized_url}/\\\${sanitized_url}.txt\\\"
                     echo \\\"//{{{\\\" >> \\\"commit/plugins/\\\${sanitized_url}/\\\${sanitized_url}.txt\\\"
                     echo \\\"\\\$plugins_json_output\\\" >> \\\"commit/plugins/\\\${sanitized_url}/\\\${sanitized_url}.txt\\\"
                     echo \\\"//}}}\\\" >> \\\"commit/plugins/\\\${sanitized_url}/\\\${sanitized_url}.txt\\\"
-                    # UPDATED URL: Added 'commit/' to the path
                     master_json_url=\\\"https://github.com/\\\${GITHUB_REPOSITORY}/blob/twcArchives/commit/plugins/\\\${sanitized_url}/\\\${sanitized_url}.txt\\\"
                     master_json_output=\\\$(echo \\\"\\\$master_json_output\\\" | jq --arg url \\\"\\\$master_json_url\\\" --arg desc \\\"\\\$sanitized_url\\\" '. += [{url: \\\$url, description: \\\$desc, type: \\\"collection\\\"}]')
                   else
@@ -119,26 +115,25 @@ jobs:
                       if [ -z \\\"\\\$description\\\" ]; then
                         description=\\\"\$filename\\\"
                       fi
-                      # UPDATED URL: Added 'commit/' to the path
                       full_url=\\\"https://github.com/\\\${GITHUB_REPOSITORY}/blob/twcArchives/commit/themes/\\\${sanitized_url}/\\\${filename}\\\"
                       themes_json_output=\\\$(echo \\\"\\\$themes_json_output\\\" | jq --arg url \\\"\\\$full_url\\\" --arg desc \\\"\\\$description\\\" '. += [{url: \\\$url, description: \\\$desc}]')
                     done < \\\"\\\${themes_dir}/split.recipe\\\"
-                    # UPDATED URL: Added 'commit/' to the path
                     json_file_url=\\\"https://github.com/\\\${GITHUB_REPOSITORY}/blob/twcArchives/commit/themes/\\\${sanitized_url}/\\\${sanitized_url}.txt\\\"
                     echo \\\"|Source|\\\${json_file_url}|\\\" > \\\"commit/themes/\\\${sanitized_url}/\\\${sanitized_url}.txt\\\"
                     echo \\\"|Version|\\\${VERSION}|\\\" >> \\\"commit/themes/\\\${sanitized_url}/\\\${sanitized_url}.txt\\\"
                     echo \\\"//{{{\\\" >> \\\"commit/themes/\\\${sanitized_url}/\\\${sanitized_url}.txt\\\"
                     echo \\\"\\\$themes_json_output\\\" >> \\\"commit/themes/\\\${sanitized_url}/\\\${sanitized_url}.txt\\\"
                     echo \\\"//}}}\\\" >> \\\"commit/themes/\\\${sanitized_url}/\\\${sanitized_url}.txt\\\"
-                    # UPDATED URL: Added 'commit/' to the path
                     master_json_url=\\\"https://github.com/\\\${GITHUB_REPOSITORY}/blob/twcArchives/commit/themes/\\\${sanitized_url}/\\\${sanitized_url}.txt\\\"
                     master_json_output=\\\$(echo \\\"\\\$master_json_output\\\" | jq --arg url \\\"\\\$master_json_url\\\" --arg desc \\\"\\\$sanitized_url\\\" '. += [{url: \\\$url, description: \\\$desc, type: \\\"collection\\\"}]')
                   else
                     echo \\\"Themes directory does not exist, skipping.\\\"
                   fi
                   rm -rf split_file/*
+                  # --- ADDED: Wait for 5 minutes before the next URL ---
+                  echo \\\"Waiting for 5 minutes...\\\"
+                  sleep 300
                 done < systemServer.txt
-                # UPDATED URL: Added 'commit/' to the path
                 master_file_url=\\\"https://github.com/\\\${GITHUB_REPOSITORY}/blob/twcArchives/commit/twcArchives.txt\\\"
                 echo \\\"|Source|\\\${master_file_url}|\\\" > \\\"commit/twcArchives.txt\\\"
                 echo \\\"|Version|\\\${VERSION}|\\\" >> \\\"commit/twcArchives.txt\\\"
