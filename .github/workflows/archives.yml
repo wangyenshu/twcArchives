@@ -1,3 +1,4 @@
+# .github/workflows/archives.yml
 name: Archives TWC Plugins and Themes
 
 on:
@@ -20,9 +21,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Build and Run Legacy Scripts
-        id: legacy_script
         run: |
-          # The script will now write all its output to the root of the workspace.
           docker run --rm \
             --workdir /github/workspace \
             -v "${{ github.workspace }}:/github/workspace" \
@@ -58,10 +57,9 @@ jobs:
                     git clone https://github.com/TiddlyWiki/cooker.git
                 fi
 
-                # Output directories are now in the root of the workspace
                 mkdir -p split_file
-                mkdir -p plugins
-                mkdir -p themes
+                mkdir -p commit/plugins
+                mkdir -p commit/themes
 
                 master_json_output=\\\"[]\\\"
                 
@@ -75,14 +73,14 @@ jobs:
                   echo \\\"Processing URL: \\\$url\\\"
                   wget --no-check-certificate -O \\\"\\\${output_html}\\\" \\\"\\\$url\\\"
                   
+                  # --- The Ruby command has the correct working directory and charset ---
                   ( cd cooker && ruby ginsu.rb \\\"../\\\${output_html}\\\" -s -d \\\"../split_file\\\" -c UTF-8 )
                   
                   plugins_dir=\\\"split_file/\\\${sanitized_url}.html.0/plugins\\\"
                   if [ -d \\\"\\\$plugins_dir\\\" ]; then
                     echo \\\"Plugins directory exists, copying and generating JSON...\\\"
-                    # Output is now copied to the plugins/ directory in the root
-                    mkdir -p \\\"plugins/\\\${sanitized_url}\\\"
-                    cp -r \\\"\\\$plugins_dir\\\"/* \\\"plugins/\\\${sanitized_url}\\\"
+                    mkdir -p \\\"commit/plugins/\\\${sanitized_url}\\\"
+                    cp -r \\\"\\\$plugins_dir\\\"/* \\\"commit/plugins/\\\${sanitized_url}\\\"
                     plugins_json_output=\\\"[]\\\"
                     while read -r line; do
                       filename=\\\$(echo \\\"\\\$line\\\" | sed -E 's/^tiddler: (.*)\$/\1/')
@@ -91,19 +89,19 @@ jobs:
                       if [ -z \\\"\\\$description\\\" ]; then
                         description=\\\"\$filename\\\"
                       fi
-                      # UPDATED URL: 'commit/' prefix has been removed
-                      full_url=\\\"https://github.com/\\\${GITHUB_REPOSITORY}/blob/twcArchives/plugins/\\\${sanitized_url}/\\\${filename}\\\"
+                      # UPDATED URL: Added 'commit/' to the path
+                      full_url=\\\"https://github.com/\\\${GITHUB_REPOSITORY}/blob/twcArchives/commit/plugins/\\\${sanitized_url}/\\\${filename}\\\"
                       plugins_json_output=\\\$(echo \\\"\\\$plugins_json_output\\\" | jq --arg url \\\"\\\$full_url\\\" --arg desc \\\"\\\$description\\\" '. += [{url: \\\$url, description: \\\$desc}]')
                     done < \\\"\\\${plugins_dir}/split.recipe\\\"
-                    # UPDATED URL: 'commit/' prefix has been removed
-                    json_file_url=\\\"https://github.com/\\\${GITHUB_REPOSITORY}/blob/twcArchives/plugins/\\\${sanitized_url}/\\\${sanitized_url}.txt\\\"
-                    echo \\\"|Source|\\\${json_file_url}|\\\" > \\\"plugins/\\\${sanitized_url}/\\\${sanitized_url}.txt\\\"
-                    echo \\\"|Version|\\\${VERSION}|\\\" >> \\\"plugins/\\\${sanitized_url}/\\\${sanitized_url}.txt\\\"
-                    echo \\\"//{{{\\\" >> \\\"plugins/\\\${sanitized_url}/\\\${sanitized_url}.txt\\\"
-                    echo \\\"\\\$plugins_json_output\\\" >> \\\"plugins/\\\${sanitized_url}/\\\${sanitized_url}.txt\\\"
-                    echo \\\"//}}}\\\" >> \\\"plugins/\\\${sanitized_url}/\\\${sanitized_url}.txt\\\"
-                    # UPDATED URL: 'commit/' prefix has been removed
-                    master_json_url=\\\"https://github.com/\\\${GITHUB_REPOSITORY}/blob/twcArchives/plugins/\\\${sanitized_url}/\\\${sanitized_url}.txt\\\"
+                    # UPDATED URL: Added 'commit/' to the path
+                    json_file_url=\\\"https://github.com/\\\${GITHUB_REPOSITORY}/blob/twcArchives/commit/plugins/\\\${sanitized_url}/\\\${sanitized_url}.txt\\\"
+                    echo \\\"|Source|\\\${json_file_url}|\\\" > \\\"commit/plugins/\\\${sanitized_url}/\\\${sanitized_url}.txt\\\"
+                    echo \\\"|Version|\\\${VERSION}|\\\" >> \\\"commit/plugins/\\\${sanitized_url}/\\\${sanitized_url}.txt\\\"
+                    echo \\\"//{{{\\\" >> \\\"commit/plugins/\\\${sanitized_url}/\\\${sanitized_url}.txt\\\"
+                    echo \\\"\\\$plugins_json_output\\\" >> \\\"commit/plugins/\\\${sanitized_url}/\\\${sanitized_url}.txt\\\"
+                    echo \\\"//}}}\\\" >> \\\"commit/plugins/\\\${sanitized_url}/\\\${sanitized_url}.txt\\\"
+                    # UPDATED URL: Added 'commit/' to the path
+                    master_json_url=\\\"https://github.com/\\\${GITHUB_REPOSITORY}/blob/twcArchives/commit/plugins/\\\${sanitized_url}/\\\${sanitized_url}.txt\\\"
                     master_json_output=\\\$(echo \\\"\\\$master_json_output\\\" | jq --arg url \\\"\\\$master_json_url\\\" --arg desc \\\"\\\$sanitized_url\\\" '. += [{url: \\\$url, description: \\\$desc, type: \\\"collection\\\"}]')
                   else
                     echo \\\"Plugins directory does not exist, skipping.\\\"
@@ -111,9 +109,8 @@ jobs:
                   themes_dir=\\\"split_file/\\\${sanitized_url}.html.0/themes\\\"
                   if [ -d \\\"\\\$themes_dir\\\" ]; then
                     echo \\\"Themes directory exists, copying and generating JSON...\\\"
-                    # Output is now copied to the themes/ directory in the root
-                    mkdir -p \\\"themes/\\\${sanitized_url}\\\"
-                    cp -r \\\"\\\$themes_dir\\\"/* \\\"themes/\\\${sanitized_url}\\\"
+                    mkdir -p \\\"commit/themes/\\\${sanitized_url}\\\"
+                    cp -r \\\"\\\$themes_dir\\\"/* \\\"commit/themes/\\\${sanitized_url}\\\"
                     themes_json_output=\\\"[]\\\"
                     while read -r line; do
                       filename=\\\$(echo \\\"\\\$line\\\" | sed -E 's/^tiddler: (.*)\$/\1/')
@@ -122,45 +119,44 @@ jobs:
                       if [ -z \\\"\\\$description\\\" ]; then
                         description=\\\"\$filename\\\"
                       fi
-                      # UPDATED URL: 'commit/' prefix has been removed
-                      full_url=\\\"https://github.com/\\\${GITHUB_REPOSITORY}/blob/twcArchives/themes/\\\${sanitized_url}/\\\${filename}\\\"
+                      # UPDATED URL: Added 'commit/' to the path
+                      full_url=\\\"https://github.com/\\\${GITHUB_REPOSITORY}/blob/twcArchives/commit/themes/\\\${sanitized_url}/\\\${filename}\\\"
                       themes_json_output=\\\$(echo \\\"\\\$themes_json_output\\\" | jq --arg url \\\"\\\$full_url\\\" --arg desc \\\"\\\$description\\\" '. += [{url: \\\$url, description: \\\$desc}]')
                     done < \\\"\\\${themes_dir}/split.recipe\\\"
-                    # UPDATED URL: 'commit/' prefix has been removed
-                    json_file_url=\\\"https://github.com/\\\${GITHUB_REPOSITORY}/blob/twcArchives/themes/\\\${sanitized_url}/\\\${sanitized_url}.txt\\\"
-                    echo \\\"|Source|\\\${json_file_url}|\\\" > \\\"themes/\\\${sanitized_url}/\\\${sanitized_url}.txt\\\"
-                    echo \\\"|Version|\\\${VERSION}|\\\" >> \\\"themes/\\\${sanitized_url}/\\\${sanitized_url}.txt\\\"
-                    echo \\\"//{{{\\\" >> \\\"themes/\\\${sanitized_url}/\\\${sanitized_url}.txt\\\"
-                    echo \\\"\\\$themes_json_output\\\" >> \\\"themes/\\\${sanitized_url}/\\\${sanitized_url}.txt\\\"
-                    echo \\\"//}}}\\\" >> \\\"themes/\\\${sanitized_url}/\\\${sanitized_url}.txt\\\"
-                    # UPDATED URL: 'commit/' prefix has been removed
-                    master_json_url=\\\"https://github.com/\\\${GITHUB_REPOSITORY}/blob/twcArchives/themes/\\\${sanitized_url}/\\\${sanitized_url}.txt\\\"
+                    # UPDATED URL: Added 'commit/' to the path
+                    json_file_url=\\\"https://github.com/\\\${GITHUB_REPOSITORY}/blob/twcArchives/commit/themes/\\\${sanitized_url}/\\\${sanitized_url}.txt\\\"
+                    echo \\\"|Source|\\\${json_file_url}|\\\" > \\\"commit/themes/\\\${sanitized_url}/\\\${sanitized_url}.txt\\\"
+                    echo \\\"|Version|\\\${VERSION}|\\\" >> \\\"commit/themes/\\\${sanitized_url}/\\\${sanitized_url}.txt\\\"
+                    echo \\\"//{{{\\\" >> \\\"commit/themes/\\\${sanitized_url}/\\\${sanitized_url}.txt\\\"
+                    echo \\\"\\\$themes_json_output\\\" >> \\\"commit/themes/\\\${sanitized_url}/\\\${sanitized_url}.txt\\\"
+                    echo \\\"//}}}\\\" >> \\\"commit/themes/\\\${sanitized_url}/\\\${sanitized_url}.txt\\\"
+                    # UPDATED URL: Added 'commit/' to the path
+                    master_json_url=\\\"https://github.com/\\\${GITHUB_REPOSITORY}/blob/twcArchives/commit/themes/\\\${sanitized_url}/\\\${sanitized_url}.txt\\\"
                     master_json_output=\\\$(echo \\\"\\\$master_json_output\\\" | jq --arg url \\\"\\\$master_json_url\\\" --arg desc \\\"\\\$sanitized_url\\\" '. += [{url: \\\$url, description: \\\$desc, type: \\\"collection\\\"}]')
                   else
                     echo \\\"Themes directory does not exist, skipping.\\\"
                   fi
                   rm -rf split_file/*
                 done < systemServer.txt
-                # UPDATED URL: 'commit/' prefix has been removed
-                master_file_url=\\\"https://github.com/\\\${GITHUB_REPOSITORY}/blob/twcArchives/twcArchives.txt\\\"
-                echo \\\"|Source|\\\${master_file_url}|\\\" > \\\"twcArchives.txt\\\"
-                echo \\\"|Version|\\\${VERSION}|\\\" >> \\\"twcArchives.txt\\\"
-                echo \\\"//{{{\\\" >> \\\"twcArchives.txt\\\"
-                echo \\\"\\\$master_json_output\\\" >> \\\"twcArchives.txt\\\"
-                echo \\\"//}}}\\\" >> \\\"twcArchives.txt\\\"
+                # UPDATED URL: Added 'commit/' to the path
+                master_file_url=\\\"https://github.com/\\\${GITHUB_REPOSITORY}/blob/twcArchives/commit/twcArchives.txt\\\"
+                echo \\\"|Source|\\\${master_file_url}|\\\" > \\\"commit/twcArchives.txt\\\"
+                echo \\\"|Version|\\\${VERSION}|\\\" >> \\\"commit/twcArchives.txt\\\"
+                echo \\\"//{{{\\\" >> \\\"commit/twcArchives.txt\\\"
+                echo \\\"\\\$master_json_output\\\" >> \\\"commit/twcArchives.txt\\\"
+                echo \\\"//}}}\\\" >> \\\"commit/twcArchives.txt\\\"
               \"
             "
       
-      - name: Commit and push
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: |
-        chown -R $(id -u):$(id -g) commit
-        cd commit
-        git init
-        git config user.name "github-actions[bot]"
-        git config user.email "github-actions[bot]@users.noreply.github.com"
-        git checkout -B twcArchives
-        git add .
-        git commit -m "Update twcArchives" || echo "No changes to commit"
-        git push --force "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}" twcArchives
+      - name: Commit and push to twcArchives branch
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          # Use a very specific file pattern to avoid committing unwanted files.
+          # The '**' is a glob pattern that matches all files inside the directories.
+          file_pattern: |
+            commit/**
+          commit_message: 'Add processed files from web archives'
+          branch: 'twcArchives'
+          create_branch: true
+          # Use --force-with-lease to safely handle conflicts from a scheduled job.
+          push_options: '--force-with-lease'
