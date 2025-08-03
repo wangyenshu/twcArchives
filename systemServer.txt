@@ -33,7 +33,6 @@ https://web.archive.org/web/20090918230537/http://knighjm.googlepages.com/knight
 http://labwiki.sourceforge.net/
 https://web.archive.org/web/20090525121320/http://lewcid.googlepages.com/presentation_empty_full.html#Documentation
 http://mptw2.tiddlyspot.com/#Plugins
-https://web.archive.org/web/20100810151108/http://paularodrigo.homeip.net/stickydate.html#StickyDatePlugin
 https://web.archive.org/web/20160224131156/http://project.dahukanna.net/tiddlywiki/timeline/sampletimeline220b5.html
 http://remindermacros.tiddlyspot.com/
 https://web.archive.org/web/20121113193541/http://remotely-helpful.com/TiddlyWiki/ImprovedSlicesPlugin.html#ImprovedSlicesPlugin
@@ -49,3 +48,5 @@ https://web.archive.org/web/20101021093750/http://www.anshul.info/blogwiki.html
 https://web.archive.org/web/20140121045309/http://www.blogjones.com/TiddlyWikiTutorial.html#smiley
 http://coursebook.tiddlyspot.com/#RevisionsPlugin
 https://web.archive.org/web/20121004025926/http://www.math.ist.utl.pt/~psoares/addons.html#Plugins
+https://web.archive.org/web/20100810151108/http://paularodrigo.homeip.net/stickydate.html#StickyDatePlugin
+
