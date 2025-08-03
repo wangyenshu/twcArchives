@@ -82,8 +82,12 @@ jobs:
                     cp -r \\\"\\\$plugins_dir\\\"/* \\\"commit/plugins/\\\${sanitized_url}\\\"
                     plugins_json_output=\\\"[]\\\"
                     while read -r line; do
-                      filename=\\\$(echo \\\"\\\$line\\\" | sed -E 's/^tiddler: (.*)\$/\1/')
-                      description=\\\$(awk -F'|' '/^\|Description:/{print \$3; exit}' \\\"\\\${plugins_dir}/\\\${filename}\\\")
+                      if [ -z \\\"\\\$line\\\" ]; then
+                        continue
+                      fi
+                      filename=\\\$(echo \\\"\\\$line\\\" | sed -E 's/^[^:]*:[[:space:]]*//')
+                      # FIXED: Use awk to parse 'key: value' format, which is more common.
+                      description=\\\$(awk -F: 'tolower(\\\$1) == \\\"description\\\" {sub(/^[[:space:]]*/, \\\"\\\", \\\$2); print \\\$2; exit}' \\\"\\\${plugins_dir}/\\\${filename}\\\")
                       description=\\\$(echo \\\"\\\$description\\\" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*\$//')
                       if [ -z \\\"\\\$description\\\" ]; then
                         description=\\\"\$filename\\\"
@@ -109,8 +113,12 @@ jobs:
                     cp -r \\\"\\\$themes_dir\\\"/* \\\"commit/themes/\\\${sanitized_url}\\\"
                     themes_json_output=\\\"[]\\\"
                     while read -r line; do
-                      filename=\\\$(echo \\\"\\\$line\\\" | sed -E 's/^tiddler: (.*)\$/\1/')
-                      description=\\\$(awk -F'|' '/^\|Description:/{print \$3; exit}' \\\"\\\${themes_dir}/\\\${filename}\\\")
+                      if [ -z \\\"\\\$line\\\" ]; then
+                        continue
+                      fi
+                      filename=\\\$(echo \\\"\\\$line\\\" | sed -E 's/^[^:]*:[[:space:]]*//')
+                      # FIXED: Use awk to parse 'key: value' format, which is more common.
+                      description=\\\$(awk -F: 'tolower(\\\$1) == \\\"description\\\" {sub(/^[[:space:]]*/, \\\"\\\", \\\$2); print \\\$2; exit}' \\\"\\\${themes_dir}/\\\${filename}\\\")
                       description=\\\$(echo \\\"\\\$description\\\" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*\$//')
                       if [ -z \\\"\\\$description\\\" ]; then
                         description=\\\"\$filename\\\"
