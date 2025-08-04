@@ -5,16 +5,19 @@ The wayback machine has a rate limit. So it will sleep for 120 seconds before ar
 
 The workflow file archive.yml use ruby1.8 and https://github.com/TiddlyWiki/cooker. It works for most wikis. The workflow file archives_patched_ginsu.yml use modern(3.x) version of ruby and my patched version of ginsu https://github.com/wangyenshu/cooker. But it only works for very few wikis.
 
-Issue:
-The workflow archive.yml commits everything to twcArchives branch, including .github folder.
+## Issue/Todo
+- The workflow archive.yml commits everything to twcArchives branch, including .github folder.
+- No automatic version system. There is a manual version system. You can adjust the variable VERSION to set the version.
+- Improve algorithmn to find the 'description' of plugins and themes.
+- Find and fill in the LegalStatements of the remaining systemServers.
 
-!Credit
-https://github.com/TiddlyWiki/cooker
-https://github.com/YakovL/TiddlyWiki_ExtensionsExplorerPlugin
-https://launchpad.net/~brightbox/+archive/ubuntu/ruby-ng
-https://github.com/stefanzweifel/git-auto-commit-action
+## Credit
+- https://github.com/TiddlyWiki/cooker
+- https://github.com/YakovL/TiddlyWiki_ExtensionsExplorerPlugin
+- https://launchpad.net/~brightbox/+archive/ubuntu/ruby-ng
+- https://github.com/stefanzweifel/git-auto-commit-action
 
-!LegalStatements
+## LegalStatements
 This workflow file is licensed under MIT LICENSE. However, the plugins and themes from the list of systemServers are subject to their own license.
 | Server Name | URL | LegalStatements |
 |---|---|---|
