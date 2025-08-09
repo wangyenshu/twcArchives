@@ -1,0 +1,78 @@
+|Source|https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130926071240_https___ptw_sourceforge_net_ptwe_html/web_archive_org_web_20130926071240_https___ptw_sourceforge_net_ptwe_html.txt|
+|Version|0.1|
+//{{{
+[
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130926071240_https___ptw_sourceforge_net_ptwe_html/ArchivedTimeline.js",
+    "description": "''Timeline archived monthly."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130926071240_https___ptw_sourceforge_net_ptwe_html/ArchivedTimeline.zh-Hant.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130926071240_https___ptw_sourceforge_net_ptwe_html/BookmarksCommand.js",
+    "description": "''Toolbar button for bookmarks services"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130926071240_https___ptw_sourceforge_net_ptwe_html/BreadcrumbsPlugin.js",
+    "description": "''"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130926071240_https___ptw_sourceforge_net_ptwe_html/Core_tweaks.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130926071240_https___ptw_sourceforge_net_ptwe_html/FixedChangeset_5138.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130926071240_https___ptw_sourceforge_net_ptwe_html/InstallThemePlugin.js",
+    "description": "''Automatically install specified theme pack and backup the old"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130926071240_https___ptw_sourceforge_net_ptwe_html/LoadExtPlugin.js",
+    "description": "''LoadExtPlugin allows you to load external extensions from the file lists (named .js) within those tiddlers taged with \"ExtList\"."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130926071240_https___ptw_sourceforge_net_ptwe_html/MagicToggle.js",
+    "description": "''Show/ Hide specific element, support multilingual, also it is easy to be extended and localized,, all changes of elements are affected on-fly"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130926071240_https___ptw_sourceforge_net_ptwe_html/ManageTiddlers.js",
+    "description": "''List tiddlers with specific tag and let you manage the multiple selected tiddlers."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130926071240_https___ptw_sourceforge_net_ptwe_html/PopupTipsPlugin.js",
+    "description": "''Display tips and alias from a pre-defineded tiddler"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130926071240_https___ptw_sourceforge_net_ptwe_html/PopupTipsPlugin.Tweak.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130926071240_https___ptw_sourceforge_net_ptwe_html/SimpleClockPlugin.js",
+    "description": "''"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130926071240_https___ptw_sourceforge_net_ptwe_html/Slider2Plugin.js",
+    "description": "''"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130926071240_https___ptw_sourceforge_net_ptwe_html/TiddlyCalendar.js",
+    "description": "''Tiddlers Calendar and Date picker"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130926071240_https___ptw_sourceforge_net_ptwe_html/TiddlyCalendar.zh-Hant.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130926071240_https___ptw_sourceforge_net_ptwe_html/XMLReader2.js",
+    "description": "''"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130926071240_https___ptw_sourceforge_net_ptwe_html/__Config.js",
+    "description": ""
+  }
+]
+//}}}

@@ -1,0 +1,250 @@
+|Source|https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/coursebook_tiddlyspot_com__RevisionsPlugin.txt|
+|Version|0.1|
+//{{{
+[
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/AliasPlugin.js",
+    "description": "Create text-substitution macros"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/AnnotationsPlugin.js",
+    "description": "''Inline annotations for tiddler text."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/AttachFilePlugin.js",
+    "description": "Store binary files as base64-encoded tiddlers with fallback links for separate local and/or remote file storage"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/AttachFilePluginFormatters.js",
+    "description": "run-time library for displaying attachment tiddlers"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/BetaUpgradePlugin.js",
+    "description": "''Description''change the upgrade source to the beta location"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/CompareTiddlersPlugin.js",
+    "description": "show color-coded differences between two selected tiddlers"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/CopyTiddlerPlugin.js",
+    "description": "Quickly create a copy of any existing tiddler"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/CoreTweaksLocal.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/DisplayOpenTiddlersPlugin.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/ExportTiddlersPlugin.js",
+    "description": "interactively select/export tiddlers to a separate file"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/FAQ_RescueStoreArea.js",
+    "description": "Saving changes for online documents if the network goes down"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/FieldsEditorPlugin.js",
+    "description": "''//create//, //edit//, //view// and //delete// commands in toolbar >."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/FileDropPlugin.js",
+    "description": "drag-and-drop files/directories to create tiddlers"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/FileDropPluginConfig.js",
+    "description": "Adds drag-and-drop handlers for creating binary attachments or directory lists"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/FootnotesPlugin.js",
+    "description": "''Create automated tiddler footnotes."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/GotoPlugin.js",
+    "description": "view any tiddler by entering it's title - displays list of possible matches"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/HideWhenPlugin.js",
+    "description": "Allows conditional inclusion/exclusion in templates"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/ImagePathPlugin.js",
+    "description": "Tell TiddlyWiki where to look for image files.  Permits multiple 'fallback' locations"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/ImageSizePlugin.js",
+    "description": "adds support for resizing images"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/ImportTiddlersPlugin.js",
+    "description": "interactive controls for import/export with filtering."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/InlineJavascriptPlugin.js",
+    "description": "Insert Javascript executable code directly into your tiddler content."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/IntelliTaggerPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/IntelliTagsEditCommandPlugin.js",
+    "description": "''A command for your tiddler's toolbar to directly edit the tiddler's tags using the IntelliTaggerPlugin, without switching to \"edit mode\"."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/LoadRemoteFileThroughProxy.js",
+    "description": "''When the TiddlyWiki file is located on the web (view over http) the content of [[SiteProxy]] tiddler is added in front of the file url. If [[SiteProxy]] does not exist \"/proxy/\" is added."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/LoadTiddlersPlugin.js",
+    "description": "macro for automated updates or one-click installations of tiddlers from remote sources"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/LoadTiddlersPlugin_w%2f_noreportshow_functionality.js",
+    "description": "macro for automated updates or one-click installations of tiddlers from remote sources"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/MatchTagsPlugin.js",
+    "description": "'tag matching' with full boolean expressions (AND, OR, NOT, and nested parentheses)"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/MatchTagsPluginTweaks.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/NestedSlidersPlugin.js",
+    "description": "show content in nest-able sliding/floating panels, without creating separate tiddlers for each panel's content"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/PartTiddlerPlugin.js",
+    "description": "* Description, Syntax"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/PasswordOptionsPlugin.js",
+    "description": "''Extends TiddlyWiki options with non encrypted password option."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/QuickEditPlugin.js",
+    "description": "Support functions for ~QuickEdit package: styles, utility functions, and 'toggleQuickEdit' command"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/QuizzerPlugin.js",
+    "description": "''Makes quizzes with optional grades"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/RSSReaderPlugin.js",
+    "description": "''This plugin provides a RSSReader for TiddlyWiki"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/RedirectMacro.js",
+    "description": "This macro tells TW to find all instances of a word and makes it point to a different link. For example, whenever I put the word 'Clint' in a tiddler I want TiddlyWiki to turn it into a link that points to a tiddler titled 'Clint Checketts' Or the word 'TW' could point to a tiddler called 'TiddlyWiki' It even matches clint (which is lowercase) [[Clint]] leet lEEt LEET"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/RefreshCommand.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/RelatedTiddlersPlugin.js",
+    "description": "starting from a selected tiddler, display a list and/or tree of linked or transcluded tiddlers"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/RescueStoreAreaCommand.js",
+    "description": "rescue tiddler changes from online document when net goes down during editing"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/RevisionsPlugin.js",
+    "description": "Create revisions of a tiddler when changes are saved"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/SaveAsPlugin.js",
+    "description": "Save current document to another path/filename"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/SectionLinksPlugin.js",
+    "description": "allow tiddler sections in TiddlyLinks to be used as anchor points"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/ShamelessPlug.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/SlideShowPlugin.js",
+    "description": "''Creates a slide show from any number of tiddlers"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/SparklinePlugin.js",
+    "description": "''Description''provides support for [[sparklineshttp://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0001OR&topic_id=1]]"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/StorySaverPlugin.js",
+    "description": "save/restore current tiddler view between browser sessions"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/StorySaverPluginConfig.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/SyncFromSourcePlugin.js",
+    "description": "''Synchronizes plugins from their original source (issued from plugin info) instead of imported url. So, plugins can be imported from any existing tiddlywiki and still be synchronized with their original source."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/TableSortingPlugin.js",
+    "description": "''Dynamically sort tables by clicking on column headers"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/TaggedTemplateTweak.js",
+    "description": "use alternative ViewTemplate/EditTemplate for specific tiddlers"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/TemporaryTiddlersPlugin.js",
+    "description": "blocks tiddlers tagged with \"temporary\" from being saved into the TW file"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/TiddlerNotesPlugin.js",
+    "description": "''Add notes to tiddlers without modifying the original content"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/TiddlerTweakerPlugin.js",
+    "description": "select multiple tiddlers and modify author, created, modified and/or tag values"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/TiddlyLockPlugin.js",
+    "description": "Automatically locks and unlocks the TiddlyWiki as required, allowing multiple users to edit the TiddlyWiki without fear of overwriting other users' changes."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/ToggleSideBarMacro.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/TspotSetupPlugin.js",
+    "description": "Contains the stuff you need to use Tiddlyspot"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/UnsavedChangesPlugin.js",
+    "description": "show droplist of tiddlers that have changed since the last time the document was saved"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/UploadPlugin.js",
+    "description": "''Save to web a TiddlyWiki"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/WikifyPlugin.js",
+    "description": "substitute fields, slices, or computed values into a wiki-syntax format string and render results dynamically"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/YourSearchPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/zzInstructorSettings.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/coursebook_tiddlyspot_com__RevisionsPlugin/zzLocalSettings.js",
+    "description": ""
+  }
+]
+//}}}

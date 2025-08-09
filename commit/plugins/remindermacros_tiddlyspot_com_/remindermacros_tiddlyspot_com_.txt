@@ -1,0 +1,50 @@
+|Source|https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/remindermacros_tiddlyspot_com_/remindermacros_tiddlyspot_com_.txt|
+|Version|0.1|
+//{{{
+[
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/remindermacros_tiddlyspot_com_/CalendarPlugin.js",
+    "description": "display monthly and yearly calendars"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/remindermacros_tiddlyspot_com_/CryptoFunctionsPlugin.js",
+    "description": "''Support for cryptographic functions"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/remindermacros_tiddlyspot_com_/DatePlugin.js",
+    "description": "formatted dates plus popup menu with 'journal' link, changes and (optional) reminders"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/remindermacros_tiddlyspot_com_/DeprecatedFunctionsPlugin.js",
+    "description": "''Support for deprecated functions removed from core"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/remindermacros_tiddlyspot_com_/InlineJavaScript.js",
+    "description": "when catching eval error in IE, e.description contains the error text, instead of e.toString(). Fixed error reporting so IE shows the correct response text. Based on a suggestion by UdoBorkowski"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/remindermacros_tiddlyspot_com_/LegacyStrikeThroughPlugin.js",
+    "description": "''Support for legacy (pre 2.1) strike through formatting"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/remindermacros_tiddlyspot_com_/ReminderMacros.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/remindermacros_tiddlyspot_com_/SparklinePlugin.js",
+    "description": "''Sparklines macro"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/remindermacros_tiddlyspot_com_/TextAreaPlugin.js",
+    "description": "Adds Find/Again keyboard search, autosize, and 'stretch bar' resize for textarea controls"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/remindermacros_tiddlyspot_com_/TspotSetupPlugin.js",
+    "description": "Contains the stuff you need to use Tiddlyspot"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/remindermacros_tiddlyspot_com_/UploadPlugin.js",
+    "description": "''Extends TiddlyWiki options with non encrypted password option."
+  }
+]
+//}}}

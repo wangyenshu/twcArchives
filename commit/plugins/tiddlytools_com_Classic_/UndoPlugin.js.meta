@@ -1,0 +1,18 @@
+title: UndoPlugin
+modifier: ELSDesignStudios
+created: 201105172013
+modified: 201109112316
+tags: systemConfig
+server.page.revision: 703
+server.type: tiddlyweb
+server.recipe: pasteup_private
+server.host: http://pasteup.spaces.unamesa.org/
+server.bag: pasteup_public
+creator: ELSDesignStudios
+server.title: UndoPlugin
+server.permissions: read, write, create, delete
+changecount: 3
+server.etag: &quot;pasteup_public/UndoPlugin/703;4f5c36462e4c510a736472173b353b8deb14cc8f&quot;
+server.workspace: bags/pasteup_public
+server.content-type: 
+_hash: f7d20cf61c8426f5626a0f6b806e93471d512c55

@@ -1,0 +1,42 @@
+|Source|https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/solo_dc3_com_tw_/solo_dc3_com_tw_.txt|
+|Version|0.1|
+//{{{
+[
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/solo_dc3_com_tw_/DC3.Ajax.js",
+    "description": "''General purpose Ajax class"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/solo_dc3_com_tw_/DC3.LightBox.js",
+    "description": "''LightBox support library"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/solo_dc3_com_tw_/LegacyStrikeThroughPlugin.js",
+    "description": "''Support for  legacy (pre 2.1) strike through formatting"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/solo_dc3_com_tw_/PersistentFormPlugin.js",
+    "description": "''Save HTML form states in cookies"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/solo_dc3_com_tw_/PostFormPlugin.js",
+    "description": "''Post from form, wikify response"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/solo_dc3_com_tw_/RefreshIFramePlugin.js",
+    "description": "''Refresh an entire tiddler with optional periodic re-refresh"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/solo_dc3_com_tw_/RefreshTiddlerPlugin.js",
+    "description": "''Refresh an entire tiddler with optional periodic re-refresh"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/solo_dc3_com_tw_/SortableGridPlugin.js",
+    "description": "''Provide live sorting of tables by column"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/solo_dc3_com_tw_/UploadPlugin.js",
+    "description": "''Save to web a TiddlyWiki"
+  }
+]
+//}}}

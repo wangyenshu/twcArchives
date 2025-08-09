@@ -1,0 +1,34 @@
+|Source|https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/moodle_tiddlyspot_com_/moodle_tiddlyspot_com_.txt|
+|Version|0.1|
+//{{{
+[
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/moodle_tiddlyspot_com_/AllowOnlineEdit.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/moodle_tiddlyspot_com_/ExportTiddlersToDFwikiPlugin.js",
+    "description": "e.toString());"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/moodle_tiddlyspot_com_/ImportDFwikisPlugin.js",
+    "description": "e.toString()); }"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/moodle_tiddlyspot_com_/InlineJavascriptPlugin.js",
+    "description": "''2005.12.13 [1.3.1]'' when catching eval error in IE, e.description contains the error text, instead of e.toString(). Fixed error reporting so IE shows the correct response text. Based on a suggestion by UdoBorkowski"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/moodle_tiddlyspot_com_/LegacyStrikeThroughPlugin.js",
+    "description": "''Support for legacy (pre 2.1) strike through formatting"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/moodle_tiddlyspot_com_/SynchronizePlugin.js",
+    "description": "e.toString()); }"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/moodle_tiddlyspot_com_/UploadPlugin.js",
+    "description": "''Save to web a TiddlyWiki"
+  }
+]
+//}}}
