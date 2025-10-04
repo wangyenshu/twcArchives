@@ -1,0 +1,18 @@
+title: ImportExternalLinksPlugin
+modifier: jon
+created: 20120104162500
+modified: 20120104162500
+tags: excludeLists excludeSearch systemConfig
+server.permissions: read
+server.page.revision: 71184
+server.workspace: bags/following_public
+server.bag: following_public
+creator: jon
+server.type: tiddlyweb
+_hash: 2887de749a491f27a1b294ead85a27085395f964
+server.host: http://pmario.tiddlyspace.com
+summary: 
+server.recipe: pmario_public
+server.title: ImportExternalLinksPlugin
+server.etag: &quot;following_public/ImportExternalLinksPlugin/71184:9d2096ab59571a7d195e72fbcc6bbf748d142cc4&quot;
+server.content-type: 

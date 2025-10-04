@@ -1,0 +1,17 @@
+title: chrjs.space
+modifier: None
+created: 20110911181831
+modified: 20110912081016
+tags: excludeLists excludeSearch systemConfig
+server.content-type: text/javascript
+server.page.revision: 531
+server.type: tiddlyweb
+creator: None
+server.etag: &quot;tiddlyspace/chrjs.space/531:e8d9bfd07cfacb8f3a7004da9408b0bcbe3f4ef3&quot;
+server.permissions: read
+server.title: chrjs.space
+server.workspace: bags/tiddlyspace
+_hash: ffe3851e87e0d0574c9059a665bcff013ee569da
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.bag: tiddlyspace

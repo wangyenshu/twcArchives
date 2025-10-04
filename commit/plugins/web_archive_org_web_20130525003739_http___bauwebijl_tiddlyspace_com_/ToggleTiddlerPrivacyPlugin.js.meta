@@ -1,0 +1,17 @@
+title: ToggleTiddlerPrivacyPlugin
+modifier: osmosoft
+created: 20130521140651
+modified: 20130521140651
+tags: excludeLists excludeSearch systemConfig
+server.recipe: bauwebijl_public
+server.page.revision: 1221954
+_hash: 3acf06056e188b31bcc3c42ec673a050886d64c4
+server.bag: system-plugins_public
+server.workspace: bags/system-plugins_public
+creator: osmosoft
+server.host: http://bauwebijl.tiddlyspace.com
+server.type: tiddlyweb
+server.etag: &quot;system-plugins_public/ToggleTiddlerPrivacyPlugin/1221954:683771a9c2532807d4a4f800d22cddc772af5ccb&quot;
+server.content-type: text/javascript
+server.permissions: read
+server.title: ToggleTiddlerPrivacyPlugin

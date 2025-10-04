@@ -1,0 +1,17 @@
+title: BulletGraphMacro
+modifier: tobibeer
+created: 20100928140458
+modified: 20100930150734
+tags: excludeLists systemConfig
+_hash: ed3ec746c300c80fed67cd92681bb8b145ee5e74
+server.title: BulletGraphMacro
+server.content-type: 
+server.recipe: tobibeer_public
+server.permissions: read
+server.bag: bulletgraph_public
+server.type: tiddlyweb
+server.host: http://tobibeer.tiddlyspace.com
+creator: tobibeer
+server.page.revision: 22817
+server.workspace: bags/bulletgraph_public
+server.etag: &quot;bulletgraph_public/BulletGraphMacro/22817:809a9cb9c13e7f621496598ef56746bd4d2ed579&quot;

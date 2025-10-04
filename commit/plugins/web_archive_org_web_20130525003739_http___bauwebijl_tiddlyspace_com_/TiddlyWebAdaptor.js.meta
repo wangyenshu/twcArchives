@@ -1,0 +1,17 @@
+title: TiddlyWebAdaptor
+modifier: FND
+created: 200811260000
+modified: 200811260000
+tags: excludeLists excludeSearch systemConfig
+server.recipe: bauwebijl_public
+server.page.revision: 1221949
+_hash: 487ec1465c11e0798c029b3ed15a2f71ae51ce92
+server.bag: system
+server.workspace: bags/system
+creator: FND
+server.host: http://bauwebijl.tiddlyspace.com
+server.type: tiddlyweb
+server.etag: &quot;system/TiddlyWebAdaptor/1221949:3fc4145efcf41083da5f2f73bde276c1aa785c55&quot;
+server.content-type: text/javascript
+server.permissions: read
+server.title: TiddlyWebAdaptor

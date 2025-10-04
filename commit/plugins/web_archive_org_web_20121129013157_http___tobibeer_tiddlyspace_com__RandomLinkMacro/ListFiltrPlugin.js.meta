@@ -1,0 +1,17 @@
+title: ListFiltrPlugin
+modifier: tobibeer
+created: 20120708072220
+modified: 20120708073501
+tags: excludeLists systemConfig
+_hash: 8c497ef6596b8c4a1f42972914449b05accd54bd
+server.title: ListFiltrPlugin
+server.content-type: 
+server.recipe: tobibeer_public
+server.permissions: read
+server.bag: listfiltrplugin_public
+server.type: tiddlyweb
+server.host: http://tobibeer.tiddlyspace.com
+creator: tobibeer
+server.page.revision: 777968
+server.workspace: bags/listfiltrplugin_public
+server.etag: &quot;listfiltrplugin_public/ListFiltrPlugin/777968:907766f247bce39d1ad2929399279ad95ae84ba3&quot;

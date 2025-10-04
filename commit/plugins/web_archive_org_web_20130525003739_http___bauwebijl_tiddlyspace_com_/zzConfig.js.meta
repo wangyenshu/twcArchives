@@ -1,0 +1,17 @@
+title: zzConfig
+modifier: bauwebijl
+created: 20101022202036
+modified: 20110517094734
+tags: systemConfig
+server.recipe: bauwebijl_public
+server.page.revision: 14667
+_hash: 229f898fc5335063943515899f1dc14457bf0bfa
+server.bag: bauwebijl_public
+server.workspace: bags/bauwebijl_public
+creator: bauwebijl
+server.host: http://bauwebijl.tiddlyspace.com
+server.type: tiddlyweb
+server.etag: &quot;bauwebijl_public/zzConfig/14667:cee9ba7b7fea55249dddcc69bf5c74d93808a1f1&quot;
+server.content-type: 
+server.permissions: read
+server.title: zzConfig

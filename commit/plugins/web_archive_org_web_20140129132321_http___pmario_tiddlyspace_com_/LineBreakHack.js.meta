@@ -1,0 +1,17 @@
+title: LineBreakHack
+modifier: pmario
+created: 20100929162016
+modified: 20120117191830
+tags: excludeLists systemConfig
+server.permissions: read
+server.page.revision: 132135
+server.workspace: bags/line-break-hack_public
+server.bag: line-break-hack_public
+creator: pmario
+server.type: tiddlyweb
+_hash: ce4db8586ed2e94c061aff8c5739fda6c092a64b
+server.host: http://pmario.tiddlyspace.com
+server.recipe: pmario_public
+server.title: LineBreakHack
+server.etag: &quot;line-break-hack_public/LineBreakHack/132135:c6dd73797432811fca04f8cbdc6d9961efd233c5&quot;
+server.content-type: 

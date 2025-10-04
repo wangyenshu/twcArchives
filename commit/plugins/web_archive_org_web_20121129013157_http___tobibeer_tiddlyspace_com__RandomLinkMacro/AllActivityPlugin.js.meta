@@ -1,0 +1,17 @@
+title: AllActivityPlugin
+modifier: tobibeer
+created: 20110227130059
+modified: 20110227130130
+tags: systemConfig
+_hash: 1361c8a02d8d8fb0d26aafab5a2bdab203e1f576
+server.title: AllActivityPlugin
+server.content-type: 
+server.recipe: tobibeer_public
+server.permissions: read
+server.bag: tobibeer_public
+server.type: tiddlyweb
+server.host: http://tobibeer.tiddlyspace.com
+creator: tobibeer
+server.page.revision: 221682
+server.workspace: bags/tobibeer_public
+server.etag: &quot;tobibeer_public/AllActivityPlugin/221682:95e5df46aae0684c7cb0bae0f36a9c4f6cd64da0&quot;

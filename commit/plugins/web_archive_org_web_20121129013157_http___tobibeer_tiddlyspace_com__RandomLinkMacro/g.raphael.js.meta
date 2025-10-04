@@ -1,0 +1,17 @@
+title: g.raphael
+modifier: jon
+created: 20100806095423
+modified: 20101008172230
+tags: excludeLists systemConfig
+_hash: 1a64a34049a0bce3337ad4322fa4a2b84b284a54
+server.title: g.raphael
+server.content-type: 
+server.recipe: tobibeer_public
+server.permissions: read
+server.bag: charts_public
+server.type: tiddlyweb
+server.host: http://tobibeer.tiddlyspace.com
+creator: jon
+server.page.revision: 27323
+server.workspace: bags/charts_public
+server.etag: &quot;charts_public/g.raphael/27323:8db8620743acbbc3660f83eab0f74c16671ba921&quot;

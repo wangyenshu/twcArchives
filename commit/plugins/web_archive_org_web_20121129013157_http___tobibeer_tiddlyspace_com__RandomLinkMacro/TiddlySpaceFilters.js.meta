@@ -1,0 +1,17 @@
+title: TiddlySpaceFilters
+modifier: jon
+created: 20121128171842
+modified: 20121128171842
+tags: excludeLists excludeSearch systemConfig
+_hash: 3b6e75a776f9a07498220fe23b305bc97b531afc
+server.title: TiddlySpaceFilters
+server.content-type: text/javascript
+server.recipe: tobibeer_public
+server.permissions: read
+server.bag: tiddlyspace
+server.type: tiddlyweb
+server.host: http://tobibeer.tiddlyspace.com
+creator: jon
+server.page.revision: 970409
+server.workspace: bags/tiddlyspace
+server.etag: &quot;tiddlyspace/TiddlySpaceFilters/970409:fbac67bf5e9ebd7e72acbadec9ef718d4b1c4a68&quot;

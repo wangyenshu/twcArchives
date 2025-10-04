@@ -1,0 +1,17 @@
+title: LoadMissingExternalTiddler
+modifier: mama
+created: 20111019222832
+modified: 20111019222832
+tags: excludeLists excludeSearch systemConfig
+server.content-type: 
+server.page.revision: 3617
+server.type: tiddlyweb
+creator: mama
+server.etag: &quot;following_public/LoadMissingExternalTiddler/3617:159c34794da35ab3d5c255f6919e4278e869aeea&quot;
+server.permissions: read
+server.title: LoadMissingExternalTiddler
+server.workspace: bags/following_public
+_hash: 21d4a5b307ec25fbf88b43e0f08e4070d1702956
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.bag: following_public

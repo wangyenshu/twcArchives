@@ -1,0 +1,17 @@
+title: TiddlySpacePublishingCommands
+modifier: osmosoft
+created: 20110911181831
+modified: 20130305161743
+tags: excludeLists excludeSearch systemConfig
+server.content-type: text/javascript
+server.page.revision: 40222
+server.type: tiddlyweb
+creator: jon
+server.etag: &quot;system-plugins_public/TiddlySpacePublishingCommands/40222:a37c75759c2bd60976da8ebde6fe3ba232bd0c04&quot;
+server.permissions: read
+server.title: TiddlySpacePublishingCommands
+server.workspace: bags/system-plugins_public
+_hash: d38da0ee80a7dc114a17466600f9430fa2a962bb
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.bag: system-plugins_public

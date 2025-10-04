@@ -1,0 +1,17 @@
+title: TiddlySpaceFollowingSuggestions
+modifier: mama
+created: 20111019222833
+modified: 20111019222833
+tags: excludeLists systemConfig
+server.content-type: 
+server.page.revision: 3626
+server.type: tiddlyweb
+creator: mama
+server.etag: &quot;following_public/TiddlySpaceFollowingSuggestions/3626:1eb861082964c6174f6ea98a5f8622b32bfa147e&quot;
+server.permissions: read
+server.title: TiddlySpaceFollowingSuggestions
+server.workspace: bags/following_public
+_hash: 291998cecddc23b03d6a32434a784a0c1e80c02d
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.bag: following_public

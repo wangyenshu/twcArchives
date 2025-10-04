@@ -1,0 +1,17 @@
+title: ServerSideSavingPlugin
+modifier: FND
+created: 20130521104341
+modified: 20130521104341
+tags: excludeLists excludeSearch systemConfig
+server.recipe: bauwebijl_public
+server.page.revision: 1221944
+_hash: d72cde071d926d9c66939444817d7e8621d24d9c
+server.bag: system
+server.workspace: bags/system
+creator: FND
+server.host: http://bauwebijl.tiddlyspace.com
+server.type: tiddlyweb
+server.etag: &quot;system/ServerSideSavingPlugin/1221944:fb33d3cff618cb70eb67150803268071697d4ef2&quot;
+server.content-type: text/javascript
+server.permissions: read
+server.title: ServerSideSavingPlugin

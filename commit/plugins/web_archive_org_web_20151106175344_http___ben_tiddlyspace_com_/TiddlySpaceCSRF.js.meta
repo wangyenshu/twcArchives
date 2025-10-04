@@ -1,0 +1,17 @@
+title: TiddlySpaceCSRF
+modifier: osmosoft
+created: 20131111192332
+modified: 20131111192332
+tags: excludeLists excludeSearch systemConfig
+server.permissions: read
+server.type: tiddlyweb
+_hash: 10b0276ddc805a9489b6449c972bb1dc00fb9cf0
+server.host: http://ben.tiddlyspace.com
+creator: osmosoft
+server.title: TiddlySpaceCSRF
+server.etag: &quot;tiddlyspace/TiddlySpaceCSRF/1521904:a866e12d93cb0ef9cfb1c0d780495857bf16e3ef&quot;
+server.recipe: ben_public
+server.workspace: bags/tiddlyspace
+server.content-type: text/javascript
+server.bag: tiddlyspace
+server.page.revision: 1521904

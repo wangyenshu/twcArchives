@@ -1,0 +1,146 @@
+|Source|https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20121112003711_http___tiddlywiki_squize_org_/web_archive_org_web_20121112003711_http___tiddlywiki_squize_org_.txt|
+|Version|0.1|
+//{{{
+[
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20121112003711_http___tiddlywiki_squize_org_/AccordionMenuPlugin.js",
+    "description": "''Turn an unordered list into an accordion style menu"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20121112003711_http___tiddlywiki_squize_org_/AnnotationsPlugin.js",
+    "description": "''Inline annotations for tiddler text."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20121112003711_http___tiddlywiki_squize_org_/BetterTimelineMacro.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20121112003711_http___tiddlywiki_squize_org_/ConfigTiddler.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20121112003711_http___tiddlywiki_squize_org_/DropDownMenuPlugin.js",
+    "description": "''Create dropdown menus from unordered lists"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20121112003711_http___tiddlywiki_squize_org_/DropTaggingMacro.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20121112003711_http___tiddlywiki_squize_org_/DropTagsMacro.js",
+    "description": "''provides a drop down list of tags in the current tiddler,> a replacement for the core tags macro."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20121112003711_http___tiddlywiki_squize_org_/FontSizePlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20121112003711_http___tiddlywiki_squize_org_/FootnotesPlugin.js",
+    "description": "''Create automated tiddler footnotes."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20121112003711_http___tiddlywiki_squize_org_/ForEachTiddlerPlugin.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20121112003711_http___tiddlywiki_squize_org_/FullScreenPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20121112003711_http___tiddlywiki_squize_org_/HoverMenuPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20121112003711_http___tiddlywiki_squize_org_/IconMacro.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20121112003711_http___tiddlywiki_squize_org_/JumpToTopMacro.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20121112003711_http___tiddlywiki_squize_org_/MenuEditPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20121112003711_http___tiddlywiki_squize_org_/MonkeyTaggerMacro.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20121112003711_http___tiddlywiki_squize_org_/NavigationMacro.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20121112003711_http___tiddlywiki_squize_org_/OpenTiddlersMacro.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20121112003711_http___tiddlywiki_squize_org_/PopupMacro.js",
+    "description": "''Create popups with custom content"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20121112003711_http___tiddlywiki_squize_org_/RSSHack.js",
+    "description": "s.push(\"\" + wikifyPlain(\"SiteSubtitle\").htmlEncode() + \"\");"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20121112003711_http___tiddlywiki_squize_org_/SaveAndReloadMacro.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20121112003711_http___tiddlywiki_squize_org_/SelectThemePlugin.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20121112003711_http___tiddlywiki_squize_org_/ShowUpdatesPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20121112003711_http___tiddlywiki_squize_org_/SplashScreenPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20121112003711_http___tiddlywiki_squize_org_/TabEditPlugin.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20121112003711_http___tiddlywiki_squize_org_/TableSortingPlugin.js",
+    "description": "''Dynamically sort tables by clicking on column headers"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20121112003711_http___tiddlywiki_squize_org_/TagAdderMacro.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20121112003711_http___tiddlywiki_squize_org_/TaggerPlugin.js",
+    "description": "''Provides a drop down listing current tiddler tags, and allowing toggling of tags."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20121112003711_http___tiddlywiki_squize_org_/TiddlerNotesPlugin.js",
+    "description": "''Add notes to tiddlers without modifying the original content"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20121112003711_http___tiddlywiki_squize_org_/TiddlerWithEditPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20121112003711_http___tiddlywiki_squize_org_/TiddlyLightBoxPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20121112003711_http___tiddlywiki_squize_org_/ToggleSideBarMacro.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20121112003711_http___tiddlywiki_squize_org_/ToolbarIconsPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20121112003711_http___tiddlywiki_squize_org_/ZHoverMenuPluginConfig.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20121112003711_http___tiddlywiki_squize_org_/writeItMacro.js",
+    "description": ""
+  }
+]
+//}}}

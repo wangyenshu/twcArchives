@@ -1,0 +1,17 @@
+title: PopupMacro
+modifier: bauwebijl
+created: 20101001224032
+modified: 20101012155632
+tags: systemConfig
+server.recipe: bauwebijl_public
+server.page.revision: 14487
+_hash: 7d938f06c9a95b98c146976596942db5af8e04cb
+server.bag: bauwebijl_public
+server.workspace: bags/bauwebijl_public
+creator: bauwebijl
+server.host: http://bauwebijl.tiddlyspace.com
+server.type: tiddlyweb
+server.etag: &quot;bauwebijl_public/PopupMacro/14487:6125645c80ed5f66cc9ab34ad61b683f82c6117e&quot;
+server.content-type: 
+server.permissions: read
+server.title: PopupMacro

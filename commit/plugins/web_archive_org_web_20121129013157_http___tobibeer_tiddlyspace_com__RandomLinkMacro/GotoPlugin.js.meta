@@ -1,0 +1,17 @@
+title: GotoPlugin
+modifier: tobibeer
+created: 20100907211134
+modified: 20100930151259
+tags: excludeLists systemConfig
+_hash: 2e50d5bab33d6df9f0ea9a83115b5dfaab44313b
+server.title: GotoPlugin
+server.content-type: 
+server.recipe: tobibeer_public
+server.permissions: read
+server.bag: gotoplugin_public
+server.type: tiddlyweb
+server.host: http://tobibeer.tiddlyspace.com
+creator: tobibeer
+server.page.revision: 79872
+server.workspace: bags/gotoplugin_public
+server.etag: &quot;gotoplugin_public/GotoPlugin/79872:4b45167df45732e446afb77675302ca03cb4d451&quot;

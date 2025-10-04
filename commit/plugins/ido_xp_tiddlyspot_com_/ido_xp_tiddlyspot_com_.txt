@@ -1,0 +1,130 @@
+|Source|https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/ido_xp_tiddlyspot_com_/ido_xp_tiddlyspot_com_.txt|
+|Version|0.1|
+//{{{
+[
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/ido_xp_tiddlyspot_com_/AllowOnlineEdit.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/ido_xp_tiddlyspot_com_/AutoTaggerPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/ido_xp_tiddlyspot_com_/CalendarPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/ido_xp_tiddlyspot_com_/ClustomFormatter.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/ido_xp_tiddlyspot_com_/ConfigTweaks.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/ido_xp_tiddlyspot_com_/CopyTiddlerPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/ido_xp_tiddlyspot_com_/DatePlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/ido_xp_tiddlyspot_com_/DeleteAllTaggedCustom.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/ido_xp_tiddlyspot_com_/DeleteAllTaggedPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/ido_xp_tiddlyspot_com_/DeleteDoneTasks.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/ido_xp_tiddlyspot_com_/ForEachTiddler.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/ido_xp_tiddlyspot_com_/ImportTiddlersPlugin.js",
+    "description": "e.toString()); }"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/ido_xp_tiddlyspot_com_/IntelliTaggerPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/ido_xp_tiddlyspot_com_/LegacyStrikeThroughPlugin.js",
+    "description": "''Support for  legacy (pre 2.1) strike through formatting"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/ido_xp_tiddlyspot_com_/MultiTagEditorPlugin.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/ido_xp_tiddlyspot_com_/NestedSliders.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/ido_xp_tiddlyspot_com_/NewHereCommand.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/ido_xp_tiddlyspot_com_/NewerTiddlerPlugin.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/ido_xp_tiddlyspot_com_/QuickOpenTagPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/ido_xp_tiddlyspot_com_/ReminderMacros.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/ido_xp_tiddlyspot_com_/RenameTagsPlugin.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/ido_xp_tiddlyspot_com_/SearchOptionsPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/ido_xp_tiddlyspot_com_/ShowClockMacro.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/ido_xp_tiddlyspot_com_/SinglePageModePlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/ido_xp_tiddlyspot_com_/TagBasedTemplates.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/ido_xp_tiddlyspot_com_/TagglyListPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/ido_xp_tiddlyspot_com_/ToggleTagMacro.js",
+    "description": "Exampleh"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/ido_xp_tiddlyspot_com_/TrashPlugin.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/ido_xp_tiddlyspot_com_/UploadPlugin.js",
+    "description": "''Save to web a TiddlyWiki"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/ido_xp_tiddlyspot_com_/WikifyContentsMacro.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/ido_xp_tiddlyspot_com_/YourSearchPlugin.js",
+    "description": ""
+  }
+]
+//}}}

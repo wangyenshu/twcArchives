@@ -1,0 +1,17 @@
+title: NestedSlidersPlugin
+modifier: mama
+created: 20111024193733
+modified: 20111221004924
+tags: excludeLists systemConfig
+server.content-type: 
+server.page.revision: 12072
+server.type: tiddlyweb
+creator: mama
+server.etag: &quot;nested_public/NestedSlidersPlugin/12072:7de47ae8dd21c2818f30db5792d96f379db2d83d&quot;
+server.permissions: read
+server.title: NestedSlidersPlugin
+server.workspace: bags/nested_public
+_hash: af53f5c2f63e938fd6e8d63ad2646cda9e81da0c
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.bag: nested_public

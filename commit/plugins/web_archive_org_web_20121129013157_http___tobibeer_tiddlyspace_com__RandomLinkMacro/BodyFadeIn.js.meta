@@ -1,0 +1,17 @@
+title: BodyFadeIn
+modifier: tobibeer
+created: 20101008204514
+modified: 20101013223457
+tags: systemConfigDisable
+_hash: 0c98540d256fa884e338cc2d357e36680dadb881
+server.title: BodyFadeIn
+server.content-type: 
+server.recipe: tobibeer_public
+server.permissions: read
+server.bag: tobibeer_public
+server.type: tiddlyweb
+server.host: http://tobibeer.tiddlyspace.com
+creator: tobibeer
+server.page.revision: 221743
+server.workspace: bags/tobibeer_public
+server.etag: &quot;tobibeer_public/BodyFadeIn/221743:fe01a6a6d1e1941aec276defdd6eb5ce47c12e78&quot;

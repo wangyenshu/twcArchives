@@ -1,0 +1,17 @@
+title: TiddlySpaceRevisionView
+modifier: osmosoft
+created: 20130521140651
+modified: 20130521140651
+tags: excludeLists excludeMissing excludeSearch systemConfig
+server.recipe: bauwebijl_public
+server.page.revision: 1221950
+_hash: be83cfafd902bff89908e6f74d71228655be3490
+server.bag: system-plugins_public
+server.workspace: bags/system-plugins_public
+creator: osmosoft
+server.host: http://bauwebijl.tiddlyspace.com
+server.type: tiddlyweb
+server.etag: &quot;system-plugins_public/TiddlySpaceRevisionView/1221950:e251b5478a3f3a7639c693d92b526dda591cf8d4&quot;
+server.content-type: text/javascript
+server.permissions: read
+server.title: TiddlySpaceRevisionView

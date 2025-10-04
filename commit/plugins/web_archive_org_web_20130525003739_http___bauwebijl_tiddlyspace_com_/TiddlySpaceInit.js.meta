@@ -1,0 +1,17 @@
+title: TiddlySpaceInit
+modifier: osmosoft
+created: 20130521140656
+modified: 20130521140656
+tags: excludeLists excludeSearch systemConfig
+server.recipe: bauwebijl_public
+server.page.revision: 1221999
+_hash: 0baca74b80c811cbce22f743f24adcb54f2ad612
+server.bag: tiddlyspace
+server.workspace: bags/tiddlyspace
+creator: osmosoft
+server.host: http://bauwebijl.tiddlyspace.com
+server.type: tiddlyweb
+server.etag: &quot;tiddlyspace/TiddlySpaceInit/1221999:a7ef255d9d90a74e54e73cc3635816758a3b42af&quot;
+server.content-type: text/javascript
+server.permissions: read
+server.title: TiddlySpaceInit

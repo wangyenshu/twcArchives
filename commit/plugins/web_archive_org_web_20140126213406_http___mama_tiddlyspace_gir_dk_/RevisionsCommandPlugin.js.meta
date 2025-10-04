@@ -1,0 +1,17 @@
+title: RevisionsCommandPlugin
+modifier: FND
+created: 20110911181831
+modified: 20130312113259
+tags: excludeLists excludeSearch systemConfig
+server.content-type: text/javascript
+server.page.revision: 40145
+server.type: tiddlyweb
+creator: FND
+server.etag: &quot;system/RevisionsCommandPlugin/40145:980e354fc5f0baf75d3ed10acefcd271d0e04ce2&quot;
+server.permissions: read
+server.title: RevisionsCommandPlugin
+server.workspace: bags/system
+_hash: d36d2c8a7f8dd9a59dd54e772114a415b2c22979
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.bag: system

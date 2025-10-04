@@ -1,0 +1,17 @@
+title: TiddlySpaceFollowingSuggestions
+modifier: jon
+created: 20100819125340
+modified: 20101023122933
+tags: excludeLists systemConfig
+server.permissions: read
+server.page.revision: 71029
+server.workspace: bags/following_public
+server.bag: following_public
+creator: jon
+server.type: tiddlyweb
+_hash: 291998cecddc23b03d6a32434a784a0c1e80c02d
+server.host: http://pmario.tiddlyspace.com
+server.recipe: pmario_public
+server.title: TiddlySpaceFollowingSuggestions
+server.etag: &quot;following_public/TiddlySpaceFollowingSuggestions/71029:0307c3c28125f419c24754298e2dba7f331247a1&quot;
+server.content-type: 

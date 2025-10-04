@@ -1,0 +1,17 @@
+title: raphaeljs
+modifier: jon
+created: 20100806100756
+modified: 20101008172205
+tags: excludeLists systemConfig
+_hash: 25b8f9e2a8161041251168a65e2acaef26d75c2b
+server.title: raphaeljs
+server.content-type: 
+server.recipe: tobibeer_public
+server.permissions: read
+server.bag: charts_public
+server.type: tiddlyweb
+server.host: http://tobibeer.tiddlyspace.com
+creator: jon
+server.page.revision: 27326
+server.workspace: bags/charts_public
+server.etag: &quot;charts_public/raphaeljs/27326:c15507a0773e9551ccc8c5ff47c358574a5f8dc7&quot;

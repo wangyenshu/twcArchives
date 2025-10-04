@@ -1,0 +1,17 @@
+title: HideWhenPlugin
+modifier: tobibeer
+created: 20100918114157
+modified: 20100930151404
+tags: excludeLists systemConfig
+_hash: e4ffe87294e601cadc9daaf8da7e851f3a44dc59
+server.title: HideWhenPlugin
+server.content-type: 
+server.recipe: tobibeer_public
+server.permissions: read
+server.bag: hidewhenplugin_public
+server.type: tiddlyweb
+server.host: http://tobibeer.tiddlyspace.com
+creator: tobibeer
+server.page.revision: 84762
+server.workspace: bags/hidewhenplugin_public
+server.etag: &quot;hidewhenplugin_public/HideWhenPlugin/84762:ac869152e3e2dd761ac00204c13bcdded30e72e3&quot;

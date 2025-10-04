@@ -1,0 +1,17 @@
+title: MySearchPlugin
+modifier: mama
+created: 20111024062840
+modified: 20111024062840
+tags: excludeLists systemConfig
+server.content-type: 
+server.page.revision: 5659
+server.type: tiddlyweb
+creator: mama
+server.etag: &quot;soeg_public/MySearchPlugin/5659:ee86aa336712d860d7acf82e7f4503bae17d67c2&quot;
+server.permissions: read
+server.title: MySearchPlugin
+server.workspace: bags/soeg_public
+_hash: b85b6f28d52d1e764a7bf3e20a5f50dda69958d3
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.bag: soeg_public

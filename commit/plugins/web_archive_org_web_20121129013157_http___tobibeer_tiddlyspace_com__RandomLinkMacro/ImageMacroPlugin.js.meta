@@ -1,0 +1,17 @@
+title: ImageMacroPlugin
+modifier: jon
+created: 20121128171842
+modified: 20121128171842
+tags: excludeLists excludeSearch systemConfig
+_hash: 3f1696962a1dff3028ea1a4307d8b95c3b3ceb65
+server.title: ImageMacroPlugin
+server.content-type: text/javascript
+server.recipe: tobibeer_public
+server.permissions: read
+server.bag: tiddlyspace
+server.type: tiddlyweb
+server.host: http://tobibeer.tiddlyspace.com
+creator: jon
+server.page.revision: 970397
+server.workspace: bags/tiddlyspace
+server.etag: &quot;tiddlyspace/ImageMacroPlugin/970397:039de1e12498979728cf1f9167a909cfc37b69bb&quot;

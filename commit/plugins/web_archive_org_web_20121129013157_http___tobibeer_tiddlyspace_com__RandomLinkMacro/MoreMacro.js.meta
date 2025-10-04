@@ -1,0 +1,17 @@
+title: MoreMacro
+modifier: tobibeer
+created: 20100930134801
+modified: 20110220215511
+tags: systemConfig
+_hash: 2bd4c7e0067b0a03e5eb51257378ed57a56cd286
+server.title: MoreMacro
+server.content-type: 
+server.recipe: tobibeer_public
+server.permissions: read
+server.bag: tobibeer_public
+server.type: tiddlyweb
+server.host: http://tobibeer.tiddlyspace.com
+creator: tobibeer
+server.page.revision: 222250
+server.workspace: bags/tobibeer_public
+server.etag: &quot;tobibeer_public/MoreMacro/222250:65a50ae473a14d42e3d07021ce89dfaecd7bfa46&quot;

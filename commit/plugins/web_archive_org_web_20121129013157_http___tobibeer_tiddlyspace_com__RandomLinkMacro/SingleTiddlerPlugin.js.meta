@@ -1,0 +1,17 @@
+title: SingleTiddlerPlugin
+modifier: psd
+created: 20100715152314
+modified: 20100715152355
+tags: systemConfig
+_hash: 96e7d3bba32ced7853191a4fc29bde4ad39df88f
+server.title: SingleTiddlerPlugin
+server.content-type: 
+server.recipe: tobibeer_public
+server.permissions: read
+server.bag: singletiddler_public
+server.type: tiddlyweb
+server.host: http://tobibeer.tiddlyspace.com
+creator: psd
+server.page.revision: 193368
+server.workspace: bags/singletiddler_public
+server.etag: &quot;singletiddler_public/SingleTiddlerPlugin/193368:1991128658953562a9d410b5121b8e11ef47e816&quot;

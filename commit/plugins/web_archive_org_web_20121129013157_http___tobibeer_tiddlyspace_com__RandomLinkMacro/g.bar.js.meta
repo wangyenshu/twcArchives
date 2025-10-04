@@ -1,0 +1,17 @@
+title: g.bar
+modifier: jon
+created: 20100806102606
+modified: 20101008172222
+tags: excludeLists systemConfig
+_hash: b81a9e89cfadec0499e32fd292b511a9328a27b4
+server.title: g.bar
+server.content-type: 
+server.recipe: tobibeer_public
+server.permissions: read
+server.bag: charts_public
+server.type: tiddlyweb
+server.host: http://tobibeer.tiddlyspace.com
+creator: jon
+server.page.revision: 27302
+server.workspace: bags/charts_public
+server.etag: &quot;charts_public/g.bar/27302:550c79c91145b04487ab1eabaa78eb95f90d7cce&quot;

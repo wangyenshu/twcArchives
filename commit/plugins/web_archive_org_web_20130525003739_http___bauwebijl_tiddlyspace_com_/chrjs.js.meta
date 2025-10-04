@@ -1,0 +1,18 @@
+title: chrjs
+modifier: None
+created: 20130521140656
+modified: 20130521140656
+tags: excludeLists excludeSearch systemConfig
+_cache-max-age: 43200
+server.recipe: bauwebijl_public
+server.page.revision: 1221977
+_hash: 7623a191e31412d94a6385d1ead6679ac8bfd46e
+server.bag: tiddlyspace
+server.workspace: bags/tiddlyspace
+creator: None
+server.host: http://bauwebijl.tiddlyspace.com
+server.type: tiddlyweb
+server.etag: &quot;tiddlyspace/chrjs/1221977:3ae1cf0ac4af643184ab64f1c6d020f07adee68d&quot;
+server.content-type: text/javascript
+server.permissions: read
+server.title: chrjs

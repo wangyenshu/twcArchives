@@ -1,0 +1,7 @@
+<div title="MptwStandardTheme" modifier="MPTW" created="201306162218" modified="201306162244" tags="systemTheme">
+<pre>|Name|MptwStandard|
+|Description|Mptw Theme with the default TiddlyWiki PageLayout and Styles|
+|ViewTemplate|MptwTheme##ViewTemplate|
+|EditTemplate|MptwTheme##EditTemplate|
+</pre>
+</div>

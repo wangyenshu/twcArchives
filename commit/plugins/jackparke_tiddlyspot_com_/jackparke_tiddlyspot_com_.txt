@@ -1,0 +1,158 @@
+|Source|https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/jackparke_tiddlyspot_com_/jackparke_tiddlyspot_com_.txt|
+|Version|0.1|
+//{{{
+[
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/jackparke_tiddlyspot_com_/AllowOnlineEdit.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/jackparke_tiddlyspot_com_/ArchivePlugin.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/jackparke_tiddlyspot_com_/BreadCrumbsPlugin.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/jackparke_tiddlyspot_com_/CloseUnsavedOnCancel.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/jackparke_tiddlyspot_com_/ConfigOptionsMacro.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/jackparke_tiddlyspot_com_/DefinitionMacro.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/jackparke_tiddlyspot_com_/DeliciousTagging.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/jackparke_tiddlyspot_com_/DoBackupMacro.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/jackparke_tiddlyspot_com_/DropTaggingMacro.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/jackparke_tiddlyspot_com_/ExternalTiddlersPlugin.js",
+    "description": "retrieve and wikify content from external files or remote URLs"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/jackparke_tiddlyspot_com_/GotoPlugin.js",
+    "description": "view any tiddler by entering it's title - displays list of possible matches"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/jackparke_tiddlyspot_com_/Hacks.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/jackparke_tiddlyspot_com_/InlineTabsPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/jackparke_tiddlyspot_com_/LoadRemoteFileThroughProxy.js",
+    "description": "''When the TiddlyWiki file is located on the web (view over http) the content of [[SiteProxy]] tiddler is added in front of the file url. If [[SiteProxy]] does not exist \"/proxy/\" is added."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/jackparke_tiddlyspot_com_/MultiTagEditorPlugin.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/jackparke_tiddlyspot_com_/MyMacroMacro.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/jackparke_tiddlyspot_com_/NewFromTemplateMacro.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/jackparke_tiddlyspot_com_/PasswordOptionsPlugin.js",
+    "description": "''Extends TiddlyWiki options with non encrypted password option."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/jackparke_tiddlyspot_com_/PluginTemplate.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/jackparke_tiddlyspot_com_/PluralAliasPlugin.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/jackparke_tiddlyspot_com_/PublishMacro.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/jackparke_tiddlyspot_com_/ReferrersMacro.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/jackparke_tiddlyspot_com_/SQLQueryPlugin.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/jackparke_tiddlyspot_com_/SaveCloseMacro.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/jackparke_tiddlyspot_com_/SectionMacro.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/jackparke_tiddlyspot_com_/ShowParamsMacro.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/jackparke_tiddlyspot_com_/SimpleSearch.js",
+    "description": "''Description''displays search results as a simple list of matching tiddlers"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/jackparke_tiddlyspot_com_/SinglePageModePlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/jackparke_tiddlyspot_com_/TabEditPlugin.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/jackparke_tiddlyspot_com_/TagAdderMacro.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/jackparke_tiddlyspot_com_/TiddlerListMacro.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/jackparke_tiddlyspot_com_/TiddlerWithEditPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/jackparke_tiddlyspot_com_/TiddlersBarPlugin.js",
+    "description": "''A bar to switch between tiddlers through tabs (like browser tabs bar)."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/jackparke_tiddlyspot_com_/ToggleTagMacro.js",
+    "description": "Exampleh"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/jackparke_tiddlyspot_com_/TspotSetupPlugin.js",
+    "description": "Contains the stuff you need to use Tiddlyspot"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/jackparke_tiddlyspot_com_/UploadPlugin.js",
+    "description": "''Save to web a TiddlyWiki"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/jackparke_tiddlyspot_com_/WriteMacro.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/jackparke_tiddlyspot_com_/zzConfig.js",
+    "description": ""
+  }
+]
+//}}}

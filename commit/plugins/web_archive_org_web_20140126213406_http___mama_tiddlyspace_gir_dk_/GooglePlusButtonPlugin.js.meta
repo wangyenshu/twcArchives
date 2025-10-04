@@ -1,0 +1,17 @@
+title: GooglePlusButtonPlugin
+modifier: mama
+created: 20111208131832
+modified: 20111209141150
+tags: excludeLists excludeSearch systemConfig
+server.content-type: 
+server.page.revision: 10802
+server.type: tiddlyweb
+creator: mama
+server.etag: &quot;google-plus_public/GooglePlusButtonPlugin/10802:139890e87d355048fbf31372d2922ea8a311591c&quot;
+server.permissions: read
+server.title: GooglePlusButtonPlugin
+server.workspace: bags/google-plus_public
+_hash: 7143069bbc0663bb24201a07b47854c08c20afa2
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.bag: google-plus_public

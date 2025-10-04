@@ -1,0 +1,17 @@
+title: MySpacesPlugin
+modifier: jon
+created: 20100825210143
+modified: 20101109153741
+tags: excludeLists systemConfig
+server.permissions: read
+server.page.revision: 145654
+server.workspace: bags/myspaces_public
+server.bag: myspaces_public
+creator: jon
+server.type: tiddlyweb
+_hash: 9091961ccea2ada0645ef6e78116a6991f739783
+server.host: http://pmario.tiddlyspace.com
+server.recipe: pmario_public
+server.title: MySpacesPlugin
+server.etag: &quot;myspaces_public/MySpacesPlugin/145654:081a131a498a1968c3e5dedf804d98d32d0811ec&quot;
+server.content-type: 

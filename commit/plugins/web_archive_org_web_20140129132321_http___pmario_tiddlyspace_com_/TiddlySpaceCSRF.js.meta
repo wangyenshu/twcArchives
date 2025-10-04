@@ -1,0 +1,17 @@
+title: TiddlySpaceCSRF
+modifier: osmosoft
+created: 20131111192332
+modified: 20131111192332
+tags: excludeLists excludeSearch systemConfig
+server.permissions: read
+server.page.revision: 1521904
+server.workspace: bags/tiddlyspace
+server.bag: tiddlyspace
+creator: osmosoft
+server.type: tiddlyweb
+_hash: 10b0276ddc805a9489b6449c972bb1dc00fb9cf0
+server.host: http://pmario.tiddlyspace.com
+server.recipe: pmario_public
+server.title: TiddlySpaceCSRF
+server.etag: &quot;tiddlyspace/TiddlySpaceCSRF/1521904:04e7252f4a7632b6955d9274aada6f5b108c0ae3&quot;
+server.content-type: text/javascript

@@ -1,0 +1,114 @@
+|Source|https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090928220707_http___yann_perrin_googlepages_com_twkd_html/web_archive_org_web_20090928220707_http___yann_perrin_googlepages_com_twkd_html.txt|
+|Version|0.1|
+//{{{
+[
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090928220707_http___yann_perrin_googlepages_com_twkd_html/Batch.js",
+    "description": "''this framework allows you to easily create macros that work on the dislayed tiddlers"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090928220707_http___yann_perrin_googlepages_com_twkd_html/CalendarPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090928220707_http___yann_perrin_googlepages_com_twkd_html/CloseOnCancelPlugin.js",
+    "description": "Closes the tiddler if you click new tiddler then cancel. Default behaviour is to leave it open"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090928220707_http___yann_perrin_googlepages_com_twkd_html/ConfigTweaksPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090928220707_http___yann_perrin_googlepages_com_twkd_html/DatePlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090928220707_http___yann_perrin_googlepages_com_twkd_html/DatePluginConfig.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090928220707_http___yann_perrin_googlepages_com_twkd_html/E.A.S.E.js",
+    "description": "''this framework allows you to easily create commands that work on the current tiddler text selection in edit mode"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090928220707_http___yann_perrin_googlepages_com_twkd_html/ForEachTiddlerPlugin.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090928220707_http___yann_perrin_googlepages_com_twkd_html/HideWhenPlugin.js",
+    "description": "Allows conditional inclusion/exclusion in templates"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090928220707_http___yann_perrin_googlepages_com_twkd_html/N.E.W.S..js",
+    "description": "''this plugin ensure that tiddlers with the chosen tag that were modified since your last visit are displayed.>it also lists the tiddlers it manages as new or archived in a new shadowTiddler called [[NewsManager]]"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090928220707_http___yann_perrin_googlepages_com_twkd_html/N.E.W.S.Lingofr.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090928220707_http___yann_perrin_googlepages_com_twkd_html/NewDocumentPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090928220707_http___yann_perrin_googlepages_com_twkd_html/PolyGlotPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090928220707_http___yann_perrin_googlepages_com_twkd_html/QuickOpenTagPlugin.js",
+    "description": "Changes tag links to make it easier to open tags as tiddlers"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090928220707_http___yann_perrin_googlepages_com_twkd_html/RearrangeTiddlersPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090928220707_http___yann_perrin_googlepages_com_twkd_html/ReminderMacros.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090928220707_http___yann_perrin_googlepages_com_twkd_html/RenameTagsPlugin.js",
+    "description": "Allows you to easily rename or delete tags across multiple tiddlers"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090928220707_http___yann_perrin_googlepages_com_twkd_html/Send.js",
+    "description": "''this framework allows you to easily create macros that produce links referring to the current tiddler"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090928220707_http___yann_perrin_googlepages_com_twkd_html/TagglyTaggingPlugin.js",
+    "description": "tagglyTagging macro is a replacement for the builtin tagging macro in your ViewTemplate"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090928220707_http___yann_perrin_googlepages_com_twkd_html/TemplatedTagTools.js",
+    "description": "''this plugin replace the content of the tag popup with the one from TagToolTemplate (a new shadowTiddler).>It allows for quick and easy modification of this popup content (including some [[batchTagTools]] macros for example)"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090928220707_http___yann_perrin_googlepages_com_twkd_html/batchTagTools.js",
+    "description": "''These macros are designed to work on the displayed tiddlers tagged with the chosen tag>.You can see them in action in the tag tab from the content section of TWkd"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090928220707_http___yann_perrin_googlepages_com_twkd_html/batchTagToolsLingoFr.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090928220707_http___yann_perrin_googlepages_com_twkd_html/easyFormat.js",
+    "description": "''the format command format selection according to your choice"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090928220707_http___yann_perrin_googlepages_com_twkd_html/easySlicer.js",
+    "description": "''The slice command allows you to create microcontent tiddlers from bigger ones.>It turns selected text into a new independent tiddler, and replace it in the original tiddler with a reference to the newly created tiddler."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090928220707_http___yann_perrin_googlepages_com_twkd_html/easyTongue.js",
+    "description": "''The tongue command allows you to mark selection as being from the chosen language"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090928220707_http___yann_perrin_googlepages_com_twkd_html/lingoFR.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090928220707_http___yann_perrin_googlepages_com_twkd_html/socialBookmark.js",
+    "description": "''This macro will produce links to most of the social bookmarking sites>These will allow for quick posting of the current tiddler>feel free to (un)comment lines that begin with {{{SocialBookmark.addDestination}}} below to adapt it to your needs>you'll see an example output by looking at the bottom of most TWkd tiddlers (as i included the macro in my ViewTemplate)"
+  }
+]
+//}}}

@@ -1,0 +1,17 @@
+title: MessageFadeOut
+modifier: tobibeer
+created: 20100907221007
+modified: 20100930151451
+tags: excludeLists systemConfig
+_hash: bca3512293af668548dd60bff8ff9ac0812a5678
+server.title: MessageFadeOut
+server.content-type: 
+server.recipe: tobibeer_public
+server.permissions: read
+server.bag: messagefadeout_public
+server.type: tiddlyweb
+server.host: http://tobibeer.tiddlyspace.com
+creator: tobibeer
+server.page.revision: 141237
+server.workspace: bags/messagefadeout_public
+server.etag: &quot;messagefadeout_public/MessageFadeOut/141237:7dfe3a145705c1c844b65cb0aae3a91c278af9bb&quot;

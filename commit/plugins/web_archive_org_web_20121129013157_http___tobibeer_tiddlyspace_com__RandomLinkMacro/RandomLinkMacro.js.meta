@@ -1,0 +1,17 @@
+title: RandomLinkMacro
+modifier: tobibeer
+created: 20101002235423
+modified: 20111205191532
+tags: systemConfig
+_hash: 4f1ab48322980c20d8517c06810591f5c9147f91
+server.title: RandomLinkMacro
+server.content-type: 
+server.recipe: tobibeer_public
+server.permissions: read
+server.bag: tobibeer_public
+server.type: tiddlyweb
+server.host: http://tobibeer.tiddlyspace.com
+creator: tobibeer
+server.page.revision: 222678
+server.workspace: bags/tobibeer_public
+server.etag: &quot;tobibeer_public/RandomLinkMacro/222678:e54fa05aa447b00c5d902351ce664de5bb7c2df9&quot;

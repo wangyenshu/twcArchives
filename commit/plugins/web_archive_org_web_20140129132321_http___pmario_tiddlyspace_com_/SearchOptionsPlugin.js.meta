@@ -1,0 +1,17 @@
+title: SearchOptionsPlugin
+modifier: pmario
+created: 20100806192304
+modified: 20110925170911
+tags: excludeLists systemConfig
+server.permissions: read
+server.page.revision: 146443
+server.workspace: bags/neui-em_public
+server.bag: neui-em_public
+creator: pmario
+server.type: tiddlyweb
+_hash: 127133795e34c47c48286d374a7976f431470754
+server.host: http://pmario.tiddlyspace.com
+server.recipe: pmario_public
+server.title: SearchOptionsPlugin
+server.etag: &quot;neui-em_public/SearchOptionsPlugin/146443:6a4b040542711e8a4fef7491c83cb3b15f8f358d&quot;
+server.content-type: 

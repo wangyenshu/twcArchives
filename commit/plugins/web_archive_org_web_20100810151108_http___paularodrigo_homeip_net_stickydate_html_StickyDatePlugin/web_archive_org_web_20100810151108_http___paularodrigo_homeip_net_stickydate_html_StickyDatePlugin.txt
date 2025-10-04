@@ -1,0 +1,10 @@
+|Source|https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20100810151108_http___paularodrigo_homeip_net_stickydate_html_StickyDatePlugin/web_archive_org_web_20100810151108_http___paularodrigo_homeip_net_stickydate_html_StickyDatePlugin.txt|
+|Version|0.1|
+//{{{
+[
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20100810151108_http___paularodrigo_homeip_net_stickydate_html_StickyDatePlugin/StickyDatePlugin.js",
+    "description": "!Description"
+  }
+]
+//}}}

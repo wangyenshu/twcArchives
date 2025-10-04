@@ -1,0 +1,17 @@
+title: ToggleSideBarTB
+modifier: tobibeer
+created: 20100918125332
+modified: 20100930152138
+tags: excludeLists systemConfig
+_hash: 6017651708b508494a8b57643b205c1144e6f49c
+server.title: ToggleSideBarTB
+server.content-type: 
+server.recipe: tobibeer_public
+server.permissions: read
+server.bag: togglesidebartb_public
+server.type: tiddlyweb
+server.host: http://tobibeer.tiddlyspace.com
+creator: tobibeer
+server.page.revision: 223956
+server.workspace: bags/togglesidebartb_public
+server.etag: &quot;togglesidebartb_public/ToggleSideBarTB/223956:820f82636c47f86aa0b7af1abf6837217b377474&quot;

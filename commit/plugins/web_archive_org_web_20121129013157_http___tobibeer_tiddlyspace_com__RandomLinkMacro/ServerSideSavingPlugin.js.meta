@@ -1,0 +1,17 @@
+title: ServerSideSavingPlugin
+modifier: FND
+created: 20121128171840
+modified: 20121128171840
+tags: excludeLists excludeSearch systemConfig
+_hash: d72cde071d926d9c66939444817d7e8621d24d9c
+server.title: ServerSideSavingPlugin
+server.content-type: text/javascript
+server.recipe: tobibeer_public
+server.permissions: read
+server.bag: system
+server.type: tiddlyweb
+server.host: http://tobibeer.tiddlyspace.com
+creator: FND
+server.page.revision: 970296
+server.workspace: bags/system
+server.etag: &quot;system/ServerSideSavingPlugin/970296:2b07114fa225ab317d3efd85d51cff145e51d662&quot;

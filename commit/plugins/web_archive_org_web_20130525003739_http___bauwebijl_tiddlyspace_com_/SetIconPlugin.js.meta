@@ -1,0 +1,17 @@
+title: SetIconPlugin
+modifier: bauwebijl
+created: 20101004113805
+modified: 20101004113805
+tags: excludeMissing excludeSearch systemConfig
+server.recipe: bauwebijl_public
+server.page.revision: 191271
+_hash: a7100af0ec6a672d8a3e6e240449f6814cc12889
+server.bag: seticonplugin_public
+server.workspace: bags/seticonplugin_public
+creator: bauwebijl
+server.host: http://bauwebijl.tiddlyspace.com
+server.type: tiddlyweb
+server.etag: &quot;seticonplugin_public/SetIconPlugin/191271:54fb54b66d1b4b46c9cce87c41e787a9e2335a33&quot;
+server.content-type: 
+server.permissions: read
+server.title: SetIconPlugin
