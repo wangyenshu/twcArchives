@@ -1,0 +1,150 @@
+|Source|https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw2_tiddlyspot_com__Plugins/mptw2_tiddlyspot_com__Plugins.txt|
+|Version|0.1|
+//{{{
+[
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw2_tiddlyspot_com__Plugins/AmPmTimeFormat.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw2_tiddlyspot_com__Plugins/AutoCorrectPlugin.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw2_tiddlyspot_com__Plugins/BigThemePack.js",
+    "description": "config.shadowTiddlers.GTDd3StyleSheet = \"/***\\n!GTD specific styles\\n***/\\n\\n/*{{{*/\\n\\n/* the tagging popup really gets in the way so push it off to the side */\\n.tagging { float: right; }\\n\\n/* this unbullets actions in the actionList macro */\\nul.gtdActionList { list-style-type: none; }\\nli.gtdActionListProject, li.gtdActionListContext { margin-top: 1.0em; }\\n\\n.gtdCompletedActionItem { text-decoration: line-through; }\\n.gtdNextActionItem { border-bottom: 1px solid red; }\\n\\n/*}}}*/\\n\\n/***\\n!Imported 3x5 printing styles\\n//adapted from the work of Clint Checketts, http://www.checkettsweb.com/tw/gtd_tiddlywiki.htm //\\n***/\\n\\n/*{{{*/\\n\\n@media print {\\n#mainMenu, #sidebar, #messageArea {display: none !important;}\\n#displayArea {margin: 1em 1em 0em 1em;}\\n\\n\\n/* LAYOUT ELEMENTS ========================================================== */\\n*\\n{\\n margin: 0;\\n padding: 0;\\n}\\n\\n#contentWrapper\\n{\\n margin: 0;\\n width: 100%;\\n position: static;\\n}\\n\\nbody {\\n background: #fff;\\n color: #000;\\n font-size: 6.2pt;\\n font-family: \\\"Lucida Grande\\\", \\\"Bitstream Vera Sans\\\", Helvetica, Verdana, Arial, sans-serif;\\n}\\n\\nimg {\\n max-width: 2.2in;\\n max-height: 4.3in;\\n}\\n\\n#header, #side_container, #storeArea, #copyright, #floater, #messageArea, .save_accesskey, .site_description, #saveTest, .toolbar, .header, .footer, .tagging, .tagged\\n{\\n display: none;\\n}\\n\\n#tiddlerDisplay, #displayArea\\n{\\n display: inline;\\n}\\n\\n.tiddler {\\n margin: 0 0 2em 0;\\n border-top: 1px solid #000;\\n page-break-before: always;\\n}\\n\\n.tiddler:first-child {\\n page-break-before: ;\\n}\\n\\n.title {\\n font-size: 1.6em;\\n font-weight: bold;\\n margin-bottom: .3em;\\n padding: .2em 0;\\n border-bottom: 1px dotted #000;\\n}\\n\\np, blockquote, ul, li, ol, dt, dd, dl, table\\n{\\n margin: 0 0 .3em 0;\\n}\\n\\nh1, h2, h3, h4, h5, h6\\n{\\n margin: .2em 0;\\n} \\n\\nh1\\n{\\n font-size: 1.5em;\\n}\\n\\nh2\\n{\\n font-size: 1.3em;\\n}\\n\\nh3\\n{\\n font-size: 1.25em;\\n}\\n\\nh4\\n{\\n font-size: 1.15em;\\n}\\n\\nh5\\n{\\n font-size: 1.1em;\\n}\\n\\nblockquote\\n{\\n margin: .6em;\\n padding-left: .6em;\\n border-left: 1px solid #ccc;\\n}\\n\\nul\\n{\\n list-style-type: circle;\\n}\\n\\nli\\n{\\n margin: .1em 0 .1em 2em;\\n line-height: 1.4em; \\n}\\n\\ntable\\n{\\n border-collapse: collapse;\\n font-size: 1em;\\n}\\n\\ntd, th\\n{\\n border: 1px solid #999;\\n padding: .2em;\\n}\\n\\nhr {\\n border: none;\\n border-top: dotted 1px #777;\\n height: 1px;\\n color: #777;\\n margin: .6em 0;\\n}\\n}\\n/*}}}*/\\n\\n/***\\n!Imported styles for calendar plugin\\n***/\\n\\n/*{{{*/\\n.calendar{\\n border-bottom: 1px solid #550000;\\n}\\n\\n.viewer .calendar{\\n width: 220px;\\n}\\n\\n#mainMenu .calendar{\\n font-size: 8px;\\n cursor: pointer;\\n width: 100%;\\n border: 0;\\n border-collapse: collapse;\\n}\\n\\n#mainMenu .calendar .button{\\n border: 0;\\n}\\n\\n#mainMenu .calendar td{\\n font-size: 8pt;\\n padding: 0;\\n background: #fff;\\n border: 0;\\n}\\n\\n#mainMenu .calendar a{\\n margin: 0;\\n color: #000;\\n background: transparent;\\n}\\n\\n#mainMenu .calendar a:hover{\\n color: #000;\\n background: transparent;\\n}\\n\\n#mainMenu .calendarMonthname,\\n#mainMenu .calendar .calendarMonthTitle td a{\\n color: #fff;\\n}\\n\\n#mainMenu .calendarDaysOfWeek td{\\n background: #500;\\n color: #fff;\\n}\\n/*}}}*/\\n\\n\\n/***\\n!Layout Rules /%==============================================%/\\n***/\\n/*{{{*/\\n\\nbody { position: static; }\\n\\n.headerForeground, .headerShadow {\\n padding-top: 1em;\\n}\\n\\n.tiddler {\\n margin: 0 0 0.9em 0;\\n padding-bottom: 1em;\\n}\\n\\n#mainMenu {\\n width: 16em;\\n font-size: 1em;\\n text-align: left;\\n}\\n\\n#mainMenu * {\\n font-size: 1em;\\n font-weight: normal;\\n padding: 0; margin: 0; border: 0;\\n}\\n\\n#mainMenu ul {\\n list-style: none;\\n margin-bottom: 10px;\\n}\\n\\n#mainMenu li {\\n text-indent: 1em;\\n}\\n\\n#mainMenu a.button, #mainMenu a.tiddlyLink, #mainMenu a.externalLink {\\n display: block; margin: 0;\\n}\\n\\n#displayArea {\\n margin-left: 19em;\\n}\\n\\n/*}}}*/\\n\\n/***\\n!Colors Used\\n*@@bgcolor(#8cf): #8cf - Background blue@@\\n*@@bgcolor(#18f): #18f - Top blue@@\\n*@@bgcolor(#04b): #04b - Mid blue@@\\n*@@bgcolor(#014):color(#fff): #014 - Bottom blue@@\\n*@@bgcolor(#ffc): #ffc - Bright yellow@@\\n*@@bgcolor(#fe8): #fe8 - Highlight yellow@@\\n*@@bgcolor(#db4): #db4 - Background yellow@@\\n*@@bgcolor(#841): #841 - Border yellow@@\\n*@@bgcolor(#703):color(#fff): #703 - Title red@@\\n*@@bgcolor(#866): #866 - Subtitle grey@@\\n!Generic Rules /%==============================================%/\\n***/\\n/*{{{*/\\nbody {\\n background: #464646;\\n color: #000;\\n}\\n\\na{\\n color: #04b;\\n}\\n\\na:hover{\\n background: #04b;\\n color: #fff;\\n}\\n\\na img{\\n border: 0;\\n}\\n\\nh1,h2,h3,h4,h5 {\\n color: #000;\\n background: #eee;\\n}\\n\\n.button {\\n color: #014;\\n border: 1px solid #fff;\\n}\\n\\n.button:hover {\\n color: #014;\\n background: #fe8;\\n border-color: #db4;\\n}\\n\\n.button:active {\\n color: #fff;\\n background: #db4;\\n border: 1px solid #841;\\n}\\n\\n/*}}}*/\\n/***\\n!Header /%==================================================%/\\n***/\\n/*{{{*/\\n.header {\\n background: #000;\\n}\\n\\n.headerShadow {\\n color: #000;\\n}\\n\\n.headerShadow a {\\n font-weight: normal;\\n color: #000;\\n}\\n\\n.headerForeground {\\n color: #cf6;\\n}\\n\\n.headerForeground a {\\n font-weight: normal;\\n color: #cf6;\\n}\\n\\n/* ??? what is up when you specify a site title colour in IE ??? */\\n/* .siteTitle { color: red; } */\\n\\n/*}}}*/\\n/***\\n!General tabs /%=================================================%/\\n***/\\n/*{{{*/\\n\\n.tabSelected {\\n color: #fff;\\n background: #960;\\n border: none;\\n}\\n\\n.tabUnselected {\\n color: #fff;\\n background: #660;\\n}\\n\\n.tabContents {\\n color: #004;\\n background: #960;\\n border: none;\\n}\\n\\n.tabContents .button, .tabContents a {\\n border: none;\\n color: #fff;\\n}\\n\\n.tabContents a:hover, .tabset a:hover {\\n background: #000;\\n}\\n\\n/* make nested tab areas look different */\\n.tabContents .tabSelected, .tabContents .tabContents {\\n background: #700;\\n color: #fff;\\n}\\n\\n.tabContents .tabContents {\\n color: #eeb;\\n}\\n\\n/*}}}*/\\n/***\\n!Main Menu /%=================================================%/\\n***/\\n/*{{{*/\\n#mainMenu {\\n background: #700;\\n color: #fff;\\n border-right: 3px solid #500;\\n}\\n\\n#mainMenu * {\\n color: #fff;\\n}\\n\\n#mainMenu a.button, #mainMenu a.tiddlyLink, #mainMenu a.externalLink {\\n border: none;\\n border-bottom: 1px solid #500;\\n border-top: 1px solid #900;\\n}\\n\\n#mainMenu a:hover,\\n#mainMenu a.button:hover {\\n background-color: #b00;\\n color: #fff;\\n}\\n\\n/*}}}*/\\n/***\\n!Sidebar options /%=================================================%/\\n~TiddlyLinks and buttons are treated identically in the sidebar and slider panel\\n***/\\n/*{{{*/\\n#sidebar {\\n color: #000;\\n background: #eeb;\\n border-right: 3px solid #bb8;\\n border-bottom: 3px solid #520;\\n}\\n\\n#sidebarOptions input {\\n border: 1px solid #04b;\\n}\\n\\n#sidebarOptions .sliderPanel {\\n background: #fff;\\n}\\n\\n#sidebarOptions .sliderPanel a {\\n border: none;\\n color: #700;\\n}\\n\\n#sidebarOptions .sliderPanel a:hover {\\n color: #fff;\\n background: #700;\\n}\\n\\n#sidebarOptions .sliderPanel a:active {\\n color: #700;\\n background: #fff;\\n}\\n\\n#sidebarOptions a {\\n color: #700;\\n border: none;\\n}\\n\\n#sidebarOptions a:hover, #sidebarOptions a:active {\\n color: #fff;\\n background: #700;\\n}\\n\\n/*}}}*/\\n/***\\n!Message Area /%=================================================%/\\n***/\\n/*{{{*/\\n#messageArea {\\n border-right: 3px solid #da1;\\n border-bottom: 3px solid #a80;\\n background: #ffe72f;\\n color: #014;\\n}\\n\\n#messageArea .button {\\n padding: 0.2em 0.2em 0.2em 0.2em;\\n color: #014;\\n background: #fff;\\n}\\n\\n/*}}}*/\\n/***\\n!Popup /%=================================================%/\\n***/\\n/*{{{*/\\n.popup {\\n background: #333;\\n border: none;\\n}\\n\\n.popup hr {\\n color: #000;\\n}\\n\\n.popup li.disabled {\\n color: #666;\\n background: #cf6;\\n}\\n\\n.popup li a, .popup li a:visited {\\n color: #000;\\n border: 1px outset #cf6;\\n background: #cf6;\\n}\\n\\n.popup li a:hover {\\n color: #000;\\n border: 1px outset #cf6;\\n background: #ef9;\\n}\\n/*}}}*/\\n/***\\n!Tiddler Display /%=================================================%/\\n***/\\n/*{{{*/\\n.tiddler {\\n background: #fff;\\n border-right: 3px solid #aaa;\\n border-bottom: 3px solid #555;\\n}\\n\\n.tiddler .defaultCommand {\\n font-weight: bold;\\n}\\n\\n.shadow .title {\\n color: #866;\\n}\\n\\n.title {\\n color: #900;\\n}\\n\\n.subtitle {\\n color: #866;\\n}\\n\\n.toolbar {\\n color: #000;\\n}\\n\\n.toolbar .button {\\n background: #cf6;\\n border: 1px outset #cf6;\\n}\\n\\n.toolbar .button:hover {\\n background: #ef9;\\n}\\n\\n.tagging, .tagged {\\n border: 1px solid #eee;\\n background-color: #eee;\\n}\\n\\n.selected .tagging, .selected .tagged {\\n background-color: #ddd;\\n border: 1px solid #bbb;\\n}\\n\\n.tagging .listTitle, .tagged .listTitle {\\n color: #014;\\n}\\n\\n.tagging .button, .tagged .button {\\n border: none;\\n}\\n\\n.footer {\\n color: #ddd;\\n}\\n\\n.selected .footer {\\n color: #888;\\n}\\n\\n.sparkline {\\n background: #8cf;\\n border: 0;\\n}\\n\\n.sparktick {\\n background: #014;\\n}\\n\\n.errorButton {\\n color: #ff0;\\n background: #f00;\\n}\\n\\n.cascade {\\n background: #eef;\\n color: #aac;\\n border: 1px solid #aac;\\n}\\n\\n.imageLink, #displayArea .imageLink {\\n background: transparent;\\n}\\n\\n/*}}}*/\\n/***\\n''The viewer is where the tiddler content is displayed'' /%------------------------------------------------%/\\n***/\\n/*{{{*/\\n\\n.viewer .listTitle {list-style-type: none; margin-left: -2em;}\\n\\n.viewer .button {\\n border: 1px solid #db4;\\n}\\n\\n.viewer blockquote {\\n border-left: 3px solid #666;\\n}\\n\\n.viewer table {\\n border: 2px solid #333;\\n}\\n\\n.viewer th, thead td {\\n background: #db4;\\n border: 1px solid #666;\\n color: #fff;\\n}\\n\\n.viewer td, .viewer tr {\\n border: 1px solid #666;\\n}\\n\\n.viewer pre {\\n border: 1px solid #fe8;\\n background: #ffc;\\n}\\n\\n.viewer code {\\n color: #703;\\n}\\n\\n.viewer hr {\\n border: 0;\\n border-top: dashed 1px #666;\\n color: #666;\\n}\\n\\n.highlight, .marked {\\n background: #fe8;\\n}\\n/*}}}*/\\n/***\\n''The editor replaces the viewer in the tiddler'' /%------------------------------------------------%/\\n***/\\n/*{{{*/\\n.editor input {\\n border: 1px solid #04b;\\n}\\n\\n.editor textarea {\\n border: 1px solid #04b;\\n width: 100%;\\n}\\n\\n.editorFooter {\\n color: #aaa;\\n}\\n\\n/*}}}*/\\n/***\\n!Personal preferences\\n***/\\n\\n/*{{{*/\\n/* not required, but the menu looks a whole lot nicer flushed left */\\n#mainMenu { text-align: left; }\\n/* make input fields in viewer (options) show up in correct size */\\n.viewer input { font-size: 0.9em; }\\n/*}}}*/\\n\";"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw2_tiddlyspot_com__Plugins/Clock2.js",
+    "description": "A skinnable, sizeable analog clock"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw2_tiddlyspot_com__Plugins/CloseUnsavedOnCancel.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw2_tiddlyspot_com__Plugins/CodeHighlightMacro.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw2_tiddlyspot_com__Plugins/ConfigTweaks.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw2_tiddlyspot_com__Plugins/DropDownTagChooser.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw2_tiddlyspot_com__Plugins/FlickrGreetingMacro.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw2_tiddlyspot_com__Plugins/ForEachTiddlerPlugin.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw2_tiddlyspot_com__Plugins/HelloWorldMacro.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw2_tiddlyspot_com__Plugins/HideWhen.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw2_tiddlyspot_com__Plugins/ImportTiddlersPlugin.js",
+    "description": "e.toString()); }"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw2_tiddlyspot_com__Plugins/InstantTimestamp.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw2_tiddlyspot_com__Plugins/KubrickTheme.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw2_tiddlyspot_com__Plugins/NestedSlidersPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw2_tiddlyspot_com__Plugins/NewDocumentPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw2_tiddlyspot_com__Plugins/NewHereCommand.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw2_tiddlyspot_com__Plugins/PositionAdsense.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw2_tiddlyspot_com__Plugins/QuickOpenTagPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw2_tiddlyspot_com__Plugins/RearrangeTiddlersPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw2_tiddlyspot_com__Plugins/RefreshCommand.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw2_tiddlyspot_com__Plugins/RenameTagsPlugin.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw2_tiddlyspot_com__Plugins/RunMacroIfTagged.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw2_tiddlyspot_com__Plugins/SelectThemePlugin.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw2_tiddlyspot_com__Plugins/ShowClockMacro.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw2_tiddlyspot_com__Plugins/ShowExampleMacro.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw2_tiddlyspot_com__Plugins/SiteMapMacro.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw2_tiddlyspot_com__Plugins/TWUpdate.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw2_tiddlyspot_com__Plugins/TagUtils.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw2_tiddlyspot_com__Plugins/TagglyListPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw2_tiddlyspot_com__Plugins/TiddlerExcerptTooltip.js",
+    "description": "Make tooltip of tiddler links the first line or excerpt of the tiddler content"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw2_tiddlyspot_com__Plugins/ToggleTagMacro.js",
+    "description": "Exampleh"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw2_tiddlyspot_com__Plugins/UploadPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw2_tiddlyspot_com__Plugins/ViewHtml.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw2_tiddlyspot_com__Plugins/WikifyContentsMacro.js",
+    "description": ""
+  }
+]
+//}}}

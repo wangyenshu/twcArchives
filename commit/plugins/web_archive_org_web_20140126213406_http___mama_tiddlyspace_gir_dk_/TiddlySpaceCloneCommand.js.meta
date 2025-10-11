@@ -1,0 +1,17 @@
+title: TiddlySpaceCloneCommand
+modifier: osmosoft
+created: 20110911181831
+modified: 20130305161747
+tags: excludeLists excludeSearch systemConfig
+server.etag: &quot;tiddlyspace/TiddlySpaceCloneCommand/40180:23d3ee2776f9f3ea54d5602403db41c414428e4a&quot;
+server.title: TiddlySpaceCloneCommand
+_hash: 3ecfd7c955dc674752681565ad0ed68f8fcad5d9
+creator: osmosoft
+server.page.revision: 40180
+server.host: http://mama.tiddlyspace.gir.dk
+server.type: tiddlyweb
+server.permissions: read
+server.bag: tiddlyspace
+server.workspace: bags/tiddlyspace
+server.content-type: text/javascript
+server.recipe: mama_public

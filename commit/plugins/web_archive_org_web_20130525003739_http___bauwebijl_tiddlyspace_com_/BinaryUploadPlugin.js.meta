@@ -1,0 +1,17 @@
+title: BinaryUploadPlugin
+modifier: osmosoft
+created: 20130521140651
+modified: 20130521140651
+tags: excludeLists excludeSearch systemConfig
+server.type: tiddlyweb
+server.etag: &quot;system-plugins_public/BinaryUploadPlugin/1221951:bffc25e220fc8f5397d2e5db88f200e013d604cf&quot;
+server.permissions: read
+server.bag: system-plugins_public
+server.recipe: bauwebijl_public
+creator: osmosoft
+server.page.revision: 1221951
+server.workspace: bags/system-plugins_public
+server.title: BinaryUploadPlugin
+_hash: fa2a79fa940254cf1cdd7980c85b5efd0eff0ce5
+server.host: http://bauwebijl.tiddlyspace.com
+server.content-type: text/javascript

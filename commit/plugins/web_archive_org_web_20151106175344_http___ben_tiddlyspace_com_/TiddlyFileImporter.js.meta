@@ -1,0 +1,17 @@
+title: TiddlyFileImporter
+modifier: None
+created: 20131111192332
+modified: 20131111192332
+tags: excludeLists excludeSearch systemConfig
+_hash: 948bb64604a46205267e446af0f638c4e8fc3c8e
+creator: None
+server.permissions: read
+server.page.revision: 1521907
+server.recipe: ben_public
+server.workspace: bags/tiddlyspace
+server.content-type: text/javascript
+server.bag: tiddlyspace
+server.type: tiddlyweb
+server.title: TiddlyFileImporter
+server.host: http://ben.tiddlyspace.com
+server.etag: &quot;tiddlyspace/TiddlyFileImporter/1521907:4024c4e237b31c898dccfce2c93391b97e5d087f&quot;

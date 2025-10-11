@@ -1,0 +1,18 @@
+title: TiddlySpaceIntraSpaceInclusion
+modifier: jon
+created: 20110715090356
+modified: 20120327114416
+tags: excludeLists excludeSearch systemConfig
+server.page.revision: 654521
+summary: 
+server.permissions: read
+_hash: c234a90d99d92755c64fffcea9a4dd412f6b5f3c
+server.host: http://tobibeer.tiddlyspace.com
+server.type: tiddlyweb
+creator: jon
+server.content-type: 
+server.bag: following_public
+server.recipe: tobibeer_public
+server.workspace: bags/following_public
+server.title: TiddlySpaceIntraSpaceInclusion
+server.etag: &quot;following_public/TiddlySpaceIntraSpaceInclusion/654521:88b0bb8d3cf4019194f6cf78458f791154850058&quot;

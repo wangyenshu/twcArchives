@@ -1,0 +1,18 @@
+title: chrjs
+modifier: None
+created: 20110911181831
+modified: 20130305161747
+tags: excludeLists excludeSearch systemConfig
+server.etag: &quot;tiddlyspace/chrjs/40179:fb2fed5b412ffc435c5e8ebfaf873a98b49c7a45&quot;
+server.title: chrjs
+_cache-max-age: 43200
+_hash: 7623a191e31412d94a6385d1ead6679ac8bfd46e
+creator: None
+server.page.revision: 40179
+server.host: http://mama.tiddlyspace.gir.dk
+server.type: tiddlyweb
+server.permissions: read
+server.bag: tiddlyspace
+server.workspace: bags/tiddlyspace
+server.content-type: text/javascript
+server.recipe: mama_public

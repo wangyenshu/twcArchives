@@ -1,0 +1,17 @@
+title: SimpleSearchPlugin
+modifier: tobibeer
+created: 20100907220237
+modified: 20100930151824
+tags: excludeLists systemConfig
+server.page.revision: 193177
+server.permissions: read
+_hash: 641c9fba55b0309e357115b9476cb8b18707fee3
+server.host: http://tobibeer.tiddlyspace.com
+server.type: tiddlyweb
+creator: tobibeer
+server.content-type: 
+server.bag: simplesearchplugin_public
+server.recipe: tobibeer_public
+server.workspace: bags/simplesearchplugin_public
+server.title: SimpleSearchPlugin
+server.etag: &quot;simplesearchplugin_public/SimpleSearchPlugin/193177:99ffff32c7d2bdd1dc18cbcdf21f20c0bcf7ca13&quot;

@@ -1,0 +1,10 @@
+title: IsDirtyPlugin
+modifier: YourName
+created: 200703132048
+modified: 201112121633
+tags: NewsWiki systemConfig
+server.type: file
+server.host: http://TiddlyHome.bidix.info/systemServer/NewsWiki.html
+server.page.revision: 200705202029
+changecount: 2
+date: 

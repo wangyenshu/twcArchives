@@ -1,0 +1,17 @@
+title: TagSearchPlugin
+modifier: pmario
+created: 20110712230810
+modified: 20110712231111
+tags: excludeLists systemConfig
+server.title: TagSearchPlugin
+server.type: tiddlyweb
+_hash: e5bc701c2f127d76816dd32f9a087e477f31f9ae
+server.workspace: bags/neui-tagsearch_public
+server.host: http://pmario.tiddlyspace.com
+server.content-type: 
+server.page.revision: 146774
+server.permissions: read
+server.recipe: pmario_public
+server.etag: &quot;neui-tagsearch_public/TagSearchPlugin/146774:f984a8cb88db97c7ea999608c74dd486bc7d8101&quot;
+server.bag: neui-tagsearch_public
+creator: pmario

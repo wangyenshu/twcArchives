@@ -1,0 +1,17 @@
+title: BinaryTiddlersPlugin
+modifier: FND
+created: 20110911181831
+modified: 20130312113259
+tags: excludeLists excludeSearch systemConfig
+server.etag: &quot;system/BinaryTiddlersPlugin/40149:a7e857a1e07bedd44f999298c44a3a554b786325&quot;
+server.title: BinaryTiddlersPlugin
+_hash: bb68b191fd5952b1143b48759d222ac59d2fbc01
+creator: FND
+server.page.revision: 40149
+server.host: http://mama.tiddlyspace.gir.dk
+server.type: tiddlyweb
+server.permissions: read
+server.bag: system
+server.workspace: bags/system
+server.content-type: text/javascript
+server.recipe: mama_public

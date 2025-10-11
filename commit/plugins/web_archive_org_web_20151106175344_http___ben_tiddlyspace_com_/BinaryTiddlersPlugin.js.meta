@@ -1,0 +1,17 @@
+title: BinaryTiddlersPlugin
+modifier: FND
+created: 20130924180405
+modified: 20130924180405
+tags: excludeLists excludeSearch systemConfig
+_hash: bb40914e9b2e79bd868d4c824ef8e42e617f4309
+creator: FND
+server.permissions: read
+server.page.revision: 1521855
+server.recipe: ben_public
+server.workspace: bags/system
+server.content-type: text/javascript
+server.bag: system
+server.type: tiddlyweb
+server.title: BinaryTiddlersPlugin
+server.host: http://ben.tiddlyspace.com
+server.etag: &quot;system/BinaryTiddlersPlugin/1521855:8a98c29c9bbdc28ce82e8da2279bd3186c77c512&quot;

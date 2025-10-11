@@ -1,0 +1,17 @@
+title: TiddlyFileImporter
+modifier: None
+created: 20130521140656
+modified: 20130521140656
+tags: excludeLists excludeSearch systemConfig
+server.type: tiddlyweb
+server.etag: &quot;tiddlyspace/TiddlyFileImporter/1221997:3d34df37031af3119873a2d0c760d29154113a82&quot;
+server.permissions: read
+server.bag: tiddlyspace
+server.recipe: bauwebijl_public
+creator: None
+server.page.revision: 1221997
+server.workspace: bags/tiddlyspace
+server.title: TiddlyFileImporter
+_hash: 948bb64604a46205267e446af0f638c4e8fc3c8e
+server.host: http://bauwebijl.tiddlyspace.com
+server.content-type: text/javascript

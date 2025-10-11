@@ -1,0 +1,10 @@
+|Source|https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20101021093750_http___www_anshul_info_blogwiki_html/web_archive_org_web_20101021093750_http___www_anshul_info_blogwiki_html.txt|
+|Version|0.1|
+//{{{
+[
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20101021093750_http___www_anshul_info_blogwiki_html/Blog_plugin.js",
+    "description": "'' Posts the most recently edited tiddlers when the TiddlyWiki is opened, similar to a blog."
+  }
+]
+//}}}

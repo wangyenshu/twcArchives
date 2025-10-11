@@ -1,0 +1,17 @@
+title: TiddlyWebConfig
+modifier: FND
+created: 20130924180405
+modified: 20130924180405
+tags: excludeLists excludeSearch systemConfig
+server.title: TiddlyWebConfig
+server.type: tiddlyweb
+_hash: 29e43eb7496ba0572556029d183cb3f434369f04
+server.workspace: bags/system
+server.host: http://pmario.tiddlyspace.com
+server.content-type: text/javascript
+server.page.revision: 1521857
+server.permissions: read
+server.recipe: pmario_public
+server.etag: &quot;system/TiddlyWebConfig/1521857:f7d074a888102d4409504bab379404d3e1d2fe7c&quot;
+server.bag: system
+creator: FND

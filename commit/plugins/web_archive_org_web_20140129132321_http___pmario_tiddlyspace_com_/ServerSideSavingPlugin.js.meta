@@ -1,0 +1,17 @@
+title: ServerSideSavingPlugin
+modifier: FND
+created: 20130924180405
+modified: 20130924180405
+tags: excludeLists excludeSearch systemConfig
+server.title: ServerSideSavingPlugin
+server.type: tiddlyweb
+_hash: d72cde071d926d9c66939444817d7e8621d24d9c
+server.workspace: bags/system
+server.host: http://pmario.tiddlyspace.com
+server.content-type: text/javascript
+server.page.revision: 1521853
+server.permissions: read
+server.recipe: pmario_public
+server.etag: &quot;system/ServerSideSavingPlugin/1521853:2510cae241287f22ed14e1fc0940c5857d1b3bfb&quot;
+server.bag: system
+creator: FND

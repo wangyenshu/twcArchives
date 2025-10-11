@@ -1,0 +1,17 @@
+title: ErrorHandler
+modifier: osmosoft
+created: 20110911181831
+modified: 20130305161747
+tags: excludeLists excludeSearch systemConfig
+server.etag: &quot;tiddlyspace/ErrorHandler/40168:f50df0e8e0a0466a7bce2ead98df02e3252cec2c&quot;
+server.title: ErrorHandler
+_hash: ffff853197a5561dfaef34fd40efbb0c738fbc79
+creator: jon
+server.page.revision: 40168
+server.host: http://mama.tiddlyspace.gir.dk
+server.type: tiddlyweb
+server.permissions: read
+server.bag: tiddlyspace
+server.workspace: bags/tiddlyspace
+server.content-type: text/javascript
+server.recipe: mama_public

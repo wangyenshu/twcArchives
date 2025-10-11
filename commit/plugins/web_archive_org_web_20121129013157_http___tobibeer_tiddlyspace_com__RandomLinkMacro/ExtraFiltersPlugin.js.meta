@@ -1,0 +1,17 @@
+title: ExtraFiltersPlugin
+modifier: jon
+created: 20101111124325
+modified: 20111221101313
+tags: excludeLists excludeSearch systemConfig
+server.page.revision: 68971
+server.permissions: read
+_hash: d7d8dd1b1226b66bdbb37160461bc0d3d24eb3ad
+server.host: http://tobibeer.tiddlyspace.com
+server.type: tiddlyweb
+creator: jon
+server.content-type: 
+server.bag: filters_public
+server.recipe: tobibeer_public
+server.workspace: bags/filters_public
+server.title: ExtraFiltersPlugin
+server.etag: &quot;filters_public/ExtraFiltersPlugin/68971:e15551394003c7d874b23c4dcdf89832070a883b&quot;

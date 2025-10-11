@@ -1,0 +1,17 @@
+title: InlineJavascriptPlugin
+modifier: mama
+created: 20120204085621
+modified: 20120204085621
+tags: systemConfig
+server.etag: &quot;inlinejavescript_public/InlineJavascriptPlugin/20843:602c045a12a5001fcc7c0934715a1fdf764b80ee&quot;
+server.title: InlineJavascriptPlugin
+_hash: e6eb7b04f212984224b56844ab61a2a0ca1c981e
+creator: mama
+server.page.revision: 20843
+server.host: http://mama.tiddlyspace.gir.dk
+server.type: tiddlyweb
+server.permissions: read
+server.bag: inlinejavescript_public
+server.workspace: bags/inlinejavescript_public
+server.content-type: 
+server.recipe: mama_public

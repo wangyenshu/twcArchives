@@ -1,0 +1,17 @@
+title: GroupByPlugin
+modifier: osmosoft
+created: 20110911181831
+modified: 20130305161743
+tags: excludeLists excludeSearch systemConfig
+server.etag: &quot;system-plugins_public/GroupByPlugin/40227:022c845548cba5c6d30c867f1406020b62102019&quot;
+server.title: GroupByPlugin
+_hash: 762d3d44065594e31c4206477e03c2a215c873e3
+creator: jon
+server.page.revision: 40227
+server.host: http://mama.tiddlyspace.gir.dk
+server.type: tiddlyweb
+server.permissions: read
+server.bag: system-plugins_public
+server.workspace: bags/system-plugins_public
+server.content-type: text/javascript
+server.recipe: mama_public

@@ -1,0 +1,9 @@
+title: TiddlyHomeSetupPlugin
+modifier: YourName
+created: 200703301137
+modified: 201112121613
+tags: admin systemConfig TiddlyHomeSystem
+server.type: file
+server.host: http://TiddlyHome.bidix.info/systemServer/NewsWiki.html
+server.page.revision: 200707281549
+changecount: 3

@@ -1,0 +1,17 @@
+title: BookmarkletPlugin
+modifier: bengillies
+created: 20100618154144
+modified: 20111101142739
+tags: bookmarklet systemConfig
+_hash: 6dbde15d20176ff9150ad928bf87bb3da3c04b24
+creator: bengillies
+server.permissions: read
+server.page.revision: 20150
+server.recipe: ben_public
+server.workspace: bags/bookmarksplugin_public
+server.content-type: 
+server.bag: bookmarksplugin_public
+server.type: tiddlyweb
+server.title: BookmarkletPlugin
+server.host: http://ben.tiddlyspace.com
+server.etag: &quot;bookmarksplugin_public/BookmarkletPlugin/20150:3cb265b9bb2170485be8a9ad19aa226a266031d8&quot;

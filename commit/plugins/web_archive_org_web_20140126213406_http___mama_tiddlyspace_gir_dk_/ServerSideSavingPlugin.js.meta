@@ -1,0 +1,17 @@
+title: ServerSideSavingPlugin
+modifier: FND
+created: 20110911181831
+modified: 20130312113259
+tags: excludeLists excludeSearch systemConfig
+server.etag: &quot;system/ServerSideSavingPlugin/40146:0beb59243a80ae7d2ed69f97d8a22d87917361ae&quot;
+server.title: ServerSideSavingPlugin
+_hash: d72cde071d926d9c66939444817d7e8621d24d9c
+creator: FND
+server.page.revision: 40146
+server.host: http://mama.tiddlyspace.gir.dk
+server.type: tiddlyweb
+server.permissions: read
+server.bag: system
+server.workspace: bags/system
+server.content-type: text/javascript
+server.recipe: mama_public

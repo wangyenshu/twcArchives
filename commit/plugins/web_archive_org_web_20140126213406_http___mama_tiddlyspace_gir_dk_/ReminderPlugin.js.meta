@@ -1,0 +1,17 @@
+title: ReminderPlugin
+modifier: mama
+created: 20120101183321
+modified: 20120101183321
+tags: systemConfig
+server.etag: &quot;kalender_public/ReminderPlugin/14804:44abfa0af48dc28edc8606999def2b40fd6dee19&quot;
+server.title: ReminderPlugin
+_hash: f080832b3b3a17f27cadda43e8058a9334e9e142
+creator: mama
+server.page.revision: 14804
+server.host: http://mama.tiddlyspace.gir.dk
+server.type: tiddlyweb
+server.permissions: read
+server.bag: kalender_public
+server.workspace: bags/kalender_public
+server.content-type: 
+server.recipe: mama_public

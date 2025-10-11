@@ -1,0 +1,17 @@
+title: TagSearchPlugin
+modifier: tobibeer
+created: 20100907145159
+modified: 20101024113948
+tags: excludeLists systemConfig
+server.page.revision: 209237
+server.permissions: read
+_hash: 78068874a20e165f7d1c8d6cdf0c4d2760b41de6
+server.host: http://tobibeer.tiddlyspace.com
+server.type: tiddlyweb
+creator: tobibeer
+server.content-type: 
+server.bag: tagsearchplugin_public
+server.recipe: tobibeer_public
+server.workspace: bags/tagsearchplugin_public
+server.title: TagSearchPlugin
+server.etag: &quot;tagsearchplugin_public/TagSearchPlugin/209237:7269d5f2d13a729201160176b08e4e2b27a52151&quot;

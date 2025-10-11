@@ -1,0 +1,17 @@
+title: ForEachTiddlerPlugin
+modifier: mama
+created: 20111019094248
+modified: 20111019094248
+tags: excludeLists systemConfig
+server.etag: &quot;fet_public/ForEachTiddlerPlugin/3100:30eea6debb2f107be39fc1e2d62bebfee536aa42&quot;
+server.title: ForEachTiddlerPlugin
+_hash: 8502283fdfbbee44eae75e012b0d747bc2da4afa
+creator: mama
+server.page.revision: 3100
+server.host: http://mama.tiddlyspace.gir.dk
+server.type: tiddlyweb
+server.permissions: read
+server.bag: fet_public
+server.workspace: bags/fet_public
+server.content-type: 
+server.recipe: mama_public

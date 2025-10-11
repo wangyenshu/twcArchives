@@ -1,0 +1,17 @@
+title: FoldHeadingsPlugin
+modifier: mama
+created: 20111229133536
+modified: 20111229133536
+tags: systemConfig
+server.etag: &quot;toc_public/FoldHeadingsPlugin/13599:14d5a9a09024088d744aa9151aa6c1e04c887fc2&quot;
+server.title: FoldHeadingsPlugin
+_hash: 72f282c97df47763c21e9ffc36917d0214d99384
+creator: mama
+server.page.revision: 13599
+server.host: http://mama.tiddlyspace.gir.dk
+server.type: tiddlyweb
+server.permissions: read
+server.bag: toc_public
+server.workspace: bags/toc_public
+server.content-type: 
+server.recipe: mama_public

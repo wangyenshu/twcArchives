@@ -1,0 +1,17 @@
+title: zzConfig
+modifier: tobibeer
+created: 20100917174137
+modified: 20110225090816
+tags: systemConfig
+server.page.revision: 223901
+server.permissions: read
+_hash: 5f4f8f66046bf3f15278e5f5de74b6d56df2ec29
+server.host: http://tobibeer.tiddlyspace.com
+server.type: tiddlyweb
+creator: tobibeer
+server.content-type: 
+server.bag: tobibeer_public
+server.recipe: tobibeer_public
+server.workspace: bags/tobibeer_public
+server.title: zzConfig
+server.etag: &quot;tobibeer_public/zzConfig/223901:fc989f03b9685d85b5daeb23aa3707ffdcad7df0&quot;

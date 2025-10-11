@@ -1,0 +1,17 @@
+title: TiddlySpaceInit
+modifier: osmosoft
+created: 20131111192332
+modified: 20131111192332
+tags: excludeLists excludeSearch systemConfig
+server.title: TiddlySpaceInit
+server.type: tiddlyweb
+_hash: 05e5325df4a93506529425c558842d5953dd6a44
+server.workspace: bags/tiddlyspace
+server.host: http://pmario.tiddlyspace.com
+server.content-type: text/javascript
+server.page.revision: 1521909
+server.permissions: read
+server.recipe: pmario_public
+server.etag: &quot;tiddlyspace/TiddlySpaceInit/1521909:06e5151126a3c705a2f5f60077d3d526239b12a6&quot;
+server.bag: tiddlyspace
+creator: osmosoft

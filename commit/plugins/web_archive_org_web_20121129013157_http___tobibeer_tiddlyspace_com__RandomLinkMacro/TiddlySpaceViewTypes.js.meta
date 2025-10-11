@@ -1,0 +1,17 @@
+title: TiddlySpaceViewTypes
+modifier: osmosoft
+created: 20121128171840
+modified: 20121128171840
+tags: excludeLists excludeSearch systemConfig
+server.page.revision: 970291
+server.permissions: read
+_hash: 0a5a070cb32ab7b3dc724809555448e9948cf232
+server.host: http://tobibeer.tiddlyspace.com
+server.type: tiddlyweb
+creator: osmosoft
+server.content-type: text/javascript
+server.bag: system-plugins_public
+server.recipe: tobibeer_public
+server.workspace: bags/system-plugins_public
+server.title: TiddlySpaceViewTypes
+server.etag: &quot;system-plugins_public/TiddlySpaceViewTypes/970291:2656186c27003c7e4d2e1fe0aea374b1f3aa1237&quot;

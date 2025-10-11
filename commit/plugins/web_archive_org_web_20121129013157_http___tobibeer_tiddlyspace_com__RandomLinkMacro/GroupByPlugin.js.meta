@@ -1,0 +1,17 @@
+title: GroupByPlugin
+modifier: jon
+created: 20121128171840
+modified: 20121128171840
+tags: excludeLists excludeSearch systemConfig
+server.page.revision: 970278
+server.permissions: read
+_hash: 762d3d44065594e31c4206477e03c2a215c873e3
+server.host: http://tobibeer.tiddlyspace.com
+server.type: tiddlyweb
+creator: jon
+server.content-type: text/javascript
+server.bag: system-plugins_public
+server.recipe: tobibeer_public
+server.workspace: bags/system-plugins_public
+server.title: GroupByPlugin
+server.etag: &quot;system-plugins_public/GroupByPlugin/970278:aaba9489c611d848cd7a48b3fefe4df4447f1cd9&quot;

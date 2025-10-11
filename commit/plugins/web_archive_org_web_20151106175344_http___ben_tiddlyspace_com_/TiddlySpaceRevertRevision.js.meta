@@ -1,0 +1,17 @@
+title: TiddlySpaceRevertRevision
+modifier: osmosoft
+created: 20131111192330
+modified: 20131111192330
+tags: excludeLists excludeMissing excludeSearch systemConfig
+_hash: db2d6dc5a63b9262d62fb6ffe02dbe10fdd31feb
+creator: osmosoft
+server.permissions: read
+server.page.revision: 1521871
+server.recipe: ben_public
+server.workspace: bags/system-plugins_public
+server.content-type: text/javascript
+server.bag: system-plugins_public
+server.type: tiddlyweb
+server.title: TiddlySpaceRevertRevision
+server.host: http://ben.tiddlyspace.com
+server.etag: &quot;system-plugins_public/TiddlySpaceRevertRevision/1521871:8c28f49aabf8bed76eb010404851dffd8df0654e&quot;

@@ -1,0 +1,17 @@
+title: TiddlySpaceLinkPlugin
+modifier: psd
+created: 20121128171840
+modified: 20121128171840
+tags: excludeLists excludeSearch systemConfig
+server.page.revision: 970284
+server.permissions: read
+_hash: b88cfa8ccd99b328c34b54aa9371c8f9ce02ffaf
+server.host: http://tobibeer.tiddlyspace.com
+server.type: tiddlyweb
+creator: psd
+server.content-type: text/javascript
+server.bag: system-plugins_public
+server.recipe: tobibeer_public
+server.workspace: bags/system-plugins_public
+server.title: TiddlySpaceLinkPlugin
+server.etag: &quot;system-plugins_public/TiddlySpaceLinkPlugin/970284:8b9f4e66783ff20f5b07ba84c6115dd752ae38be&quot;

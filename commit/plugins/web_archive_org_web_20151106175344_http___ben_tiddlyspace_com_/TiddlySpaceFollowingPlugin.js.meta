@@ -1,0 +1,17 @@
+title: TiddlySpaceFollowingPlugin
+modifier: osmosoft
+created: 20131111192330
+modified: 20131111192330
+tags: excludeLists excludeSearch systemConfig
+_hash: 65a4f81f24d076e5c3fc66d2ff037c994c514bcd
+creator: osmosoft
+server.permissions: read
+server.page.revision: 1521864
+server.recipe: ben_public
+server.workspace: bags/system-plugins_public
+server.content-type: text/javascript
+server.bag: system-plugins_public
+server.type: tiddlyweb
+server.title: TiddlySpaceFollowingPlugin
+server.host: http://ben.tiddlyspace.com
+server.etag: &quot;system-plugins_public/TiddlySpaceFollowingPlugin/1521864:90e2883201f4ce4d38468cf22e8f766830c80a41&quot;

@@ -1,0 +1,17 @@
+title: TiddlySpaceToolbar
+modifier: osmosoft
+created: 20131111192330
+modified: 20131111192330
+tags: excludeLists excludeSearch systemConfig
+server.title: TiddlySpaceToolbar
+server.type: tiddlyweb
+_hash: f1d6038be5d1ecd8d107d604b0f0dce76bc901da
+server.workspace: bags/system-plugins_public
+server.host: http://pmario.tiddlyspace.com
+server.content-type: text/javascript
+server.page.revision: 1521861
+server.permissions: read
+server.recipe: pmario_public
+server.etag: &quot;system-plugins_public/TiddlySpaceToolbar/1521861:b388fbfcdb57a3c0d3cffdd442d0d4e4b4f9138a&quot;
+server.bag: system-plugins_public
+creator: osmosoft

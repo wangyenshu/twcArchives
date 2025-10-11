@@ -1,0 +1,17 @@
+title: TiddlySpaceCSRF
+modifier: osmosoft
+created: 20130521140656
+modified: 20130521140656
+tags: excludeLists excludeSearch systemConfig
+server.type: tiddlyweb
+server.etag: &quot;tiddlyspace/TiddlySpaceCSRF/1221994:85408cd14f210c5f5fbf2c3fd92660c6e8addc7c&quot;
+server.permissions: read
+server.bag: tiddlyspace
+server.recipe: bauwebijl_public
+creator: osmosoft
+server.page.revision: 1221994
+server.workspace: bags/tiddlyspace
+server.title: TiddlySpaceCSRF
+_hash: 10b0276ddc805a9489b6449c972bb1dc00fb9cf0
+server.host: http://bauwebijl.tiddlyspace.com
+server.content-type: text/javascript

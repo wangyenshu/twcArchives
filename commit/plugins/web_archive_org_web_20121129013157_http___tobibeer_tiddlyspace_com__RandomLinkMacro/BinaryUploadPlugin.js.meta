@@ -1,0 +1,17 @@
+title: BinaryUploadPlugin
+modifier: osmosoft
+created: 20121128171840
+modified: 20121128171840
+tags: excludeLists excludeSearch systemConfig
+server.page.revision: 970277
+server.permissions: read
+_hash: fa2a79fa940254cf1cdd7980c85b5efd0eff0ce5
+server.host: http://tobibeer.tiddlyspace.com
+server.type: tiddlyweb
+creator: osmosoft
+server.content-type: text/javascript
+server.bag: system-plugins_public
+server.recipe: tobibeer_public
+server.workspace: bags/system-plugins_public
+server.title: BinaryUploadPlugin
+server.etag: &quot;system-plugins_public/BinaryUploadPlugin/970277:25eefa02c30f34224837fbe0539ec96fa0a14e4a&quot;

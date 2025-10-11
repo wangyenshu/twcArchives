@@ -1,0 +1,17 @@
+title: TiddlySpaceCSRF
+modifier: osmosoft
+created: 20121128171842
+modified: 20121128171842
+tags: excludeLists excludeSearch systemConfig
+server.page.revision: 970408
+server.permissions: read
+_hash: 10b0276ddc805a9489b6449c972bb1dc00fb9cf0
+server.host: http://tobibeer.tiddlyspace.com
+server.type: tiddlyweb
+creator: osmosoft
+server.content-type: text/javascript
+server.bag: tiddlyspace
+server.recipe: tobibeer_public
+server.workspace: bags/tiddlyspace
+server.title: TiddlySpaceCSRF
+server.etag: &quot;tiddlyspace/TiddlySpaceCSRF/970408:20bf758045378d876f862a4009071d73c231a67e&quot;

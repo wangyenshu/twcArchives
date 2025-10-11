@@ -1,0 +1,17 @@
+title: SVGEditorPlugin
+modifier: jon
+created: 20101012073716
+modified: 20110823073756
+tags: excludeLists systemConfig
+server.type: tiddlyweb
+server.etag: &quot;svg-editor_public/SVGEditorPlugin/208208:737a50099a58cb268bd621c49a6a7a8eaafee98e&quot;
+server.permissions: read
+server.bag: svg-editor_public
+server.recipe: bauwebijl_public
+creator: jon
+server.page.revision: 208208
+server.workspace: bags/svg-editor_public
+server.title: SVGEditorPlugin
+_hash: c9053bd4d1e3ff0bf0629c609b769306a1d64def
+server.host: http://bauwebijl.tiddlyspace.com
+server.content-type: 

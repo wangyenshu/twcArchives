@@ -1,0 +1,17 @@
+title: RandomColorPalettePlugin
+modifier: jon
+created: 20130521140651
+modified: 20130521140651
+tags: excludeLists excludeSearch systemConfig
+server.type: tiddlyweb
+server.etag: &quot;system-plugins_public/RandomColorPalettePlugin/1221963:e2ace46fe05e7487bcf4c7166c60f0d4b2332170&quot;
+server.permissions: read
+server.bag: system-plugins_public
+server.recipe: bauwebijl_public
+creator: jon
+server.page.revision: 1221963
+server.workspace: bags/system-plugins_public
+server.title: RandomColorPalettePlugin
+_hash: c5b359abab5a1446d12be89e6ea608d2d73e4822
+server.host: http://bauwebijl.tiddlyspace.com
+server.content-type: text/javascript

@@ -1,0 +1,17 @@
+title: g.pie
+modifier: jon
+created: 20100806095516
+modified: 20101008172214
+tags: excludeLists systemConfig
+server.page.revision: 27314
+server.permissions: read
+_hash: d7863e2bcd23edc17808a1c51c960eb3a778db11
+server.host: http://tobibeer.tiddlyspace.com
+server.type: tiddlyweb
+creator: jon
+server.content-type: 
+server.bag: charts_public
+server.recipe: tobibeer_public
+server.workspace: bags/charts_public
+server.title: g.pie
+server.etag: &quot;charts_public/g.pie/27314:777bd52c5ae935af2da9ebe9de4657638cb96cab&quot;
