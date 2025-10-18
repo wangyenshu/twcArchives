@@ -1,0 +1,17 @@
+title: MySpacesPlugin
+modifier: mama
+created: 20110930111155
+modified: 20110930111345
+tags: excludeLists systemConfig
+_hash: f710012579c21816da4bf74b368c039edffcf77e
+creator: mama
+server.permissions: read
+server.workspace: bags/mama_public
+server.bag: mama_public
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.title: MySpacesPlugin
+server.content-type: 
+server.type: tiddlyweb
+server.etag: &quot;mama_public/MySpacesPlugin/1880:ec96e9d813039c6d3ff97381a1e0fcf6f0864a07&quot;
+server.page.revision: 1880

@@ -1,0 +1,17 @@
+title: TiddlySpaceSanitizer
+modifier: osmosoft
+created: 20131111192330
+modified: 20131111192330
+tags: excludeLists excludeSearch systemConfig
+creator: osmosoft
+server.page.revision: 1521866
+server.title: TiddlySpaceSanitizer
+_hash: 4e7490026802a699cc23155cd88b09a2cce3fb87
+server.recipe: pmario_public
+server.bag: system-plugins_public
+server.permissions: read
+server.type: tiddlyweb
+server.etag: &quot;system-plugins_public/TiddlySpaceSanitizer/1521866:2f3e13fb494638911cf1e868607ef3e222f3697f&quot;
+server.host: http://pmario.tiddlyspace.com
+server.workspace: bags/system-plugins_public
+server.content-type: text/javascript

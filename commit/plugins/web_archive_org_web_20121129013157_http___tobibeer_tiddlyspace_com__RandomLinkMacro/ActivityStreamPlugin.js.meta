@@ -1,0 +1,17 @@
+title: ActivityStreamPlugin
+modifier: jon
+created: 20100917110749
+modified: 20110412100500
+tags: excludeLists systemConfig
+server.recipe: tobibeer_public
+server.host: http://tobibeer.tiddlyspace.com
+server.etag: &quot;following_public/ActivityStreamPlugin/70970:18411c51a32cdb4820c41461de84817460be0817&quot;
+server.type: tiddlyweb
+creator: jon
+_hash: e8e570ecad97ac7a02a41323272d6a5e1e7bb963
+server.content-type: 
+server.page.revision: 70970
+server.title: ActivityStreamPlugin
+server.permissions: read
+server.workspace: bags/following_public
+server.bag: following_public

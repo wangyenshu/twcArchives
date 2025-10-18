@@ -1,0 +1,378 @@
+|Source|https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_.txt|
+|Version|0.1|
+//{{{
+[
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/SimpleSearchPlugin.js",
+    "description": "''Description''displays search results as a simple list of matching tiddlers"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/chrjs.space.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/ImageSizePlugin.js",
+    "description": "adds support for resizing images"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/PrettyDatesPlugin.js",
+    "description": "Provides a new date format ('pppp') that displays times such as '2 days ago'"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/RevisionsCommandPlugin.js",
+    "description": "''Description''provides access to tiddler revisions"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/TiddlySpaceInclusion.js",
+    "description": "''Description''provides user interfaces for managing TiddlySpace inclusions"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/BinaryTiddlersPlugin.js",
+    "description": "''Description''renders base64-encoded binary tiddlers as images or links"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/SelectThemePlugin.js",
+    "description": "Lets you easily switch theme and palette"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/HoverMenuPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/TiddlySpaceFollowingSuggestions.js",
+    "description": "''Description''Provides a following macro"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/AttachFilePluginFormatters.js",
+    "description": "run-time library for displaying attachment tiddlers"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/SetIconPlugin.js",
+    "description": "add an image to a toolbar, macro, or slider link"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/ForEachTiddlerPlugin.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/SectionLinksPlugin.js",
+    "description": "allow tiddler sections in TiddlyLinks to be used as anchor points"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/TiddlySpaceAdmin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/TiddlySpaceRevisionView.js",
+    "description": "''Description''Show tiddler revisions in a stack of cards view"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/ArchivedTimeline.js",
+    "description": "''Timeline archived monthly."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/TiddlyWebConfig.js",
+    "description": "''Description''configuration settings for TiddlyWebWiki"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/twyp.js",
+    "description": "''search, play and associate youtube videos"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/TiddlySpaceMembers.js",
+    "description": "''Description''provides a UI for managing space members"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/zzKvikOptions.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/inclusionOrderChanger.js",
+    "description": "''Description''Allows you to drag around the list of included spaces to change the casade order"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/TiddlySpaceChangePassword.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/TiddlySpaceBackstage.js",
+    "description": "''Description''Provides a TiddlySpace version of the backstage and a homeLink macro"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/EditSectionPlugin.js",
+    "description": "invoke popup 'section editor' for specified section of a tiddler"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/ImageMacroPlugin.js",
+    "description": "''Description''Allows the rendering of svg images in a TiddlyWiki"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/ReminderPlugin.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/DatePluginConfig.js",
+    "description": "formats, background colors and other optional settings for DatePlugin"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/TiddlySpaceCSRF.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/TiddlySpaceIntraSpaceInclusion.js",
+    "description": "''Provides support for {{{>}}}"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/zzConfig.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/QuickEditPlugin.js",
+    "description": "Support functions for ~QuickEdit package: styles, utility functions, and 'toggleQuickEdit' command"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/Cookie_plugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/CalendarPluginConfig.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/InlineJavascriptPlugin.js",
+    "description": "Insert Javascript executable code directly into your tiddler content."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/danish.js",
+    "description": "\"//(ukendt)//\","
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/DatePlugin.js",
+    "description": "formatted dates plus popup menu with 'journal' link, changes and (optional) reminders"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/FoldHeadingsPlugin.js",
+    "description": "automatically turn headings into slider-like panels that can be folded/unfolded with a single click"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/ToggleTiddlerPrivacyPlugin.js",
+    "description": "''Description''Allows you to set the privacy of new tiddlers and external tiddlers within an EditTemplate, and allows you to set a default privacy setting"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/ErrorHandler.js",
+    "description": "''Description''Localised tiddler save errors including edit conflict resolution."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/GooglePlusButtonPlugin.js",
+    "description": "''Description''\"+1 a tiddler on Google+"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/TiddlySpaceTiddlerIconsPlugin.js",
+    "description": "''Description''Provides ability to render SiteIcons and icons that correspond to the home location of given tiddlers"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/zzBeskedConfig.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/ServerSideSavingPlugin.js",
+    "description": "''Description''server-side saving"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/GroupByPlugin.js",
+    "description": "''Description''Mimics allTags macro to provide ways of creating lists grouping tiddlers by any field"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/TiddlySpaceFilters.js",
+    "description": "''Description''provide TiddlySpace-specific filter extensions"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/DiffFormatter.js",
+    "description": "''Description''highlighting of text comparisons"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/NewTaggedCommand.js",
+    "description": "''Description''Creates a new tiddler, and tags it with it's parents title!"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/HideWhenPlugin.js",
+    "description": "Allows conditional inclusion/exclusion in templates"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/TiddlyFileImporter.js",
+    "description": "''Description''Upload a TiddlyWiki file to TiddlyWeb, and import the tiddlers."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/TiddlySpaceConfig.js",
+    "description": "''Description''TiddlySpace configuration"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/CalendarPlugin.js",
+    "description": "display monthly and yearly calendars"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/TiddlySpaceSpaces.js",
+    "description": "''Description''TiddlySpace spaces management"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/dansk.js",
+    "description": "\"//(ukendt)//\","
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/ActivityStreamPlugin.js",
+    "description": "''Description''Provides a following macro"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/TiddlySpaceFollowingPlugin.js",
+    "description": "''Description''Provides a following macro"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/ExtentTagButtonPlugin.js",
+    "description": "Adds a New tiddler button in the tag drop down"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/jquery-ui-1.8.1.custom.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/chrjs.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/BinaryUploadPlugin.js",
+    "description": "''Description''Upload a binary file to TiddlyWeb"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/LoadMissingExternalTiddler.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/TiddlySpaceForms.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/TiddlySpaceInit.js",
+    "description": "''Description''Initializes new TiddlySpaces the first time they are created"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/zzCalendarOptions.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/TiddlySpaceSearcher.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/TiddlySpaceRevertRevision.js",
+    "description": "''Description''Revert to a previous revision"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/ImportExternalLinksPlugin.js",
+    "description": "''Description''Turns space links into ajax links so you don't have to leave the comfort of your own TiddlyWiki"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/NestedSlidersPlugin.js",
+    "description": "show content in nest-able sliding/floating panels, without creating separate tiddlers for each panel's content"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/TagglyTagCloud.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/NewMeansNewPlugin.js",
+    "description": "If 'New Tiddler' already exists then create 'New Tiddler (1)' and so on"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/tsScanCountPlugin.js",
+    "description": "''Description''Provides ability to count tiddlers at a given tiddlyspace url and display a button that when clicked lists them. Also upgrades tsScan to replace any options containing with $1 with the current space"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/TiddlySpaceViewTypes.js",
+    "description": "''Description''Provides TiddlySpace specific view types"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/TiddlySpaceCloneCommand.js",
+    "description": "''Description''provides a toolbar command for cloning external tiddlers"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/RefreshTiddlerCommand.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/TiddlyWebAdaptor.js",
+    "description": "''Description''adaptor for interacting with TiddlyWeb"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/TiddlySpacePublishingCommands.js",
+    "description": "''Description''toolbar commands for drafting and publishing"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/TreeviewPluginPlugin.24.js",
+    "description": "Creates a tag tree, formatted as an actual tree"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/TiddlerTweakerPlugin.js",
+    "description": "select multiple tiddlers and modify author, created, modified and/or tag values"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/TiddlySpaceSanitizer.js",
+    "description": "''Description''Sanitisation for dynamically pulling tiddlers into your space and displaying them"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/QuickOpenTagPlugin.js",
+    "description": "Changes tag links to make it easier to open tags as tiddlers"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/TiddlySpaceFollowingWizard.js",
+    "description": "''Description''Provides a following wizard macro and deleteButton view type"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/MiniBrowserPlugin.js",
+    "description": "embedded browser-in-browser with favorites lists and media support"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/MySearchPlugin.js",
+    "description": "''Description''displays search results as a simple list of matching tiddlers. Allows you to define a filter to limit search results to a certain subset."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/RenameTagsPlugin.js",
+    "description": "Allows you to easily rename or delete tags across multiple tiddlers"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/chrjs.users.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/zzSectionTOCoptions.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/TiddlySpaceLinkPlugin.js",
+    "description": "''Formatter to reference other spaces from wikitext"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/MySpacesPlugin.js",
+    "description": "''Description''An attempt to make it easier to organise your spaces"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/TiddlySpaceToolbar.js",
+    "description": "''Description''augments tiddler toolbar commands with SVG icons"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/RandomColorPalettePlugin.js",
+    "description": "''Description''Adds a random color palette to TiddlyWiki"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/TagglyTaggingPlugin.js",
+    "description": "tagglyTagging macro is a replacement for the builtin tagging macro in your ViewTemplate"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/BookmarkletPlugin.js",
+    "description": "Generate a bookmarklet that will pop up your TiddlyWiki inside a different web page"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140126213406_http___mama_tiddlyspace_gir_dk_/TiddlerNotesPluginMod.js",
+    "description": "''Add notes to tiddlers without modifying the original content"
+  }
+]
+//}}}

@@ -1,0 +1,17 @@
+tiddler: AutoRefreshPlugin.js
+tiddler: DataTiddlerPlugin.js
+tiddler: DeprecatedFunctionsPlugin.js
+tiddler: ForEachTiddlerPlugin.js
+tiddler: FormTiddlerPlugin.js
+tiddler: IncludePlugin.js
+tiddler: InlineJavascriptPlugin.js
+tiddler: IntelliTaggerPlugin.js
+tiddler: IntelliTagsEditCommandPlugin.js
+tiddler: LegacyStrikeThroughPlugin.js
+tiddler: Minesweeper.js
+tiddler: PartTiddlerPlugin.js
+tiddler: SettingsPlugin.js
+tiddler: SyncFileTiddlerPlugin.js
+tiddler: TiddlerWithParamsPlugin.js
+tiddler: YourSearchPlugin.js
+tiddler: abego.editIncludedTiddlerCommand_(Experimental).js

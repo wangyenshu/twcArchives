@@ -1,0 +1,17 @@
+title: TiddlySpaceFilters
+modifier: osmosoft
+created: 20130521140659
+modified: 20130521140659
+tags: excludeLists excludeSearch systemConfig
+server.type: tiddlyweb
+server.page.revision: 1221996
+server.permissions: read
+server.host: http://bauwebijl.tiddlyspace.com
+server.content-type: text/javascript
+server.workspace: bags/tiddlyspace
+creator: osmosoft
+_hash: 3b6e75a776f9a07498220fe23b305bc97b531afc
+server.bag: tiddlyspace
+server.etag: &quot;tiddlyspace/TiddlySpaceFilters/1221996:8abede07fefc20e10f1ad1caccc4dd3aedaac641&quot;
+server.title: TiddlySpaceFilters
+server.recipe: bauwebijl_public

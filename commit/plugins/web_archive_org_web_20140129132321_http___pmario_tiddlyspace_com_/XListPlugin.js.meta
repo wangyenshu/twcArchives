@@ -1,0 +1,17 @@
+title: XListPlugin
+modifier: pmario
+created: 20100806192304
+modified: 20100918170547
+tags: StylingPackage excludeLists systemConfig
+creator: pmario
+server.page.revision: 146594
+server.title: XListPlugin
+_hash: 41a14cfc066841713a5a9b173be5c25a21535296
+server.recipe: pmario_public
+server.bag: neui-em_public
+server.permissions: read
+server.type: tiddlyweb
+server.etag: &quot;neui-em_public/XListPlugin/146594:1f1fb702c375dce8bff24be8bc91208d503d4052&quot;
+server.host: http://pmario.tiddlyspace.com
+server.workspace: bags/neui-em_public
+server.content-type: 

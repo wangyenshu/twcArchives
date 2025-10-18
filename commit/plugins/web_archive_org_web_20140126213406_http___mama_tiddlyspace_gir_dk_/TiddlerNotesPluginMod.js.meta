@@ -1,0 +1,17 @@
+title: TiddlerNotesPluginMod
+modifier: mama
+created: 20120116184527
+modified: 20120117164034
+tags: systemConfig
+_hash: 04bfc3499afd1d1af8615099def719b0af47f808
+creator: mama
+server.permissions: read
+server.workspace: bags/noter_public
+server.bag: noter_public
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.title: TiddlerNotesPluginMod
+server.content-type: 
+server.type: tiddlyweb
+server.etag: &quot;noter_public/TiddlerNotesPluginMod/19334:98e72478010f943a6343b8462ecb05eceb759c0a&quot;
+server.page.revision: 19334

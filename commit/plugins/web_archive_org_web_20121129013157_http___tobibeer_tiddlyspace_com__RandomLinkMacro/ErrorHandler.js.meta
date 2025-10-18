@@ -1,0 +1,17 @@
+title: ErrorHandler
+modifier: jon
+created: 20121128171842
+modified: 20121128171842
+tags: excludeLists excludeSearch systemConfig
+server.recipe: tobibeer_public
+server.host: http://tobibeer.tiddlyspace.com
+server.etag: &quot;tiddlyspace/ErrorHandler/970394:0dd2f26461b209408b31c0fc0416f3356e4deeff&quot;
+server.type: tiddlyweb
+creator: jon
+_hash: ffff853197a5561dfaef34fd40efbb0c738fbc79
+server.content-type: text/javascript
+server.page.revision: 970394
+server.title: ErrorHandler
+server.permissions: read
+server.workspace: bags/tiddlyspace
+server.bag: tiddlyspace

@@ -1,0 +1,14 @@
+|Source|https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090311042726_http___end_com__speth_HaloscanMacro_html/web_archive_org_web_20090311042726_http___end_com__speth_HaloscanMacro_html.txt|
+|Version|0.1|
+//{{{
+[
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090311042726_http___end_com__speth_HaloscanMacro_html/HaloscanMacro.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090311042726_http___end_com__speth_HaloscanMacro_html/UploadPlugin.js",
+    "description": "!Description"
+  }
+]
+//}}}

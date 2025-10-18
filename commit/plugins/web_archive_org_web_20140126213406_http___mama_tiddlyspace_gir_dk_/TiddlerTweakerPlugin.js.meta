@@ -1,0 +1,17 @@
+title: TiddlerTweakerPlugin
+modifier: mama
+created: 20120112005739
+modified: 20120112005739
+tags: systemConfig
+_hash: 159bbcdf7b504b67a01a1348720750ee8b7e1d8c
+creator: mama
+server.permissions: read
+server.workspace: bags/tweaker_public
+server.bag: tweaker_public
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.title: TiddlerTweakerPlugin
+server.content-type: 
+server.type: tiddlyweb
+server.etag: &quot;tweaker_public/TiddlerTweakerPlugin/17668:d76139a89583c9af3168962d5e90cd2455558ac5&quot;
+server.page.revision: 17668

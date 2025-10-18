@@ -1,0 +1,15 @@
+title: EditSectionPlugin
+modifier: ELSDesignStudios
+created: 201102101954
+modified: 201201300122
+tags: PasteUpPackage systemConfig
+server.workspace: bags/pasteup_public
+changecount: 27
+server.type: tiddlyweb
+server.recipe: pasteup_private
+server.host: http://pasteup.spaces.unamesa.org/
+server.permissions: read, write, create, delete
+_hash: 4fefd2dd05a7171d182e12408e2e55b5d5a413a0
+creator: pasteup
+server.bag: pasteup_public
+server.content-type: 

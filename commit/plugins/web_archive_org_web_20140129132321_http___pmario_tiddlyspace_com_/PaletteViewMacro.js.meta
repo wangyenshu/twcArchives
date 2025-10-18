@@ -1,0 +1,17 @@
+title: PaletteViewMacro
+modifier: pmario
+created: 20100806192303
+modified: 20120124215714
+tags: excludeLists systemConfig
+creator: pmario
+server.page.revision: 146423
+server.title: PaletteViewMacro
+_hash: 2a3bfeda31c2ae74dfd8b37575fd03ef8a2abbcb
+server.recipe: pmario_public
+server.bag: neui-em_public
+server.permissions: read
+server.type: tiddlyweb
+server.etag: &quot;neui-em_public/PaletteViewMacro/146423:9bc8dbe6d65baf5105439a061d6ce3e544671c9a&quot;
+server.host: http://pmario.tiddlyspace.com
+server.workspace: bags/neui-em_public
+server.content-type: 

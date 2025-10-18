@@ -1,0 +1,17 @@
+title: GroupByPlugin
+modifier: osmosoft
+created: 20131111192330
+modified: 20131111192330
+tags: excludeLists excludeSearch systemConfig
+server.etag: &quot;system-plugins_public/GroupByPlugin/1521873:e1c0338f1926f4c8152374c3552dcca2aa6a4a6d&quot;
+server.recipe: ben_public
+server.title: GroupByPlugin
+creator: osmosoft
+server.workspace: bags/system-plugins_public
+server.page.revision: 1521873
+_hash: d4f41fa53916a920347fbe97303966ebeed68945
+server.type: tiddlyweb
+server.content-type: text/javascript
+server.bag: system-plugins_public
+server.permissions: read
+server.host: http://ben.tiddlyspace.com

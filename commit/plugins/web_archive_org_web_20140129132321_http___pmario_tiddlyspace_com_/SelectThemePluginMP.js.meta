@@ -1,0 +1,18 @@
+title: SelectThemePluginMP
+modifier: pmario
+created: 20110626145218
+modified: 20110626145218
+tags: systemConfig
+creator: pmario
+server.page.revision: 173552
+server.title: SelectThemePluginMP
+_hash: f68a2af01641162da1ec896e424d3440552437f5
+server.recipe: pmario_public
+server.bag: pmario_public
+server.permissions: read
+server.type: tiddlyweb
+server.etag: &quot;pmario_public/SelectThemePluginMP/173552:f0f498d997e298d3dcc849f00bc3737c5a8a2a78&quot;
+tiddler.source: neui-em_public
+server.host: http://pmario.tiddlyspace.com
+server.workspace: bags/pmario_public
+server.content-type: 

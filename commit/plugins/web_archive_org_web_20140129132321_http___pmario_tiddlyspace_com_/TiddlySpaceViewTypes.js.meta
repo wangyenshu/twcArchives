@@ -1,0 +1,17 @@
+title: TiddlySpaceViewTypes
+modifier: osmosoft
+created: 20131111192330
+modified: 20131111192330
+tags: excludeLists excludeSearch systemConfig
+creator: osmosoft
+server.page.revision: 1521869
+server.title: TiddlySpaceViewTypes
+_hash: 0a5a070cb32ab7b3dc724809555448e9948cf232
+server.recipe: pmario_public
+server.bag: system-plugins_public
+server.permissions: read
+server.type: tiddlyweb
+server.etag: &quot;system-plugins_public/TiddlySpaceViewTypes/1521869:efbc87b484909b843c829a1a3bd3cc0a5f884c67&quot;
+server.host: http://pmario.tiddlyspace.com
+server.workspace: bags/system-plugins_public
+server.content-type: text/javascript

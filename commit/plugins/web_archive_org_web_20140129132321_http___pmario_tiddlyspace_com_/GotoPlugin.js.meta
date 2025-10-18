@@ -1,0 +1,17 @@
+title: GotoPlugin
+modifier: pmario
+created: 20100806192304
+modified: 20131030171206
+tags: excludeLists systemConfig
+creator: pmario
+server.page.revision: 1491478
+server.title: GotoPlugin
+_hash: 00d9815dba7e8718675e34a551f761e68879b8c6
+server.recipe: pmario_public
+server.bag: neui-em_public
+server.permissions: read
+server.type: tiddlyweb
+server.etag: &quot;neui-em_public/GotoPlugin/1491478:8efb4de52b3ee93874027a25dd03cb9dd19f97d6&quot;
+server.host: http://pmario.tiddlyspace.com
+server.workspace: bags/neui-em_public
+server.content-type: 

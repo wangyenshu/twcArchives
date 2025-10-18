@@ -1,0 +1,17 @@
+title: TiddlyWebAdaptor
+modifier: FND
+created: 200811260000
+modified: 200811260000
+tags: excludeLists excludeSearch systemConfig
+_hash: 487ec1465c11e0798c029b3ed15a2f71ae51ce92
+creator: FND
+server.permissions: read
+server.workspace: bags/system
+server.bag: system
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.title: TiddlyWebAdaptor
+server.content-type: text/javascript
+server.type: tiddlyweb
+server.etag: &quot;system/TiddlyWebAdaptor/40148:f01b9ca454d29ca9ac3d6c43b3b40f1281cf3c86&quot;
+server.page.revision: 40148

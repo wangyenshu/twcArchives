@@ -1,0 +1,17 @@
+title: TiddlySpaceFollowingPlugin
+modifier: jon
+created: 20121128171840
+modified: 20121128171840
+tags: excludeLists excludeSearch systemConfig
+server.recipe: tobibeer_public
+server.host: http://tobibeer.tiddlyspace.com
+server.etag: &quot;system-plugins_public/TiddlySpaceFollowingPlugin/970283:627593a621383d27b8b8ee2067359bc6ca7c7844&quot;
+server.type: tiddlyweb
+creator: jon
+_hash: d3f26d460589f4a2772f499658dee981b753c0a9
+server.content-type: text/javascript
+server.page.revision: 970283
+server.title: TiddlySpaceFollowingPlugin
+server.permissions: read
+server.workspace: bags/system-plugins_public
+server.bag: system-plugins_public

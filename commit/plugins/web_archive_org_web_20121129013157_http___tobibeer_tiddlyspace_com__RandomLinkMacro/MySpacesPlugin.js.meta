@@ -1,0 +1,17 @@
+title: MySpacesPlugin
+modifier: tobibeer
+created: 20100908203540
+modified: 20100908203637
+tags: systemConfig
+server.recipe: tobibeer_public
+server.host: http://tobibeer.tiddlyspace.com
+server.etag: &quot;tobibeer_public/MySpacesPlugin/222255:9feec196c062bcf30701d3a41b4bcab565aa7fa8&quot;
+server.type: tiddlyweb
+creator: tobibeer
+_hash: 2c5c29e62412a4fe32e3af860a2e32ffcda5e4ff
+server.content-type: 
+server.page.revision: 222255
+server.title: MySpacesPlugin
+server.permissions: read
+server.workspace: bags/tobibeer_public
+server.bag: tobibeer_public

@@ -1,0 +1,17 @@
+title: Cookie plugin
+modifier: mama
+created: 20111114002812
+modified: 20111114002812
+tags: excludeLists TreeviewPackage systemConfig
+_hash: 282b361b69817ba00a58322634d5bc4972429668
+creator: mama
+server.permissions: read
+server.workspace: bags/mapper_public
+server.bag: mapper_public
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.title: Cookie plugin
+server.content-type: 
+server.type: tiddlyweb
+server.etag: &quot;mapper_public/Cookie%20plugin/7905:c14b922a9d4336efdf0547d92df6ecdc7d3d5fa1&quot;
+server.page.revision: 7905

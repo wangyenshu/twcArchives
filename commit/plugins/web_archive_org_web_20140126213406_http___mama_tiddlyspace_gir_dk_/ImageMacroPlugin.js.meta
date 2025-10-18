@@ -1,0 +1,17 @@
+title: ImageMacroPlugin
+modifier: jon
+created: 20110911181831
+modified: 20130305161749
+tags: excludeLists excludeSearch systemConfig
+_hash: 3f1696962a1dff3028ea1a4307d8b95c3b3ceb65
+creator: jon
+server.permissions: read
+server.workspace: bags/tiddlyspace
+server.bag: tiddlyspace
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.title: ImageMacroPlugin
+server.content-type: text/javascript
+server.type: tiddlyweb
+server.etag: &quot;tiddlyspace/ImageMacroPlugin/40187:eee49bcb6ecbd4033916a87600cfb14f6634bc60&quot;
+server.page.revision: 40187

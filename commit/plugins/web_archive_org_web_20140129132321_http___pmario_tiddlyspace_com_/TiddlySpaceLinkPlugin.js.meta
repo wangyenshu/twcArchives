@@ -1,0 +1,17 @@
+title: TiddlySpaceLinkPlugin
+modifier: osmosoft
+created: 20131111192330
+modified: 20131111192330
+tags: excludeLists excludeSearch systemConfig
+creator: osmosoft
+server.page.revision: 1521865
+server.title: TiddlySpaceLinkPlugin
+_hash: b88cfa8ccd99b328c34b54aa9371c8f9ce02ffaf
+server.recipe: pmario_public
+server.bag: system-plugins_public
+server.permissions: read
+server.type: tiddlyweb
+server.etag: &quot;system-plugins_public/TiddlySpaceLinkPlugin/1521865:639da88fbe7e99713defdaed9dcd9154fed11a96&quot;
+server.host: http://pmario.tiddlyspace.com
+server.workspace: bags/system-plugins_public
+server.content-type: text/javascript

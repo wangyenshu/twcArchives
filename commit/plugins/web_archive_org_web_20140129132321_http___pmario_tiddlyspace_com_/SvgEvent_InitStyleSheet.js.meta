@@ -1,0 +1,17 @@
+title: SvgEvent_InitStyleSheet
+modifier: pmario
+created: 20101227165146
+modified: 20101227175840
+tags: excludeLists fxPlugins systemConfig
+creator: pmario
+server.page.revision: 75400
+server.title: SvgEvent_InitStyleSheet
+_hash: 2a87053c287ca3f942680adc57ecdac0908ac90f
+server.recipe: pmario_public
+server.bag: fxplugins_public
+server.permissions: read
+server.type: tiddlyweb
+server.etag: &quot;fxplugins_public/SvgEvent_InitStyleSheet/75400:c9a4d2ab36080f22a78935db02797154c05c15db&quot;
+server.host: http://pmario.tiddlyspace.com
+server.workspace: bags/fxplugins_public
+server.content-type: 

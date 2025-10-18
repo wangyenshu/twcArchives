@@ -1,0 +1,58 @@
+|Source|https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/linktomemacro_tiddlyspot_com_/linktomemacro_tiddlyspot_com_.txt|
+|Version|0.1|
+//{{{
+[
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/linktomemacro_tiddlyspot_com_/AllowOnlineEdit.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/linktomemacro_tiddlyspot_com_/CloseOnCancelPlugin.js",
+    "description": "Closes the tiddler if you click new tiddler then cancel. Default behaviour is to leave it open"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/linktomemacro_tiddlyspot_com_/ConfigTweaksPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/linktomemacro_tiddlyspot_com_/HideWhenPlugin.js",
+    "description": "Allows conditional inclusion/exclusion in templates"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/linktomemacro_tiddlyspot_com_/LegacyStrikeThroughPlugin.js",
+    "description": "''Support for  legacy (pre 2.1) strike through formatting"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/linktomemacro_tiddlyspot_com_/LinkToMeMacro.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/linktomemacro_tiddlyspot_com_/MptwLayoutPlugin.js",
+    "description": "A package containing templates and css for the MonkeyPirateTiddlyWiki layout"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/linktomemacro_tiddlyspot_com_/NewHerePlugin.js",
+    "description": "Creates the new here and new journal toolbar commands"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/linktomemacro_tiddlyspot_com_/QuickOpenTagPlugin.js",
+    "description": "Changes tag links to make it easier to open tags as tiddlers"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/linktomemacro_tiddlyspot_com_/RenameTagsPlugin.js",
+    "description": "Allows you to easily rename or delete tags across multiple tiddlers"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/linktomemacro_tiddlyspot_com_/TagglyTaggingPlugin.js",
+    "description": "tagglyTagging macro is a replacement for the builtin tagging macro in your ViewTemplate"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/linktomemacro_tiddlyspot_com_/ToggleTagPlugin.js",
+    "description": "Makes a checkbox which toggles a tag in a tiddler"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/linktomemacro_tiddlyspot_com_/UploadPlugin.js",
+    "description": "''Save to web a TiddlyWiki"
+  }
+]
+//}}}

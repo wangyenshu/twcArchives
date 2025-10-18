@@ -1,0 +1,17 @@
+title: dansk
+modifier: mama
+created: 20110912222825
+modified: 20110912223720
+tags: systemConfig
+_hash: 13afdff4ab3d67271dc16ddd0023d96e87ddefef
+creator: mama
+server.permissions: read
+server.workspace: bags/mama_public
+server.bag: mama_public
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.title: dansk
+server.content-type: 
+server.type: tiddlyweb
+server.etag: &quot;mama_public/dansk/790:5801b02709d54b038a54a97db7891e5f16015dc1&quot;
+server.page.revision: 790

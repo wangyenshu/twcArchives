@@ -1,0 +1,18 @@
+title: TiddlySpaceFollowingWizard
+modifier: jon
+created: 20101222235738
+modified: 20120118140029
+tags: excludeLists excludeSearch systemConfig
+creator: jon
+server.page.revision: 71031
+server.title: TiddlySpaceFollowingWizard
+_hash: 51c977fd69fe5439468369c45ad3386ad7db032e
+server.recipe: pmario_public
+server.bag: following_public
+summary: 
+server.permissions: read
+server.type: tiddlyweb
+server.etag: &quot;following_public/TiddlySpaceFollowingWizard/71031:2a2eedfba2ad358322542e4759c33587bf6ec16a&quot;
+server.host: http://pmario.tiddlyspace.com
+server.workspace: bags/following_public
+server.content-type: 

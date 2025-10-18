@@ -1,0 +1,17 @@
+title: TiddlySpaceFollowingPlugin
+modifier: osmosoft
+created: 20110911181831
+modified: 20130305161743
+tags: excludeLists excludeSearch systemConfig
+_hash: 65a4f81f24d076e5c3fc66d2ff037c994c514bcd
+creator: jon
+server.permissions: read
+server.workspace: bags/system-plugins_public
+server.bag: system-plugins_public
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.title: TiddlySpaceFollowingPlugin
+server.content-type: text/javascript
+server.type: tiddlyweb
+server.etag: &quot;system-plugins_public/TiddlySpaceFollowingPlugin/40219:c2b73b74d5abb40508eb1e62fa9dbd4a0e0887e5&quot;
+server.page.revision: 40219

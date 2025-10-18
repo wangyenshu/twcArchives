@@ -1,0 +1,17 @@
+title: TiddlySpaceSanitizer
+modifier: osmosoft
+created: 20110911181831
+modified: 20130305161743
+tags: excludeLists excludeSearch systemConfig
+_hash: 4e7490026802a699cc23155cd88b09a2cce3fb87
+creator: osmosoft
+server.permissions: read
+server.workspace: bags/system-plugins_public
+server.bag: system-plugins_public
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.title: TiddlySpaceSanitizer
+server.content-type: text/javascript
+server.type: tiddlyweb
+server.etag: &quot;system-plugins_public/TiddlySpaceSanitizer/40228:d19de57225e06b976eba8da15d75d668406a9e23&quot;
+server.page.revision: 40228

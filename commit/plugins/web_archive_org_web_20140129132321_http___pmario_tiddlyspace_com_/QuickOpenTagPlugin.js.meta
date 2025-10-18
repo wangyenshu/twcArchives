@@ -1,0 +1,17 @@
+title: QuickOpenTagPlugin
+modifier: pmario
+created: 20100807094830
+modified: 20100918170546
+tags: excludeLists systemConfig
+creator: pmario
+server.page.revision: 146428
+server.title: QuickOpenTagPlugin
+_hash: 2b852671be499cf3d4e8a1b10eb6e91666f9fb90
+server.recipe: pmario_public
+server.bag: neui-em_public
+server.permissions: read
+server.type: tiddlyweb
+server.etag: &quot;neui-em_public/QuickOpenTagPlugin/146428:8cab75aebf0958ff0cee4cf7d5344d8590fc4c59&quot;
+server.host: http://pmario.tiddlyspace.com
+server.workspace: bags/neui-em_public
+server.content-type: 

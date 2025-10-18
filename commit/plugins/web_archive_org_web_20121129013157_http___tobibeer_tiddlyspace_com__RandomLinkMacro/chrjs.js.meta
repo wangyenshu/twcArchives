@@ -1,0 +1,18 @@
+title: chrjs
+modifier: None
+created: 20121128171842
+modified: 20121128171842
+tags: excludeLists excludeSearch systemConfig
+server.recipe: tobibeer_public
+server.host: http://tobibeer.tiddlyspace.com
+_cache-max-age: 43200
+server.etag: &quot;tiddlyspace/chrjs/970391:a281fbafd21548998716571965bbe3540f7e262e&quot;
+server.type: tiddlyweb
+creator: None
+_hash: 7623a191e31412d94a6385d1ead6679ac8bfd46e
+server.content-type: text/javascript
+server.page.revision: 970391
+server.title: chrjs
+server.permissions: read
+server.workspace: bags/tiddlyspace
+server.bag: tiddlyspace

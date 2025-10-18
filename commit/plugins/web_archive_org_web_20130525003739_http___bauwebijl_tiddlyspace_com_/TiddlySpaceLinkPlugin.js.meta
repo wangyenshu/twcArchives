@@ -1,0 +1,17 @@
+title: TiddlySpaceLinkPlugin
+modifier: osmosoft
+created: 20130521140651
+modified: 20130521140651
+tags: excludeLists excludeSearch systemConfig
+server.type: tiddlyweb
+server.page.revision: 1221956
+server.permissions: read
+server.host: http://bauwebijl.tiddlyspace.com
+server.content-type: text/javascript
+server.workspace: bags/system-plugins_public
+creator: osmosoft
+_hash: b88cfa8ccd99b328c34b54aa9371c8f9ce02ffaf
+server.bag: system-plugins_public
+server.etag: &quot;system-plugins_public/TiddlySpaceLinkPlugin/1221956:f4b108409bd3a0aa227d7034b036b66a8113cf89&quot;
+server.title: TiddlySpaceLinkPlugin
+server.recipe: bauwebijl_public

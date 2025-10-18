@@ -1,0 +1,17 @@
+title: TiddlySpaceCSRF
+modifier: osmosoft
+created: 20110911181831
+modified: 20130305161747
+tags: excludeLists excludeSearch systemConfig
+_hash: 10b0276ddc805a9489b6449c972bb1dc00fb9cf0
+creator: osmosoft
+server.permissions: read
+server.workspace: bags/tiddlyspace
+server.bag: tiddlyspace
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.title: TiddlySpaceCSRF
+server.content-type: text/javascript
+server.type: tiddlyweb
+server.etag: &quot;tiddlyspace/TiddlySpaceCSRF/40183:3bb09c498688915f010fa3ed457ea748e36c371a&quot;
+server.page.revision: 40183

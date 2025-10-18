@@ -1,0 +1,30 @@
+|Source|https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/labwiki_sourceforge_net_/labwiki_sourceforge_net_.txt|
+|Version|0.1|
+//{{{
+[
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/labwiki_sourceforge_net_/ImportTiddlersPlugin.js",
+    "description": "e.toString()); }"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/labwiki_sourceforge_net_/NewHereCommand.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/labwiki_sourceforge_net_/QuickOpenTagPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/labwiki_sourceforge_net_/TagglyListPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/labwiki_sourceforge_net_/TaskMacroPlugin.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/labwiki_sourceforge_net_/systemConfig.js",
+    "description": ""
+  }
+]
+//}}}

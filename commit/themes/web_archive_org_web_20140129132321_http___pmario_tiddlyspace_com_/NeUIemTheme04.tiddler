@@ -1,0 +1,30 @@
+<div title="NeUIemTheme04" modifier="pmario" created="20101109214936" tags="systemTheme" creator="pmario" server.page.revision="173023" server.title="NeUIemTheme04" _hash="d21615421c677ee9383909c6e4d006993b9faacf" server.recipe="pmario_public" server.bag="pmario_public" server.permissions="read" server.type="tiddlyweb" server.etag="&quot;pmario_public/NeUIemTheme04/173023:3cc40bd04c6d1161ec51ba3a6aacb1b5ef809bc6&quot;" server.host="http://pmario.tiddlyspace.com" server.workspace="bags/pmario_public" server.content-type="">
+<pre>|''Name:''|[[NeUIemTheme04]]|
+|''Description:''|Play with the toolbar visibility|
+|''Generator:''|[[TW FreeStyle|http://FreeStyle.tiddlyspot.com]]|
+|''Gen.Description:''|Automatically generated from: tsNeUIemProject|
+|''PageTemplate:''|NeUIemTheme##PageTemplate|
+|''ViewTemplate:''|NeUIemTheme##ViewTemplate|
+|''EditTemplate:''|NeUIemTheme##EditTemplate|
+|''RevisionTemplate:''|NeUIemTheme##RevisionTemplate|
+|''StyleSheet:''|##StyleSheet|
+|''Init:''|NeUIemTheme04##Init|
+
+
+!StyleSheet
+/*{{{*/
+[[NeUIemTheme03##StyleSheet]]
+
+/* Play with the toolbar visibility */
+.toolbar {
+	visibility: hidden; 
+/*	opacity: 0.2; */
+}
+
+.selected .toolbar {
+	visibility: visible; 
+/*	opacity: 1; */
+}
+
+/*}}}*/</pre>
+</div>

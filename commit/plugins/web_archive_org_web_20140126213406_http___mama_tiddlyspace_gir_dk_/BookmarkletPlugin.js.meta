@@ -1,0 +1,17 @@
+title: BookmarkletPlugin
+modifier: mama
+created: 20120204183613
+modified: 20120204193437
+tags: bookmarklet systemConfig
+_hash: 5fdbc7caa8e1da7f5d468da482e6226f06c3db32
+creator: mama
+server.permissions: read
+server.workspace: bags/bogmaerker_public
+server.bag: bogmaerker_public
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.title: BookmarkletPlugin
+server.content-type: 
+server.type: tiddlyweb
+server.etag: &quot;bogmaerker_public/BookmarkletPlugin/21268:9d9fcde1d461222ad8be47140b6cdcb53b15ffb6&quot;
+server.page.revision: 21268

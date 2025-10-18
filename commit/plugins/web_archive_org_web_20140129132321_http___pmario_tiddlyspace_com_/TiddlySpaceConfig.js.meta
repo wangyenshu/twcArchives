@@ -1,0 +1,17 @@
+title: TiddlySpaceConfig
+modifier: osmosoft
+created: 20131111192332
+modified: 20131111192332
+tags: excludeLists excludeSearch systemConfig
+creator: osmosoft
+server.page.revision: 1521905
+server.title: TiddlySpaceConfig
+_hash: e74aa09eb3a15ff6e90b7de81e4d23168f8a51db
+server.recipe: pmario_public
+server.bag: tiddlyspace
+server.permissions: read
+server.type: tiddlyweb
+server.etag: &quot;tiddlyspace/TiddlySpaceConfig/1521905:0a3ef2bf10f5253bf438f928ee90b8a662b78500&quot;
+server.host: http://pmario.tiddlyspace.com
+server.workspace: bags/tiddlyspace
+server.content-type: text/javascript

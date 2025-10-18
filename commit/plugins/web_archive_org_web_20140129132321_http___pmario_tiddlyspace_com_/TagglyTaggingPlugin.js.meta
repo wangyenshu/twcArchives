@@ -1,0 +1,17 @@
+title: TagglyTaggingPlugin
+modifier: pmario
+created: 20100806192305
+modified: 20110704195545
+tags: excludeLists systemConfig
+creator: pmario
+server.page.revision: 146572
+server.title: TagglyTaggingPlugin
+_hash: 257c305f42da95d3b420dd945454ca522de0e129
+server.recipe: pmario_public
+server.bag: neui-em_public
+server.permissions: read
+server.type: tiddlyweb
+server.etag: &quot;neui-em_public/TagglyTaggingPlugin/146572:4284e5fd39cc50b5a3630da090ac7e05ad3b10db&quot;
+server.host: http://pmario.tiddlyspace.com
+server.workspace: bags/neui-em_public
+server.content-type: 

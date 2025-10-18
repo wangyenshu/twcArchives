@@ -1,0 +1,17 @@
+title: TiddlySpaceViewTypes
+modifier: osmosoft
+created: 20131111192330
+modified: 20131111192330
+tags: excludeLists excludeSearch systemConfig
+server.etag: &quot;system-plugins_public/TiddlySpaceViewTypes/1521869:84c1bdb4033a7856b16267f096b680097326c7a2&quot;
+server.recipe: ben_public
+server.title: TiddlySpaceViewTypes
+creator: osmosoft
+server.workspace: bags/system-plugins_public
+server.page.revision: 1521869
+_hash: 0a5a070cb32ab7b3dc724809555448e9948cf232
+server.type: tiddlyweb
+server.content-type: text/javascript
+server.bag: system-plugins_public
+server.permissions: read
+server.host: http://ben.tiddlyspace.com

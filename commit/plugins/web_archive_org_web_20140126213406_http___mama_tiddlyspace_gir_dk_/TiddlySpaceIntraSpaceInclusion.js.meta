@@ -1,0 +1,17 @@
+title: TiddlySpaceIntraSpaceInclusion
+modifier: mama
+created: 20111022141935
+modified: 20111022212755
+tags: systemConfig excludeLists
+_hash: 84403e975ad828ae14368276afe47b3e06d8c9f1
+creator: mama
+server.permissions: read
+server.workspace: bags/besked_public
+server.bag: besked_public
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.title: TiddlySpaceIntraSpaceInclusion
+server.content-type: 
+server.type: tiddlyweb
+server.etag: &quot;besked_public/TiddlySpaceIntraSpaceInclusion/5136:77766e2bb48cae2d91e0d653e63a8814648ce7c3&quot;
+server.page.revision: 5136

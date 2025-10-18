@@ -1,0 +1,17 @@
+title: ImageMacroPlugin
+modifier: jon
+created: 20131111192334
+modified: 20131111192334
+tags: excludeLists excludeSearch systemConfig
+creator: jon
+server.page.revision: 1521897
+server.title: ImageMacroPlugin
+_hash: 3f1696962a1dff3028ea1a4307d8b95c3b3ceb65
+server.recipe: pmario_public
+server.bag: tiddlyspace
+server.permissions: read
+server.type: tiddlyweb
+server.etag: &quot;tiddlyspace/ImageMacroPlugin/1521897:2f293dd93cf3937994f53fe3f151a9aa7a13b154&quot;
+server.host: http://pmario.tiddlyspace.com
+server.workspace: bags/tiddlyspace
+server.content-type: text/javascript

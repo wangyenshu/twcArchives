@@ -1,0 +1,17 @@
+title: TagTablePlugin
+modifier: jon
+created: 20100806162437
+modified: 20101008172159
+tags: excludeLists systemConfig
+server.recipe: tobibeer_public
+server.host: http://tobibeer.tiddlyspace.com
+server.etag: &quot;charts_public/TagTablePlugin/27240:425b5bc0ca833b6a972b9f3e3ac64f15935be6ab&quot;
+server.type: tiddlyweb
+creator: jon
+_hash: 0182ff91a481f94d0a16cf6d0da0f8bd588a9100
+server.content-type: 
+server.page.revision: 27240
+server.title: TagTablePlugin
+server.permissions: read
+server.workspace: bags/charts_public
+server.bag: charts_public

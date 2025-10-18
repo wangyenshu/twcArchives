@@ -1,0 +1,17 @@
+title: RenameTagsPlugin
+modifier: mama
+created: 20120112211350
+modified: 20120112211350
+tags: systemConfig
+_hash: e5b4578f785e6cec84a531f40cb7abf39bd8ea03
+creator: mama
+server.permissions: read
+server.workspace: bags/seticon_public
+server.bag: seticon_public
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.title: RenameTagsPlugin
+server.content-type: 
+server.type: tiddlyweb
+server.etag: &quot;seticon_public/RenameTagsPlugin/17873:91e6d092044781a466bb17ae56c770bcdddfbd34&quot;
+server.page.revision: 17873

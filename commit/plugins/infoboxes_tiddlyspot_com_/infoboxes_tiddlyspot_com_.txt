@@ -1,0 +1,86 @@
+|Source|https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/infoboxes_tiddlyspot_com_/infoboxes_tiddlyspot_com_.txt|
+|Version|0.1|
+//{{{
+[
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/infoboxes_tiddlyspot_com_/CopyTiddlerPlugin.js",
+    "description": "Quickly create a copy of any existing tiddler"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/infoboxes_tiddlyspot_com_/ExportTiddlersPlugin.js",
+    "description": "interactively select/export tiddlers to a separate file"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/infoboxes_tiddlyspot_com_/ImportTiddlersPlugin.js",
+    "description": "interactive controls for import/export with filtering."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/infoboxes_tiddlyspot_com_/InfoboxTablesPlugin.js",
+    "description": "Provides customizable infoboxes for different types of articles."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/infoboxes_tiddlyspot_com_/InfoboxTablesPluginCommand.js",
+    "description": "Provides \"infobox info\" command for [[InfoboxTablesPlugin]]."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/infoboxes_tiddlyspot_com_/LoadRemoteFileThroughProxy.js",
+    "description": "''When the TiddlyWiki file is located on the web (view over http) the content of [[SiteProxy]] tiddler is added in front of the file url. If [[SiteProxy]] does not exist \"/proxy/\" is added."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/infoboxes_tiddlyspot_com_/PasswordOptionsPlugin.js",
+    "description": "''Extends TiddlyWiki options with non encrypted password option."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/infoboxes_tiddlyspot_com_/ShBrushCSS.js.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/infoboxes_tiddlyspot_com_/ShBrushJScript.js.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/infoboxes_tiddlyspot_com_/ShBrushPlain.js.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/infoboxes_tiddlyspot_com_/ShBrushPython.js.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/infoboxes_tiddlyspot_com_/ShBrushXml.js.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/infoboxes_tiddlyspot_com_/ShCore.js.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/infoboxes_tiddlyspot_com_/SinglePageModePlugin.js",
+    "description": "Show tiddlers one at a time with automatic permalink, or always open tiddlers at top/bottom of page."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/infoboxes_tiddlyspot_com_/SyntaxHighlighterPlugin3.js",
+    "description": "''Description''Enables syntax highlighting"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/infoboxes_tiddlyspot_com_/SystemSettings.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/infoboxes_tiddlyspot_com_/TiddlerTweakerPlugin.js",
+    "description": "select multiple tiddlers and modify author, created, modified and/or tag values"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/infoboxes_tiddlyspot_com_/TiddlyFileImportr.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/infoboxes_tiddlyspot_com_/TspotSetupPlugin.js",
+    "description": "Contains the stuff you need to use Tiddlyspot"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/infoboxes_tiddlyspot_com_/UploadPlugin.js",
+    "description": "''Save to web a TiddlyWiki"
+  }
+]
+//}}}

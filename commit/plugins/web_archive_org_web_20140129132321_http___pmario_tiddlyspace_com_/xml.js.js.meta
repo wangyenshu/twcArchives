@@ -1,0 +1,17 @@
+title: xml.js
+modifier: pmario
+created: 20110908215148
+modified: 20130605124821
+tags: cmtw excludeLists excludeMissing systemConfig
+creator: pmario
+server.page.revision: 1248702
+server.title: xml.js
+_hash: 31ec8698c2c449fa7d967f9216bd9a26b76f0050
+server.recipe: pmario_public
+server.bag: codemirror-plugins_public
+server.permissions: read
+server.type: tiddlyweb
+server.etag: &quot;codemirror-plugins_public/xml.js/1248702:56b4fc23e387c202c061bd56ebd6699a923d743e&quot;
+server.host: http://pmario.tiddlyspace.com
+server.workspace: bags/codemirror-plugins_public
+server.content-type: 

@@ -1,0 +1,17 @@
+title: RandomColorPalettePlugin
+modifier: jon
+created: 20121128171840
+modified: 20121128171840
+tags: excludeLists excludeSearch systemConfig
+server.recipe: tobibeer_public
+server.host: http://tobibeer.tiddlyspace.com
+server.etag: &quot;system-plugins_public/RandomColorPalettePlugin/970279:4dea9d84248a2a6693e78e98784f82e56741f996&quot;
+server.type: tiddlyweb
+creator: jon
+_hash: c5b359abab5a1446d12be89e6ea608d2d73e4822
+server.content-type: text/javascript
+server.page.revision: 970279
+server.title: RandomColorPalettePlugin
+server.permissions: read
+server.workspace: bags/system-plugins_public
+server.bag: system-plugins_public

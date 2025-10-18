@@ -1,0 +1,17 @@
+title: zzSectionTOCoptions
+modifier: birthe
+created: 20120512174946
+modified: 20120512174946
+tags: excludeLists systemConfig
+_hash: b06ed9907a0edef61cdc91d9930263308d3492ec
+creator: birthe
+server.permissions: read
+server.workspace: bags/blokken_public
+server.bag: blokken_public
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.title: zzSectionTOCoptions
+server.content-type: 
+server.type: tiddlyweb
+server.etag: &quot;blokken_public/zzSectionTOCoptions/33881:fbf7637d585825451f536ef5089a8c96fff3d0ea&quot;
+server.page.revision: 33881

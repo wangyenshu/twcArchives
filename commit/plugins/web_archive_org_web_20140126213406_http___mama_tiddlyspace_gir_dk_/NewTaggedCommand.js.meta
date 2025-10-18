@@ -1,0 +1,17 @@
+title: NewTaggedCommand
+modifier: mama
+created: 20120107022117
+modified: 20120206181657
+tags: systemConfig
+_hash: 47a1762598cd6b48b68495d0cdf9bb2cec08809a
+creator: mama
+server.permissions: read
+server.workspace: bags/nyher_public
+server.bag: nyher_public
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.title: NewTaggedCommand
+server.content-type: 
+server.type: tiddlyweb
+server.etag: &quot;nyher_public/NewTaggedCommand/21639:19afd1cd2863fb61a3e033911b3a87967829699f&quot;
+server.page.revision: 21639

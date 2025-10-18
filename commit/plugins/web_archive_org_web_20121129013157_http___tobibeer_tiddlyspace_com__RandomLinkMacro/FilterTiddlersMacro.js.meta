@@ -1,0 +1,17 @@
+title: FilterTiddlersMacro
+modifier: tobibeer
+created: 20100928143532
+modified: 20100930151110
+tags: excludeLists systemConfig
+server.recipe: tobibeer_public
+server.host: http://tobibeer.tiddlyspace.com
+server.etag: &quot;filtertiddlers_public/FilterTiddlersMacro/69016:1acee984772006c978e8c42d62516a3220fcf88a&quot;
+server.type: tiddlyweb
+creator: tobibeer
+_hash: 9aaf0d1d3d4f94f93ed94a2d0fcf267b142164f5
+server.content-type: 
+server.page.revision: 69016
+server.title: FilterTiddlersMacro
+server.permissions: read
+server.workspace: bags/filtertiddlers_public
+server.bag: filtertiddlers_public

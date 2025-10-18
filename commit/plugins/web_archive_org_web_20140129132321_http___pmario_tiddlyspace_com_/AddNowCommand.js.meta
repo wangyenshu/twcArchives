@@ -1,0 +1,17 @@
+title: AddNowCommand
+modifier: pmario
+created: 20110720184423
+modified: 20110720184423
+tags: systemConfig
+creator: pmario
+server.page.revision: 453443
+server.title: AddNowCommand
+_hash: 811c8defd43e18669d51021c93d56534b8fbc3fc
+server.recipe: pmario_public
+server.bag: neui-toolbar_public
+server.permissions: read
+server.type: tiddlyweb
+server.etag: &quot;neui-toolbar_public/AddNowCommand/453443:f8f547642f8560954ac9c6534e75eb1dfd8ec79b&quot;
+server.host: http://pmario.tiddlyspace.com
+server.workspace: bags/neui-toolbar_public
+server.content-type: 

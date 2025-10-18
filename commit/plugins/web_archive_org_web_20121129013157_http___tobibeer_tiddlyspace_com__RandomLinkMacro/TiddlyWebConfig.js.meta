@@ -1,0 +1,17 @@
+title: TiddlyWebConfig
+modifier: FND
+created: 20121128171840
+modified: 20121128171840
+tags: excludeLists excludeSearch systemConfig
+server.recipe: tobibeer_public
+server.host: http://tobibeer.tiddlyspace.com
+server.etag: &quot;system/TiddlyWebConfig/970298:95748369a6e29bd2b30e0224a2f429b3258a61e5&quot;
+server.type: tiddlyweb
+creator: FND
+_hash: 29e43eb7496ba0572556029d183cb3f434369f04
+server.content-type: text/javascript
+server.page.revision: 970298
+server.title: TiddlyWebConfig
+server.permissions: read
+server.workspace: bags/system
+server.bag: system

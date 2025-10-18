@@ -1,0 +1,18 @@
+title: zzAccessibleHeadingsPlugin
+modifier: pmario
+created: 20120208124901
+modified: 20120208141954
+tags: systemConfig systemConfigDisable
+content-type: text/javascript
+creator: pmario
+server.page.revision: 173863
+server.title: zzAccessibleHeadingsPlugin
+_hash: ec407fd0a3544a969810698aaac109c1326f0cad
+server.recipe: pmario_public
+server.bag: pmario_public
+server.permissions: read
+server.type: tiddlyweb
+server.etag: &quot;pmario_public/zzAccessibleHeadingsPlugin/173863:3fd0c644ed8adb429d74ce99c70bf1fd6a7e7c1a&quot;
+server.host: http://pmario.tiddlyspace.com
+server.workspace: bags/pmario_public
+server.content-type: 

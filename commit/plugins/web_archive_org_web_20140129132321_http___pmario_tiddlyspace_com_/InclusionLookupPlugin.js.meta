@@ -1,0 +1,17 @@
+title: InclusionLookupPlugin
+modifier: jon
+created: 20101015081604
+modified: 20110913154118
+tags: excludeLists systemConfig
+creator: jon
+server.page.revision: 107027
+server.title: InclusionLookupPlugin
+_hash: 5f09440d77befebbd23fa7b6c1894d535099ce92
+server.recipe: pmario_public
+server.bag: inclusion_public
+server.permissions: read
+server.type: tiddlyweb
+server.etag: &quot;inclusion_public/InclusionLookupPlugin/107027:22f403ce41897beb4b7365a2ddd776337ffe881d&quot;
+server.host: http://pmario.tiddlyspace.com
+server.workspace: bags/inclusion_public
+server.content-type: 

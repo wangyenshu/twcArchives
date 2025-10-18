@@ -1,0 +1,222 @@
+|Source|https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/devpad_tiddlyspot_com.txt|
+|Version|0.1|
+//{{{
+[
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/BlockCollapseMacro.js",
+    "description": "''Description''macro for collapsing/expanding block elements' height on click"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/ButtonMemoryMacro.js",
+    "description": "''Description''creates a list of buttons and remembers the order they were clicked in"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/CommentsFormatter.js",
+    "description": "''Description''formatter adding comments syntax"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/ComputedStyleMacro.js",
+    "description": "''Description''retrieves parent container's computed CSS properties"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/ConditionalTableFormattingMacro.js",
+    "description": "''Description''apply formatting based on table contents"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/CoreOverride.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/CrossIndexingMacro.js",
+    "description": "''Description''[//TBD//]"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/DcTableOfContentsPlugin.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/DebuggingPlugin.js",
+    "description": "provides a simple framework for debugging"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/DefaultOptions.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/DoBackupMacro.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/EasyHighlightingPlugin.js",
+    "description": "allow for simple highlighting by selecting text"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/EasyLayoutPlugin.js",
+    "description": "config.macros.EasyLayout.createInputField = function(parent, ID, description) {"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/EvalMacro.js",
+    "description": "''Description''Allows executing JavaScript code to return computed values."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/ForEachTiddlerTest.js",
+    "description": "just for testing/debugging purposes"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/InlineJavascriptPlugin.js",
+    "description": "Insert Javascript executable code directly into your tiddler content."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/JashLightMacro.js",
+    "description": "''Description''JavaScript shell console"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/JashMacro.js",
+    "description": "''Description''JavaScript shell console"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/MediaWikiTableFormatterPlugin.js",
+    "description": "''Description''Allows MediaWiki style tables in TiddlyWiki"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/NestedBrowserMacro.js",
+    "description": "''Description''Creates a browser pane inside a tiddler for viewing external pages."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/NewFromHereMacro.js",
+    "description": "''Description''Creates a new tiddler, using the originating tiddler's title as a prefix."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/OpenTaggedTiddlersMacro.js",
+    "description": "open all tiddlers with a given tag"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/PaletteViewMacro.js",
+    "description": "''Description''Displays color palettes."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/ParagraphFormatter.js",
+    "description": "''Description''formatter modifying TiddlyWiki's handling of line breaks"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/PasswordOptionPlugin.js",
+    "description": "''Extends TiddlyWiki options with non encrypted password option."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/PasswordPromptMacro.js",
+    "description": "''Description''create a prompt for password input"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/PasswordPromptPlugin.js",
+    "description": "''Description''create a prompt for masked password inputs"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/PasswordPromptPluginTest.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/PrintMacro.js",
+    "description": "''Description''prints the current document"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/RandomSliceMacro.js",
+    "description": "''Description''Fetches a random slice from a given tiddler."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/RawTextAdaptor.js",
+    "description": "''Description''adaptor for importing plain-text files (e.g. from Subversion) as tiddlers"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/RelativeLinkMacro.js",
+    "description": "''Description''creates PrettyLinks relative to the current tiddler"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/RemoteBackgroundPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/SearchTagPlugin.js",
+    "description": "''Description''adds web-search links to internal wiki links"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/SearchTextTweaks.js",
+    "description": "''adds descriptive text to the search box"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/SimpleCommentsPlugin.js",
+    "description": "add comments to a tiddler"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/SimpleSearchPlugin.js",
+    "description": "''Description''displays search results as a simple list of matching tiddlers"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/SuppressEmptyTagsPlugin.js",
+    "description": "suppress tagged box when tiddler is untagged"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/TableHighlightMacro.js",
+    "description": "''Description''macro for highlighting elements on mouse-over (hover)"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/TableToTiddlersMacro.js",
+    "description": "''Description''generates individual tiddlers from a table"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/TagBoxToggleMacro.js",
+    "description": "''Description''toggles the visibility of the respective tiddler's tag box"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/TagComboMacro.js",
+    "description": "''Description''returns a list of tiddlers matching a combination of tags"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/TagNavigatorPlugin.js",
+    "description": "select tiddlers based on tag combinations"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/TaggedBackupsPlugin.js",
+    "description": "''Description''allows the creation of backup files with an edit summary"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/TidIDEPlugin.js",
+    "description": "TiddlyWiki Integrated Development Environment - tools for authors and plugin writers"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/TiddlerPopupMacro.js",
+    "description": "''Description''Shows the contents of the specified tiddler in a popup."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/TiddlerPreviewPlugin.js",
+    "description": "''Description''provides a toolbar command for previewing tiddlers in edit mode"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/TiddlerToCPlugin.js",
+    "description": "create a table of contents from a tiddler's headings"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/TiddlerWriteMacro.js",
+    "description": "''Description''Shows the contents of the specified tiddler."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/ToggleElementMacro.js",
+    "description": "''Description''toggles the visibility of the element specified"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/TspotSetupPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/UploadPlugin.js",
+    "description": "''Save to web a TiddlyWiki"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/eMailMacro.js",
+    "description": "''Description''create an e-mail from tiddler contents"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/devpad_tiddlyspot_com/newJournalHereMacro.js",
+    "description": ""
+  }
+]
+//}}}

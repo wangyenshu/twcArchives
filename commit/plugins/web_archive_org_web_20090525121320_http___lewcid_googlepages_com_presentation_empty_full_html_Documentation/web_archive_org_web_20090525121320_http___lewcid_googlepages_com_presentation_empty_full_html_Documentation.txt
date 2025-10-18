@@ -1,0 +1,46 @@
+|Source|https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090525121320_http___lewcid_googlepages_com_presentation_empty_full_html_Documentation/web_archive_org_web_20090525121320_http___lewcid_googlepages_com_presentation_empty_full_html_Documentation.txt|
+|Version|0.1|
+//{{{
+[
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090525121320_http___lewcid_googlepages_com_presentation_empty_full_html_Documentation/BoldLinksPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090525121320_http___lewcid_googlepages_com_presentation_empty_full_html_Documentation/ConfigSettings.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090525121320_http___lewcid_googlepages_com_presentation_empty_full_html_Documentation/FooterHack.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090525121320_http___lewcid_googlepages_com_presentation_empty_full_html_Documentation/InfoPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090525121320_http___lewcid_googlepages_com_presentation_empty_full_html_Documentation/LegacyStrikeThroughPlugin.js",
+    "description": "''Support for  legacy (pre 2.1) strike through formatting"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090525121320_http___lewcid_googlepages_com_presentation_empty_full_html_Documentation/NavigationPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090525121320_http___lewcid_googlepages_com_presentation_empty_full_html_Documentation/PresentationPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090525121320_http___lewcid_googlepages_com_presentation_empty_full_html_Documentation/SinglePageModePlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090525121320_http___lewcid_googlepages_com_presentation_empty_full_html_Documentation/TiddlerSubtitleTweak.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090525121320_http___lewcid_googlepages_com_presentation_empty_full_html_Documentation/TopMacro.js",
+    "description": ""
+  }
+]
+//}}}

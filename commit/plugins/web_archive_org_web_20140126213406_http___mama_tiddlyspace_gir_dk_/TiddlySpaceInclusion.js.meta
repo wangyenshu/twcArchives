@@ -1,0 +1,17 @@
+title: TiddlySpaceInclusion
+modifier: mama
+created: 20111017132857
+modified: 20111017132857
+tags: systemConfig
+_hash: 536d4cc06e9ee69dd68ea43111e107769fc9e7cd
+creator: mama
+server.permissions: read
+server.workspace: bags/sorter_public
+server.bag: sorter_public
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.title: TiddlySpaceInclusion
+server.content-type: text/javascript
+server.type: tiddlyweb
+server.etag: &quot;sorter_public/TiddlySpaceInclusion/2331:968fd535b04aaa1e28393e1eb2aea18840eb965f&quot;
+server.page.revision: 2331

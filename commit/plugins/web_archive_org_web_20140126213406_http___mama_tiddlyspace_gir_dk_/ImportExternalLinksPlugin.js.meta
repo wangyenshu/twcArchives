@@ -1,0 +1,17 @@
+title: ImportExternalLinksPlugin
+modifier: mama
+created: 20111022180254
+modified: 20111022213015
+tags: excludeLists systemConfig
+_hash: 87e397ddd1d4b35faecb0206a16f89fd584ab39d
+creator: mama
+server.permissions: read
+server.workspace: bags/besked_public
+server.bag: besked_public
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.title: ImportExternalLinksPlugin
+server.content-type: 
+server.type: tiddlyweb
+server.etag: &quot;besked_public/ImportExternalLinksPlugin/5137:3b7ccdd2eae212f7a731013ee3b26d3ecd9b71a1&quot;
+server.page.revision: 5137

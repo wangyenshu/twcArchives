@@ -1,0 +1,134 @@
+<div title="BasaltTheme" modifier="bauwebijl" created="20101111134640" modified="20120613094428" tags="basalttheme bsd excludeLists excludeSearch systemTheme theme" server.type="tiddlyweb" server.page.revision="743813" server.permissions="read" server.host="http://bauwebijl.tiddlyspace.com" server.content-type="" server.workspace="bags/bauwebijl_public" creator="bauwebijl" _hash="8809c71a8095fd7265f4f3ea44207880edcbe1a1" server.bag="bauwebijl_public" server.etag="&quot;bauwebijl_public/BasaltTheme/743813:f896993d8f4db6066dded11ac21672e1acfd4fd7&quot;" server.title="BasaltTheme" server.recipe="bauwebijl_public">
+<pre>/***
+|''Name''|BasaltTheme|
+|''Source''|http://bauwebijl.tiddlyspace.com/#BasaltTheme|
+|''Version:''|0.3|
+|''Author:''|Bauwe Bijl|
+|''Date:''|October 22nd, 2010|
+|''License:''|[[BSD License|http://bauwebijl.tiddlyspace.com/#LegalStatements]]|
+|''Comments:''|Please make comments at http://groups.google.nl/group/TiddlyWiki|
+|''~CoreVersion:''|2.6.0|
+|''Type''|CSS|
+|''Description''|a ''~TiddlySpace'' theme: http://bauwebijl.tiddlyspace.com/#BasaltThemeInfo|
+|''PageTemplate:''|##PageTemplate|
+|''ViewTemplate:''|##ViewTemplate|
+|''EditTemplate:''|##EditTemplate|
+|''StyleSheet:''|##StyleSheet|
+***/
+!PageTemplate
+<!--{{{-->
+<div id='secondaryMenu' refresh='content' tiddler='SecMenu'></div>
+<div class='header'>
+	<div id='sidebarSearch'>
+		<span macro='search search'></span>
+	</div>
+	<div class='headerForeground'>
+		<span class='siteTitle' refresh='content' tiddler='SiteTitle'></span>
+		<span class='siteSubtitle' refresh='content' tiddler='SiteSubtitle'></span>
+	</div>
+	<div class='clearFloat'></div>
+</div>
+<div id='menuBar'>
+	<div id='mainMenu' refresh='content' tiddler='MainMenu'></div>
+	<div id='sidebarOptions' refresh='content' tiddler='SideBarOptions'></div>
+</div>
+<div id='displayArea'>
+	<div id='messageArea'></div>
+	<div id='tiddlerDisplay'></div>
+	<div id='sidebarTabs' refresh='content' force='true' tiddler='SideBarTabs'></div>
+</div>
+<!--}}}-->
+!ViewTemplate
+<!--{{{-->
+<div class='toolbar' 
+	macro='toolbar [[ToolbarCommands::ViewToolbar]] icons:yes height:16 width:16 more:popup'>
+</div>
+<div class='title' macro='view title text'></div>
+<div class='heading'>
+	<span class='spaceSiteIcon' 
+		macro='tiddlerOrigin label:no spaceLink:yes height:48 width:48 preserveAspectRatio:yes'>
+	</span>
+	<span class="titleBar">		
+		<div class="subtitle" macro='viewRevisions page:5'>
+			last modified on
+			<span macro="view modified date"></span>
+		</div>
+		<div macro="view title replyLink"></div>
+	</span>
+	<span class='followPlaceHolder' macro='followTiddlers'></span>
+	<span class='modifierIcon'
+		macro='view modifier SiteIcon label:no spaceLink:yes height:48 width:48 preserveAspectRatio:yes'>
+	</span>
+	<div class='tagClear'></div>
+</div>
+<div class='content'>
+	<div class='viewer' macro='view text wikified'></div>
+</div>
+<div class='tagInfo'>
+	<div class='tidTags' macro='tags'></div>
+	<div class='tagging' macro='tagging'></div>
+</div>
+<!--}}}-->
+!EditTemplate
+<!--{{{-->
+<div class='toolbar' macro='toolbar [[ToolbarCommands::EditToolbar]] icons:yes'></div>
+<div class='editor title' macro='edit title'></div>
+<div class='heading editorHeading'>
+		<div class='tagClear'></div>
+</div>
+<div class='annotationsBox' macro='annotations'>
+<div class='editSpaceSiteIcon' macro='tiddlerOrigin height:16 width:16 label:no'></div>
+	<div class="privacyEdit" macro='setPrivacy label:no'></div>
+<div class='tagClear'></div>
+</div>
+<div class='editor' macro='edit text'></div>
+<div class='editorFooter'>
+	<div class='tagTitle'>tags</div>
+	<div class='editor' macro='edit tags'></div>
+	<div class='tagAnnotation'>
+		<span macro='message views.editor.tagPrompt'></span>
+		<span macro='tagChooser excludeLists'></span>
+	</div>
+</div>
+<!--}}}-->
+!StyleSheet
+/*{{{*/
+[[StyleSheet]]
+.siteTitle, .siteSubtitle, .siteTitle .tiddlyLink, .siteTitle .tiddlyLinkNonExisting, .siteSubtitle .tiddlyLink, .siteSubtitle .tiddlyLinkNonExisting { color:[[ColorPalette::LightGrey]];}
+.header, .headerForeground { background-color:[[ColorPalette::MidGrey]];}
+#secondaryMenu { height: 22px; background-color:[[ColorPalette::PrimaryLight]]; padding-left:72px; padding-top:7px; }
+#secondaryMenu a, #secondaryMenu .tiddlyLink, #secondaryMenu .button { background-color:[[ColorPalette::PrimaryLight]]; color:[[ColorPalette::TertiaryLight]]; font-size:100%; padding:7px 5px; position: relative; border-right-width:1px; margin-right:1px; border-right-color:[[ColorPalette::MidGrey]]; border-right-style:solid; }
+#secondaryMenu a:hover, #secondaryMenu .tiddlyLink:hover, #secondaryMenu .button:hover, #secondaryMenu .button:active, #secondaryMenu .highlight { color:[[ColorPalette::TertiaryLight]]; text-decoration:none; background-color:[[ColorPalette::HoverGrey]]; }
+#menuBar { height: 17px; background-color: [[ColorPalette::PrimaryDark]]; border-bottom-style:solid; border-bottom-width: 5px; border-color: [[ColorPalette::PrimaryPale]]; }
+#sidebarOptions a:active { background:[[ColorPalette::TertiaryPale]]; }
+#menuBar a, #menuBar .tiddlyLink, #menuBar .button, #sidebarOptions a.button { color:[[ColorPalette::TertiaryMid]]; font-size:100%; padding: 8px 8px; position: relative; margin: 0px 1px 0px 0px; border-width: 0px 1px 0px 0px; border-right-color:[[ColorPalette::PrimaryPale]]; border-right-style:solid; }
+#menuBar a:hover, #menuBar .tiddlyLink:hover, #menuBar .button:hover, #menuBar .button:active, #menuBar .highlight, #sidebarOptions a.button:hover, #sidebarOptions a:active { color:[[ColorPalette::PrimaryLight]]; text-decoration:none; background-color:[[ColorPalette::TertiaryPale]]; }
+#sidebarOptions { height:29px; margin-top:-4px; }
+#sidebarOptions a.button { font-size:80%; top:-4px; height:17px; border-bottom-width:0; border-top-width:0; border-left-width:0; margin-left: 0; }
+.tiddler .title { background-color: [[ColorPalette::TertiaryLight]]; padding:7px 7px 7px 7px; margin-top:none; border-width:1px 0px 1px 0px; border-top-color: [[ColorPalette::TertiaryPale]]; border-top-style:solid; border-bottom-color: [[ColorPalette::Foreground]]; border-bottom-style:solid; }
+.tiddler { position: relative; -moz-box-shadow: 2px 2px 8px black;	-webkit-box-shadow: 2px 2px 8px black;	filter: progid: DXImageTransform.Microsoft.Shadow(color='#000000', Direction=135, Strength=3); box-shadow: 2px 2px 8px black; border-color:[[ColorPalette::Foreground]]; border-width:1px; border-style:solid; padding: 0px 0px 0px 0px; margin-bottom: 20px; }
+.tiddler .viewer { margin: 0 72px 0 72px; line-height: normal; padding-bottom:16px; }
+body, .tiddler { background-color:[[ColorPalette::TertiaryPale]]; }
+div.toolbar { height:30px; padding-top:10px; top:-5px; right:-6px; visibility:visible; }
+.tiddler .toolbar .button { padding:6px 6px 2px 6px; margin:1px 6px 0 0; moz-border-radius:24px 24px 24px 24px / 24px 24px 24px 24px; border-radius: 20px 20px 20px 20px; background:-moz-linear-gradient(center top ,[[ColorPalette::TertiaryPale]], [[ColorPalette::TertiaryMid]]) repeat scroll 0 0 transparent; border:1px solid [[ColorPalette::MidGrey]] !important; -webkit-border-radius:14px; background: -webkit-gradient(linear, center bottom, center top, color-stop(0, [[ColorPalette::TertiaryMid]]), color-stop(1, [[ColorPalette::TertiaryPale]])); }
+.tiddler .toolbar .button:hover { padding:6px 6px 2px 6px; margin:1px 6px 0 0; -moz-border-radius:24px 24px 24px 24px / 24px 24px 24px 24px; background:-moz-linear-gradient(center top ,[[ColorPalette::TertiaryPale]], [[ColorPalette::TertiaryMid]]) repeat scroll 0 0 transparent; -webkit-border-radius:14px; background: -webkit-gradient(linear, center bottom, center top, color-stop(0, [[ColorPalette::TertiaryMid]]), color-stop(1, [[ColorPalette::TertiaryPale]])); border:1px solid [[ColorPalette::Foreground]] !important; }
+.tiddler .toolbar .button:active { -moz-box-shadow:0px 2px 8px 0.1px black inset; -webkit-box-shadow: 0px 2px 8px 0.1px black inset; filter: progid:  DXImageTransform.Microsoft.Shadow(color='#000000', Direction=90, Strength=1); box-shadow: inset 0px 2px 8px 1px black; }
+.toolbar { padding: 7px 7px 0px 0px; }
+.toolbar svg .glyph, .toolbar a:hover .glyph, .toolbar a:active .glyph { fill: #111; }
+.toolbar svg { height: 15px; width: 15px; }
+.heading { margin-right: 7px;  margin-left: 7px; }
+#sidebarTabs .tabsetWrapper .tabset .tab { color:[[ColorPalette::TertiaryMid]]; background-color: [[ColorPalette::MidGrey]];}
+#sidebarTabs .tabsetWrapper .tabset .tabSelected, 
+#sidebarTabs .tabsetWrapper .tabset .tabSelected:hover { color:[[ColorPalette::PrimaryMid]]; background-color:[[ColorPalette::PrimaryDark]]; border-color: [[ColorPalette::PrimaryDark]];}
+#sidebarTabs .tabsetWrapper .tabset a:hover { color: [[ColorPalette::PrimaryLight]]; background-color:[[ColorPalette::TertiaryPale]];}
+#sidebarTabs .tabsetWrapper .tabContents { border-color: [[ColorPalette::PrimaryDark]]; background-color:[[ColorPalette::PrimaryDark]];}
+#sidebarTabs .tabContents li a:hover { color: [[ColorPalette::SecondaryDark]]; background-color:[[ColorPalette::PrimaryDark]]; }
+#sidebarTabs .tabContents li a { background-color:[[ColorPalette::PrimaryDark]]; margin-bottom:0;}
+#sidebarTabs .timeline li.listTitle, #sidebarTabs .tabContents li {color: [[ColorPalette::TertiaryMid]]; background-color:[[ColorPalette::PrimaryDark]];}
+#sidebarTabs .tabContents li, .tabContents .button, 
+#sidebarTabs .tabsetWrapper .tabContents {color: [[ColorPalette::TertiaryMid]]; background-color:[[ColorPalette::PrimaryDark]];}
+.tabContents .button:hover {color:[[ColorPalette::SecondaryDark]]; }
+.tiddlyLinkNonExisting:hover, .tiddlyLinkExisting:hover { color:[[ColorPalette::SecondaryDark]]; background: none; }
+.tagInfo {margin-left:0;}
+/*}}}*/</pre>
+</div>

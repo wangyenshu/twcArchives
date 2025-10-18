@@ -1,0 +1,17 @@
+title: RenameTagsPlugin
+modifier: pmario
+created: 20100807094830
+modified: 20100918170545
+tags: excludeLists systemConfig
+creator: pmario
+server.page.revision: 146436
+server.title: RenameTagsPlugin
+_hash: 3e3bab167400dc5d10f601d3a5717aeccd2d8aa4
+server.recipe: pmario_public
+server.bag: neui-em_public
+server.permissions: read
+server.type: tiddlyweb
+server.etag: &quot;neui-em_public/RenameTagsPlugin/146436:45dfe6c06f013a6183fdf97acb98333364b39bbc&quot;
+server.host: http://pmario.tiddlyspace.com
+server.workspace: bags/neui-em_public
+server.content-type: 

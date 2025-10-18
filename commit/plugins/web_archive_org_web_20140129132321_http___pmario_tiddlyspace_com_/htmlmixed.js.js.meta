@@ -1,0 +1,17 @@
+title: htmlmixed.js
+modifier: pmario
+created: 20110908215146
+modified: 20130605124455
+tags: cmtw excludeLists excludeMissing systemConfig
+creator: pmario
+server.page.revision: 1248688
+server.title: htmlmixed.js
+_hash: f6f10c2f25f01677468a39b10bd2863333cf3cb2
+server.recipe: pmario_public
+server.bag: codemirror-plugins_public
+server.permissions: read
+server.type: tiddlyweb
+server.etag: &quot;codemirror-plugins_public/htmlmixed.js/1248688:a31f92899dda96639429b38946af9b4af3808707&quot;
+server.host: http://pmario.tiddlyspace.com
+server.workspace: bags/codemirror-plugins_public
+server.content-type: 

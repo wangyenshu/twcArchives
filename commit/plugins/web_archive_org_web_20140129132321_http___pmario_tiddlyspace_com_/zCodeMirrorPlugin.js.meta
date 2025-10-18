@@ -1,0 +1,17 @@
+title: zCodeMirrorPlugin
+modifier: pmario
+created: 20120111162424
+modified: 20130605124856
+tags: cmtw excludeLists excludeMissing systemConfig
+creator: pmario
+server.page.revision: 1248703
+server.title: zCodeMirrorPlugin
+_hash: 4a3888d7dc0ea7ade2312c5f64975d463a9f20ac
+server.recipe: pmario_public
+server.bag: codemirror-plugins_public
+server.permissions: read
+server.type: tiddlyweb
+server.etag: &quot;codemirror-plugins_public/zCodeMirrorPlugin/1248703:e6f58d81e6997abe36c938ecb27f2e4abedda71e&quot;
+server.host: http://pmario.tiddlyspace.com
+server.workspace: bags/codemirror-plugins_public
+server.content-type: 

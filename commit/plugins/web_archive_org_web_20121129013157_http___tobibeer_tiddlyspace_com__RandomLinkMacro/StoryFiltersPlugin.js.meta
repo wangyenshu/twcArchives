@@ -1,0 +1,17 @@
+title: StoryFiltersPlugin
+modifier: jon
+created: 20110620072507
+modified: 20110620072516
+tags: excludeLists excludeSearch systemConfig
+server.recipe: tobibeer_public
+server.host: http://tobibeer.tiddlyspace.com
+server.etag: &quot;filters_public/StoryFiltersPlugin/69011:b39509b455d722c4bb5481964ec625c1dc64ecf9&quot;
+server.type: tiddlyweb
+creator: jon
+_hash: 9ed238ec6bf048ac3fc5688e6f1cd2fdff841221
+server.content-type: 
+server.page.revision: 69011
+server.title: StoryFiltersPlugin
+server.permissions: read
+server.workspace: bags/filters_public
+server.bag: filters_public

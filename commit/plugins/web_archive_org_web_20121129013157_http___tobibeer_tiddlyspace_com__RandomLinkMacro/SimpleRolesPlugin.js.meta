@@ -1,0 +1,17 @@
+title: SimpleRolesPlugin
+modifier: tobibeer
+created: 20100923163246
+modified: 20101016204408
+tags: systemConfig
+server.recipe: tobibeer_public
+server.host: http://tobibeer.tiddlyspace.com
+server.etag: &quot;tobibeer_public/SimpleRolesPlugin/223130:770e8df633992c70b3acfb3634e60802001d7e95&quot;
+server.type: tiddlyweb
+creator: tobibeer
+_hash: 6f23375f9c0a5d00de103fa78f1c82d7f4ebc406
+server.content-type: 
+server.page.revision: 223130
+server.title: SimpleRolesPlugin
+server.permissions: read
+server.workspace: bags/tobibeer_public
+server.bag: tobibeer_public

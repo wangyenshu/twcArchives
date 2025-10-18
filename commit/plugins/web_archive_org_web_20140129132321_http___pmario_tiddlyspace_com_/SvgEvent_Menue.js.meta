@@ -1,0 +1,17 @@
+title: SvgEvent_Menue
+modifier: pmario
+created: 20100727165404
+modified: 20100918160551
+tags: excludeLists fxPlugins systemConfig
+creator: pmario
+server.page.revision: 75408
+server.title: SvgEvent_Menue
+_hash: a7000abea1d958c284df1bae4bd8acc2b1a37c79
+server.recipe: pmario_public
+server.bag: fxplugins_public
+server.permissions: read
+server.type: tiddlyweb
+server.etag: &quot;fxplugins_public/SvgEvent_Menue/75408:bbbfdfeda9638774e6b5130142ca555ce2ee7813&quot;
+server.host: http://pmario.tiddlyspace.com
+server.workspace: bags/fxplugins_public
+server.content-type: 

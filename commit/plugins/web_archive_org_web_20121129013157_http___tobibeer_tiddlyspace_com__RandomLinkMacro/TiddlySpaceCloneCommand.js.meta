@@ -1,0 +1,17 @@
+title: TiddlySpaceCloneCommand
+modifier: osmosoft
+created: 20121128171842
+modified: 20121128171842
+tags: excludeLists excludeSearch systemConfig
+server.recipe: tobibeer_public
+server.host: http://tobibeer.tiddlyspace.com
+server.etag: &quot;tiddlyspace/TiddlySpaceCloneCommand/970406:d1ea509fcd02b3d21fa388c97123fe1c62e50288&quot;
+server.type: tiddlyweb
+creator: osmosoft
+_hash: 3ecfd7c955dc674752681565ad0ed68f8fcad5d9
+server.content-type: text/javascript
+server.page.revision: 970406
+server.title: TiddlySpaceCloneCommand
+server.permissions: read
+server.workspace: bags/tiddlyspace
+server.bag: tiddlyspace

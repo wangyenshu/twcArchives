@@ -1,0 +1,17 @@
+title: AttachFilePluginFormatters
+modifier: mama
+created: 20120112211350
+modified: 20120112211350
+tags: systemConfig
+_hash: 315fcc4a02e8fc87f4302d794d78b7ec92654677
+creator: mama
+server.permissions: read
+server.workspace: bags/seticon_public
+server.bag: seticon_public
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.title: AttachFilePluginFormatters
+server.content-type: 
+server.type: tiddlyweb
+server.etag: &quot;seticon_public/AttachFilePluginFormatters/17874:821b5aa632068a6cd2e378bbf10264df5dfa90ee&quot;
+server.page.revision: 17874

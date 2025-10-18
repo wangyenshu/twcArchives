@@ -1,0 +1,17 @@
+title: TiddlyFileImporter
+modifier: None
+created: 20110911181831
+modified: 20130305161743
+tags: excludeLists excludeSearch systemConfig
+_hash: edf398648e9324f8de73cd2fb942f9517aab6a6c
+creator: None
+server.permissions: read
+server.workspace: bags/system-plugins_public
+server.bag: system-plugins_public
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.title: TiddlyFileImporter
+server.content-type: text/javascript
+server.type: tiddlyweb
+server.etag: &quot;system-plugins_public/TiddlyFileImporter/40223:c2ea99fcde4e5aa0f67501f61bb3d773e620a547&quot;
+server.page.revision: 40223

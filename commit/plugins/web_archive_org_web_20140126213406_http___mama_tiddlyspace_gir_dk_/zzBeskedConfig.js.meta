@@ -1,0 +1,18 @@
+title: zzBeskedConfig
+modifier: mama
+created: 20111118234648
+modified: 20111118234648
+tags: excludeLists systemConfig
+_hash: 8d791a8ac0bf2ad7b0e20d27dd866f4b37bb5ddb
+creator: mama
+server.permissions: read
+server.workspace: bags/mama_public
+server.bag: mama_public
+server.recipe: mama_public
+tiddler.source: besked_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.title: zzBeskedConfig
+server.content-type: 
+server.type: tiddlyweb
+server.etag: &quot;mama_public/zzBeskedConfig/8926:a6b596848d92775a251320ed010a8e227392ac4f&quot;
+server.page.revision: 8926

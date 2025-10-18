@@ -1,0 +1,18 @@
+|Source|https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/weave_tiddlyspot_com/weave_tiddlyspot_com.txt|
+|Version|0.1|
+//{{{
+[
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/weave_tiddlyspot_com/AutoWeavePlugin.js",
+    "description": "''Automatically adds brackets to nonwikiwords on saving a tiddler."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/weave_tiddlyspot_com/LegacyStrikeThroughPlugin.js",
+    "description": "''Support for legacy (pre 2.1) strike through formatting"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/weave_tiddlyspot_com/UploadPlugin.js",
+    "description": "''Save to web a TiddlyWiki"
+  }
+]
+//}}}

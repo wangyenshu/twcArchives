@@ -1,0 +1,17 @@
+title: ShowDown
+modifier: tobibeer
+created: 20101026130500
+modified: 20130305133140
+tags: excludeLists systemConfig
+creator: tobibeer
+server.page.revision: 1128779
+server.title: ShowDown
+_hash: 7b34c415708af41b6855f25504db197d58cca742
+server.recipe: pmario_public
+server.bag: showdown_public
+server.permissions: read
+server.type: tiddlyweb
+server.etag: &quot;showdown_public/ShowDown/1128779:39ca3229face61bd9e5f8119552ffcb0de86d8e5&quot;
+server.host: http://pmario.tiddlyspace.com
+server.workspace: bags/showdown_public
+server.content-type: 

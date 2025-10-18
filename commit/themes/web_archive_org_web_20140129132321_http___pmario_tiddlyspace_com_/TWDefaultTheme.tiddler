@@ -1,0 +1,34 @@
+<div title="TWDefaultTheme" modifier="pmario" created="20100806192303" modified="20101112142743" tags="systemTheme" creator="pmario" server.page.revision="146566" server.title="TWDefaultTheme" _hash="b117017fffbda8a65092ae21e7281b6880d8f623" server.recipe="pmario_public" server.bag="neui-em_public" server.permissions="read" server.type="tiddlyweb" server.etag="&quot;neui-em_public/TWDefaultTheme/146566:994e0e3b7f930ceb9f3a879cc474292db1ad3d13&quot;" server.host="http://pmario.tiddlyspace.com" server.workspace="bags/neui-em_public" server.content-type="">
+<pre>|''Name:''|[[TWDefaultTheme]]|
+|''Description:''|Your description here!|
+|''Generator:''|[[TW FreeStyle|http://FreeStyle.tiddlyspot.com]]|
+|''Gen.Description:''|Automatically generated from: TWDefaultThemeProject|
+|''PageTemplate:''|PageTemplate|
+|''ViewTemplate:''|ViewTemplate|
+|''EditTemplate:''|EditTemplate|
+|''RevisionTemplate:''|RevisionTemplate|
+|''StyleSheet:''|##StyleSheet|
+
+!StyleSheet
+/*{{{*/
+
+/* horizontal main menu stuff if created by list */
+.noBullets a{
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+}
+
+.noBullets ul,
+.noBullets ol {
+	list-style:none;
+	padding:0;
+	margin: 0;
+}
+
+.noBullets li {
+	float: left;
+}
+
+[[StyleSheetTiddlySpace]]
+/*}}}*/</pre>
+</div>

@@ -1,0 +1,17 @@
+title: GroupByPlugin
+modifier: osmosoft
+created: 20131111192330
+modified: 20131111192330
+tags: excludeLists excludeSearch systemConfig
+creator: osmosoft
+server.page.revision: 1521873
+server.title: GroupByPlugin
+_hash: d4f41fa53916a920347fbe97303966ebeed68945
+server.recipe: pmario_public
+server.bag: system-plugins_public
+server.permissions: read
+server.type: tiddlyweb
+server.etag: &quot;system-plugins_public/GroupByPlugin/1521873:7a4e56d0ca66b381d7f01d66e212324e5d1733b1&quot;
+server.host: http://pmario.tiddlyspace.com
+server.workspace: bags/system-plugins_public
+server.content-type: text/javascript

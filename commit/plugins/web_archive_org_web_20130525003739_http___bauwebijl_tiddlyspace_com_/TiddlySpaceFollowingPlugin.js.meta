@@ -1,0 +1,17 @@
+title: TiddlySpaceFollowingPlugin
+modifier: osmosoft
+created: 20130521140651
+modified: 20130521140651
+tags: excludeLists excludeSearch systemConfig
+server.type: tiddlyweb
+server.page.revision: 1221955
+server.permissions: read
+server.host: http://bauwebijl.tiddlyspace.com
+server.content-type: text/javascript
+server.workspace: bags/system-plugins_public
+creator: osmosoft
+_hash: 65a4f81f24d076e5c3fc66d2ff037c994c514bcd
+server.bag: system-plugins_public
+server.etag: &quot;system-plugins_public/TiddlySpaceFollowingPlugin/1221955:3acf588d5565ecf7b2111aaf0a2802f6e3c8a124&quot;
+server.title: TiddlySpaceFollowingPlugin
+server.recipe: bauwebijl_public

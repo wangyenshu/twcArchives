@@ -1,0 +1,17 @@
+title: EditSectionPlugin
+modifier: mama
+created: 20111229011120
+modified: 20120219033856
+tags: systemConfig
+_hash: f529529266b09de06f2afae8b7156336c16302dd
+creator: mama
+server.permissions: read
+server.workspace: bags/editsection_public
+server.bag: editsection_public
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.title: EditSectionPlugin
+server.content-type: 
+server.type: tiddlyweb
+server.etag: &quot;editsection_public/EditSectionPlugin/21862:f5dbb0d66d0b522b3e46cdfdd0220e49a119c1f4&quot;
+server.page.revision: 21862

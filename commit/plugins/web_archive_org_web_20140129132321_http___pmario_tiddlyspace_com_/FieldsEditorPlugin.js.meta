@@ -1,0 +1,17 @@
+title: FieldsEditorPlugin
+modifier: pmario
+created: 20100918130227
+modified: 20100918130227
+tags: systemConfig
+creator: pmario
+server.page.revision: 172883
+server.title: FieldsEditorPlugin
+_hash: d57d9fb840e373dacc6f97db1fe33cd043b187e3
+server.recipe: pmario_public
+server.bag: pmario_public
+server.permissions: read
+server.type: tiddlyweb
+server.etag: &quot;pmario_public/FieldsEditorPlugin/172883:fd417ce366bd1ea4d893209e23160accac1887ac&quot;
+server.host: http://pmario.tiddlyspace.com
+server.workspace: bags/pmario_public
+server.content-type: 

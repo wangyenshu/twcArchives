@@ -1,0 +1,17 @@
+title: ServerSideSavingPlugin
+modifier: FND
+created: 20130924180405
+modified: 20130924180405
+tags: excludeLists excludeSearch systemConfig
+server.etag: &quot;system/ServerSideSavingPlugin/1521853:36484f432837509da398e9dda3d279520be31980&quot;
+server.recipe: ben_public
+server.title: ServerSideSavingPlugin
+creator: FND
+server.workspace: bags/system
+server.page.revision: 1521853
+_hash: d72cde071d926d9c66939444817d7e8621d24d9c
+server.type: tiddlyweb
+server.content-type: text/javascript
+server.bag: system
+server.permissions: read
+server.host: http://ben.tiddlyspace.com

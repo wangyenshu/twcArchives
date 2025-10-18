@@ -1,0 +1,17 @@
+title: SetIconPlugin
+modifier: mama
+created: 20120112211350
+modified: 20120112211350
+tags: systemConfig
+_hash: 9b7a199bc52cd105b733bfc22baa14754273efe8
+creator: mama
+server.permissions: read
+server.workspace: bags/seticon_public
+server.bag: seticon_public
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.title: SetIconPlugin
+server.content-type: 
+server.type: tiddlyweb
+server.etag: &quot;seticon_public/SetIconPlugin/17876:e735575aee6b46aa33bc827e010773113ece2c14&quot;
+server.page.revision: 17876

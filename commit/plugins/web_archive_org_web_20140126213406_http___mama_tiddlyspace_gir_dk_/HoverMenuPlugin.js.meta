@@ -1,0 +1,17 @@
+title: HoverMenuPlugin
+modifier: birthe
+created: 20120503185431
+modified: 20120507174427
+tags: systemConfig
+_hash: e05003abddf08021154063a55d2ab6c5db9597f7
+creator: birthe
+server.permissions: read
+server.workspace: bags/blokken_public
+server.bag: blokken_public
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.title: HoverMenuPlugin
+server.content-type: 
+server.type: tiddlyweb
+server.etag: &quot;blokken_public/HoverMenuPlugin/33002:da937b09ae311165365e2ef820be6e4bac5cfd7b&quot;
+server.page.revision: 33002

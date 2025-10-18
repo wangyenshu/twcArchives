@@ -1,0 +1,17 @@
+title: SelectThemePlugin
+modifier: birthe
+created: 20120228122306
+modified: 20120228122306
+tags: systemConfig
+_hash: be0cdaa10205305d22ce8d0334413d5143006359
+creator: birthe
+server.permissions: read
+server.workspace: bags/abe_public
+server.bag: abe_public
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.title: SelectThemePlugin
+server.content-type: 
+server.type: tiddlyweb
+server.etag: &quot;abe_public/SelectThemePlugin/23116:8d8669d2330c8a3fbb29b4049145970c022a06cd&quot;
+server.page.revision: 23116

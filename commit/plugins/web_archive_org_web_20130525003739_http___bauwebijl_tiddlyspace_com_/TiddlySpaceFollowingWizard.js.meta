@@ -1,0 +1,18 @@
+title: TiddlySpaceFollowingWizard
+modifier: jon
+created: 20101222235738
+modified: 20120118140029
+tags: excludeLists excludeSearch systemConfig
+server.type: tiddlyweb
+server.page.revision: 71031
+server.permissions: read
+server.host: http://bauwebijl.tiddlyspace.com
+server.content-type: 
+server.workspace: bags/following_public
+creator: jon
+_hash: 51c977fd69fe5439468369c45ad3386ad7db032e
+server.bag: following_public
+server.etag: &quot;following_public/TiddlySpaceFollowingWizard/71031:68794e8550e1a01458831f538d4fdadaeb889876&quot;
+summary: 
+server.title: TiddlySpaceFollowingWizard
+server.recipe: bauwebijl_public

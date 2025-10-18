@@ -1,0 +1,18 @@
+title: TiddlySpaceIntraSpaceInclusion
+modifier: jon
+created: 20110715090356
+modified: 20120327114416
+tags: excludeLists excludeSearch systemConfig
+server.type: tiddlyweb
+server.page.revision: 654521
+server.permissions: read
+server.host: http://bauwebijl.tiddlyspace.com
+server.content-type: 
+server.workspace: bags/following_public
+creator: jon
+_hash: c234a90d99d92755c64fffcea9a4dd412f6b5f3c
+server.bag: following_public
+server.etag: &quot;following_public/TiddlySpaceIntraSpaceInclusion/654521:0b20c694138351db3f5434f22314ddb0bcfd59d8&quot;
+summary: 
+server.title: TiddlySpaceIntraSpaceInclusion
+server.recipe: bauwebijl_public

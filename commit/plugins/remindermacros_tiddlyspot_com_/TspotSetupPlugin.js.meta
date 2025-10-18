@@ -1,0 +1,9 @@
+title: TspotSetupPlugin
+modifier: Simon
+created: 200706061221
+modified: 200803291416
+tags: systemConfig
+server.type: file
+server.host: mopi.tiddlyspot.com
+changecount: 1
+server.page.revision: 200803051625

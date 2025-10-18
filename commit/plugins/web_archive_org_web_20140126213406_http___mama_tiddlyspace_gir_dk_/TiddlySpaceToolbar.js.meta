@@ -1,0 +1,17 @@
+title: TiddlySpaceToolbar
+modifier: osmosoft
+created: 20110911181831
+modified: 20130305161743
+tags: excludeLists excludeSearch systemConfig
+_hash: f1d6038be5d1ecd8d107d604b0f0dce76bc901da
+creator: osmosoft
+server.permissions: read
+server.workspace: bags/system-plugins_public
+server.bag: system-plugins_public
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.title: TiddlySpaceToolbar
+server.content-type: text/javascript
+server.type: tiddlyweb
+server.etag: &quot;system-plugins_public/TiddlySpaceToolbar/40230:be1b81320e59c8c103192cef31bc2592d930e62a&quot;
+server.page.revision: 40230

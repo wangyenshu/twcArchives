@@ -1,0 +1,17 @@
+title: g.dot
+modifier: jon
+created: 20100806102703
+modified: 20101008172226
+tags: excludeLists systemConfig
+server.recipe: tobibeer_public
+server.host: http://tobibeer.tiddlyspace.com
+server.etag: &quot;charts_public/g.dot/27305:8140136ddcc832f11b750eb518a253f749b02104&quot;
+server.type: tiddlyweb
+creator: jon
+_hash: ede701a2231cbb7f7a158c9d8331333e83d9a3b1
+server.content-type: 
+server.page.revision: 27305
+server.title: g.dot
+server.permissions: read
+server.workspace: bags/charts_public
+server.bag: charts_public

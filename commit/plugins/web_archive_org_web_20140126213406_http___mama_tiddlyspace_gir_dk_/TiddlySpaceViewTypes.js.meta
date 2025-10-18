@@ -1,0 +1,17 @@
+title: TiddlySpaceViewTypes
+modifier: mama
+created: 20120301233737
+modified: 20120301233737
+tags: systemConfig
+_hash: 5bd3a0740841d5c37130547a4c85b7d157664fce
+creator: mama
+server.permissions: read
+server.workspace: bags/svar_public
+server.bag: svar_public
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.title: TiddlySpaceViewTypes
+server.content-type: text/javascript
+server.type: tiddlyweb
+server.etag: &quot;svar_public/TiddlySpaceViewTypes/24460:e9d5eaecc7c87012619baeaf85e54306011d0f66&quot;
+server.page.revision: 24460

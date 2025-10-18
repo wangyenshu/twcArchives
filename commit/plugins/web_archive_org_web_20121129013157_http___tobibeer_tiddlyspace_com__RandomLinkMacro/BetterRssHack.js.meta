@@ -1,0 +1,17 @@
+title: BetterRssHack
+modifier: tobibeer
+created: 20101008132747
+modified: 20101008175054
+tags: systemConfig
+server.recipe: tobibeer_public
+server.host: http://tobibeer.tiddlyspace.com
+server.etag: &quot;tobibeer_public/BetterRssHack/221726:2fd794504a035866ba0629e1f3995f5e55672050&quot;
+server.type: tiddlyweb
+creator: tobibeer
+_hash: 12462302ff28a8114381c997c6bf4aaab13af562
+server.content-type: 
+server.page.revision: 221726
+server.title: BetterRssHack
+server.permissions: read
+server.workspace: bags/tobibeer_public
+server.bag: tobibeer_public

@@ -1,0 +1,17 @@
+title: TiddlySpaceSearcher
+modifier: osmosoft
+created: 20110911181831
+modified: 20130305161747
+tags: excludeLists excludeSearch systemConfig
+_hash: e3762c200fa4b897f6e7bbb9e0e7d83f860a89a5
+creator: jon
+server.permissions: read
+server.workspace: bags/tiddlyspace
+server.bag: tiddlyspace
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.title: TiddlySpaceSearcher
+server.content-type: text/javascript
+server.type: tiddlyweb
+server.etag: &quot;tiddlyspace/TiddlySpaceSearcher/40178:334cf2945553bbd82363bcc1c0a4e91e7f7a8888&quot;
+server.page.revision: 40178

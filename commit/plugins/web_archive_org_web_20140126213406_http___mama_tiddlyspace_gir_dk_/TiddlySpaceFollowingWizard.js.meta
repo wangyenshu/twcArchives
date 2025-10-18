@@ -1,0 +1,17 @@
+title: TiddlySpaceFollowingWizard
+modifier: mama
+created: 20111019222833
+modified: 20111019222833
+tags: excludeLists excludeSearch systemConfig
+_hash: c79ce0a49ba9c97f6d18908f158277b07308752a
+creator: mama
+server.permissions: read
+server.workspace: bags/following_public
+server.bag: following_public
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.title: TiddlySpaceFollowingWizard
+server.content-type: 
+server.type: tiddlyweb
+server.etag: &quot;following_public/TiddlySpaceFollowingWizard/3627:5074b01ce379770e69514ca05cf95f61c78a75a5&quot;
+server.page.revision: 3627

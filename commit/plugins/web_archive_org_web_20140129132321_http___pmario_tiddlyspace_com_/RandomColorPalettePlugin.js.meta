@@ -1,0 +1,17 @@
+title: RandomColorPalettePlugin
+modifier: jon
+created: 20131111192330
+modified: 20131111192330
+tags: excludeLists excludeSearch systemConfig
+creator: jon
+server.page.revision: 1521872
+server.title: RandomColorPalettePlugin
+_hash: c5b359abab5a1446d12be89e6ea608d2d73e4822
+server.recipe: pmario_public
+server.bag: system-plugins_public
+server.permissions: read
+server.type: tiddlyweb
+server.etag: &quot;system-plugins_public/RandomColorPalettePlugin/1521872:bd4ec074e2b5b9dd3e6a06fa318a71b4532cdcaf&quot;
+server.host: http://pmario.tiddlyspace.com
+server.workspace: bags/system-plugins_public
+server.content-type: text/javascript

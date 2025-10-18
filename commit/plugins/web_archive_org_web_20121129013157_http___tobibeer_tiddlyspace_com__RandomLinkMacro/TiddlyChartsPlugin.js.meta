@@ -1,0 +1,17 @@
+title: TiddlyChartsPlugin
+modifier: jon
+created: 20100806095345
+modified: 20110201090829
+tags: excludeLists systemConfig
+server.recipe: tobibeer_public
+server.host: http://tobibeer.tiddlyspace.com
+server.etag: &quot;charts_public/TiddlyChartsPlugin/27297:5e2a33a71247ff3d94fbc0cae27641e3fc8eba21&quot;
+server.type: tiddlyweb
+creator: jon
+_hash: de1effa74f9beb5ca69c7dd0560af67ba4f5d786
+server.content-type: 
+server.page.revision: 27297
+server.title: TiddlyChartsPlugin
+server.permissions: read
+server.workspace: bags/charts_public
+server.bag: charts_public

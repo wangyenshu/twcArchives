@@ -1,0 +1,17 @@
+title: TiddlySpaceRevertRevision
+modifier: ben
+created: 20121128171840
+modified: 20121128171840
+tags: excludeLists excludeMissing excludeSearch systemConfig
+server.recipe: tobibeer_public
+server.host: http://tobibeer.tiddlyspace.com
+server.etag: &quot;system-plugins_public/TiddlySpaceRevertRevision/970286:4d96b6346bccb3724745d306fe155be0b169a77a&quot;
+server.type: tiddlyweb
+creator: ben
+_hash: db2d6dc5a63b9262d62fb6ffe02dbe10fdd31feb
+server.content-type: text/javascript
+server.page.revision: 970286
+server.title: TiddlySpaceRevertRevision
+server.permissions: read
+server.workspace: bags/system-plugins_public
+server.bag: system-plugins_public

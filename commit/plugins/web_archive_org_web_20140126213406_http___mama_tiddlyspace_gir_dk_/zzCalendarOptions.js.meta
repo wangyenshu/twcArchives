@@ -1,0 +1,17 @@
+title: zzCalendarOptions
+modifier: mama
+created: 20120101183858
+modified: 20120101183858
+tags: systemConfig
+_hash: a166a485cdbcde57ec85f7e5cfb2404c3c16cbe7
+creator: mama
+server.permissions: read
+server.workspace: bags/kalender_public
+server.bag: kalender_public
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.title: zzCalendarOptions
+server.content-type: 
+server.type: tiddlyweb
+server.etag: &quot;kalender_public/zzCalendarOptions/14807:d236f2e8b0dd73a8729ddeeafac67c7991582eb5&quot;
+server.page.revision: 14807

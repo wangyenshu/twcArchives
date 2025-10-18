@@ -1,0 +1,17 @@
+title: TiddlySpaceSanitizer
+modifier: osmosoft
+created: 20121128171840
+modified: 20121128171840
+tags: excludeLists excludeSearch systemConfig
+server.recipe: tobibeer_public
+server.host: http://tobibeer.tiddlyspace.com
+server.etag: &quot;system-plugins_public/TiddlySpaceSanitizer/970288:c6e5501d603c409e5d788a43a92ecaa218157bfe&quot;
+server.type: tiddlyweb
+creator: osmosoft
+_hash: 4e7490026802a699cc23155cd88b09a2cce3fb87
+server.content-type: text/javascript
+server.page.revision: 970288
+server.title: TiddlySpaceSanitizer
+server.permissions: read
+server.workspace: bags/system-plugins_public
+server.bag: system-plugins_public

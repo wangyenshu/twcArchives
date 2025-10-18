@@ -1,0 +1,17 @@
+title: ActivityStreamPlugin
+modifier: jon
+created: 20100917110749
+modified: 20110412100500
+tags: excludeLists systemConfig
+server.type: tiddlyweb
+server.page.revision: 70970
+server.permissions: read
+server.host: http://bauwebijl.tiddlyspace.com
+server.content-type: 
+server.workspace: bags/following_public
+creator: jon
+_hash: e8e570ecad97ac7a02a41323272d6a5e1e7bb963
+server.bag: following_public
+server.etag: &quot;following_public/ActivityStreamPlugin/70970:ab35e4dfcd72d5e11353ba3afbd73da45c1c216e&quot;
+server.title: ActivityStreamPlugin
+server.recipe: bauwebijl_public

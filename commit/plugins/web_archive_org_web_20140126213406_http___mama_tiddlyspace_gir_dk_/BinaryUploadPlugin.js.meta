@@ -1,0 +1,17 @@
+title: BinaryUploadPlugin
+modifier: osmosoft
+created: 20110911181831
+modified: 20130305161743
+tags: excludeLists excludeSearch systemConfig
+_hash: fa2a79fa940254cf1cdd7980c85b5efd0eff0ce5
+creator: osmosoft
+server.permissions: read
+server.workspace: bags/system-plugins_public
+server.bag: system-plugins_public
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.title: BinaryUploadPlugin
+server.content-type: text/javascript
+server.type: tiddlyweb
+server.etag: &quot;system-plugins_public/BinaryUploadPlugin/40217:807efb86415b3f078f211d6cb6ed2d5a0775c191&quot;
+server.page.revision: 40217

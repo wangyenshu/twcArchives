@@ -1,0 +1,17 @@
+title: HideWhenPlugin
+modifier: mama
+created: 20111229192155
+modified: 20111229192155
+tags: systemConfig
+_hash: e4ffe87294e601cadc9daaf8da7e851f3a44dc59
+creator: mama
+server.permissions: read
+server.workspace: bags/hidewhen_public
+server.bag: hidewhen_public
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.title: HideWhenPlugin
+server.content-type: 
+server.type: tiddlyweb
+server.etag: &quot;hidewhen_public/HideWhenPlugin/13701:0737f22a5833e6a99f829de7541a1e500446ff04&quot;
+server.page.revision: 13701

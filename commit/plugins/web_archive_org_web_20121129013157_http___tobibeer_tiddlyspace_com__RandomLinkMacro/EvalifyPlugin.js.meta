@@ -1,0 +1,17 @@
+title: EvalifyPlugin
+modifier: tobibeer
+created: 20100923182731
+modified: 20100930112026
+tags: excludeLists systemConfig
+server.recipe: tobibeer_public
+server.host: http://tobibeer.tiddlyspace.com
+server.etag: &quot;evalify_public/EvalifyPlugin/66687:a4dae2b1d63652ec53d7b33fec7c42cb8ee52022&quot;
+server.type: tiddlyweb
+creator: tobibeer
+_hash: 07bf98a48fb8b03b6539aa3fbed3d6d68e496aee
+server.content-type: 
+server.page.revision: 66687
+server.title: EvalifyPlugin
+server.permissions: read
+server.workspace: bags/evalify_public
+server.bag: evalify_public

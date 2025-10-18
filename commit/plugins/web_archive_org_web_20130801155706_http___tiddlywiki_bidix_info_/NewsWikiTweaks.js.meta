@@ -1,0 +1,8 @@
+title: NewsWikiTweaks
+modifier: BidiX
+created: 200705231401
+modified: 200707281728
+tags: admin NewsWiki systemConfig
+server.page.revision: 200707281728
+server.host: http://TiddlyHome.bidix.info/systemServer/NewsWiki.html
+server.type: file

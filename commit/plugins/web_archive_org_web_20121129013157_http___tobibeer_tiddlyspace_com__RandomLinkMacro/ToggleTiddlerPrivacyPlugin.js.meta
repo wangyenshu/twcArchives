@@ -1,0 +1,17 @@
+title: ToggleTiddlerPrivacyPlugin
+modifier: jon
+created: 20121128171840
+modified: 20121128171840
+tags: excludeLists excludeSearch systemConfig
+server.recipe: tobibeer_public
+server.host: http://tobibeer.tiddlyspace.com
+server.etag: &quot;system-plugins_public/ToggleTiddlerPrivacyPlugin/970292:c3f530a465ff2d7a3556589d1bee2b9013ec7653&quot;
+server.type: tiddlyweb
+creator: jon
+_hash: 821f2ab990308ce96d284ea35c32a1ccc282d661
+server.content-type: text/javascript
+server.page.revision: 970292
+server.title: ToggleTiddlerPrivacyPlugin
+server.permissions: read
+server.workspace: bags/system-plugins_public
+server.bag: system-plugins_public

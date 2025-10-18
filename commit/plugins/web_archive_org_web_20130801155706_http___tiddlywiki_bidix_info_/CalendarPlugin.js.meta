@@ -1,0 +1,9 @@
+title: CalendarPlugin
+modifier: BidiX
+created: 200703222051
+modified: 200707281357
+tags: systemConfig admin NewsWiki
+server.page.revision: 200707281357
+server.host: http://TiddlyHome.bidix.info/systemServer/NewsWiki.html
+server.type: file
+date: 200703222050

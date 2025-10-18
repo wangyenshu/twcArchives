@@ -1,0 +1,17 @@
+title: TagglyTaggingPlugin
+modifier: mama
+created: 20120109093911
+modified: 20120228190711
+tags: systemConfig
+_hash: 458f9dcb29fc59420c8c227ebcb7540b5721a3f5
+creator: mama
+server.permissions: read
+server.workspace: bags/taggly_public
+server.bag: taggly_public
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.title: TagglyTaggingPlugin
+server.content-type: 
+server.type: tiddlyweb
+server.etag: &quot;taggly_public/TagglyTaggingPlugin/23228:db56f29c7d0a6c37856818ef34ab9633129b482a&quot;
+server.page.revision: 23228

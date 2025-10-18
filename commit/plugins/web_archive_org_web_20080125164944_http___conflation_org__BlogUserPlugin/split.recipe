@@ -1,0 +1,16 @@
+tiddler: BlogUserPlugin.js
+tiddler: CheckboxPlugin.js
+tiddler: DatePlugin.js
+tiddler: EmailLink.js
+tiddler: FontSizePlugin.js
+tiddler: ForEachTiddlerPlugin.js
+tiddler: HideWhenPlugin.js
+tiddler: HoverMenuPlugin.js
+tiddler: NestedSlidersPlugin.js
+tiddler: ReminderMacros.js
+tiddler: SiteConfig.js
+tiddler: SplashScreenPlugin.js
+tiddler: TiddlersBarPlugin.js
+tiddler: ToggleTagMacro.js
+tiddler: UploadPlugin.js
+tiddler: YourSearchPlugin.js

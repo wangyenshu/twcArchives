@@ -1,0 +1,18 @@
+title: TiddlySpaceAdmin
+modifier: mama
+created: 20121104231609
+modified: 20121104231609
+tags: excludeSearch systemConfig
+_hash: 73ca47bc8231bb7c7e670ed5edaa0008cd214a89
+creator: mama
+server.permissions: read
+server.workspace: bags/mama_public
+server.bag: mama_public
+server.recipe: mama_public
+tiddler.source: tiddlyspace
+server.host: http://mama.tiddlyspace.gir.dk
+server.title: TiddlySpaceAdmin
+server.content-type: text/javascript
+server.type: tiddlyweb
+server.etag: &quot;mama_public/TiddlySpaceAdmin/35863:e8fcaa7325b917dbbbae5fc9b7dff61d5cc3aacd&quot;
+server.page.revision: 35863

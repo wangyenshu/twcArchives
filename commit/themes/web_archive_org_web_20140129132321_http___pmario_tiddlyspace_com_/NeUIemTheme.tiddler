@@ -1,0 +1,323 @@
+<div title="NeUIemTheme" modifier="pmario" created="20110104192011" modified="20120326180413" tags="systemTheme" cm.height="max" content-type="" creator="pmario" server.page.revision="653493" server.title="NeUIemTheme" _hash="d53de71451076188c4b15302287b42f619c48dc0" server.recipe="pmario_public" server.bag="pmario_public" server.permissions="read" server.type="tiddlyweb" server.etag="&quot;pmario_public/NeUIemTheme/653493:14312a059923dbe961e7ea0a8453866de5149d13&quot;" publish.name="NeUIemTheme" server.host="http://pmario.tiddlyspace.com" server.workspace="bags/pmario_public" server.content-type="">
+<pre>|''Name:''|[[NeUIemTheme]]|
+|''Description:''|Your description here!|
+|''Generator:''|[[TW FreeStyle|http://FreeStyle.tiddlyspace.com]]|
+|''Gen.Description:''|Automatically generated from: tsNeUIemProject|
+|''PageTemplate:''|##PageTemplate|
+|''ViewTemplate:''|##ViewTemplate|
+|''EditTemplate:''|##EditTemplate|
+|''RevisionTemplate:''|NeUIemTheme##RevisionTemplate|
+|''StyleSheet:''|##StyleSheet|
+|''UsedClones:''|StyleSheetHeaderMp StyleSheetMenuBarMp StyleSheetSideBarMp StyleSheetTiddlerMp StyleSheetTiddlySpaceMp StyleSheet_neui-em EmasticSystem NeuiemZzConfig:zzConfig TerminateStyleSheet:StyleSheet CSideBarTabs CSidebarOptions CSidebarTools NeuiemSidebarTools:SidebarTools TopMenu SideBarOptions OptionsPanel [[sidebarSearch]] FontPalette ToolbarCommands GettingStarted NeUIemTheme01 NeUIemTheme02 NeUIemTheme03 NeUIemTheme04 |
+
+!Important
+If any of the obove clones is missing, the theme may not work.
+
+!PageTemplate
+<!--{{{-->
+
+
+<!-- tsRowTitle -->
+<div class='dp100 header clearfix'>
+	<!-- tsColTitle -->
+	<div class='dp80'>
+		<!-- BoxTsHeader -->		
+		<div class='box headerForeground'>
+			<span class='siteTitle' refresh='content' tiddler='SiteTitle'></span>&nbsp;
+			<span class='siteSubtitle' refresh='content' tiddler='SiteSubtitle'></span>
+		</div>
+	</div>
+
+	<!-- tsColSearch -->
+	<div class='dp20'>
+		<!-- tsBoxGoto -->		
+		<div id='sidebarSearch' class='box searchForeground'>
+			<div refresh='content' tiddler='sidebarSearch'></div>
+		</div>
+	</div>
+
+<!-- tsRowMenuBar -->
+<div id='menuBar' class='dp100 clearfix'>
+	<!-- tsColTopMenue -->
+	<div class='dp60'>
+		<!-- tsBoxTopMenue -->		
+		<!-- horizontal TopMenu -->
+		<div class='box topMenu clearfix' refresh='content' tiddler='TopMenu'></div>
+	</div>
+
+	<!-- tsColThemeSwitcher -->
+	<div class='dp40'>
+		<!-- tsBoxThemeSwitcher -->		
+		<div id='sidebarOptions' class='dpfr' refresh='content' tiddler='SideBarOptions'></div>
+	</div>
+</div>	<!-- row -->
+</div>	<!-- row -->
+
+<!-- tsRowBody -->
+<div class='dp100 clearfix row'>
+	<!-- tsColSidebar -->
+	<div id='sidebar' class='dp15 dpfr' style='width:15%; position:relative;'>
+		<!-- tsBoxSidebarTools -->		
+		<div id='sidebarTools' class='box' refresh='content' force='true' tiddler='CSidebarTools'></div>
+
+		<!-- tsBoxSidebarTabs -->		
+		<div id='sidebarTabs' class='box' refresh='content' force='true' tiddler='CSideBarTabs'></div>
+	</div>
+
+	<!-- tsColMainMenu -->
+	<div class='dp15'>
+		<!-- tsBoxMainMenu -->		
+		<!-- original MainMenu menu -->
+		<div id='mainMenu' refresh='content' tiddler='MainMenu'></div>
+	</div>
+
+	<!-- tsColDisplayArea -->
+	<div id='displayArea' class='dp70'>
+		<!-- tsBoxMessageArea -->		
+		<div id='messageArea' class='box'></div>
+
+		<!-- tsBoxBreadCrumbs -->		
+		<div id='breadCrumbs' class='breadCrumbs box'></div>
+
+		<!-- tsBoxTiddlersBar -->		
+		<div id='tiddlersBar' refresh='none' ondblclick='config.macros.tiddlersBar.onTiddlersBarAction(event)'></div>
+
+		<!-- tsBoxTiddlerDisplay -->		
+		<div id='tiddlerDisplay' class='box'></div>
+	</div>
+</div>	<!-- row -->
+
+<!--}}}-->
+!ViewTemplate
+<!--{{{-->
+
+
+<!-- tsVT_NEUIem -->
+<div class='dp100 clearfix'>
+	<!-- tsVT_toolbar -->
+	<div class='dp100'>
+		<!-- tsBoxVT_FollowPlaceHolder -->		
+		<!--div class='followPlaceHolder' macro='followTiddlersButton'-->
+		<div class='followPlaceHolder' macro='linkedTiddlers'>
+			<span macro="view title replyLink"></span>
+		</div>
+
+		<!-- tsBoxVT_Toolbar -->		
+		<div class='box toolbar' macro='toolbar [[ToolbarCommands::ViewToolbar]] icons:yes'></div>
+	</div>
+
+	<!-- tsVT_leftCol -->
+	<div class='dp10'>
+		<!-- tsBoxVT_SiteIcon -->		
+		<div class='box spaceSiteIcon' macro='tiddlerOrigin label:yes height:48 width:48'></div>
+
+		<!-- BoxVT_Calender -->		
+		<div class='box calendar' macro='viewRevisions page:5'>
+			<div class='month' macro='view modified date mmm'></div>
+			<div class='date' macro='view modified date 0DD'></div>
+			<div class='time' macro='view modified date 0hh:0mm'></div>
+			<br />
+			<div class='month' macro='view created date mmm'></div><div class='date' macro='view created date 0DD'></div>
+			<!-- div class='time' macro='view created date 0hh:0mm'></div  -->
+		</div>
+
+		<!-- BoxVTts_tagged -->		
+		<div class='box tagged' macro='tags'></div>
+		<div class='box' macro='tiddler CTagBox'></div>
+	</div>
+
+	<!-- tsViewTemplate -->
+	<div class='dp90'>
+		<!-- tsBox_ModifierIcon -->		
+		<div class='box modifierIcon dpfr'
+			macro='view modifier SiteIcon label:yes height:30 width:30 labelPrefix:"m: "'>
+		</div>
+
+		<!-- tsBoxVT_Title -->		
+		<div class='titleContainer'>
+			<div class='box title' macro='view title'></div>
+		</div>
+
+		<!-- tsBox_concertina -->		
+		<div class='box concertina clear'></div>
+		
+<div class='cmBuffer' refresh='content' tiddler='cmB1'></div>
+
+		<!-- tsBoxVT_Body -->		
+		<div class='box content'>
+			<div class='viewer' macro='view text wikified'></div>
+
+			<div class='viewer' macro='showWhenTagged topic'>
+				<h3>Others say</h3>
+				<div macro='tsScan {{tiddler.title}} fat:1 template:"TEMPLATES##scanComment" query:"select=modifier:!pmario" '></div> 
+			</div>
+		</div>
+
+		<!-- tsBoxVT_TagglyTaggingFooter -->		
+		<div class="clear box tagglyTagging" macro="tagglyTagging"></div>
+
+		<!-- tsBox_StoryGlue -->		
+		<div class='box storyGlue' macro='storyGlue fsStory ACTIVESTORY'></div>
+	</div>
+</div>	<!-- row -->
+
+<!--}}}-->
+!EditTemplate
+<!--{{{-->
+
+
+<!-- tsET_NEUIem -->
+<div class='dp100 clearfix'>
+	<!-- tsEditTemplate -->
+	<div class='dp100'>
+		<!-- BoxET_tsEditToolbar -->		
+		<div class='box dpfr toolbar' macro='toolbar [[ToolbarCommands::EditToolbar]] icons:yes'></div>
+
+		<!-- BoxET_tsSetPrivate -->		
+		<div class="box dpfr privacyEdit" macro='setPrivacy label:no interactive:yes'></div>
+		<div class='box dpfr editSpaceSiteIcon'	macro='tiddlerOrigin height:25 width:25 label:no interactive:no'></div>
+
+		<!-- BoxET_tsTitle -->		
+		<div class='box title' macro='view title'></div>
+
+		<!-- BoxET_tsEditTitle -->		
+		<div class='box editor' macro='edit title'></div>
+		<div class='toolbar' macro='typeChooser'></div>
+		<div macro='annotations'></div>
+
+		<!-- BoxET_tsEditBody -->		
+		<div class='box editor' macro='edit text'></div>
+
+		<!-- BoxET_tsTagging -->		
+		<div class='box save editor' macro='edit tags'></div>
+
+		<!-- BoxET_tsEditFooter -->		
+		<div class='box editorFooter'><span macro='message views.editor.tagPrompt'></span><span macro='tagChooser excludeLists'></span></div>
+	</div>
+</div>	<!-- row -->
+
+<!--}}}-->
+!RevisionTemplate
+<!--{{{-->
+
+
+<!-- tsRT_NEUIem -->
+<div macro='slideRevision'></div>
+<div class='dp100 clearfix'>
+	<!-- tsRT_toolbar -->
+	<div class='dp100'>
+		<!-- tsBoxVT_FollowPlaceHolder -->		
+		<div class='followPlaceHolder' macro='followTiddlers'>
+			<span macro="view title replyLink"></span>
+		</div>
+
+		<!-- tsBoxRT_Toolbar -->		
+		<div class='box toolbar' macro='toolbar [[ToolbarCommands::RevisionToolbar]] icons:yes'></div>
+	</div>
+
+	<!-- tsVT_leftCol -->
+	<div class='dp10'>
+		<!-- tsBoxVT_SiteIcon -->		
+		<div class='box spaceSiteIcon' macro='tiddlerOrigin label:yes height:48 width:48'></div>
+
+		<!-- BoxVT_Calender -->		
+		<div class='box calendar' macro='viewRevisions page:5'>
+			<div class='month' macro='view modified date mmm'></div>
+			<div class='date' macro='view modified date 0DD'></div>
+			<!-- div class='time' macro='view modified date 0hh:0mm'></div  -->
+		</div>
+
+		<!-- BoxVTts_tagged -->		
+		<div class='box tagged' macro='tags'></div>
+		<div class='box' macro='tiddler CTagBox'></div>
+	</div>
+
+	<!-- tsViewTemplate -->
+	<div class='dp90'>
+		<!-- tsBox_ModifierIcon -->		
+		<div class='box modifierIcon dpfr'
+			macro='view modifier SiteIcon label:yes height:48 width:48 labelPrefix:"modified by "'>
+		</div>
+
+		<!-- tsBoxVT_Title -->		
+		<div class='titleContainer'>
+			<div class='box title' macro='view title'></div>
+		</div>
+
+		<!-- tsBox_concertina -->		
+		<div class='box concertina clear'></div>
+
+		<!-- tsBoxVT_Body -->		
+		<div class='box content'>
+			<div class='viewer' macro='view text wikified'></div>
+		</div>
+
+		<!-- tsBoxVT_TagglyTaggingFooter -->		
+		<div class="box tagglyTagging" macro="tagglyTagging"></div>
+
+		<!-- tsBox_StoryGlue -->		
+		<div class='box storyGlue' macro='storyGlue fsStory ACTIVESTORY'></div>
+	</div>
+</div>	<!-- row -->
+
+<!--}}}-->
+!StyleSheet
+/*{{{*/
+Version: 1.0 - 2010.08.12
+
+/*****************************************************/
+/*-- some simple rules to change the global layout --*/
+/*-- margin should not be uses for row, col, box   --*/
+/*-- margin is used to adjust special elements     --*/
+/*-- The layout doesn't allow padding-left/right or margin-left/right ! for rows and cols --*/
+.row {
+	margin: 0;
+	padding: 0;
+	margin-top: 0.5em;
+}
+
+/*-- The layout doesn't allow padding-left/right or margin-left/right ! for rows and cols --*/
+/*-- col is not assigned to layout yet --*/
+.col {
+	margin: 0;
+	padding: 0;
+}
+
+/*-- if you want more space between 2 columns use box 2nd and 4th parameter. --*/
+/*-- boxes must have padding-bottom: 0; !! --*/
+.box {
+	margin: 0;
+	padding: 0.5em 0.5em 0 0.5em;
+}
+
+/* general stuff */
+.noBullets ul {
+	list-style:none;
+}
+
+.noNumbers ol {
+	list-style:none;
+}
+
+.noBr br {
+	display: none;
+}
+
+/* prefer monospace for editing */
+.editor textarea, .editor input {
+	font-size: 90%; 
+	font-family: [[FontPalette::twEditor]], 'Courier New', monospace; 
+	background-color:[[ColorPalette::TertiaryPale]];
+}
+
+/*-- emastic System --*/
+[[EmasticSystem]]
+
+/*-- theme specific stuff --*/
+[[StyleSheet_neui-em]]
+
+/*-- call the standard StyleSheet --*/
+[[StyleSheet]]
+
+/*}}}*/</pre>
+</div>

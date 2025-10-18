@@ -1,0 +1,10 @@
+|Source|https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140121045309_http___www_blogjones_com_TiddlyWikiTutorial_html_smiley/web_archive_org_web_20140121045309_http___www_blogjones_com_TiddlyWikiTutorial_html_smiley.txt|
+|Version|0.1|
+//{{{
+[
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140121045309_http___www_blogjones_com_TiddlyWikiTutorial_html_smiley/smiley.js",
+    "description": ""
+  }
+]
+//}}}

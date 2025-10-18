@@ -1,0 +1,17 @@
+title: ImageSizePlugin
+modifier: mama
+created: 20120112220022
+modified: 20120112220022
+tags: systemConfig excludeLists
+_hash: 13c8232c837e0835c02c390266b369bba0db894f
+creator: mama
+server.permissions: read
+server.workspace: bags/seticon_public
+server.bag: seticon_public
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.title: ImageSizePlugin
+server.content-type: 
+server.type: tiddlyweb
+server.etag: &quot;seticon_public/ImageSizePlugin/18081:6705d51345be98ad3e36b03133ef28f54ef02ee1&quot;
+server.page.revision: 18081

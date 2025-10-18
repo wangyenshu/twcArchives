@@ -1,0 +1,17 @@
+title: NewMeansNewPlugin
+modifier: birthe
+created: 20120228175039
+modified: 20120228175039
+tags: systemConfig
+_hash: 0e710c44493b8b0a2378ca1194af77f50ba539ef
+creator: birthe
+server.permissions: read
+server.workspace: bags/abe_public
+server.bag: abe_public
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.title: NewMeansNewPlugin
+server.content-type: 
+server.type: tiddlyweb
+server.etag: &quot;abe_public/NewMeansNewPlugin/23206:7b622f086eee0b08d8a6c12d629c62c8c3a88782&quot;
+server.page.revision: 23206

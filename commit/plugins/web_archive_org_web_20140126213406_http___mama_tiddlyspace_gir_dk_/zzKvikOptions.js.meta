@@ -1,0 +1,17 @@
+title: zzKvikOptions
+modifier: mama
+created: 20110924192156
+modified: 20110924192156
+tags: excludeLists systemConfig
+_hash: 9f8f8a5d2e1fb1f4e2324f30d512b300913668b0
+creator: mama
+server.permissions: read
+server.workspace: bags/kvik_public
+server.bag: kvik_public
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.title: zzKvikOptions
+server.content-type: 
+server.type: tiddlyweb
+server.etag: &quot;kvik_public/zzKvikOptions/1776:1ed17d5cbb1576e9412a155796aac909f4a4ee7f&quot;
+server.page.revision: 1776

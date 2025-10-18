@@ -1,0 +1,9 @@
+title: UploadPlugin
+modifier: YourName
+created: 200703021728
+modified: 201112121613
+tags: systemConfig Upload TiddlyHomeSystem
+server.page.revision: 200705291325
+server.host: http://TiddlyHome.bidix.info/systemServer/NewsWiki.html
+server.type: file
+changecount: 9

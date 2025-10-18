@@ -1,0 +1,17 @@
+title: TableSortingPlugin
+modifier: tobibeer
+created: 20100925193613
+modified: 20100925193617
+tags: systemConfig
+server.recipe: tobibeer_public
+server.host: http://tobibeer.tiddlyspace.com
+server.etag: &quot;tobibeer_public/TableSortingPlugin/223270:e98ee1e5260efd78a1d608c3c80d8d50bc895230&quot;
+server.type: tiddlyweb
+creator: tobibeer
+_hash: 5834cc15a6959729a65b47341bbc416fb159d463
+server.content-type: 
+server.page.revision: 223270
+server.title: TableSortingPlugin
+server.permissions: read
+server.workspace: bags/tobibeer_public
+server.bag: tobibeer_public

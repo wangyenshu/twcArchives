@@ -1,0 +1,17 @@
+title: inclusionOrderChanger
+modifier: mama
+created: 20111017132520
+modified: 20111017132520
+tags: systemConfig
+_hash: 6d783073e2105047e87a29b67c5b0458e34c09e8
+creator: mama
+server.permissions: read
+server.workspace: bags/sorter_public
+server.bag: sorter_public
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.title: inclusionOrderChanger
+server.content-type: 
+server.type: tiddlyweb
+server.etag: &quot;sorter_public/inclusionOrderChanger/2329:5aacdf02230e2a576bfb7569a956c201c6e76f33&quot;
+server.page.revision: 2329

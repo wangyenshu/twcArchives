@@ -1,0 +1,17 @@
+title: TiddlySpaceTiddlerIconsPlugin
+modifier: osmosoft
+created: 20110911181831
+modified: 20130305161743
+tags: excludeLists excludeSearch systemConfig
+_hash: 5c6cfebcd3cc3fd2df109c0d59735aaae48850b4
+creator: jon
+server.permissions: read
+server.workspace: bags/system-plugins_public
+server.bag: system-plugins_public
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.title: TiddlySpaceTiddlerIconsPlugin
+server.content-type: text/javascript
+server.type: tiddlyweb
+server.etag: &quot;system-plugins_public/TiddlySpaceTiddlerIconsPlugin/40215:4166ea35b0411e16d59f8b6a96fa151a741f0791&quot;
+server.page.revision: 40215

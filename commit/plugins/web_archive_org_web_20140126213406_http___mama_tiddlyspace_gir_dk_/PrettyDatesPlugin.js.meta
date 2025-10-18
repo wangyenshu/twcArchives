@@ -1,0 +1,17 @@
+title: PrettyDatesPlugin
+modifier: birthe
+created: 20120228140418
+modified: 20120228140418
+tags: systemConfig
+_hash: f48f15a275f7c39ecacffa46a34da74856a900b2
+creator: birthe
+server.permissions: read
+server.workspace: bags/abe_public
+server.bag: abe_public
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.title: PrettyDatesPlugin
+server.content-type: 
+server.type: tiddlyweb
+server.etag: &quot;abe_public/PrettyDatesPlugin/23149:ab039dfe67c6889061ae191e8240f86bce16a286&quot;
+server.page.revision: 23149

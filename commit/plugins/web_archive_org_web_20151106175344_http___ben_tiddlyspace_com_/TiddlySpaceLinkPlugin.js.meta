@@ -1,0 +1,17 @@
+title: TiddlySpaceLinkPlugin
+modifier: osmosoft
+created: 20131111192330
+modified: 20131111192330
+tags: excludeLists excludeSearch systemConfig
+server.etag: &quot;system-plugins_public/TiddlySpaceLinkPlugin/1521865:f33201d94df7ae63fbf4ae818d264a1e034bb09e&quot;
+server.recipe: ben_public
+server.title: TiddlySpaceLinkPlugin
+creator: osmosoft
+server.workspace: bags/system-plugins_public
+server.page.revision: 1521865
+_hash: b88cfa8ccd99b328c34b54aa9371c8f9ce02ffaf
+server.type: tiddlyweb
+server.content-type: text/javascript
+server.bag: system-plugins_public
+server.permissions: read
+server.host: http://ben.tiddlyspace.com

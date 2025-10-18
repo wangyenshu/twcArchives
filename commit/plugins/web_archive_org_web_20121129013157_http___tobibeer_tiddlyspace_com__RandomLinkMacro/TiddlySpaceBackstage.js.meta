@@ -1,0 +1,17 @@
+title: TiddlySpaceBackstage
+modifier: osmosoft
+created: 20121128171842
+modified: 20121128171842
+tags: excludeLists excludeSearch systemConfig
+server.recipe: tobibeer_public
+server.host: http://tobibeer.tiddlyspace.com
+server.etag: &quot;tiddlyspace/TiddlySpaceBackstage/970405:85a2f8e81595cd0f645ace1ea59a77b31e1b9fee&quot;
+server.type: tiddlyweb
+creator: osmosoft
+_hash: 390091c823ffd5ec5008f2a8174c3caccfa6302b
+server.content-type: text/javascript
+server.page.revision: 970405
+server.title: TiddlySpaceBackstage
+server.permissions: read
+server.workspace: bags/tiddlyspace
+server.bag: tiddlyspace

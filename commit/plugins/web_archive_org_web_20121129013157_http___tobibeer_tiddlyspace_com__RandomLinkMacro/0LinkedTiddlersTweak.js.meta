@@ -1,0 +1,17 @@
+title: 0LinkedTiddlersTweak
+modifier: jon
+created: 20110715150019
+modified: 20110715150019
+tags: excludeLists excludeSearch systemConfig
+server.recipe: tobibeer_public
+server.host: http://tobibeer.tiddlyspace.com
+server.etag: &quot;linksocial_public/0LinkedTiddlersTweak/407336:39fe58b720a5815e40666c145ec2a72b2874aee3&quot;
+server.type: tiddlyweb
+creator: jon
+_hash: d182084b03f6c2082e4b5b41bb4cc6b5094266f0
+server.content-type: 
+server.page.revision: 407336
+server.title: 0LinkedTiddlersTweak
+server.permissions: read
+server.workspace: bags/linksocial_public
+server.bag: linksocial_public

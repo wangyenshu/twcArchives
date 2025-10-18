@@ -1,0 +1,17 @@
+title: LoadMissingExternalTiddler
+modifier: jon
+created: 20110126150657
+modified: 20110126150657
+tags: excludeLists excludeSearch systemConfig
+server.type: tiddlyweb
+server.page.revision: 71032
+server.permissions: read
+server.host: http://bauwebijl.tiddlyspace.com
+server.content-type: 
+server.workspace: bags/following_public
+creator: jon
+_hash: 21d4a5b307ec25fbf88b43e0f08e4070d1702956
+server.bag: following_public
+server.etag: &quot;following_public/LoadMissingExternalTiddler/71032:1ecd921ca8407b0526714c9d9959d33a33380839&quot;
+server.title: LoadMissingExternalTiddler
+server.recipe: bauwebijl_public

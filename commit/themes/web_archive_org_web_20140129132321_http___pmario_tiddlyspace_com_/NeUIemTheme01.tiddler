@@ -1,0 +1,32 @@
+<div title="NeUIemTheme01" modifier="pmario" created="20100818174208" modified="20101110190351" tags="systemTheme" creator="pmario" server.page.revision="146388" server.title="NeUIemTheme01" _hash="89e4b6f66d5c92d7f3602b22e5409c435bd4f4f7" server.recipe="pmario_public" server.bag="neui-em_public" server.permissions="read" server.type="tiddlyweb" server.etag="&quot;neui-em_public/NeUIemTheme01/146388:bba65e943d9a5640549887d1116142ab577009f4&quot;" server.host="http://pmario.tiddlyspace.com" server.workspace="bags/neui-em_public" server.content-type="">
+<pre>|''Name:''|[[NeUIemTheme01]]|
+|''Description:''|Changes the right sidebar|
+|''Generator:''|[[TW FreeStyle|http://FreeStyle.tiddlyspot.com]]|
+|''Gen.Description:''|Handcrafted by @pmario|
+|''PageTemplate:''|NeUIemTheme##PageTemplate|
+|''ViewTemplate:''|NeUIemTheme##ViewTemplate|
+|''EditTemplate:''|NeUIemTheme##EditTemplate|
+|''RevisionTemplate:''|NeUIemTheme##RevisionTemplate|
+|''StyleSheet:''|##StyleSheet|
+
+!StyleSheet
+/*{{{*/
+
+[[NeUIemTheme##StyleSheet]]
+
+#sidebarTabs .tabset{
+	float: left;
+	width: 1em;
+	padding: 0;
+}
+
+#sidebarTabs .tabset:hover{
+	width: auto;
+}
+
+#sidebarTabs .tabset .tab{
+	overflow: hidden;
+	display: block;
+}
+/*}}}*/</pre>
+</div>

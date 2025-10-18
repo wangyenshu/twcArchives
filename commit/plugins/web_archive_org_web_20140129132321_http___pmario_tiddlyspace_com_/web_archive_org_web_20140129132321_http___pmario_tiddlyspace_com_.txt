@@ -1,0 +1,334 @@
+|Source|https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_.txt|
+|Version|0.1|
+//{{{
+[
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/python.js.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/javascript.js.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/RevisionsCommandPlugin.js",
+    "description": "''Description''provides access to tiddler revisions"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/BinaryTiddlersPlugin.js",
+    "description": "''Description''renders base64-encoded binary tiddlers as images or links"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/CMEditCommands.js",
+    "description": "''Description''Opens a tiddler in edit mode and starts CodeMirror editor."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/XListPlugin.js",
+    "description": "''Provides a {{{>}}} macro, that prepares the list for drag and drop sorting"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/TiddlySpaceFollowingSuggestions.js",
+    "description": "''Description''Provides a following macro"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/FollowTiddlersButtonPlugin.js",
+    "description": "''Wraps followTiddlers macro into a button, which needs to be clicked to activate it."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/GotoPlugin.js",
+    "description": "view any tiddler by entering it's title - displays list of possible matches"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/ShowDown.js",
+    "description": "''Description''Allows to use MarkDown syntax in a tiddler"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/TiddlySpaceRevisionView.js",
+    "description": "''Description''Show tiddler revisions in a stack of cards view"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/XCaseListPlugin.js",
+    "description": "''Adds a new command ''xCase'' to the core list macro"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/TiddlyWebConfig.js",
+    "description": "''Description''configuration settings for TiddlyWebWiki"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/AddNowCommand.js",
+    "description": "''Description''Opens a tiddler in edit mode and adds \"Date and Time\" at the end of the text."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/tiddlywiki.js.js",
+    "description": "''Description''Enables TiddlyWikiy syntax highlighting using CodeMirror"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/StoryGlueMacro.js",
+    "description": "''Makes SelectStoryMacro and NavigationMacro work together"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/htmlmixed.js.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/TiddlySpaceBackstage.js",
+    "description": "''Description''Provides a TiddlySpace version of the backstage and a homeLink macro"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/ImageMacroPlugin.js",
+    "description": "''Description''Allows the rendering of svg images in a TiddlyWiki"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/Four_Versions_to_create_a_shadow_tiddler_(min).js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/SvgEvent_Menue.js",
+    "description": "''Description''contains the global TW jQuery custom events."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/TiddlySpaceCSRF.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/TiddlySpaceIntraSpaceInclusion.js",
+    "description": "''Provides support for {{{>}}} and {{{>}}}"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/ShowDown.js.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/zzConfig.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/runmode.js.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/LineBreakHack.js",
+    "description": "''Description''formatter modifying TiddlyWiki's handling of line breaks, in front and after headings, lists and quots"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/neuiEmAndOn.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/TagSearchPlugin.js",
+    "description": "''Provides a drop down listing current tags and others to be set. Based on [[x-taggerhttp://tbgtd.tiddlyspot.com/#x-tagger]] which in turn was once based on [[TaggerPluginhttp://tw.lewcid.org/#TaggerPlugin]]."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/TiddlySpaceViewTypes.js",
+    "description": "''Description''Provides TiddlySpace specific view types"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/ToggleTiddlerPrivacyPlugin.js",
+    "description": "''Description''Allows you to set the privacy of new tiddlers and external tiddlers within an EditTemplate, and allows you to set a default privacy setting"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/ErrorHandler.js",
+    "description": "''Description''Localised tiddler save errors including edit conflict resolution."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/css.js.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/TiddlySpaceTiddlerIconsPlugin.js",
+    "description": "''Description''Provides ability to render SiteIcons and icons that correspond to the home location of given tiddlers"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/ServerSideSavingPlugin.js",
+    "description": "''Description''server-side saving"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/GroupByPlugin.js",
+    "description": "''Description''Mimics allTags macro to provide ways of creating lists grouping tiddlers by any field"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/TiddlySpaceFilters.js",
+    "description": "''Description''provide TiddlySpace-specific filter extensions"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/DiffFormatter.js",
+    "description": "''Description''highlighting of text comparisons"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/NewTaggedCommand.js",
+    "description": "''Description''Creates a new tiddler, and tags it with it's parents title!"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/HideWhenPlugin.js",
+    "description": "Allows conditional inclusion/exclusion in templates"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/TiddlyFileImporter.js",
+    "description": "''Description''Upload a TiddlyWiki file to TiddlyWeb, and import the tiddlers."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/TiddlySpaceConfig.js",
+    "description": "''Description''TiddlySpace configuration"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/ActivityStreamPlugin.js",
+    "description": "''Description''Provides a following macro"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/TiddlySpaceFollowingPlugin.js",
+    "description": "''Description''Provides a following macro"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/zCodeMirrorPlugin.js",
+    "description": "''Description''Enables syntax highlighting for  and  blocks. Adds a new formatter for {{{}}}. Using the wonderfull CodeMirror library."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/FieldsEditorPlugin.js",
+    "description": "''//create//, //edit//, //view// and //delete// commands in toolbar >."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/chrjs.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/BinaryUploadPlugin.js",
+    "description": "''Description''Upload a binary file to TiddlyWeb"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/LoadMissingExternalTiddler.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/TiddlySpaceInit.js",
+    "description": "''Description''Initializes new TiddlySpaces the first time they are created"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/zzAccessibleHeadingsPlugin.js",
+    "description": "''Description''formatter modifying TiddlyWiki's handling of headings"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/NeuiEmTagSearchAddOn.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/TiddlySpaceSearcher.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/SelectThemePluginMP.js",
+    "description": "Lets you easily switch theme and palette"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/TiddlySpaceRevertRevision.js",
+    "description": "''Description''Revert to a previous revision"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/ImportExternalLinksPlugin.js",
+    "description": "''Description''Turns space links into ajax links so you don't have to leave the comfort of your own TiddlyWiki"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/tsScanCountPlugin.js",
+    "description": "''Description''Provides ability to count tiddlers at a given tiddlyspace url and display a button that when clicked lists them. Also upgrades tsScan to replace any options containing with $1 with the current space"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/TiddlySpaceCloneCommand.js",
+    "description": "''Description''provides a toolbar command for cloning external tiddlers"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/RefreshTiddlerCommand.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/ExtraKeysAddOn.js",
+    "description": "''Description''This AddOn contains the extra key handling for zCodeMirrorPlugin"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/RandomSpacePlugin.js",
+    "description": "''Description''To aid space discovery in TiddlySpace"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/codemirror.js.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/TiddlyWebAdaptor.js",
+    "description": "''Description''adaptor for interacting with TiddlyWeb"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/RenderBufferPlugin.js",
+    "description": "''Description''Transcludes text from a tiddler, specified by line number and number of lines."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/TiddlySpacePublishingCommands.js",
+    "description": "''Description''toolbar commands for drafting and publishing"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/TiddlySpaceSanitizer.js",
+    "description": "''Description''Sanitisation for dynamically pulling tiddlers into your space and displaying them"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/QuickOpenTagPlugin.js",
+    "description": "Changes tag links to make it easier to open tags as tiddlers"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/PaletteViewMacro.js",
+    "description": "''Description''Displays color palettes."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/TiddlySpaceFollowingWizard.js",
+    "description": "''Description''Provides a following wizard macro and deleteButton view type"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/InlineJavaScriptPlugin.js",
+    "description": "e.toString());return false;}"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/SvgEvent_InitStyleSheet.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/SearchOptionsPlugin.js",
+    "description": "extend core search function with additional user-configurable options"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/RenameTagsPlugin.js",
+    "description": "Allows you to easily rename or delete tags across multiple tiddlers"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/TiddlySpaceLinkPlugin.js",
+    "description": "''Formatter to reference other spaces from wikitext"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/MySpacesPlugin.js",
+    "description": "''Description''An attempt to make it easier to organise your spaces"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/SvgEvent_Animations.js",
+    "description": "''Description''contains the global TW jQuery custom events."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/xml.js.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/TiddlySpaceToolbar.js",
+    "description": "''Description''augments tiddler toolbar commands with SVG icons"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/InclusionLookupPlugin.js",
+    "description": "''Description''Provides a form to display who is including your space."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/RandomColorPalettePlugin.js",
+    "description": "''Description''Adds a random color palette to TiddlyWiki"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/TagglyTaggingPlugin.js",
+    "description": "tagglyTagging macro is a replacement for the builtin tagging macro in your ViewTemplate"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140129132321_http___pmario_tiddlyspace_com_/overlay.js.js",
+    "description": ""
+  }
+]
+//}}}

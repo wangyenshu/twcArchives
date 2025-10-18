@@ -1,0 +1,17 @@
+title: NumberSortFilterPlugin
+modifier: jon
+created: 20110620133226
+modified: 20110620133226
+tags: excludeLists excludeSearch systemConfig
+server.recipe: tobibeer_public
+server.host: http://tobibeer.tiddlyspace.com
+server.etag: &quot;filters_public/NumberSortFilterPlugin/68973:4f768bbb580318c1a762ece51d8bcef3a157b558&quot;
+server.type: tiddlyweb
+creator: jon
+_hash: 7210e638e68329ebbeb525a949a0037997f59f3a
+server.content-type: 
+server.page.revision: 68973
+server.title: NumberSortFilterPlugin
+server.permissions: read
+server.workspace: bags/filters_public
+server.bag: filters_public

@@ -1,0 +1,17 @@
+title: TiddlyFileImporter
+modifier: None
+created: 20131111192332
+modified: 20131111192332
+tags: excludeLists excludeSearch systemConfig
+creator: None
+server.page.revision: 1521907
+server.title: TiddlyFileImporter
+_hash: 948bb64604a46205267e446af0f638c4e8fc3c8e
+server.recipe: pmario_public
+server.bag: tiddlyspace
+server.permissions: read
+server.type: tiddlyweb
+server.etag: &quot;tiddlyspace/TiddlyFileImporter/1521907:ba782ef23a5f30ac85f7c159ba98229e870cb86a&quot;
+server.host: http://pmario.tiddlyspace.com
+server.workspace: bags/tiddlyspace
+server.content-type: text/javascript

@@ -1,0 +1,17 @@
+title: TiddlySpaceTiddlerIconsPlugin
+modifier: osmosoft
+created: 20131111192330
+modified: 20131111192330
+tags: excludeLists excludeSearch systemConfig
+creator: osmosoft
+server.page.revision: 1521862
+server.title: TiddlySpaceTiddlerIconsPlugin
+_hash: 5c6cfebcd3cc3fd2df109c0d59735aaae48850b4
+server.recipe: pmario_public
+server.bag: system-plugins_public
+server.permissions: read
+server.type: tiddlyweb
+server.etag: &quot;system-plugins_public/TiddlySpaceTiddlerIconsPlugin/1521862:4aa066f1a6b41dd73d6797040165d53dfc9b5dab&quot;
+server.host: http://pmario.tiddlyspace.com
+server.workspace: bags/system-plugins_public
+server.content-type: text/javascript

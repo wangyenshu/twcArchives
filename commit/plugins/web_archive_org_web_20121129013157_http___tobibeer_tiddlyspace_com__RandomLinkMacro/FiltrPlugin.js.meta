@@ -1,0 +1,17 @@
+title: FiltrPlugin
+modifier: tobibeer
+created: 20101008103801
+modified: 20120201204803
+tags: systemConfig
+server.recipe: tobibeer_public
+server.host: http://tobibeer.tiddlyspace.com
+server.etag: &quot;tobibeer_public/FiltrPlugin/221943:72534c70beb192f436a3a2e6ff8f0746bf3a6399&quot;
+server.type: tiddlyweb
+creator: tobibeer
+_hash: 78ede9f7c1ae6be8d376ee3e3e5207cff0916fda
+server.content-type: 
+server.page.revision: 221943
+server.title: FiltrPlugin
+server.permissions: read
+server.workspace: bags/tobibeer_public
+server.bag: tobibeer_public

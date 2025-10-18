@@ -1,0 +1,94 @@
+|Source|https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20181110203611_http___coderswiki_jenskillus_de_/web_archive_org_web_20181110203611_http___coderswiki_jenskillus_de_.txt|
+|Version|0.1|
+//{{{
+[
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20181110203611_http___coderswiki_jenskillus_de_/CascadingExcludeListsHack.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20181110203611_http___coderswiki_jenskillus_de_/CryptoFunctionsPlugin.js",
+    "description": "''Support for cryptographic functions"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20181110203611_http___coderswiki_jenskillus_de_/DeprecatedFunctionsPlugin.js",
+    "description": "''Support for deprecated functions removed from core"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20181110203611_http___coderswiki_jenskillus_de_/EasyEditPlugin.js",
+    "description": "''Lite and extensible Wysiwyg editor for TiddlyWiki."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20181110203611_http___coderswiki_jenskillus_de_/EncryptedVaultPlugin.js",
+    "description": "''Adds RC4 encryption and password protection to tiddywiki."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20181110203611_http___coderswiki_jenskillus_de_/ExternalizePlugin.js",
+    "description": "''Edit tiddlers directly with your favorite external editor (html editor, text processor, javascript IDE, css editor, ...)."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20181110203611_http___coderswiki_jenskillus_de_/FCKeditorPlugin.js",
+    "description": "''Wysiwyg editor for TiddlyWiki using FCKeditor."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20181110203611_http___coderswiki_jenskillus_de_/FieldsEditorPlugin.js",
+    "description": "''//create//, //edit//, //view// and //delete// commands in toolbar >."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20181110203611_http___coderswiki_jenskillus_de_/GotoPlugin.js",
+    "description": "view any tiddler by entering it's title - displays list of possible matches"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20181110203611_http___coderswiki_jenskillus_de_/HTMLFormattingPlugin.js",
+    "description": "embed wiki syntax formatting inside of HTML content"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20181110203611_http___coderswiki_jenskillus_de_/LessBackupsPlugin.js",
+    "description": "Intelligently limit the number of backup files you create"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20181110203611_http___coderswiki_jenskillus_de_/PicnikPlugin.js",
+    "description": "image gallery inside wiki text"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20181110203611_http___coderswiki_jenskillus_de_/PopupMacro.js",
+    "description": "''Create popups with custom content"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20181110203611_http___coderswiki_jenskillus_de_/RevisionsPlugin.js",
+    "description": "Create revisions of a tiddler when changes are saved"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20181110203611_http___coderswiki_jenskillus_de_/SparklinePlugin.js",
+    "description": "''Sparklines macro"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20181110203611_http___coderswiki_jenskillus_de_/SyncFromSourcePlugin.js",
+    "description": "''Synchronizes plugins from their original source (issued from plugin info) instead of imported url. So, plugins can be imported from any existing tiddlywiki and still be synchronized with their original source."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20181110203611_http___coderswiki_jenskillus_de_/TaggerPlugin.js",
+    "description": "''Provides a drop down listing current tiddler tags, and allowing toggling of tags."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20181110203611_http___coderswiki_jenskillus_de_/TagsTreePlugin.js",
+    "description": "''Displays tags hierachy as a tree of tagged tiddlers.Can be used to create dynamic outline navigation."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20181110203611_http___coderswiki_jenskillus_de_/TiddlersBarPlugin.js",
+    "description": "''A bar to switch between tiddlers through tabs (like browser tabs bar)."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20181110203611_http___coderswiki_jenskillus_de_/WikiBar.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20181110203611_http___coderswiki_jenskillus_de_/externalPluginsPatches.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20181110203611_http___coderswiki_jenskillus_de_/sourcenikFormatter.js",
+    "description": "syntax formatting for PHP, Javascript and other languages inside wiki text"
+  }
+]
+//}}}

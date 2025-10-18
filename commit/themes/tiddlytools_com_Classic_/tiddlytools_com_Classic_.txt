@@ -1,0 +1,42 @@
+|Source|https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/themes/tiddlytools_com_Classic_/tiddlytools_com_Classic_.txt|
+|Version|0.1|
+//{{{
+[
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/themes/tiddlytools_com_Classic_/Blackout.tiddler",
+    "description": "theme: black/blue-gray/gray backgrounds w/light text"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/themes/tiddlytools_com_Classic_/DefaultTheme.tiddler",
+    "description": "Default systemTheme definition"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/themes/tiddlytools_com_Classic_/EdgeOfNight.tiddler",
+    "description": "theme: dark blue sunset photo background"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/themes/tiddlytools_com_Classic_/LetsGetTanked.tiddler",
+    "description": "theme: dark blue fishtank photo background"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/themes/tiddlytools_com_Classic_/Plain.tiddler",
+    "description": "theme: white backgrounds with minimal adjustments"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/themes/tiddlytools_com_Classic_/SideBySide.tiddler",
+    "description": "default theme with side-by-side editor/preview display"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/themes/tiddlytools_com_Classic_/Textures.tiddler",
+    "description": "theme: stone/parchment backgrounds"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/themes/tiddlytools_com_Classic_/TotallyTiddlers.tiddler",
+    "description": "theme: hide everything but tiddler content"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/themes/tiddlytools_com_Classic_/Woodshop.tiddler",
+    "description": "theme: rustic look - dark/med/light wood backgrounds"
+  }
+]
+//}}}

@@ -1,0 +1,17 @@
+title: SimpleSearchPlugin
+modifier: bengillies
+created: 20100716165535
+modified: 20100716165535
+tags: systemConfig
+server.etag: &quot;bengillies_public/SimpleSearchPlugin/16432:8f1aa5b8385ff87c62832fff2e8eadb36e1709e8&quot;
+server.recipe: ben_public
+server.title: SimpleSearchPlugin
+creator: bengillies
+server.workspace: bags/bengillies_public
+server.page.revision: 16432
+_hash: 336d7bdf79ce7c187b26dc5f39fc4e224f3d5cf5
+server.type: tiddlyweb
+server.content-type: 
+server.bag: bengillies_public
+server.permissions: read
+server.host: http://ben.tiddlyspace.com

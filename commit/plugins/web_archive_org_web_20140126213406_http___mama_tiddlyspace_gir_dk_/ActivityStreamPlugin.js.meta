@@ -1,0 +1,17 @@
+title: ActivityStreamPlugin
+modifier: mama
+created: 20111019222832
+modified: 20111019222832
+tags: excludeLists systemConfig
+_hash: e8e570ecad97ac7a02a41323272d6a5e1e7bb963
+creator: mama
+server.permissions: read
+server.workspace: bags/following_public
+server.bag: following_public
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.title: ActivityStreamPlugin
+server.content-type: 
+server.type: tiddlyweb
+server.etag: &quot;following_public/ActivityStreamPlugin/3623:2f0fd05c51934cf7ae1d36b78e7fd85fc50690e8&quot;
+server.page.revision: 3623

@@ -1,0 +1,17 @@
+title: ToggleTiddlerPrivacyPlugin
+modifier: osmosoft
+created: 20131111192330
+modified: 20131111192330
+tags: excludeLists excludeSearch systemConfig
+creator: osmosoft
+server.page.revision: 1521863
+server.title: ToggleTiddlerPrivacyPlugin
+_hash: 3acf06056e188b31bcc3c42ec673a050886d64c4
+server.recipe: pmario_public
+server.bag: system-plugins_public
+server.permissions: read
+server.type: tiddlyweb
+server.etag: &quot;system-plugins_public/ToggleTiddlerPrivacyPlugin/1521863:faef99d9154d715a4a1221731c854d138afbda71&quot;
+server.host: http://pmario.tiddlyspace.com
+server.workspace: bags/system-plugins_public
+server.content-type: text/javascript

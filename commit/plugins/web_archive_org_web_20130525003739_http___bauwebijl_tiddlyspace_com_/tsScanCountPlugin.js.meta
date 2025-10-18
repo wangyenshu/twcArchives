@@ -1,0 +1,17 @@
+title: tsScanCountPlugin
+modifier: jon
+created: 20110331073807
+modified: 20110411103933
+tags: excludeLists excludeSearch systemConfig
+server.type: tiddlyweb
+server.page.revision: 71064
+server.permissions: read
+server.host: http://bauwebijl.tiddlyspace.com
+server.content-type: 
+server.workspace: bags/following_public
+creator: jon
+_hash: 1ee08923ff297138f10696798a07381af707548d
+server.bag: following_public
+server.etag: &quot;following_public/tsScanCountPlugin/71064:dae5c421d10c472cc0bca2ccbb75152fc71900f8&quot;
+server.title: tsScanCountPlugin
+server.recipe: bauwebijl_public

@@ -1,0 +1,17 @@
+title: twyp
+modifier: tobibeer
+created: 20101021193922
+modified: 20101104220202
+tags: excludeLists systemConfig
+server.recipe: tobibeer_public
+server.host: http://tobibeer.tiddlyspace.com
+server.etag: &quot;twyp_public/twyp/227024:b441a9b87037592a94d7eb778d8ae19a5394e55e&quot;
+server.type: tiddlyweb
+creator: tobibeer
+_hash: 07cb85022942e7f464cd16ca89957cc5b5153a9e
+server.content-type: 
+server.page.revision: 227024
+server.title: twyp
+server.permissions: read
+server.workspace: bags/twyp_public
+server.bag: twyp_public

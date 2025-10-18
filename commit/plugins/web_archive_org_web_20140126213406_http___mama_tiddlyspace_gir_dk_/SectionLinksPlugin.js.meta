@@ -1,0 +1,17 @@
+title: SectionLinksPlugin
+modifier: mama
+created: 20111229124435
+modified: 20111229124435
+tags: systemConfig
+_hash: 358e461e064468e4c0f2022e4599c9db6ca25177
+creator: mama
+server.permissions: read
+server.workspace: bags/toc_public
+server.bag: toc_public
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.title: SectionLinksPlugin
+server.content-type: 
+server.type: tiddlyweb
+server.etag: &quot;toc_public/SectionLinksPlugin/13585:ada827b03e06c822b5416b8d23b79f3f2d91bde1&quot;
+server.page.revision: 13585

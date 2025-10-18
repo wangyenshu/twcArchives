@@ -1,0 +1,17 @@
+title: NewTaggedCommand
+modifier: pmario
+created: 20110720184225
+modified: 20110720191537
+tags: systemConfig
+creator: pmario
+server.page.revision: 453449
+server.title: NewTaggedCommand
+_hash: d9857365b2d3bf5151ca6c128735f9fd1e0d4718
+server.recipe: pmario_public
+server.bag: neui-toolbar_public
+server.permissions: read
+server.type: tiddlyweb
+server.etag: &quot;neui-toolbar_public/NewTaggedCommand/453449:05d22d34b29ddf3e445135fc32871fa8557d3afe&quot;
+server.host: http://pmario.tiddlyspace.com
+server.workspace: bags/neui-toolbar_public
+server.content-type: 

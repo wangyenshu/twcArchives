@@ -1,0 +1,9 @@
+title: GenerateRssByTagPlugin
+modifier: YourName
+created: 200703052156
+modified: 201112121634
+tags: admin NewsWiki systemConfig
+server.page.revision: 200705281308
+server.host: http://TiddlyHome.bidix.info/systemServer/NewsWiki.html
+server.type: file
+changecount: 1

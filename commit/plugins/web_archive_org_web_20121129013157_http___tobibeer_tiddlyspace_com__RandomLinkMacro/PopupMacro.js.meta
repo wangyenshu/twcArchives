@@ -1,0 +1,17 @@
+title: PopupMacro
+modifier: tobibeer
+created: 20100928160350
+modified: 20101009192201
+tags: excludeLists systemConfig
+server.recipe: tobibeer_public
+server.host: http://tobibeer.tiddlyspace.com
+server.etag: &quot;popup_public/PopupMacro/174887:7b157b06279006547fe705ea687f28a630238d72&quot;
+server.type: tiddlyweb
+creator: tobibeer
+_hash: deb51ba274bc310cd934ad81c15f4aeb69a7f8db
+server.content-type: 
+server.page.revision: 174887
+server.title: PopupMacro
+server.permissions: read
+server.workspace: bags/popup_public
+server.bag: popup_public

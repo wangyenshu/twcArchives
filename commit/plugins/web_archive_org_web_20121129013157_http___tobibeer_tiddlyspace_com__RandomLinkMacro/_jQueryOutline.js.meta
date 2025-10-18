@@ -1,0 +1,17 @@
+title: _jQueryOutline
+modifier: tobibeer
+created: 20120708072245
+modified: 20120708073457
+tags: excludeLists systemConfig
+server.recipe: tobibeer_public
+server.host: http://tobibeer.tiddlyspace.com
+server.etag: &quot;listfiltrplugin_public/_jQueryOutline/777967:ff50def56d0d3a3ba10e53272d805f983a4cf552&quot;
+server.type: tiddlyweb
+creator: tobibeer
+_hash: a305d2e987259f3d2c2537d93ebbd5bcb0541c5e
+server.content-type: 
+server.page.revision: 777967
+server.title: _jQueryOutline
+server.permissions: read
+server.workspace: bags/listfiltrplugin_public
+server.bag: listfiltrplugin_public

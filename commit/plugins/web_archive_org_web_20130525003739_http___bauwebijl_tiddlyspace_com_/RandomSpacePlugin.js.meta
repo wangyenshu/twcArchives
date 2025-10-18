@@ -1,0 +1,17 @@
+title: RandomSpacePlugin
+modifier: jon
+created: 20100825210603
+modified: 20101012190346
+tags: excludeLists systemConfig
+server.type: tiddlyweb
+server.page.revision: 145659
+server.permissions: read
+server.host: http://bauwebijl.tiddlyspace.com
+server.content-type: 
+server.workspace: bags/myspaces_public
+creator: jon
+_hash: ff57a45b9ed923c1eede48d40d23e7496b808c31
+server.bag: myspaces_public
+server.etag: &quot;myspaces_public/RandomSpacePlugin/145659:68d27c0531b52b76885f6f7930143030f72315f6&quot;
+server.title: RandomSpacePlugin
+server.recipe: bauwebijl_public

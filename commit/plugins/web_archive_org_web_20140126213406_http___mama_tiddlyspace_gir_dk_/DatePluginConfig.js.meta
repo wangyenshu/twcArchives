@@ -1,0 +1,17 @@
+title: DatePluginConfig
+modifier: mama
+created: 20120101184106
+modified: 20120101184106
+tags: systemConfig
+_hash: 8633569f1883ffa95f0d0e0c034c70f1603acaca
+creator: mama
+server.permissions: read
+server.workspace: bags/kalender_public
+server.bag: kalender_public
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.title: DatePluginConfig
+server.content-type: 
+server.type: tiddlyweb
+server.etag: &quot;kalender_public/DatePluginConfig/14809:ccb647433b07097eff0bd87c54f5114228b47c0d&quot;
+server.page.revision: 14809

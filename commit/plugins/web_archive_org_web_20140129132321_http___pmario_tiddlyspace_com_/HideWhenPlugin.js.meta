@@ -1,0 +1,17 @@
+title: HideWhenPlugin
+modifier: pmario
+created: 20100918180820
+modified: 20110613164017
+tags: excludeLists systemConfig
+creator: pmario
+server.page.revision: 146317
+server.title: HideWhenPlugin
+_hash: b4b56b873f6d0fbff24722bef7b8a022f28e2cc2
+server.recipe: pmario_public
+server.bag: neui-em_public
+server.permissions: read
+server.type: tiddlyweb
+server.etag: &quot;neui-em_public/HideWhenPlugin/146317:a80139f16f5ec9cb390df69a515f1121cb67504d&quot;
+server.host: http://pmario.tiddlyspace.com
+server.workspace: bags/neui-em_public
+server.content-type: 

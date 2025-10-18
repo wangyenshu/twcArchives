@@ -1,0 +1,17 @@
+title: TiddlySpaceBackstage
+modifier: osmosoft
+created: 20130521140656
+modified: 20130521140656
+tags: excludeLists excludeSearch systemConfig
+server.type: tiddlyweb
+server.page.revision: 1222000
+server.permissions: read
+server.host: http://bauwebijl.tiddlyspace.com
+server.content-type: text/javascript
+server.workspace: bags/tiddlyspace
+creator: osmosoft
+_hash: 390091c823ffd5ec5008f2a8174c3caccfa6302b
+server.bag: tiddlyspace
+server.etag: &quot;tiddlyspace/TiddlySpaceBackstage/1222000:ae46e6264351fb485ac8e03c245e4de33daecd34&quot;
+server.title: TiddlySpaceBackstage
+server.recipe: bauwebijl_public

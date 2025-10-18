@@ -1,0 +1,18 @@
+title: TiddlySpaceFollowingWizard
+modifier: jon
+created: 20101222235738
+modified: 20120118140029
+tags: excludeLists excludeSearch systemConfig
+server.recipe: tobibeer_public
+server.host: http://tobibeer.tiddlyspace.com
+server.etag: &quot;following_public/TiddlySpaceFollowingWizard/71031:a14d9310f8d61728b74aad34ee5c0db686d2811b&quot;
+server.type: tiddlyweb
+creator: jon
+summary: 
+_hash: 51c977fd69fe5439468369c45ad3386ad7db032e
+server.content-type: 
+server.page.revision: 71031
+server.title: TiddlySpaceFollowingWizard
+server.permissions: read
+server.workspace: bags/following_public
+server.bag: following_public

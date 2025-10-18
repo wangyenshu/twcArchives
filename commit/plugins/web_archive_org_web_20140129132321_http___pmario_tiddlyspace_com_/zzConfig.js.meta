@@ -1,0 +1,17 @@
+title: zzConfig
+modifier: pmario
+created: 20101008133411
+modified: 20110523141016
+tags: excludeLists systemConfig
+creator: pmario
+server.page.revision: 173297
+server.title: zzConfig
+_hash: f337f06f768c643dc6e785e67d0254e2ac29e762
+server.recipe: pmario_public
+server.bag: pmario_public
+server.permissions: read
+server.type: tiddlyweb
+server.etag: &quot;pmario_public/zzConfig/173297:643085cc78cd5f26d12e3a5434ac2ed33a4481a9&quot;
+server.host: http://pmario.tiddlyspace.com
+server.workspace: bags/pmario_public
+server.content-type: 

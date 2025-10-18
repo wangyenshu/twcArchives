@@ -1,0 +1,9 @@
+title: ImprovedSlicesPlugin
+modifier: LyallPearce
+created: 200708160949
+modified: 200708271043
+tags: systemConfig
+server.type: file
+server.host: file:///mnt/usb/LyallsUSB/TiddlyWiki.html
+server.page.revision: 200708232347
+changecount: 2

@@ -1,0 +1,17 @@
+title: SimpleSearchPlugin
+modifier: birthe
+created: 20130218145456
+modified: 20130218145456
+tags: excludeLists systemConfig
+_hash: 7ef62af0d0fc389caa9ceb55dc71af9a1aa7f0b1
+creator: birthe
+server.permissions: read
+server.workspace: bags/blokken_public
+server.bag: blokken_public
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.title: SimpleSearchPlugin
+server.content-type: 
+server.type: tiddlyweb
+server.etag: &quot;blokken_public/SimpleSearchPlugin/37908:fd18e43d898f38ac7a10de5933353d52037e81d8&quot;
+server.page.revision: 37908

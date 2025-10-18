@@ -1,0 +1,94 @@
+|Source|https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw_tiddlyspot_com_/mptw_tiddlyspot_com_.txt|
+|Version|0.1|
+//{{{
+[
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw_tiddlyspot_com_/CloseOnCancelPlugin.js",
+    "description": "Closes the tiddler if you click new tiddler then cancel. Default behaviour is to leave it open"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw_tiddlyspot_com_/CryptoFunctionsPlugin.js",
+    "description": "''Support for cryptographic functions"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw_tiddlyspot_com_/DeprecatedFunctionsPlugin.js",
+    "description": "''Support for deprecated functions removed from core"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw_tiddlyspot_com_/ExtendTagButtonPlugin.js",
+    "description": "Adds a New tiddler button in the tag drop down"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw_tiddlyspot_com_/HideWhenPlugin.js",
+    "description": "Allows conditional inclusion/exclusion in templates"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw_tiddlyspot_com_/InstantTimestampPlugin.js",
+    "description": "A handy way to insert timestamps in your tiddler content"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw_tiddlyspot_com_/LessBackupsPlugin.js",
+    "description": "Intelligently limit the number of backup files you create"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw_tiddlyspot_com_/MptwCollapsePlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw_tiddlyspot_com_/MptwConfigPlugin.js",
+    "description": "Miscellaneous tweaks used by MPTW"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw_tiddlyspot_com_/MptwUserConfigPlugin.js",
+    "description": "A place to put your config tweaks so they aren't overwritten when you upgrade MPTW"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw_tiddlyspot_com_/NewHerePlugin.js",
+    "description": "Creates the new here and new journal macros"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw_tiddlyspot_com_/NewMeansNewPlugin.js",
+    "description": "If 'New Tiddler' already exists then create 'New Tiddler (1)' and so on"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw_tiddlyspot_com_/PrettyDatesPlugin.js",
+    "description": "Provides a new date format ('pppp') that displays times such as '2 days ago'"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw_tiddlyspot_com_/QuickOpenTagPlugin.js",
+    "description": "Changes tag links to make it easier to open tags as tiddlers"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw_tiddlyspot_com_/RenameTagsPlugin.js",
+    "description": "Allows you to easily rename or delete tags across multiple tiddlers"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw_tiddlyspot_com_/SaveCloseTiddlerPlugin.js",
+    "description": "Provides two extra toolbar commands, saveCloseTiddler and cancelCloseTiddler"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw_tiddlyspot_com_/SelectThemePlugin.js",
+    "description": "Lets you easily switch theme and palette"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw_tiddlyspot_com_/SparklinePlugin.js",
+    "description": "''Sparklines macro"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw_tiddlyspot_com_/TagglyTaggingPlugin.js",
+    "description": "tagglyTagging macro is a replacement for the builtin tagging macro in your ViewTemplate"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw_tiddlyspot_com_/ToggleTagPlugin.js",
+    "description": "Makes a checkbox which toggles a tag in a tiddler"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw_tiddlyspot_com_/TspotSetupPlugin.js",
+    "description": "Contains the stuff you need to use Tiddlyspot"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/mptw_tiddlyspot_com_/UploadPlugin.js",
+    "description": "''Extends TiddlyWiki options with non encrypted password option."
+  }
+]
+//}}}

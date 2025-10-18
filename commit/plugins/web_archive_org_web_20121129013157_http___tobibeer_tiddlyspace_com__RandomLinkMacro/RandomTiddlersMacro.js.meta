@@ -1,0 +1,17 @@
+title: RandomTiddlersMacro
+modifier: tobibeer
+created: 20110220115257
+modified: 20120714093127
+tags: systemConfig
+server.recipe: tobibeer_public
+server.host: http://tobibeer.tiddlyspace.com
+server.etag: &quot;randomtiddlers_public/RandomTiddlersMacro/788699:37171b08665ad1dba99efeca2af0a6d0743ea619&quot;
+server.type: tiddlyweb
+creator: tobibeer
+_hash: 4ddea0e1098088d3eaa9b630150a43c270edb6cb
+server.content-type: 
+server.page.revision: 788699
+server.title: RandomTiddlersMacro
+server.permissions: read
+server.workspace: bags/randomtiddlers_public
+server.bag: randomtiddlers_public

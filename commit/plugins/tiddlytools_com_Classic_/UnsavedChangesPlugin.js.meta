@@ -1,0 +1,18 @@
+title: UnsavedChangesPlugin
+modifier: ELSDesignStudios
+created: 201102101954
+modified: 201112282338
+tags: systemConfig
+server.page.revision: 705
+server.workspace: bags/pasteup_public
+changecount: 2
+server.type: tiddlyweb
+server.recipe: pasteup_private
+server.host: http://pasteup.spaces.unamesa.org/
+server.permissions: read, write, create, delete
+server.etag: &quot;pasteup_public/UnsavedChangesPlugin/705;4f5c36462e4c510a736472173b353b8deb14cc8f&quot;
+_hash: 71ff33cfb2596d92b1f4446562689e2a64ca9d2a
+creator: ELSDesignStudios
+server.title: UnsavedChangesPlugin
+server.bag: pasteup_public
+server.content-type: 

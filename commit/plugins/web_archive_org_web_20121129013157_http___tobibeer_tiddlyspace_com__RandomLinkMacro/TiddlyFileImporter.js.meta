@@ -1,0 +1,17 @@
+title: TiddlyFileImporter
+modifier: None
+created: 20121128171840
+modified: 20121128171840
+tags: excludeLists excludeSearch systemConfig
+server.recipe: tobibeer_public
+server.host: http://tobibeer.tiddlyspace.com
+server.etag: &quot;system-plugins_public/TiddlyFileImporter/970282:c3feae07c64a6766a868114a5b80b9a039455b81&quot;
+server.type: tiddlyweb
+creator: None
+_hash: edf398648e9324f8de73cd2fb942f9517aab6a6c
+server.content-type: text/javascript
+server.page.revision: 970282
+server.title: TiddlyFileImporter
+server.permissions: read
+server.workspace: bags/system-plugins_public
+server.bag: system-plugins_public

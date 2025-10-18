@@ -1,0 +1,18 @@
+title: InlineJavaScriptPlugin
+modifier: pmario
+created: 20100918172258
+modified: 201011061051
+tags: excludeLists systemConfig
+creator: pmario
+server.page.revision: 172955
+server.title: InlineJavaScriptPlugin
+_hash: ca0c92cf546520259147d9b8a2ab3e46db8785df
+server.recipe: pmario_public
+server.bag: pmario_public
+server.permissions: read
+server.type: tiddlyweb
+server.etag: &quot;pmario_public/InlineJavaScriptPlugin/172955:3ec5af2bdd7ffe54e3db54a76f54b79257908644&quot;
+origin: bags/pmario_public/inlineJavaScriptPlugin
+server.host: http://pmario.tiddlyspace.com
+server.workspace: bags/pmario_public
+server.content-type: 

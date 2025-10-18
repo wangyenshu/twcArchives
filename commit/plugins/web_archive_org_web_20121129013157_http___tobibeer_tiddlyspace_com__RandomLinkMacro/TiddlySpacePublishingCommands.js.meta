@@ -1,0 +1,17 @@
+title: TiddlySpacePublishingCommands
+modifier: jon
+created: 20121128171840
+modified: 20121128171840
+tags: excludeLists excludeSearch systemConfig
+server.recipe: tobibeer_public
+server.host: http://tobibeer.tiddlyspace.com
+server.etag: &quot;system-plugins_public/TiddlySpacePublishingCommands/970285:812daf048ebd0e93e94272292247848c4c9e0270&quot;
+server.type: tiddlyweb
+creator: jon
+_hash: d38da0ee80a7dc114a17466600f9430fa2a962bb
+server.content-type: text/javascript
+server.page.revision: 970285
+server.title: TiddlySpacePublishingCommands
+server.permissions: read
+server.workspace: bags/system-plugins_public
+server.bag: system-plugins_public

@@ -1,0 +1,17 @@
+title: ActivityDataPlugin
+modifier: jon
+created: 20100806220041
+modified: 20101008172149
+tags: excludeLists systemConfig
+server.recipe: tobibeer_public
+server.host: http://tobibeer.tiddlyspace.com
+server.etag: &quot;charts_public/ActivityDataPlugin/27182:c2a4eaeb80c83a53210f67dcd2e33e2954416abc&quot;
+server.type: tiddlyweb
+creator: jon
+_hash: 50daa41ea330d85078eebf29ae98ff776f3f2c23
+server.content-type: 
+server.page.revision: 27182
+server.title: ActivityDataPlugin
+server.permissions: read
+server.workspace: bags/charts_public
+server.bag: charts_public

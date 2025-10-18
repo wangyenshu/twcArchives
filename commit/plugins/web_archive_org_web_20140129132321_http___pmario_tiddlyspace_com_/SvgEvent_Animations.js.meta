@@ -1,0 +1,17 @@
+title: SvgEvent_Animations
+modifier: pmario
+created: 20100727165404
+modified: 20100918160603
+tags: excludeLists fxPlugins systemConfig
+creator: pmario
+server.page.revision: 75392
+server.title: SvgEvent_Animations
+_hash: 2bf258e34766357a751fc0702010e03ca92abb46
+server.recipe: pmario_public
+server.bag: fxplugins_public
+server.permissions: read
+server.type: tiddlyweb
+server.etag: &quot;fxplugins_public/SvgEvent_Animations/75392:f1b9f38bba868b4e20b762da6800432383397718&quot;
+server.host: http://pmario.tiddlyspace.com
+server.workspace: bags/fxplugins_public
+server.content-type: 

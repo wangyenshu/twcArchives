@@ -1,0 +1,17 @@
+title: StoryGlueMacro
+modifier: pmario
+created: 20100806192305
+modified: 20100918170548
+tags: PresentationPackage excludeLists systemConfig
+creator: pmario
+server.page.revision: 146504
+server.title: StoryGlueMacro
+_hash: 67714582b1f134a4020b09545b2e1ff20f0ce6dd
+server.recipe: pmario_public
+server.bag: neui-em_public
+server.permissions: read
+server.type: tiddlyweb
+server.etag: &quot;neui-em_public/StoryGlueMacro/146504:1210c74cae66b0605e9cddfb3441c236d882a499&quot;
+server.host: http://pmario.tiddlyspace.com
+server.workspace: bags/neui-em_public
+server.content-type: 

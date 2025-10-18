@@ -1,0 +1,17 @@
+title: BinaryTiddlersPlugin
+modifier: FND
+created: 20121128171840
+modified: 20121128171840
+tags: excludeLists excludeSearch systemConfig
+server.recipe: tobibeer_public
+server.host: http://tobibeer.tiddlyspace.com
+server.etag: &quot;system/BinaryTiddlersPlugin/970293:60f0dcfe14c116c2b141a0fc0401a2af3071c001&quot;
+server.type: tiddlyweb
+creator: FND
+_hash: bb68b191fd5952b1143b48759d222ac59d2fbc01
+server.content-type: text/javascript
+server.page.revision: 970293
+server.title: BinaryTiddlersPlugin
+server.permissions: read
+server.workspace: bags/system
+server.bag: system

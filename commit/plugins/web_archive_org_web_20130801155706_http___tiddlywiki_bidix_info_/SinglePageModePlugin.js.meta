@@ -1,0 +1,10 @@
+title: SinglePageModePlugin
+modifier: BidiX
+created: 200512271815
+modified: 200705202031
+tags: admin NewsWiki systemConfig
+server.page.revision: 200705202031
+server.host: http://TiddlyHome.bidix.info/systemServer/NewsWiki.html
+anon: undefined
+server.type: file
+date: 200512271815

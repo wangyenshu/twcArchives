@@ -1,0 +1,17 @@
+title: zzConfig
+modifier: mama
+created: 20111018234829
+modified: 20111018234829
+tags: systemConfig
+_hash: 346f7347b5dd53f3e4e876c221e1b7263c1ade18
+creator: mama
+server.permissions: read
+server.workspace: bags/mama_public
+server.bag: mama_public
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.title: zzConfig
+server.content-type: 
+server.type: tiddlyweb
+server.etag: &quot;mama_public/zzConfig/2994:d5a3e891e67978fc4438d52636d520de7858b728&quot;
+server.page.revision: 2994

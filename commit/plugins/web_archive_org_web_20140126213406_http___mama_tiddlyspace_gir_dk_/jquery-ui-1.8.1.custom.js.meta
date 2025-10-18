@@ -1,0 +1,17 @@
+title: jquery-ui-1.8.1.custom
+modifier: mama
+created: 20111017132528
+modified: 20111017132528
+tags: systemConfig
+_hash: dc6696e79c793e87eaef78710b8efb5ed96a3a7b
+creator: mama
+server.permissions: read
+server.workspace: bags/sorter_public
+server.bag: sorter_public
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.title: jquery-ui-1.8.1.custom
+server.content-type: 
+server.type: tiddlyweb
+server.etag: &quot;sorter_public/jquery-ui-1.8.1.custom/2330:7b0ae55342ebe589aec6814812fc449d233e5ebd&quot;
+server.page.revision: 2330

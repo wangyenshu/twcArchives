@@ -1,0 +1,17 @@
+title: TiddlySpaceConfig
+modifier: osmosoft
+created: 20131111192332
+modified: 20131111192332
+tags: excludeLists excludeSearch systemConfig
+server.etag: &quot;tiddlyspace/TiddlySpaceConfig/1521905:e0404976db0423bb27dda558aeacdefd37236dec&quot;
+server.recipe: ben_public
+server.title: TiddlySpaceConfig
+creator: osmosoft
+server.workspace: bags/tiddlyspace
+server.page.revision: 1521905
+_hash: e74aa09eb3a15ff6e90b7de81e4d23168f8a51db
+server.type: tiddlyweb
+server.content-type: text/javascript
+server.bag: tiddlyspace
+server.permissions: read
+server.host: http://ben.tiddlyspace.com

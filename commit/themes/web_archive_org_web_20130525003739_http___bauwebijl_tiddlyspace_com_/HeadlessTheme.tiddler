@@ -1,0 +1,153 @@
+<div title="HeadlessTheme" modifier="bauwebijl" created="20101111151816" modified="20101111211140" tags="bsd excludeLists excludeSearch headlesstheme systemTheme theme" server.type="tiddlyweb" server.page.revision="14424" server.permissions="read" server.host="http://bauwebijl.tiddlyspace.com" server.content-type="" server.workspace="bags/bauwebijl_public" creator="bauwebijl" _hash="982a8b47b0378655b19441cfc03249686cae5cb7" server.bag="bauwebijl_public" server.etag="&quot;bauwebijl_public/HeadlessTheme/14424:f15fa77544bd7fe488551723df70829479bcbe40&quot;" server.title="HeadlessTheme" server.recipe="bauwebijl_public">
+<pre>/***
+|''Name''|HeadlessTheme|
+|''Source''|http://bauwebijl.tiddlyspace.com/#HeadlessTheme|
+|''Version:''|0.2|
+|''Author:''|Bauwe Bijl|
+|''Date:''|November 9th, 2010|
+|''License:''|[[BSD License|http://bauwebijl.tiddlyspace.com/#LegalStatements]]|
+|''Comments:''|Please make comments at http://groups.google.nl/group/TiddlyWiki|
+|''~CoreVersion:''|2.6.1|
+|''Type''|CSS|
+|''Description''|a ''~TiddlySpace'' theme: http://bauwebijl.tiddlyspace.com/#HeadlessThemeInfo|
+|''PageTemplate:''|##PageTemplate|
+|''ViewTemplate:''|##ViewTemplate|
+|''EditTemplate:''|##EditTemplate|
+|''StyleSheet:''|##StyleSheet|
+***/
+!PageTemplate
+<!--{{{-->
+<div class='header'>
+	<div id='sidebarSearch'>
+		<span macro='search search'></span>
+	</div>
+	<div class='headerForeground'>
+		<span class='siteTitle' refresh='content' tiddler='SiteTitle'></span>
+		<span class='siteSubtitle' refresh='content' tiddler='SiteSubtitle'></span>
+	</div>
+	<div class='clearFloat'></div>
+</div>
+<div id='menuBar'>
+	<div id='mainMenu' refresh='content' tiddler='MainMenu'></div>	
+	<div id='tabSlider' refresh='macro' force='true' macro='slider chkSideBarTabs SideBarTabs "menu »" "display lists of tiddlers"'></div>
+        <div id='sidebarOptions' refresh='content' tiddler='SideBarOptions'></div>
+</div>
+<div id='displayArea'>
+	<div id='messageArea'></div>
+	<div id='tiddlerDisplay'></div>
+</div>
+<!--}}}-->
+!ViewTemplate
+<!--{{{-->
+<div class='toolbar'
+	macro='toolbar [[ToolbarCommands::ViewToolbar]] icons:yes height:16 width:16 more:popup'>
+</div>
+<div class='heading'>
+	<span class='spaceSiteIcon'
+		macro='tiddlerOrigin label:no spaceLink:yes height:48 width:48 preserveAspectRatio:yes'>
+	</span>
+	<span class="titleBar">
+		<div class='title' macro='view title text'></div>
+		<div class="subtitle" macro='viewRevisions page:5'>
+			last modified on
+			<span macro="view modified date"></span>
+		</div>
+		<div macro="view title replyLink"></div>
+	</span>
+	<span class='followPlaceHolder' macro='followTiddlers'></span>
+	<span class='modifierIcon'
+		macro='view modifier SiteIcon label:no spaceLink:yes height:48 width:48 preserveAspectRatio:yes'>
+	</span>
+	<div class='tagClear'></div>
+</div>
+<div class='content'>
+	<div class='viewer' macro='view text wikified'></div>
+</div>
+<div class='tagInfo'>
+	<div class='tidTags' macro='tags'></div>
+	<div class='tagging' macro='tagging'></div>
+</div>
+<!--}}}-->
+!EditTemplate
+<!--{{{-->
+<div class='toolbar'
+	macro='toolbar [[ToolbarCommands::EditToolbar]] icons:yes'>
+</div>
+<div class='heading editorHeading'>
+	<div class='editor title' macro='edit title'></div>
+	<div class='tagClear'></div>
+</div>
+<div class='annotationsBox' macro='annotations'>
+	<div class='editSpaceSiteIcon'
+		macro='tiddlerOrigin height:16 width:16 label:no interactive:no'>
+	</div>
+	<div class="privacyEdit" macro='setPrivacy label:no interactive:no'></div>
+	<div class='tagClear'></div>
+</div>
+<div class='editor' macro='edit text'></div>
+<div class='editorFooter'>
+	<div class='tagTitle'>tags</div>
+	<div class='editor' macro='edit tags'></div>
+	<div class='tagAnnotation'>
+		<span macro='message views.editor.tagPrompt'></span>
+		<span macro='tagChooser excludeLists'></span>
+	</div>
+</div>
+<!--}}}-->
+!StyleSheet
+/*{{{*/
+[[StyleSheet]]
+#sidebarOptions {
+margin-right:0;
+}
+.tabset {
+height:16px;
+padding-left:0;
+padding-right:0;
+padding-top:0;
+width:490px;
+font-size: 0.8em;
+}
+.tabset, .tabContents {
+font-size: 0.8em;
+}
+#tabSlider {
+margin-right: 12px;
+float: right;
+}
+#tabSlider .button {
+float: left;
+margin-right: 20px;
+font-size: 0.8em;
+}
+#sidebarOptions a:active, #tabSlider a:active { 
+background:[[ColorPalette::PrimaryLight]];
+border:none;
+}
+#tabSlider a.button {
+color: #fff;
+border-width:0;
+padding:2px 8px 1px 10px;
+}
+#tabSlider a.button:hover {
+color: [[ColorPalette::PrimaryPale]];
+background: [[ColorPalette::PrimaryMid]];
+}
+#tiddlerDisplay {
+margin:16px 72px 0px 72px ;
+}
+#contentWrapper {
+margin-left:20px;
+margin-right:20px;
+}
+.headerForeground {
+background-color:[[ColorPalette::Background]] !important;
+color:[[ColorPalette::PrimaryLight]] !important;
+margin-top:8px;
+height:38px;
+}
+.header {
+background-color:[[ColorPalette::Background]] !important;
+}
+/*}}}*/</pre>
+</div>

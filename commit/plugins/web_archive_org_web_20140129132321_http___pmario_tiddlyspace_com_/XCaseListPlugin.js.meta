@@ -1,0 +1,17 @@
+title: XCaseListPlugin
+modifier: pmario
+created: 20100806192306
+modified: 20100918170549
+tags: ListPackage excludeLists systemConfig
+creator: pmario
+server.page.revision: 146591
+server.title: XCaseListPlugin
+_hash: a7eed89577a478493c6f846b8f298da8abb42b35
+server.recipe: pmario_public
+server.bag: neui-em_public
+server.permissions: read
+server.type: tiddlyweb
+server.etag: &quot;neui-em_public/XCaseListPlugin/146591:fc124673b161c76340bc384f055c4dbb8909d74a&quot;
+server.host: http://pmario.tiddlyspace.com
+server.workspace: bags/neui-em_public
+server.content-type: 

@@ -1,0 +1,15 @@
+title: PasteUpPlugin
+modifier: ELSDesignStudios
+created: 201102101954
+modified: 201201300122
+tags: PasteUpPackage systemConfig
+server.workspace: bags/pasteup_public
+changecount: 7
+server.type: tiddlyweb
+server.recipe: pasteup_private
+server.host: http://pasteup.spaces.unamesa.org/
+server.permissions: read, write, create, delete
+_hash: 7a2b98b92d73837dea5fbb33c5c4f2977e540f32
+creator: ELSDesignStudios
+server.bag: pasteup_public
+server.content-type: 

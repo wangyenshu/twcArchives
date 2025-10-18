@@ -1,0 +1,17 @@
+title: FloatObject
+modifier: tobibeer
+created: 20100907215830
+modified: 20100930150135
+tags: excludeLists systemConfig
+server.recipe: tobibeer_public
+server.host: http://tobibeer.tiddlyspace.com
+server.etag: &quot;floatobject_public/FloatObject/69176:a234d9fafc6fa573bd9d31f9d516d5c4890c043b&quot;
+server.type: tiddlyweb
+creator: tobibeer
+_hash: e41b64fd6d6ed868c0706c4d04f510ad3b8177b0
+server.content-type: 
+server.page.revision: 69176
+server.title: FloatObject
+server.permissions: read
+server.workspace: bags/floatobject_public
+server.bag: floatobject_public

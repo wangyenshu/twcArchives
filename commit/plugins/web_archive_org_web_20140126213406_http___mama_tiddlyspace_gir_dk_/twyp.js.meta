@@ -1,0 +1,17 @@
+title: twyp
+modifier: mama
+created: 20130612214246
+modified: 20130612214246
+tags: systemConfig
+_hash: 07cb85022942e7f464cd16ca89957cc5b5153a9e
+creator: mama
+server.permissions: read
+server.workspace: bags/mama_public
+server.bag: mama_public
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.title: twyp
+server.content-type: 
+server.type: tiddlyweb
+server.etag: &quot;mama_public/twyp/41380:28dfb6ef0c5bcda51c5aee150251cd81937b8111&quot;
+server.page.revision: 41380

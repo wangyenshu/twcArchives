@@ -1,0 +1,146 @@
+|Source|https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090209220502_http___tw_lewcid_org___5B_5BExtensions_20Overview_5D_5D/web_archive_org_web_20090209220502_http___tw_lewcid_org___5B_5BExtensions_20Overview_5D_5D.txt|
+|Version|0.1|
+//{{{
+[
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090209220502_http___tw_lewcid_org___5B_5BExtensions_20Overview_5D_5D/AccordionMenuPlugin.js",
+    "description": "''Turn an unordered list into an accordion style menu"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090209220502_http___tw_lewcid_org___5B_5BExtensions_20Overview_5D_5D/AnnotationsPlugin.js",
+    "description": "''Inline annotations for tiddler text."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090209220502_http___tw_lewcid_org___5B_5BExtensions_20Overview_5D_5D/BetterTimelineMacro.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090209220502_http___tw_lewcid_org___5B_5BExtensions_20Overview_5D_5D/ConfigTiddler.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090209220502_http___tw_lewcid_org___5B_5BExtensions_20Overview_5D_5D/DropDownMenuPlugin.js",
+    "description": "''Create dropdown menus from unordered lists"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090209220502_http___tw_lewcid_org___5B_5BExtensions_20Overview_5D_5D/DropTaggingMacro.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090209220502_http___tw_lewcid_org___5B_5BExtensions_20Overview_5D_5D/DropTagsMacro.js",
+    "description": "''provides a drop down list of tags in the current tiddler,> a replacement for the core tags macro."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090209220502_http___tw_lewcid_org___5B_5BExtensions_20Overview_5D_5D/FontSizePlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090209220502_http___tw_lewcid_org___5B_5BExtensions_20Overview_5D_5D/FootnotesPlugin.js",
+    "description": "''Create automated tiddler footnotes."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090209220502_http___tw_lewcid_org___5B_5BExtensions_20Overview_5D_5D/ForEachTiddlerPlugin.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090209220502_http___tw_lewcid_org___5B_5BExtensions_20Overview_5D_5D/FullScreenPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090209220502_http___tw_lewcid_org___5B_5BExtensions_20Overview_5D_5D/HoverMenuPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090209220502_http___tw_lewcid_org___5B_5BExtensions_20Overview_5D_5D/IconMacro.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090209220502_http___tw_lewcid_org___5B_5BExtensions_20Overview_5D_5D/JumpToTopMacro.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090209220502_http___tw_lewcid_org___5B_5BExtensions_20Overview_5D_5D/MenuEditPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090209220502_http___tw_lewcid_org___5B_5BExtensions_20Overview_5D_5D/MonkeyTaggerMacro.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090209220502_http___tw_lewcid_org___5B_5BExtensions_20Overview_5D_5D/NavigationMacro.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090209220502_http___tw_lewcid_org___5B_5BExtensions_20Overview_5D_5D/OpenTiddlersMacro.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090209220502_http___tw_lewcid_org___5B_5BExtensions_20Overview_5D_5D/PopupMacro.js",
+    "description": "''Create popups with custom content"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090209220502_http___tw_lewcid_org___5B_5BExtensions_20Overview_5D_5D/RSSHack.js",
+    "description": "s.push(\"\" + wikifyPlain(\"SiteSubtitle\").htmlEncode() + \"\");"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090209220502_http___tw_lewcid_org___5B_5BExtensions_20Overview_5D_5D/SaveAndReloadMacro.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090209220502_http___tw_lewcid_org___5B_5BExtensions_20Overview_5D_5D/SelectThemePlugin.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090209220502_http___tw_lewcid_org___5B_5BExtensions_20Overview_5D_5D/ShowUpdatesPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090209220502_http___tw_lewcid_org___5B_5BExtensions_20Overview_5D_5D/SplashScreenPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090209220502_http___tw_lewcid_org___5B_5BExtensions_20Overview_5D_5D/TabEditPlugin.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090209220502_http___tw_lewcid_org___5B_5BExtensions_20Overview_5D_5D/TableSortingPlugin.js",
+    "description": "''Dynamically sort tables by clicking on column headers"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090209220502_http___tw_lewcid_org___5B_5BExtensions_20Overview_5D_5D/TagAdderMacro.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090209220502_http___tw_lewcid_org___5B_5BExtensions_20Overview_5D_5D/TaggerPlugin.js",
+    "description": "''Provides a drop down listing current tiddler tags, and allowing toggling of tags."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090209220502_http___tw_lewcid_org___5B_5BExtensions_20Overview_5D_5D/TiddlerNotesPlugin.js",
+    "description": "''Add notes to tiddlers without modifying the original content"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090209220502_http___tw_lewcid_org___5B_5BExtensions_20Overview_5D_5D/TiddlerWithEditPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090209220502_http___tw_lewcid_org___5B_5BExtensions_20Overview_5D_5D/TiddlyLightBoxPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090209220502_http___tw_lewcid_org___5B_5BExtensions_20Overview_5D_5D/ToggleSideBarMacro.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090209220502_http___tw_lewcid_org___5B_5BExtensions_20Overview_5D_5D/ToolbarIconsPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090209220502_http___tw_lewcid_org___5B_5BExtensions_20Overview_5D_5D/ZHoverMenuPluginConfig.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20090209220502_http___tw_lewcid_org___5B_5BExtensions_20Overview_5D_5D/writeItMacro.js",
+    "description": ""
+  }
+]
+//}}}

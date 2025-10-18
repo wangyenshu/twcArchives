@@ -1,0 +1,17 @@
+title: MiniBrowserPlugin
+modifier: birthe
+created: 20120507124640
+modified: 20120507124640
+tags: systemConfig
+_hash: b12ab3d6aa68093e712b3be5a4a0d862ba23cf4b
+creator: birthe
+server.permissions: read
+server.workspace: bags/blokken_public
+server.bag: blokken_public
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.title: MiniBrowserPlugin
+server.content-type: 
+server.type: tiddlyweb
+server.etag: &quot;blokken_public/MiniBrowserPlugin/32853:876fb0ecfa2c218c3bea60c41049838e2a4126a4&quot;
+server.page.revision: 32853

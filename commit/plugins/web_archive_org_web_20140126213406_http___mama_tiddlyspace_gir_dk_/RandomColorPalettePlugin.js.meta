@@ -1,0 +1,17 @@
+title: RandomColorPalettePlugin
+modifier: jon
+created: 20110911181831
+modified: 20130305161741
+tags: excludeLists excludeSearch systemConfig
+_hash: c5b359abab5a1446d12be89e6ea608d2d73e4822
+creator: jon
+server.permissions: read
+server.workspace: bags/system-plugins_public
+server.bag: system-plugins_public
+server.recipe: mama_public
+server.host: http://mama.tiddlyspace.gir.dk
+server.title: RandomColorPalettePlugin
+server.content-type: text/javascript
+server.type: tiddlyweb
+server.etag: &quot;system-plugins_public/RandomColorPalettePlugin/40221:7f30f8b189273060e5a9175a92223afb1956409d&quot;
+server.page.revision: 40221
