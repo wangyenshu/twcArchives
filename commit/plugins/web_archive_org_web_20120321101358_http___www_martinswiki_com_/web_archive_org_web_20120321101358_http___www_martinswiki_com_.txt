@@ -1,0 +1,130 @@
+|Source|https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20120321101358_http___www_martinswiki_com_/web_archive_org_web_20120321101358_http___www_martinswiki_com_.txt|
+|Version|0.1|
+//{{{
+[
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20120321101358_http___www_martinswiki_com_/AdaptorCommandsPlugin.js",
+    "description": "''Commands to access hosted TiddlyWiki data"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20120321101358_http___www_martinswiki_com_/AdaptorMacrosPlugin.js",
+    "description": "''Commands to access hosted TiddlyWiki data"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20120321101358_http___www_martinswiki_com_/ConfluenceFormatterPlugin.js",
+    "description": "''Allows Tiddlers to use Confluence text formatting"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20120321101358_http___www_martinswiki_com_/CreoleFormatterPlugin.js",
+    "description": "''Extension of TiddlyWiki syntax to support [[Creolehttp://www.wikicreole.org/]] text formatting"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20120321101358_http___www_martinswiki_com_/CryptoTEAPlugin.js",
+    "description": "''TEA (Tiny Encryption Algorithm) and supporting Cryptographic functions"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20120321101358_http___www_martinswiki_com_/DisableStrikeThroughPlugin.js",
+    "description": "''Allows you to disable TiddlyWiki's automatic linking of WikiWords"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20120321101358_http___www_martinswiki_com_/DisableWikiLinksPlugin.js",
+    "description": "''Allows you to disable TiddlyWiki's automatic linking of WikiWords"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20120321101358_http___www_martinswiki_com_/EncryptionCommandsPlugin.js",
+    "description": "''Toolbar commands for cryptographic functions"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20120321101358_http___www_martinswiki_com_/ExampleAdaptorPlugin.js",
+    "description": "''Example Adaptor which can be used as a basis for creating a new Adaptor"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20120321101358_http___www_martinswiki_com_/ExampleFormatterPlugin.js",
+    "description": "''Example Formatter which can be used as a basis for creating a new Formatter. Allows Tiddlers to use [[examplehttp://www.example.com/wikitext]] text formatting"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20120321101358_http___www_martinswiki_com_/ExamplePlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20120321101358_http___www_martinswiki_com_/JSPWikiAdaptorPlugin.js",
+    "description": "''Adaptor for moving and converting data to and from JSP Wikis"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20120321101358_http___www_martinswiki_com_/JSPWikiFormatterPlugin.js",
+    "description": "''Allows Tiddlers to use [[JSPWikihttp://www.jspwiki.org/wiki/TextFormattingRules]] text formatting"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20120321101358_http___www_martinswiki_com_/MediaWikiAdaptorPlugin.js",
+    "description": "''Adaptor for moving and converting data from MediaWikis"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20120321101358_http___www_martinswiki_com_/MediaWikiFormatterPlugin.js",
+    "description": "''Allows Tiddlers to use [[MediaWikihttp://meta.wikimedia.org/wiki/Help:Wikitext]] ([[WikiPediahttp://meta.wikipedia.org/]]) text formatting"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20120321101358_http___www_martinswiki_com_/PBWikiFormatterPlugin.js",
+    "description": "''Allows Tiddlers to use [[PBWikihttp://yummy.pbwiki.com/WikiStyle]] text formatting"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20120321101358_http___www_martinswiki_com_/PartTiddlerPlugin.js",
+    "description": "* Description, Syntax"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20120321101358_http___www_martinswiki_com_/PmWikiFormatterPlugin.js",
+    "description": "''Allows Tiddlers to use [[PmWikihttp://pmwiki.org/wiki/PmWiki/TextFormattingRules]] text formatting"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20120321101358_http___www_martinswiki_com_/SHA-1UnwoundPlugin.js",
+    "description": "''Faster wersion of SHA-1 with unwound loops"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20120321101358_http___www_martinswiki_com_/SnipSnapFormatterPlugin.js",
+    "description": "''Allows Tiddlers to use [[SnipSnaphttp://snipsnap.org/space/snipsnap-help]] text formatting"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20120321101358_http___www_martinswiki_com_/SocialtextAdaptorPlugin.js",
+    "description": "''Adaptor for moving and converting data to and from Socialtext Wikis"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20120321101358_http___www_martinswiki_com_/SocialtextFormatterPlugin.js",
+    "description": "''Allows Tiddlers to use [[Socialtexthttp://www.socialtext.com/]] text formatting"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20120321101358_http___www_martinswiki_com_/SplashScreenPlugin.js",
+    "description": "''Provides a splash screen that consists of the rendered default tiddlers"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20120321101358_http___www_martinswiki_com_/TWikiAdaptorPlugin.js",
+    "description": "''Adaptor for moving and converting data to and from TWikis"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20120321101358_http___www_martinswiki_com_/TWikiFormatterPlugin.js",
+    "description": "''Allows Tiddlers to use [[TWikihttp://twiki.org/cgi-bin/view/TWiki/TextFormattingRules]] text formatting"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20120321101358_http___www_martinswiki_com_/TextileFormatterPlugin.js",
+    "description": "''Allows Tiddlers to use [[Textilehttp://www.textism.com/tools/textile/]] text formatting"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20120321101358_http___www_martinswiki_com_/TodoListPlugin.js",
+    "description": "''Simple tabbed todo list"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20120321101358_http___www_martinswiki_com_/TracFormatterPlugin.js",
+    "description": "''Allows Tiddlers to use [[Trachttp://trac.edgewall.org/wiki/WikiFormatting]] text formatting"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20120321101358_http___www_martinswiki_com_/WikispacesFormatterPlugin.js",
+    "description": "''Allows Tiddlers to use [[wikispaceshttp://www.wikispaces.com/wikitext]] text formatting"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20120321101358_http___www_martinswiki_com_/ccTiddlyAdaptorPlugin.js",
+    "description": "''Adaptor for moving and converting data to and from ccTiddly wikis"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20120321101358_http___www_martinswiki_com_/settings.js",
+    "description": "''Set preferences"
+  }
+]
+//}}}

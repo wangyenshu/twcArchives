@@ -1,0 +1,102 @@
+|Source|https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20100527192535_http___wiki_osmosoft_com_alpha_/web_archive_org_web_20100527192535_http___wiki_osmosoft_com_alpha_.txt|
+|Version|0.1|
+//{{{
+[
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20100527192535_http___wiki_osmosoft_com_alpha_/006_ccAssignments.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20100527192535_http___wiki_osmosoft_com_alpha_/002_ccLoginStatus.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20100527192535_http___wiki_osmosoft_com_alpha_/002_ccCreateWorkspace.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20100527192535_http___wiki_osmosoft_com_alpha_/002_ccLogin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20100527192535_http___wiki_osmosoft_com_alpha_/002_ccRegister.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20100527192535_http___wiki_osmosoft_com_alpha_/PATCH_onGetTiddler.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20100527192535_http___wiki_osmosoft_com_alpha_/002_ccStats.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20100527192535_http___wiki_osmosoft_com_alpha_/002_ccAbout.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20100527192535_http___wiki_osmosoft_com_alpha_/002_ccFiles.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20100527192535_http___wiki_osmosoft_com_alpha_/002_ccEditWorkspace.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20100527192535_http___wiki_osmosoft_com_alpha_/002_ccTiddlyPlugins.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20100527192535_http___wiki_osmosoft_com_alpha_/001_ccTiddlyAdaptor.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20100527192535_http___wiki_osmosoft_com_alpha_/PATCH_restart.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20100527192535_http___wiki_osmosoft_com_alpha_/002_ccAdmin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20100527192535_http___wiki_osmosoft_com_alpha_/002_ccChangePassword.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20100527192535_http___wiki_osmosoft_com_alpha_/PATCH_displayDefaultTiddlers.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20100527192535_http___wiki_osmosoft_com_alpha_/007_backstage.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20100527192535_http___wiki_osmosoft_com_alpha_/taggedTabs.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20100527192535_http___wiki_osmosoft_com_alpha_/TaggedTemplateTweak.js",
+    "description": "use alternative ViewTemplate/EditTemplate for tiddler's tagged with specific tag values"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20100527192535_http___wiki_osmosoft_com_alpha_/TaggedTemplateTweak.js",
+    "description": "use alternative ViewTemplate/EditTemplate for tiddler's tagged with specific tag values"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20100527192535_http___wiki_osmosoft_com_alpha_/ServerSideSavingPlugin.js",
+    "description": "''Description''server-side saving"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20100527192535_http___wiki_osmosoft_com_alpha_/LoadRemoteFileThroughProxy.js",
+    "description": "''When the TiddlyWiki file is located on the web (view over http) the content of [[SiteProxy]] tiddler is added in front of the file url. If [[SiteProxy]] does not exist \"/proxy/\" is added."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20100527192535_http___wiki_osmosoft_com_alpha_/003_ccLingo.js",
+    "description": "\"//(unknown)//\","
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20100527192535_http___wiki_osmosoft_com_alpha_/OpenIDPlugin.js",
+    "description": ""
+  }
+]
+//}}}

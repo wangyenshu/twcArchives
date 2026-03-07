@@ -1,0 +1,122 @@
+|Source|https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130827021950_http___journal_conal_net___5B_5Bsite_20map_5D_5D/web_archive_org_web_20130827021950_http___journal_conal_net___5B_5Bsite_20map_5D_5D.txt|
+|Version|0.1|
+//{{{
+[
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130827021950_http___journal_conal_net___5B_5Bsite_20map_5D_5D/AudioPlayerPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130827021950_http___journal_conal_net___5B_5Bsite_20map_5D_5D/AutoTaggerPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130827021950_http___journal_conal_net___5B_5Bsite_20map_5D_5D/CalendarPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130827021950_http___journal_conal_net___5B_5Bsite_20map_5D_5D/CollapseTiddlersPlusPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130827021950_http___journal_conal_net___5B_5Bsite_20map_5D_5D/CommentPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130827021950_http___journal_conal_net___5B_5Bsite_20map_5D_5D/DisableWikiLinksPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130827021950_http___journal_conal_net___5B_5Bsite_20map_5D_5D/FileDropPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130827021950_http___journal_conal_net___5B_5Bsite_20map_5D_5D/FileDropPlugin_Config.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130827021950_http___journal_conal_net___5B_5Bsite_20map_5D_5D/HaloscanMacro.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130827021950_http___journal_conal_net___5B_5Bsite_20map_5D_5D/InlineJavascriptPlugin.js",
+    "description": "''2005.12.13 [1.3.1]'' when catching eval error in IE, e.description contains the error text, instead of e.toString().  Fixed error reporting so IE shows the correct response text.  Based on a suggestion by UdoBorkowski"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130827021950_http___journal_conal_net___5B_5Bsite_20map_5D_5D/MoveablePanelPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130827021950_http___journal_conal_net___5B_5Bsite_20map_5D_5D/NestedFormatterMacro.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130827021950_http___journal_conal_net___5B_5Bsite_20map_5D_5D/NestedSlidersPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130827021950_http___journal_conal_net___5B_5Bsite_20map_5D_5D/RSSReaderPlugin.js",
+    "description": "''This plugin provides a RSSReader for TiddlyWiki"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130827021950_http___journal_conal_net___5B_5Bsite_20map_5D_5D/RearrangeTiddlersPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130827021950_http___journal_conal_net___5B_5Bsite_20map_5D_5D/ResizeEditTextPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130827021950_http___journal_conal_net___5B_5Bsite_20map_5D_5D/ResizeEditorPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130827021950_http___journal_conal_net___5B_5Bsite_20map_5D_5D/RewritePlugin.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130827021950_http___journal_conal_net___5B_5Bsite_20map_5D_5D/RewritePlugin__Haskell.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130827021950_http___journal_conal_net___5B_5Bsite_20map_5D_5D/SiteMapMacroPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130827021950_http___journal_conal_net___5B_5Bsite_20map_5D_5D/SmileyPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130827021950_http___journal_conal_net___5B_5Bsite_20map_5D_5D/SplashScreenPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130827021950_http___journal_conal_net___5B_5Bsite_20map_5D_5D/SyntaxifyPlugin.js",
+    "description": "''Performs syntax highlighting on CSS, JavaScript, and HTML/XML"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130827021950_http___journal_conal_net___5B_5Bsite_20map_5D_5D/SyntaxifyPlugin__Haskell.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130827021950_http___journal_conal_net___5B_5Bsite_20map_5D_5D/Was_literate_Haskell_plugin.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130827021950_http___journal_conal_net___5B_5Bsite_20map_5D_5D/conditional_WikiLink_formatter.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130827021950_http___journal_conal_net___5B_5Bsite_20map_5D_5D/my_timeline_format.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130827021950_http___journal_conal_net___5B_5Bsite_20map_5D_5D/smart_quotes.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130827021950_http___journal_conal_net___5B_5Bsite_20map_5D_5D/startup.js",
+    "description": "!Description"
+  }
+]
+//}}}

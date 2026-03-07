@@ -1,0 +1,17 @@
+title: TiddlyWebConfig
+modifier: FND
+created: 20130924180405
+modified: 20130924180405
+tags: excludeLists excludeSearch systemConfig
+server.content-type: text/javascript
+server.bag: system
+server.page.revision: 1521857
+server.title: TiddlyWebConfig
+server.recipe: ben_public
+server.permissions: read
+server.host: http://ben.tiddlyspace.com
+_hash: 29e43eb7496ba0572556029d183cb3f434369f04
+server.type: tiddlyweb
+creator: FND
+server.etag: &quot;system/TiddlyWebConfig/1521857:10e7aecb12720c6c27fe7bb8227b12142c149d3a&quot;
+server.workspace: bags/system

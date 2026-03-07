@@ -1,0 +1,74 @@
+|Source|https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlywiki_abego_software_de_/tiddlywiki_abego_software_de_.txt|
+|Version|0.1|
+//{{{
+[
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlywiki_abego_software_de_/AutoRefreshPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlywiki_abego_software_de_/DataTiddlerPlugin.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlywiki_abego_software_de_/DeprecatedFunctionsPlugin.js",
+    "description": "''Support for deprecated functions removed from core"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlywiki_abego_software_de_/ForEachTiddlerPlugin.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlywiki_abego_software_de_/FormTiddlerPlugin.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlywiki_abego_software_de_/IncludePlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlywiki_abego_software_de_/InlineJavascriptPlugin.js",
+    "description": "Insert Javascript executable code directly into your tiddler content."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlywiki_abego_software_de_/IntelliTaggerPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlywiki_abego_software_de_/IntelliTagsEditCommandPlugin.js",
+    "description": "''A command for your tiddler's toolbar to directly edit the tiddler's tags using the IntelliTaggerPlugin, without switching to \"edit mode\"."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlywiki_abego_software_de_/LegacyStrikeThroughPlugin.js",
+    "description": "''Support for legacy (pre 2.1) strike through formatting"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlywiki_abego_software_de_/Minesweeper.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlywiki_abego_software_de_/PartTiddlerPlugin.js",
+    "description": "* Description, Syntax"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlywiki_abego_software_de_/SettingsPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlywiki_abego_software_de_/SyncFileTiddlerPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlywiki_abego_software_de_/TiddlerWithParamsPlugin.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlywiki_abego_software_de_/YourSearchPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlywiki_abego_software_de_/abego.editIncludedTiddlerCommand_(Experimental).js",
+    "description": ""
+  }
+]
+//}}}

@@ -1,0 +1,46 @@
+|Source|https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140127010925_http___tiddlystyles_com_/web_archive_org_web_20140127010925_http___tiddlystyles_com_.txt|
+|Version|0.1|
+//{{{
+[
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140127010925_http___tiddlystyles_com_/AllTagsExceptMacro.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140127010925_http___tiddlystyles_com_/HoverMenuPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140127010925_http___tiddlystyles_com_/ImportTiddlers.js",
+    "description": "e.toString()); }"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140127010925_http___tiddlystyles_com_/ImprovedMacrosKill.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140127010925_http___tiddlystyles_com_/RedirectMacro.js",
+    "description": "This macro tells TW to find all instances of a word and makes it point to a different link. For example, whenever I put the word 'Clint' in a tiddler I want TiddlyWiki to turn it into a link that points to a tiddler titled 'Clint Checketts' Or the word 'TW' could point to a tiddler called 'TiddlyWiki' It even matches clint (which is lowercase) [[Clint]] leet lEEt LEET"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140127010925_http___tiddlystyles_com_/SelectThemePlugin.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140127010925_http___tiddlystyles_com_/TagCloud.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140127010925_http___tiddlystyles_com_/TagglyTagCloud.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140127010925_http___tiddlystyles_com_/UploadPlugin.js",
+    "description": "''To save to web a TiddlyWiki"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20140127010925_http___tiddlystyles_com_/WeblogPlugin.js",
+    "description": "'' Posts the most recently edited tiddlers when the TiddlyWiki is opened, similar to a blog."
+  }
+]
+//}}}

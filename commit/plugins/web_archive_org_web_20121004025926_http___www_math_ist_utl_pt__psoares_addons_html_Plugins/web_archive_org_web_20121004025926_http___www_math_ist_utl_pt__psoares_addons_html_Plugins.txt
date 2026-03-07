@@ -1,0 +1,54 @@
+|Source|https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20121004025926_http___www_math_ist_utl_pt__psoares_addons_html_Plugins/web_archive_org_web_20121004025926_http___www_math_ist_utl_pt__psoares_addons_html_Plugins.txt|
+|Version|0.1|
+//{{{
+[
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20121004025926_http___www_math_ist_utl_pt__psoares_addons_html_Plugins/BibTeXPlugin.js",
+    "description": "''Very incomplete BibTeX implementation to work with bibliographic references"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20121004025926_http___www_math_ist_utl_pt__psoares_addons_html_Plugins/ForEachTiddlerPlugin.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20121004025926_http___www_math_ist_utl_pt__psoares_addons_html_Plugins/LinkToPlugin.js",
+    "description": "'' email lets you list a \"email\" address without displaying it as readable text. This helps prevent your email address from being harvested by search engines and other web crawlers that read your page's contents. Using email, you type in the words \"at\" and \"dot\" instead of the punctuation symbols and add spaces inbetween words to disguise your address. However, email will display your email address in a web browser so that humans can read it. And email turns the address into a hyperlink that can be clicked to send you an instant email."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20121004025926_http___www_math_ist_utl_pt__psoares_addons_html_Plugins/PasswordOptionPlugin.js",
+    "description": "''Extends TiddlyWiki options with non encrypted password option."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20121004025926_http___www_math_ist_utl_pt__psoares_addons_html_Plugins/PhotoGalleryPlugin.js",
+    "description": "''A photo gallery with optional subtitles"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20121004025926_http___www_math_ist_utl_pt__psoares_addons_html_Plugins/SlideShowPlugin.js",
+    "description": "''Creates a slide show from any number of tiddlers"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20121004025926_http___www_math_ist_utl_pt__psoares_addons_html_Plugins/TaggerCommand.js",
+    "description": "''Alternative mechanism for tags management."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20121004025926_http___www_math_ist_utl_pt__psoares_addons_html_Plugins/ToggleSideBarMacro.js",
+    "description": "''Provides a button for toggling visibility of the SideBar."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20121004025926_http___www_math_ist_utl_pt__psoares_addons_html_Plugins/TweaksPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20121004025926_http___www_math_ist_utl_pt__psoares_addons_html_Plugins/UploadPlugin.js",
+    "description": "''Save to web a TiddlyWiki"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20121004025926_http___www_math_ist_utl_pt__psoares_addons_html_Plugins/UploadPluginOptions.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20121004025926_http___www_math_ist_utl_pt__psoares_addons_html_Plugins/WikipediaMacro.js",
+    "description": ""
+  }
+]
+//}}}

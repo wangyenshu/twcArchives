@@ -1,0 +1,18 @@
+|Source|https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/rgplugins_tiddlyspot_com___5B_5BhideIfshowIf_20plugin_5D_5D/rgplugins_tiddlyspot_com___5B_5BhideIfshowIf_20plugin_5D_5D.txt|
+|Version|0.1|
+//{{{
+[
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/rgplugins_tiddlyspot_com___5B_5BhideIfshowIf_20plugin_5D_5D/TspotSetupPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/rgplugins_tiddlyspot_com___5B_5BhideIfshowIf_20plugin_5D_5D/UploadPlugin.js",
+    "description": "''Save to web a TiddlyWiki"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/rgplugins_tiddlyspot_com___5B_5BhideIfshowIf_20plugin_5D_5D/hideIfshowIf_plugin.js",
+    "description": "Allows conditional inclusion/exclusion"
+  }
+]
+//}}}

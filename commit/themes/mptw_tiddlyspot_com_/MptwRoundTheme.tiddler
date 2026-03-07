@@ -1,0 +1,33 @@
+<div title="MptwRoundTheme" modifier="MPTW" created="201306162218" modified="201306162244" tags="systemTheme">
+<pre>|Name|MptwRounded|
+|Description|Mptw Theme with some rounded corners (Firefox only)|
+|ViewTemplate|MptwTheme##ViewTemplate|
+|EditTemplate|MptwTheme##EditTemplate|
+|PageTemplate|MptwTheme##PageTemplate|
+|StyleSheet|##StyleSheet|
+
+!StyleSheet
+/*{{{*/
+
+[[MptwTheme##StyleSheet]]
+
+.tiddler,
+.sliderPanel,
+.button,
+.tiddlyLink,
+.tabContents
+{ -moz-border-radius: 1em; }
+
+.tab {
+	-moz-border-radius-topleft: 0.5em;
+	-moz-border-radius-topright: 0.5em;
+}
+#topMenu {
+	-moz-border-radius-bottomleft: 2em;
+	-moz-border-radius-bottomright: 2em;
+}
+
+/*}}}*/
+
+</pre>
+</div>

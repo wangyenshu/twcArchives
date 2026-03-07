@@ -1,0 +1,14 @@
+|Source|https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20160224131156_http___project_dahukanna_net_tiddlywiki_timeline_sampletimeline220b5_html/web_archive_org_web_20160224131156_http___project_dahukanna_net_tiddlywiki_timeline_sampletimeline220b5_html.txt|
+|Version|0.1|
+//{{{
+[
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20160224131156_http___project_dahukanna_net_tiddlywiki_timeline_sampletimeline220b5_html/APISimileTimeline.js",
+    "description": "Timeline.DefaultEventSource=function(eventIndex){this._events=(eventIndex instanceof Object)?eventIndex:new Timeline.EventIndex();this._listeners=[];};Timeline.DefaultEventSource.prototype.addListener=function(listener){this._listeners.push(listener);};Timeline.DefaultEventSource.prototype.removeListener=function(listener){for(var i=0;i<this._listeners.length;i++){if(this._listeners[i]==listener){this._listeners.splice(i,1);break;}}};Timeline.DefaultEventSource.prototype.loadXML=function(xml,url){var base=this._getBaseURL(url);var wikiURL=xml.documentElement.getAttribute(\"wiki-url\");var wikiSection=xml.documentElement.getAttribute(\"wiki-section\");var dateTimeFormat=xml.documentElement.getAttribute(\"date-time-format\");var parseDateTimeFunction=this._events.getUnit().getParser(dateTimeFormat);var node=xml.documentElement.firstChild;var added=false;while(node!=null){if(node.nodeType==1){var description=\"\";if(node.firstChild!=null&&node.firstChild.nodeType==3){description=node.firstChild.nodeValue;}"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20160224131156_http___project_dahukanna_net_tiddlywiki_timeline_sampletimeline220b5_html/PluginSimileTimeline.js",
+    "description": "\"Simile timeline plugin.\","
+  }
+]
+//}}}

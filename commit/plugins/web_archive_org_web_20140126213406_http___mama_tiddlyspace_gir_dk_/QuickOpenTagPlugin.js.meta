@@ -1,0 +1,17 @@
+title: QuickOpenTagPlugin
+modifier: mama
+created: 20120112184243
+modified: 20120112184243
+tags: systemConfig
+server.host: http://mama.tiddlyspace.gir.dk
+server.page.revision: 17851
+server.permissions: read
+_hash: 3e9590ceda04bd166cf18c7411cf85ae5e2ecb88
+server.content-type: 
+server.type: tiddlyweb
+server.workspace: bags/taggly_public
+server.title: QuickOpenTagPlugin
+server.bag: taggly_public
+server.recipe: mama_public
+server.etag: &quot;taggly_public/QuickOpenTagPlugin/17851:dc91eb695a1c307e98e5cd53bca11dae293d236c&quot;
+creator: mama

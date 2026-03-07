@@ -1,0 +1,482 @@
+|Source|https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/tiddlytools_com_Classic_.txt|
+|Version|0.1|
+//{{{
+[
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/AdvancedOptionsPlugin.js",
+    "description": "automatically add plugin-defined options to the [[AdvancedOptions]] shadow tiddler"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/AliasPlugin.js",
+    "description": "Create text-substitution macros"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/AnimationEffectsPlugin.js",
+    "description": "display content with timer-based animations to manipulate multiple CSS attributes"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/AttachFilePlugin.js",
+    "description": "Store binary files as base64-encoded tiddlers with fallback links for separate local and/or remote file storage"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/AttachFilePluginFormatters.js",
+    "description": "run-time library for displaying attachment tiddlers"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/AutoTaggerPlugin.js",
+    "description": "Tag tiddlers with date, author, etc. and/or scan the tiddler for any tags that are embedded in the content"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/BackstageTweaks.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/BreadcrumbsPlugin.js",
+    "description": "list/jump to tiddlers viewed during this session plus \"back\" button/macro"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/CalendarPlugin.js",
+    "description": "display monthly and yearly calendars"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/CalendarPluginConfig.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/CheckboxPlugin.js",
+    "description": "Add checkboxes to your tiddler content"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/ClickifyPlugin.js",
+    "description": "re-compute parameters when a 'command link' macro is clicked"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/CollapseTiddlersPlugin.js",
+    "description": "show/hide content of a tiddler while leaving tiddler title visible"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/ColumnCalculatorPlugin.js",
+    "description": "calculate values from table cells in a column"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/CommentPlugin.js",
+    "description": "automatically insert formatted comments into tiddler content"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/CompareTiddlersPlugin.js",
+    "description": "show color-coded differences between two selected tiddlers"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/ConfigTweaks.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/ConfirmExitPlugin.js",
+    "description": "extra safety when exiting with unsaved changes"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/ConfirmSavePlugin.js",
+    "description": "if tiddlers are being edited, or there are no unsaved changes, ask before saving"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/CookieJar.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/CookieManagerPlugin.js",
+    "description": "view/add/delete browser-based cookies and \"bake\" cookies to CookieJar tiddler for 'sticky' settings"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/CookieManagerPluginConfig.js",
+    "description": "custom settings for [[CookieManagerPlugin]]"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/CookieSaverPlugin.js",
+    "description": "automatically save TiddlyWiki cookie options to [[CookieJar]] tiddler for portable settings"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/CookieSaverPluginConfig.js",
+    "description": "custom settings for [[CookieSaverPlugin]]"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/CopyTiddlerPlugin.js",
+    "description": "Quickly create a copy of any existing tiddler"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/CoreTweaks.js",
+    "description": "a small collection of overrides to TW core functions"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/DOMTweaksPlugin.js",
+    "description": "set DOM element IDs, add/remove classes and/or reposition rendered elements"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/DOMViewerPlugin.js",
+    "description": "display internal Document Object Model for wiki-formatted content"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/DatePlugin.js",
+    "description": "formatted dates plus popup menu with 'journal' link, changes and (optional) reminders"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/DatePluginConfig.js",
+    "description": "formats, background colors and other optional settings for DatePlugin"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/DisableWikiLinksPlugin.js",
+    "description": "selectively disable TiddlyWiki's automatic ~WikiWord linking behavior"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/DiscussionPlugin.js",
+    "description": "display tabbed discussion summary with comment input form"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/DragScrollPlugin.js",
+    "description": "use SHIFT-DRAG to scroll the browser window"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/EditFieldPlugin.js",
+    "description": "extend core edit macro for use in ViewTemplates or direct embedding in tiddler content"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/EditSectionPlugin.js",
+    "description": "invoke popup 'section editor' for specified section of a tiddler"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/EditTiddlerPlugin.js",
+    "description": "embed an 'edit' link in tiddler content to invoke edit on any specified tiddler title"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/ExportTiddlersPlugin.js",
+    "description": "interactively select/export tiddlers to a separate file"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/ExternalTiddlersPlugin.js",
+    "description": "retrieve and wikify content from external files or remote URLs"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/FAQViewerPlugin.js",
+    "description": "select and display FAQ tiddlers from a droplist, sorted by date"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/FileDropPlugin.js",
+    "description": "drag-and-drop files/directories to create tiddlers"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/FoldHeadingsPlugin.js",
+    "description": "automatically turn headings into slider-like panels that can be folded/unfolded with a single click"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/FramedLinksPlugin.js",
+    "description": "clicking an external link opens an IFRAME following the link instead of opening a new tab/window"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/GotoPlugin.js",
+    "description": "view any tiddler by entering it's title - displays list of possible matches"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/GridPlugin.js",
+    "description": "Display/edit slices, sections and fields in a grid (table) for a 'birds-eye' view of your document"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/HTMLFormattingPlugin.js",
+    "description": "embed wiki syntax formatting inside of HTML content"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/HideTiddlersPlugin.js",
+    "description": "hide/show tiddlers instead of closing/re-opening them"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/ImageMapPlugin.js",
+    "description": "apply image maps ('hotspots') with links to tiddlers"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/ImagePathPlugin.js",
+    "description": "Tell TiddlyWiki where to look for image files.  Permits multiple 'fallback' locations"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/ImageSizePlugin.js",
+    "description": "adds support for resizing images"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/ImportTiddlersPlugin.js",
+    "description": "interactive controls for import/export with filtering."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/ImportTiddlersPluginPatch.js",
+    "description": "backward-compatible function patches for use with ImportTiddlersPlugin and TW2.1.x or earlier"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/InlineJavascriptPlugin.js",
+    "description": "Insert Javascript executable code directly into your tiddler content."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/Jash.js.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/ListboxPlugin.js",
+    "description": "set custom field or tiddler tags by selecting from listbox/droplist"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/LoadTiddlersPlugin.js",
+    "description": "macro for automated updates or one-click installations of tiddlers from remote sources"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/LoadTiddlersPluginPatch.js",
+    "description": "backward-compatible function patches for use with LoadTiddlersPlugin and TW2.1.x or earlier"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/LooseLinksPlugin.js",
+    "description": "case-folded/space-folded wiki words"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/MatchTagsPlugin.js",
+    "description": "'tag matching' with full boolean expressions (AND, OR, NOT, and nested parentheses)"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/MessageLogPlugin.js",
+    "description": "automatically log TW messages to a [[MessageLog]] tiddler"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/MiniBrowserPlugin.js",
+    "description": "embedded browser-in-browser with favorites lists and media support"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/MissingTiddlersPlugin.js",
+    "description": "define fallback content for missing tiddlers"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/MoveablePanelPlugin.js",
+    "description": "move/size any tiddler or page element"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/NestedSlidersPlugin.js",
+    "description": "show content in nest-able sliding/floating panels, without creating separate tiddlers for each panel's content"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/PanelManagerPlugin.js",
+    "description": "Add-on for [[MoveablePanelPlugin]]: Panel Manager Menu, Control Panel, and Map Viewer"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/PasteUpHelperPlugin.js",
+    "description": "extends [[PasteUpPlugin]] popup editor with enhanced form controls"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/PasteUpPlugin.js",
+    "description": "position/size embedded content with edit-in-place popup editor"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/PlayerPlugin.js",
+    "description": "Embed a media player in a tiddler"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/PopupPreviewPlugin.js",
+    "description": "popup a formatted preview of a linked tiddler's content"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/PreviewPlugin.js",
+    "description": "add key-by-key wikified preview to any textarea input field"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/QuickEditPlugin.js",
+    "description": "Support functions for [[QuickEditPackage]]: utility functions, toolbar commands, stylesheets"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/QuickNotePlugin.js",
+    "description": "create quick notes using username+timestamp as tiddler titles"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/QuoteOfTheDayPlugin.js",
+    "description": "Display a randomly selected \"quote of the day\" from a list defined in a separate tiddler"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/RearrangeTiddlersPlugin.js",
+    "description": "drag tiddlers by title to re-order story column display"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/RecentChangesPlugin.js",
+    "description": "display droplist of recently changed tiddlers with goto, edit, and preview buttons"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/RelatedTiddlersPlugin.js",
+    "description": "starting from a selected tiddler, display a list and/or tree of linked or transcluded tiddlers"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/RunTiddlerPlugin.js",
+    "description": "command to invoke tiddler content as if tagged with systemConfig (i.e., a plugin)"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/SaveAsPlugin.js",
+    "description": "Save current document to another path/filename"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/SaveFromWebConfig.js",
+    "description": "configuration settings for SaveFromWebPlugin"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/SaveFromWebPlugin.js",
+    "description": "extend 'save changes' to get remote document contents and save to local filesystem"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/SaveTiddlerToFilePlugin.js",
+    "description": "toolbar command to save tiddler source definition to an external text file"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/SearchOptionsPlugin.js",
+    "description": "extend core search function with additional user-configurable options"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/SectionLinksPlugin.js",
+    "description": "allow tiddler sections in TiddlyLinks to be used as anchor points"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/SendTiddlerPlugin.js",
+    "description": "send tiddler source content or raw storeArea DIVs to remote URLs for server-side storage/processing"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/SetIconPlugin.js",
+    "description": "add an image to a toolbar, macro, or slider link"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/SetUserNamePlugin.js",
+    "description": "prompt for TiddlyWiki username"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/ShowPopupPlugin.js",
+    "description": "display tiddler content in a TiddlyWiki popup panel"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/ShowReferencesPlugin.js",
+    "description": "format and display references to the current tiddler"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/SinglePageModePlugin.js",
+    "description": "Show tiddlers one at a time with automatic permalink, or always open tiddlers at top/bottom of page."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/SnapshotPlugin.js",
+    "description": "save or print HTML+CSS image of rendered document content"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/SplashScreenPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/StickyPopupPlugin.js",
+    "description": "allow mouse interactions inside popups without automatically closing them"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/StorySaverPlugin.js",
+    "description": "save/restore current tiddler view between browser sessions"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/StoryViewerPlugin.js",
+    "description": "view a set of tiddlers using a droplist, \"first/previous/next/last\" links, or timed slideshow"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/SwitchThemePlugin.js",
+    "description": "Select alternative TiddlyWiki template/stylesheet 'themes' from a droplist"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/SwitchThemePluginPatch.js",
+    "description": "Patch core switchTheme() function for backward-compatibility with TW2.3.0 and earlier"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/SystemInfoPlugin.js",
+    "description": "view system internal data and settings"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/TableOfContentsPlugin.js",
+    "description": "replace the standard tabbed contents list with a scrolling listbox"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/TableSortingPlugin.js",
+    "description": "''Dynamically sort tables by clicking on column headers"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/TagCloudPlugin.js",
+    "description": "present a 'cloud' of tags (or links) using proportional font display"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/TagGridPlugin.js",
+    "description": "Generate a cross-referenced grid of tiddlers, based on tag values"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/TaggedTemplateTweak.js",
+    "description": "use alternative ViewTemplate/EditTemplate for specific tiddlers"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/TaskTimerPlugin.js",
+    "description": "'timer' button automatically writes start/end/elapsed time into tiddler content"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/TaskTimerPluginConfig.js",
+    "description": "formats other optional settings for TaskTimerPlugin"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/TemporaryTiddlersPlugin.js",
+    "description": "blocks tiddlers tagged with \"temporary\" from being saved into the TW file"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/TextAreaPlugin.js",
+    "description": "Adds Find/Again keyboard search, autosize, and 'stretch bar' resize for textarea controls"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/TidIDEPlugin.js",
+    "description": "TiddlyWiki Integrated Development Environment - tools for authors and plugin writers"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/TiddlerIconsPlugin.js",
+    "description": "display icons next to tiddler title, based on tiddler's attributes (tags, fields, slices, etc)"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/TiddlerIconsPluginConfig.js",
+    "description": "configure additional icons for TiddlerIconsPlugin, based on containing tiddler's tags"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/TiddlerPasswordPlugin.js",
+    "description": "block viewing of tiddler content by prompting for a password before content is displayed"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/TiddlerPasswordPluginConfig.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/TiddlerTweakerPlugin.js",
+    "description": "select multiple tiddlers and modify author, created, modified and/or tag values"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/TiddlyLifePlugin.js",
+    "description": "Cellular Automata: Conway's \"Game of Life\""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/TiddlyPodPlugin.js",
+    "description": "autoplay music randomly selected from playlist using embedded player"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/TrashPlugin.js",
+    "description": "add 'Trash' tag to tiddlers instead of deleting them"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/UndoPlugin.js",
+    "description": "undo/redo changes to tiddlers"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/UnsavedChangesPlugin.js",
+    "description": "show droplist of tiddlers that have changed since the last time the document was saved"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/UploadPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/UploadPluginTweak.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/tiddlytools_com_Classic_/WikifyPlugin.js",
+    "description": "insert sections, slices, fields, literals, or computed values into a wiki-format output"
+  }
+]
+//}}}

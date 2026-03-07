@@ -1,0 +1,17 @@
+title: runmode.js
+modifier: pmario
+created: 20110908215148
+modified: 20130605124658
+tags: cmtw excludeLists excludeMissing systemConfig
+server.content-type: 
+server.permissions: read
+server.title: runmode.js
+_hash: c56e263b673eabd6a9c4a7f0be0f8c110cdc0b32
+server.workspace: bags/codemirror-plugins_public
+server.type: tiddlyweb
+server.recipe: pmario_public
+server.host: http://pmario.tiddlyspace.com
+server.bag: codemirror-plugins_public
+creator: pmario
+server.etag: &quot;codemirror-plugins_public/runmode.js/1248696:8504f0c6a30971ccd53411f80f438c8e34b753b9&quot;
+server.page.revision: 1248696

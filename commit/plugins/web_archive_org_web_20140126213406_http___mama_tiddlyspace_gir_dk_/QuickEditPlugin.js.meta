@@ -1,0 +1,17 @@
+title: QuickEditPlugin
+modifier: mama
+created: 20110924191646
+modified: 20110924191646
+tags: QuickEditPackage systemConfig
+server.host: http://mama.tiddlyspace.gir.dk
+server.page.revision: 1756
+server.permissions: read
+_hash: 83e50c549585695c566aafed4ba21ba351137748
+server.content-type: 
+server.type: tiddlyweb
+server.workspace: bags/kvik_public
+server.title: QuickEditPlugin
+server.bag: kvik_public
+server.recipe: mama_public
+server.etag: &quot;kvik_public/QuickEditPlugin/1756:69edb82d2156366a9fb72965b81464ba070436d3&quot;
+creator: mama

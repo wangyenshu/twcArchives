@@ -1,0 +1,22 @@
+|Source|https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/discerningtags_tiddlyspot_com_/discerningtags_tiddlyspot_com_.txt|
+|Version|0.1|
+//{{{
+[
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/discerningtags_tiddlyspot_com_/AllowOnlineEdit.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/discerningtags_tiddlyspot_com_/DiscerningTagsPlugin.js",
+    "description": "Make the tag chooser ignore tags that are themselves tagged with 'excludeLists'"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/discerningtags_tiddlyspot_com_/LegacyStrikeThroughPlugin.js",
+    "description": "''Support for  legacy (pre 2.1) strike through formatting"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/discerningtags_tiddlyspot_com_/UploadPlugin.js",
+    "description": "''Save to web a TiddlyWiki"
+  }
+]
+//}}}

@@ -1,0 +1,17 @@
+title: TiddlySpaceCloneCommand
+modifier: osmosoft
+created: 20131111192332
+modified: 20131111192332
+tags: excludeLists excludeSearch systemConfig
+server.content-type: text/javascript
+server.permissions: read
+server.title: TiddlySpaceCloneCommand
+_hash: 3ecfd7c955dc674752681565ad0ed68f8fcad5d9
+server.workspace: bags/tiddlyspace
+server.type: tiddlyweb
+server.recipe: pmario_public
+server.host: http://pmario.tiddlyspace.com
+server.bag: tiddlyspace
+creator: osmosoft
+server.etag: &quot;tiddlyspace/TiddlySpaceCloneCommand/1521898:34000817333b54c36af7bb205513a28192b4124e&quot;
+server.page.revision: 1521898

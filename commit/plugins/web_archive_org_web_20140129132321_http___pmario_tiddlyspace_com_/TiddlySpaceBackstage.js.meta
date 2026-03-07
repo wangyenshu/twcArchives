@@ -1,0 +1,17 @@
+title: TiddlySpaceBackstage
+modifier: osmosoft
+created: 20131111192332
+modified: 20131111192332
+tags: excludeLists excludeSearch systemConfig
+server.content-type: text/javascript
+server.permissions: read
+server.title: TiddlySpaceBackstage
+_hash: 390091c823ffd5ec5008f2a8174c3caccfa6302b
+server.workspace: bags/tiddlyspace
+server.type: tiddlyweb
+server.recipe: pmario_public
+server.host: http://pmario.tiddlyspace.com
+server.bag: tiddlyspace
+creator: osmosoft
+server.etag: &quot;tiddlyspace/TiddlySpaceBackstage/1521910:0726f46ede3f9817bd0b526aacb97657d749051a&quot;
+server.page.revision: 1521910

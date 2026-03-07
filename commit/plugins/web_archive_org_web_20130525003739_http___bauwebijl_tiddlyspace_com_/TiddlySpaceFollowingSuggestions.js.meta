@@ -1,0 +1,17 @@
+title: TiddlySpaceFollowingSuggestions
+modifier: jon
+created: 20100819125340
+modified: 20101023122933
+tags: excludeLists systemConfig
+server.bag: following_public
+creator: jon
+server.etag: &quot;following_public/TiddlySpaceFollowingSuggestions/71029:5fb6c12560808e268df01779c231e4eae55f8140&quot;
+server.recipe: bauwebijl_public
+server.permissions: read
+server.page.revision: 71029
+server.content-type: 
+server.title: TiddlySpaceFollowingSuggestions
+server.type: tiddlyweb
+_hash: 291998cecddc23b03d6a32434a784a0c1e80c02d
+server.host: http://bauwebijl.tiddlyspace.com
+server.workspace: bags/following_public

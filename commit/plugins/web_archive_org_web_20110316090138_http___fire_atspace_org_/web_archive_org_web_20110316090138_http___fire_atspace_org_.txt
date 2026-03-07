@@ -1,0 +1,30 @@
+|Source|https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20110316090138_http___fire_atspace_org_/web_archive_org_web_20110316090138_http___fire_atspace_org_.txt|
+|Version|0.1|
+//{{{
+[
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20110316090138_http___fire_atspace_org_/HtmlStructure.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20110316090138_http___fire_atspace_org_/Configuration.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20110316090138_http___fire_atspace_org_/BulgarianTranslation.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20110316090138_http___fire_atspace_org_/StatisticsMacro.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20110316090138_http___fire_atspace_org_/CalculatorMacro.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20110316090138_http___fire_atspace_org_/EmailMacro.js",
+    "description": ""
+  }
+]
+//}}}

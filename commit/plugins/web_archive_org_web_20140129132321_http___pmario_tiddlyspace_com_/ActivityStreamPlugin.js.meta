@@ -1,0 +1,17 @@
+title: ActivityStreamPlugin
+modifier: jon
+created: 20100917110749
+modified: 20110412100500
+tags: excludeLists systemConfig
+server.content-type: 
+server.permissions: read
+server.title: ActivityStreamPlugin
+_hash: e8e570ecad97ac7a02a41323272d6a5e1e7bb963
+server.workspace: bags/following_public
+server.type: tiddlyweb
+server.recipe: pmario_public
+server.host: http://pmario.tiddlyspace.com
+server.bag: following_public
+creator: jon
+server.etag: &quot;following_public/ActivityStreamPlugin/70970:608bee3a2fd1fb87df7b59fd1bd9cc093b343a8d&quot;
+server.page.revision: 70970

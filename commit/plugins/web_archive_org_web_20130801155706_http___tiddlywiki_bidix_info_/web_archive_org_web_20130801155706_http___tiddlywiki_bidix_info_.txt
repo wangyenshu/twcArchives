@@ -1,0 +1,114 @@
+|Source|https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130801155706_http___tiddlywiki_bidix_info_/web_archive_org_web_20130801155706_http___tiddlywiki_bidix_info_.txt|
+|Version|0.1|
+//{{{
+[
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130801155706_http___tiddlywiki_bidix_info_/AutoWeavePluginPatched.js",
+    "description": "''Automatically adds brackets to nonwikiwords on saving a tiddler."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130801155706_http___tiddlywiki_bidix_info_/CalendarPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130801155706_http___tiddlywiki_bidix_info_/ChangeModePlugin.js",
+    "description": "''Change template and styleSheet"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130801155706_http___tiddlywiki_bidix_info_/ForEachTiddlerPlugin.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130801155706_http___tiddlywiki_bidix_info_/GenerateRssByTagPlugin.js",
+    "description": "''Only tiddlers with a specific tag are inluded in the RSSFeed. If no tiddlers are selected then works as before. (see ticket #270: http://trac.tiddlywiki.org/tiddlywiki/ticket/270). RssTag: >"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130801155706_http___tiddlywiki_bidix_info_/HideWhenPlugin.js",
+    "description": "Allows conditional inclusion/exclusion in templates"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130801155706_http___tiddlywiki_bidix_info_/HistoryPlugin.js",
+    "description": "''Limits to only one tiddler open. Manages an history stack and provides macro to navigate in this history (>>>)."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130801155706_http___tiddlywiki_bidix_info_/HttpGetMacro.js",
+    "description": "''Submit an HttpGet and display the response"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130801155706_http___tiddlywiki_bidix_info_/IsDirtyPlugin.js",
+    "description": "''When the TiddlyWiki needs to be saved the tiddler named IsDirty contains ' * ' else it is empty. IsDirty tiddler is also appended in front of the browser page title.Hint: Put it in front of your SiteTitle in your PageTemplate or in your MainMenu as an indicator.For now IsDirty: >"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130801155706_http___tiddlywiki_bidix_info_/ListByTag.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130801155706_http___tiddlywiki_bidix_info_/LoadRemoteFileThroughProxy.js",
+    "description": "''When the TiddlyWiki file is located on the web (view over http) the content of [[SiteProxy]] tiddler is added in front of the file url. If [[SiteProxy]] does not exist \"/proxy/\" is added."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130801155706_http___tiddlywiki_bidix_info_/NestedSlidersPlugin.js",
+    "description": "Make any tiddler content into an expandable 'slider' panel, without needing to create a separate tiddler to contain the slider content."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130801155706_http___tiddlywiki_bidix_info_/NewsWikiTweaks.js",
+    "description": "''Some tweaks for NewsWiki"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130801155706_http___tiddlywiki_bidix_info_/PasswordOptionPlugin.js",
+    "description": "''Extends TiddlyWiki options with non encrypted password option."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130801155706_http___tiddlywiki_bidix_info_/RSSReaderPlugin.js",
+    "description": "''This plugin provides a RSSReader for TiddlyWiki"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130801155706_http___tiddlywiki_bidix_info_/SinglePageModePlugin.js",
+    "description": "Display tiddlers one at a time with automatic update of URL (permalink).  Also, option to always open tiddlers at top of page"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130801155706_http___tiddlywiki_bidix_info_/TiddlyHomeSetupPlugin.js",
+    "description": "''Check and setup all components"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130801155706_http___tiddlywiki_bidix_info_/UploadPlugin.js",
+    "description": "''Save to web a TiddlyWiki"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130801155706_http___tiddlywiki_bidix_info_/UploadPluginLingoCA.js",
+    "description": "''Catalan Translation"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130801155706_http___tiddlywiki_bidix_info_/UploadPluginLingoEN.js",
+    "description": "''English Translation"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130801155706_http___tiddlywiki_bidix_info_/UploadPluginLingoFR.js",
+    "description": "''French Translation"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130801155706_http___tiddlywiki_bidix_info_/UploadTiddlerMacro.js",
+    "description": "''Define a macro to upload a tiddler using UploadTiddlerPlugin (see UploadTiddlerPlugin for details)."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130801155706_http___tiddlywiki_bidix_info_/UploadTiddlerPlugin.js",
+    "description": "''Upload a tiddler and Update a remote TiddlyWiki"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130801155706_http___tiddlywiki_bidix_info_/UploadToFileMacro.js",
+    "description": "''Upload a tiddler as a file using UploadPlugin context. Used with the SimonBaird's HideWhenPlugin ViewTemplate provides a new command in the tiddler toolbar."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130801155706_http___tiddlywiki_bidix_info_/UploadToHomeMacro.js",
+    "description": "''Save TiddlyWiki using HomeParameters tiddler"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130801155706_http___tiddlywiki_bidix_info_/WebDAVSavingPlugin.js",
+    "description": "''Saves on a WebDAV server without the need of any ServerSide script.When TiddlyWiki is accessed over http, this plugin permits to save back to the server, using http PUT."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20130801155706_http___tiddlywiki_bidix_info_/zBidiXTWTweaks.js",
+    "description": ""
+  }
+]
+//}}}

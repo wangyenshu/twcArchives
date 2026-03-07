@@ -1,0 +1,18 @@
+title: chrjs
+modifier: None
+created: 20131111192332
+modified: 20131111192332
+tags: excludeLists excludeSearch systemConfig
+server.content-type: text/javascript
+server.bag: tiddlyspace
+_cache-max-age: 43200
+server.page.revision: 1521886
+server.title: chrjs
+server.recipe: ben_public
+server.permissions: read
+server.host: http://ben.tiddlyspace.com
+_hash: 21f8cd31fb5331db45ab9f2cfbaeb97c6cdf38a9
+server.type: tiddlyweb
+creator: None
+server.etag: &quot;tiddlyspace/chrjs/1521886:b45d0ac4cfeda18aeaac6db9b2c2d2ff730a3d22&quot;
+server.workspace: bags/tiddlyspace

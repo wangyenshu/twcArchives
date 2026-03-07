@@ -1,0 +1,22 @@
+|Source|https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20171113084110_http___bob_mcelrath_org_plugins_html_tag_systemConfig/web_archive_org_web_20171113084110_http___bob_mcelrath_org_plugins_html_tag_systemConfig.txt|
+|Version|0.1|
+//{{{
+[
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20171113084110_http___bob_mcelrath_org_plugins_html_tag_systemConfig/Plugin__arXiv.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20171113084110_http___bob_mcelrath_org_plugins_html_tag_systemConfig/Plugin__jsMath.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20171113084110_http___bob_mcelrath_org_plugins_html_tag_systemConfig/Plugin__Scientific_Notation.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20171113084110_http___bob_mcelrath_org_plugins_html_tag_systemConfig/Plugin__Syntaxify.js",
+    "description": "''Performs syntax highlighting on CSS, JavaScript, and HTML/XML"
+  }
+]
+//}}}

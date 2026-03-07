@@ -1,0 +1,22 @@
+|Source|https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20080411233439_http___genisis329_googlepages_com_TWMath_html/web_archive_org_web_20080411233439_http___genisis329_googlepages_com_TWMath_html.txt|
+|Version|0.1|
+//{{{
+[
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20080411233439_http___genisis329_googlepages_com_TWMath_html/CodeFormatter.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20080411233439_http___genisis329_googlepages_com_TWMath_html/MathCell.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20080411233439_http___genisis329_googlepages_com_TWMath_html/OpenTiddlerInWindowCommand.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/web_archive_org_web_20080411233439_http___genisis329_googlepages_com_TWMath_html/SaveToDefault.js",
+    "description": ""
+  }
+]
+//}}}

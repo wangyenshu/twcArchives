@@ -1,0 +1,22 @@
+|Source|https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/syncoutlooknotes_tiddlyspot_com__SyncOutlookNotes/syncoutlooknotes_tiddlyspot_com__SyncOutlookNotes.txt|
+|Version|0.1|
+//{{{
+[
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/syncoutlooknotes_tiddlyspot_com__SyncOutlookNotes/AllowOnlineEdit.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/syncoutlooknotes_tiddlyspot_com__SyncOutlookNotes/LegacyStrikeThroughPlugin.js",
+    "description": "''Support for legacy (pre 2.1) strike through formatting"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/syncoutlooknotes_tiddlyspot_com__SyncOutlookNotes/SyncOutlookNotesMacro.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/syncoutlooknotes_tiddlyspot_com__SyncOutlookNotes/UploadPlugin.js",
+    "description": "''Save to web a TiddlyWiki"
+  }
+]
+//}}}

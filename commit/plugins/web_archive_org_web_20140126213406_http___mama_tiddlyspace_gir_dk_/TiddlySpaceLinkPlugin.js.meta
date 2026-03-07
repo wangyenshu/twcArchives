@@ -1,0 +1,17 @@
+title: TiddlySpaceLinkPlugin
+modifier: mama
+created: 20111022121155
+modified: 20111022121155
+tags: excludeSearch systemConfig
+server.host: http://mama.tiddlyspace.gir.dk
+server.page.revision: 5065
+server.permissions: read
+_hash: a292e0e09317dab0db24ee318dcd813094e7d290
+server.content-type: text/javascript
+server.type: tiddlyweb
+server.workspace: bags/besked_public
+server.title: TiddlySpaceLinkPlugin
+server.bag: besked_public
+server.recipe: mama_public
+server.etag: &quot;besked_public/TiddlySpaceLinkPlugin/5065:9b45cce83d003771d44d672fcd8d1021ac4a3c69&quot;
+creator: mama

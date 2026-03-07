@@ -1,0 +1,294 @@
+|Source|https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/twhelp_tiddlyspot_com_.txt|
+|Version|0.1|
+//{{{
+[
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/BackUpTweak.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/BackstageButtonConfigWorking.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/BackstageSidebarTab.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/CloseAllMacro.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/ConfigOptionsMacro.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/ConfigTiddlersBar.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/ConfigTweaks.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/ConfirmSavePlugin.js",
+    "description": "if tiddlers are being edited, or there are no unsaved changes, ask before saving"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/ConvertDoubleHyphen.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/CookieManagerPlugin.js",
+    "description": "review/add/delete option cookies and save current option values to CookieJar tiddler for 'sticky' settings"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/CoreTweak1151.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/CoreTweaksTW2.4.0.js",
+    "description": "a small collection of overrides to TW core functions"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/CryptoFunctionsPlugin.js",
+    "description": "''Support for cryptographic functions"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/DefaultHome.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/DeprecatedFunctionsPlugin.js",
+    "description": "''Support for deprecated functions removed from core"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/DisableAnimationMacro.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/DoBackupMacro.js",
+    "description": "Creates a button which allows you to backup your TiddlyWiki on demand."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/FontSizePlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/ForEachTiddlerPlugin.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/FullScreenPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/GoToMacro.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/GotoPlugin.js",
+    "description": "view any tiddler by entering it's title - displays list of possible matches"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/HTMLFormattingPlugin.js",
+    "description": "embed wiki syntax formatting inside of HTML content"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/HaloscanMacro.js",
+    "description": "!Description"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/HideTabsBarWhenSingleTab.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/ImageSizePlugin.js",
+    "description": "adds support for resizing images"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/InlineJavascriptPlugin.js",
+    "description": "Insert Javascript executable code directly into your tiddler content."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/InstantTimestampPlugin.js",
+    "description": "Date Stamp"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/JumpToTopMacro.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/LaunchApplicationPlugin.js",
+    "description": "''Launch an application from within TiddlyWiki using a button"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/LegacyStrikeThroughPlugin.js",
+    "description": "''Support for legacy (pre 2.1) strike through formatting"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/MatchTagsPlugin.js",
+    "description": "'tag matching' with full boolean expressions (AND, OR, NOT, and nested parentheses)"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/MemorizablePlugin.js",
+    "description": "Creats flashcard like tables for memorizing data"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/MoveablePanelPlugin.js",
+    "description": "drag/stretch 'floating sliders' and other page elements"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/NestedSlidersPlugin.js",
+    "description": "show content in nest-able 'slider' or 'floating' panels, without needing to create separate tiddlers for each panel"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/NewDocumentPlugin.js",
+    "description": "Quickly create new TiddlyWiki documents from your existing document, with just one click"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/NewEmptyTiddlerMacro.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/NewSideBarHide.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/OpenCloseMacro.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/PartTiddlerPlugin.js",
+    "description": "* Description, Syntax"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/PopupMacro.js",
+    "description": "''Create popups with custom content"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/QuoteOfTheDayPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/Redirect_Macro.js",
+    "description": "This macro tells TW to find all instances of a word and makes it point to a different link. For example, whenever I put the word 'Clint' in a tiddler I want TiddlyWiki to turn it into a link that points to a tiddler titled 'Clint Checketts' Or the word 'TW' could point to a tiddler called 'TiddlyWiki' It even matches clint (which is lowercase) [[Clint]] leet lEEt LEET"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/RelatedTiddlersPlugin.js",
+    "description": "starting from a selected tiddler, display a list and/or tree of linked or transcluded tiddlers"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/RelativeLinkMacro.js",
+    "description": "''Description''creates PrettyLinks relative to the current tiddler"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/SaveAsPlugin.js",
+    "description": "Save current document to a different path/filename"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/SearchOptionsPlugin.js",
+    "description": "extend core search function with additional user-configurable options"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/SinglePageModePlugin.js",
+    "description": "Display tiddlers one at a time with automatic update of URL (permalink).  Also, options to always open tiddlers at top/bottom of page"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/Slider2Plugin.js",
+    "description": "''"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/SparklinePlugin.js",
+    "description": "''Sparklines macro"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/SplashScreenPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/TableSortingPlugin.js",
+    "description": "''Dynamically sort tables by clicking on column headers"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/TagCloudPlugin.js",
+    "description": "present a 'cloud' of tags (or links) using proportional font display"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/TaggedTemplateTweak.js",
+    "description": "use alternative ViewTemplate/EditTemplate for tiddler's tagged with specific tag values"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/TaggerPlugin.js",
+    "description": "''Provides a drop down listing current tiddler tags, and allowing toggling of tags."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/TextAreaPlugin.js",
+    "description": "Adds Find/Again keyboard search, autosize, and 'stretch bar' resize for textarea controls"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/TiddlerTweakerPlugin.js",
+    "description": "select multiple tiddlers and modify author, created, modified and/or tag values"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/TiddlersBarPlugin.js",
+    "description": "''A bar to switch between tiddlers through tabs (like browser tabs bar)."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/ToggleLinksFalse.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/ToggleSideBarMacro.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/TopOfPageMode=true.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/TwHelpSearchPlugin.js",
+    "description": "Extends the search results from SearchOptionsPlugin to a sortable table showing title, size and tags."
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/UnHideEditingOverHTTP.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/UploadPlugin.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/UploadPluginTweak.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/WhatFileScript.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/WikifyPlugin.js",
+    "description": "substitute fields, slices, or computed values into a wiki-syntax format string and render results dynamically"
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/ZZHideEditingFeaturesFalse.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/defaultMyDefaultTiddlers.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/editA.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/smiley.js",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/wangyenshu/twcArchives/blob/twcArchives/commit/plugins/twhelp_tiddlyspot_com_/zzSearchIncremental=false.js",
+    "description": ""
+  }
+]
+//}}}

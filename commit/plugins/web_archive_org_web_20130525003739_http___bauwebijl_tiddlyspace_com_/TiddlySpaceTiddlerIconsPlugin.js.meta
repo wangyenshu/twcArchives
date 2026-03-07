@@ -1,0 +1,17 @@
+title: TiddlySpaceTiddlerIconsPlugin
+modifier: osmosoft
+created: 20130521140651
+modified: 20130521140651
+tags: excludeLists excludeSearch systemConfig
+server.bag: system-plugins_public
+creator: osmosoft
+server.etag: &quot;system-plugins_public/TiddlySpaceTiddlerIconsPlugin/1221953:0a98a757d81be688f9865bb2c347e6a291d46b89&quot;
+server.recipe: bauwebijl_public
+server.permissions: read
+server.page.revision: 1221953
+server.content-type: text/javascript
+server.title: TiddlySpaceTiddlerIconsPlugin
+server.type: tiddlyweb
+_hash: 5c6cfebcd3cc3fd2df109c0d59735aaae48850b4
+server.host: http://bauwebijl.tiddlyspace.com
+server.workspace: bags/system-plugins_public
