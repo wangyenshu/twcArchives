@@ -30,7 +30,6 @@ jobs:
             ubuntu:16.04 bash -c "
               set -e
 
-              # --- STAGE 1: Install Dependencies (as root) ---
               apt-get update && \
               apt-get install -y --no-install-recommends \
                 wget \
@@ -46,7 +45,6 @@ jobs:
               apt-get clean && \
               rm -rf /var/lib/apt/lists/*
               
-              # --- STAGE 2: Execute Legacy Script as a non-root user ---
               addgroup --gid $(id -g) runnergroup
               adduser --uid $(id -u) --ingroup runnergroup --disabled-password --gecos '' runner
               
@@ -82,19 +80,15 @@ jobs:
                     cp -r \\\"\\\$plugins_dir\\\"/* \\\"commit/plugins/\\\${sanitized_url}\\\"
                     plugins_json_output=\\\"[]\\\"
                     while read -r line; do
-                      # --- FIX #1: Skip blank lines to prevent all other errors. ---
                       if [ -z \\\"\\\$line\\\" ]; then
                         continue
                       fi
                       
-                      # --- FIX #2: Use the correct sed command for your 'tiddler: name' format. ---
                       filename=\\\$(echo \\\"\\\$line\\\" | sed -E 's/^tiddler: (.*)\$/\1/')
                       
-                      # --- FIX #3: Aggressively find the description in the file. ---
                       description_line=\\\$(grep -i -m 1 'description' \\\"\\\${plugins_dir}/\\\${filename}\\\" || echo \\\"\\\")
                       description=\\\$(echo \\\"\\\$description_line\\\" | sed -E 's/^.*description[[:space:]]*[|:][[:space:]]*//I; s/\|//g')
                       
-                      # --- Clean up and apply fallback ---
                       description=\\\$(echo \\\"\\\$description\\\" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*\$//' -e 's/<[^>]*>//g')
                       if [ -z \\\"\\\$description\\\" ]; then
                         description=\\\"\$filename\\\"
@@ -121,19 +115,15 @@ jobs:
                     cp -r \\\"\\\$themes_dir\\\"/* \\\"commit/themes/\\\${sanitized_url}\\\"
                     themes_json_output=\\\"[]\\\"
                     while read -r line; do
-                      # --- FIX #1: Skip blank lines to prevent all other errors. ---
                       if [ -z \\\"\\\$line\\\" ]; then
                         continue
                       fi
 
-                      # --- FIX #2: Use the correct sed command for your 'tiddler: name' format. ---
                       filename=\\\$(echo \\\"\\\$line\\\" | sed -E 's/^tiddler: (.*)\$/\1/')
 
-                      # --- FIX #3: Aggressively find the description in the file. ---
                       description_line=\\\$(grep -i -m 1 'description' \\\"\\\${themes_dir}/\\\${filename}\\\" || echo \\\"\\\")
                       description=\\\$(echo \\\"\\\$description_line\\\" | sed -E 's/^.*description[[:space:]]*[|:][[:space:]]*//I; s/\|//g')
 
-                      # --- Clean up and apply fallback ---
                       description=\\\$(echo \\\"\\\$description\\\" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*\$//' -e 's/<[^>]*>//g')
                       if [ -z \\\"\\\$description\\\" ]; then
                         description=\\\"\$filename\\\"
@@ -154,7 +144,6 @@ jobs:
                     echo \\\"Themes directory does not exist, skipping.\\\"
                   fi
                   rm -rf split_file/*
-                  # --- ADDED: Wait for a while before the next URL ---
                   echo \\\"Waiting for 120 seconds...\\\"
                   sleep 120
                 done < systemServer.txt
@@ -168,14 +157,24 @@ jobs:
             "
       
       - name: Commit and push to twcArchives branch
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          # Use a very specific file pattern to avoid committing unwanted files.
-          # The '**' is a glob pattern that matches all files inside the directories.
-          file_pattern: |
-            commit/**
-          commit_message: 'Add processed files from web archives'
-          branch: 'twcArchives'
-          create_branch: true
-          # Use --force-with-lease to safely handle conflicts from a scheduled job.
-          push_options: '--force-with-lease'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if git ls-remote --exit-code --heads origin twcArchives; then
+            git fetch origin twcArchives
+            # Switch to the branch, bringing along uncommitted changes
+            git checkout twcArchives
+          else
+            # Create the branch if it doesn't exist
+            git checkout -b twcArchives
+          fi
+
+          git add commit/
+
+          if git diff --cached --quiet; then
+            echo "No changes detected in commit/. Skipping commit."
+          else
+            git commit -m "Add processed files from web archives"
+            git push origin twcArchives --force-with-lease
+          fi
